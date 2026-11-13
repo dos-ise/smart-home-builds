@@ -85,7 +85,7 @@ Da die App nicht signiert ist, beim ersten Start: Rechtsklick → Öffnen (oder
 
 Das Skript:
 1. Baut das `.app`-Bundle (Electron-macOS + `app/` + Icon + Info.plist)
-2. Signiert alle Mach-O-Binaries ad-hoc mit `ldid` (n?tig f?r Apple Silicon)
+2. Signiert das Bundle ad-hoc mit `rcodesign` (n?tig f?r Apple Silicon, erzeugt auch das Bundle-Seal)
 2. Erstellt ein HFS+-Image (500 MB) mit `mkfs.hfsplus`
 3. Kopiert die App hinein (mit Symlink-Unterstützung)
 4. Wrappt es mit `dmg` (libdmg-hfsplus) in ein UDZO-DMG
@@ -95,7 +95,7 @@ Das Skript:
 - `.electron-cache/electron-v27.2.1-darwin-x64.zip` (Intel, 93 MB) und `electron-v27.2.1-darwin-arm64.zip` (Apple Silicon, 88 MB)
 - Kompiliertes `libdmg-hfsplus` (dmg + hfsplus Tools) – siehe unten
 - `mkfs.hfsplus` (`sudo apt-get install -y hfsprogs`)
-- `ldid` (ad-hoc Signatur, in `.electron-cache/ldid` ? nach `/usr/local/bin/ldid`)
+- `rcodesign` (ad-hoc Signatur, in `.electron-cache/rcodesign.tar.gz` ? nach `/usr/local/bin/rcodesign`)
 
 ### libdmg-hfsplus kompilieren (einmalig)
 

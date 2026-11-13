@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
-# Baut Gira Smart Home als macOS .app und DMG (ad-hoc signiert).
+# Baut Gira Smart Home als macOS .app und DMG (ad-hoc signiert mit rcodesign).
 # Nutzung: ./build-macos.sh [x64|arm64]   (Standard: x64)
 # Voraussetzungen in der Sandbox:
 #   - .electron-cache/electron-v27.2.1-darwin-<arch>.zip
 #   - kompiliertes libdmg-hfsplus (dmg + hfsplus Tools)
 #   - mkfs.hfsplus (apt: hfsprogs)
-#   - ldid (ad-hoc Signatur, in .electron-cache/ldid)
+#   - rcodesign (in .electron-cache/rcodesign.tar.gz -> /usr/local/bin/rcodesign)
 set -e
 cd "/home/agent/workspace/Gira Smart Home/gira-smart-home-linux"
 PROJECT_DIR="$(pwd)"
@@ -22,7 +22,7 @@ HFS_TOOL="/tmp/libdmg/libdmg-hfsplus-master/build/hfs/hfsplus"
 DMG_TOOL="/tmp/libdmg/libdmg-hfsplus-master/build/dmg/dmg"
 ZIP="$PROJECT_DIR/.electron-cache/electron-v27.2.1-darwin-$ARCH.zip"
 OUT="$PROJECT_DIR/dist/$APP_NAME-$VERSION$SUFFIX.dmg"
-LDID="/usr/local/bin/ldid"
+RCSIGN="/usr/local/bin/rcodesign"
 
 if [ ! -f "$ZIP" ]; then
   echo "FEHLER: $ZIP fehlt in .electron-cache/"
@@ -32,8 +32,8 @@ if [ ! -x "$DMG_TOOL" ] || [ ! -x "$HFS_TOOL" ]; then
   echo "FEHLER: libdmg-hfsplus Tools fehlen (dmg/hfsplus)."
   exit 1
 fi
-if [ ! -x "$LDID" ]; then
-  echo "FEHLER: ldid fehlt (sudo cp .electron-cache/ldid /usr/local/bin/ldid)."
+if [ ! -x "$RCSIGN" ]; then
+  echo "FEHLER: rcodesign fehlt (sudo cp .electron-cache/rcodesign /usr/local/bin/)."
   exit 1
 fi
 
@@ -49,10 +49,12 @@ cp -r app/. "$APP/Contents/Resources/app/"
 python3 - "$APP" <<'PYEOF'
 import struct, sys, os, plistlib
 app = sys.argv[1]
+# Icon
 png = open('/home/agent/workspace/Gira Smart Home/gira-smart-home-linux/build/icon.png','rb').read()
 entry = b'ic09' + struct.pack('>I', 8 + len(png)) + png
 icns = b'icns' + struct.pack('>I', 8 + len(entry)) + entry
 open(os.path.join(app, 'Contents/Resources/app.icns'), 'wb').write(icns)
+# Haupt-Info.plist
 plist_path = os.path.join(app, 'Contents/Info.plist')
 with open(plist_path, 'rb') as f:
     plist = plistlib.load(f)
@@ -67,17 +69,26 @@ plist['LSApplicationCategoryType'] = 'public.app-category.utilities'
 plist.pop('ElectronAsarIntegrity', None)
 with open(plist_path, 'wb') as f:
     plistlib.dump(plist, f)
-print("Info.plist + Icon OK")
+# Helper-Info.plists: CFBundleExecutable ergänzen (fehlt im Electron-Zip)
+helpers = {
+    'Electron Helper.app': 'Electron Helper',
+    'Electron Helper (GPU).app': 'Electron Helper (GPU)',
+    'Electron Helper (Plugin).app': 'Electron Helper (Plugin)',
+    'Electron Helper (Renderer).app': 'Electron Helper (Renderer)',
+}
+for h, exe in helpers.items():
+    hp = os.path.join(app, 'Contents/Frameworks', h, 'Contents/Info.plist')
+    if os.path.exists(hp):
+        with open(hp, 'rb') as f:
+            hplist = plistlib.load(f)
+        hplist['CFBundleExecutable'] = exe
+        with open(hp, 'wb') as f:
+            plistlib.dump(hplist, f)
+print("Info.plist + Icon + Helper-plists OK")
 PYEOF
 
-echo "==> [$ARCH] Ad-hoc signieren (ldid)..."
-find "$APP" -type f | while read f; do
-  if file "$f" | grep -q "Mach-O"; then
-    "$LDID" -S "$f"
-  fi
-done
-find "$APP" -type d -name "_CodeSignature" -exec rm -rf {} + 2>/dev/null || true
-echo "Signiert: $(find "$APP" -type f | while read f; do file "$f" | grep -q "Mach-O" && echo x; done | wc -l) Binaries"
+echo "==> [$ARCH] Ad-hoc signieren (rcodesign)..."
+"$RCSIGN" sign "$APP" 2>&1 | grep -v "leaving nested\|entering nested" | tail -5
 
 echo "==> [$ARCH] HFS+ Image erstellen..."
 cd /tmp
