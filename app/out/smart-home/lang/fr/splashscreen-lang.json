@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Configuration Gira G1",
+    "action": "La centrale Gira G1 démarre."
+  },
+  {
+    "title": "Configuration Gira G1",
+    "action": "La préparation de la 1re mise \nen service est en cours."
+  },
+  {
+    "title": "Configuration Gira G1",
+    "action": "La centrale Gira G1 assume la \nnouvelle configuration."
+  },
+  {
+    "title": "Configuration Gira G1",
+    "action": "La centrale Gira G1 actualise \nle micrologiciel."
+  },
+  {
+    "title": "Configuration Gira G1",
+    "action": "La centrale Gira G1 est remise aux \nréglages d'usine."
+  },
+  {
+    "title": "Configuration Gira G1",
+    "action": "La centrale Gira G1 redémarre."
+  }
+]

@@ -1,0 +1,492 @@
+.fanCoil-detail-onOff-switch {
+  padding-top: 2.25vh;
+  padding-left: 1.125rem;
+  padding: 1.125rem;
+  position: absolute;
+  z-index: 10;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.fan-coil-controller {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.fan-coil-controller .control {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  z-index: 4;
+}
+.fan-coil-controller .incs,
+.fan-coil-controller .decs {
+  position: relative;
+  /* needed because else the touchable are of the buttons is positioned wrong*/
+  width: 2.5rem;
+  height: 2.5rem;
+}
+.fan-coil-controller .event-blocker {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  position: absolute;
+  height: 16.875rem;
+  width: 16.875rem;
+  border-radius: 50%;
+}
+.fan-coil-controller .knob-container {
+  position: relative;
+  height: 100%;
+  z-index: 1;
+}
+.fan-coil-controller .bg {
+  position: absolute;
+  width: 28.125rem;
+  height: 28.4375rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  max-height: 60vh;
+  max-width: 60vh;
+}
+.fan-coil-controller .details {
+  height: 100%;
+  z-index: 4;
+  pointer-events: none;
+  text-align: center;
+}
+.fan-coil-controller .details .fan-coil-control {
+  width: 14.375rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  margin-top: 0.375rem;
+}
+.fan-coil-controller .details span {
+  display: block;
+  padding-top: 4px;
+  margin: 0 auto;
+  white-space: nowrap;
+  padding-top: 3px;
+}
+.fan-coil-controller .details .divider {
+  margin-top: 0.4375rem;
+  margin-bottom: 0.625rem;
+}
+.fan-coil-controller .details .divider1 {
+  margin-top: 0.4375rem;
+  margin-bottom: 0.625rem;
+}
+.fan-coil-controller .details .is {
+  line-height: 1.375rem;
+}
+.fan-coil-controller .details .is-temp {
+  line-height: 1.375rem;
+}
+.fan-coil-controller .details .operation-mode-border {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-inactive);
+  margin: 0;
+  cursor: pointer;
+  pointer-events: all;
+  background-color: var(--color-c1);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), inset 0 1px var(--color-c0);
+}
+.fan-coil-controller .details .operation-mode-border :before {
+  content: '';
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  pointer-events: all;
+  width: 60px;
+  height: 60px;
+  top: -12px;
+  left: -12px;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .fan-coil-controller .details .operation-mode-border :before {
+    width: 53.33333333px;
+    height: 53.33333333px;
+    top: -10.66666667px;
+    left: -10.66666667px;
+  }
+}
+@media (max-width: 320px) and (max-height: 600px) {
+  .fan-coil-controller .details .operation-mode-border :before {
+    width: 40px;
+    height: 40px;
+    top: -8px;
+    left: -8px;
+  }
+}
+.fan-coil-controller .details .down {
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+}
+.fan-coil-controller .details .operation-mode-symbol {
+  margin: 0 auto;
+}
+.fan-coil-controller .details .operation-mode-text {
+  line-height: 1.625rem;
+}
+.fan-coil-controller .details .heating-cooling-dew-icon {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  width: 1.5625rem;
+  height: 1.5625rem;
+}
+.fan-coil-controller .details .heating-cooling-dew-icon .heating-cooling-status {
+  margin-left: auto;
+  margin-right: auto;
+}
+.fan-coil-controller .details .fan-coil-stop-knob-input .inc :before,
+.fan-coil-controller .details .fan-coil-stop-knob-input .dec :before {
+  pointer-events: none !important;
+}
+.fan-coil-controller .fan-coil-stop-knob-input {
+  pointer-events: none;
+  color: var(--color-c6) !important;
+}
+.fan-coil-controller .inc,
+.fan-coil-controller .dec {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-inactive);
+  margin: 0;
+  cursor: pointer;
+  pointer-events: all;
+  background-color: var(--color-c1);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), inset 0 1px var(--color-c0);
+}
+.fan-coil-controller .inc :before,
+.fan-coil-controller .dec :before {
+  content: '';
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  pointer-events: all;
+  width: 60px;
+  height: 60px;
+  top: -12px;
+  left: -12px;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .fan-coil-controller .inc :before,
+  .fan-coil-controller .dec :before {
+    width: 53.33333333px;
+    height: 53.33333333px;
+    top: -10.66666667px;
+    left: -10.66666667px;
+  }
+}
+@media (max-width: 320px) and (max-height: 600px) {
+  .fan-coil-controller .inc :before,
+  .fan-coil-controller .dec :before {
+    width: 40px;
+    height: 40px;
+    top: -8px;
+    left: -8px;
+  }
+}
+.fan-coil-controller .dec.down {
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+}
+.fan-coil-controller .inc.down {
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+}
+.fan-coil-controller .mask {
+  position: absolute;
+  width: 27.5rem;
+  height: 29.6875rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 3;
+}
+.fan-coil-controller .footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 18px;
+  text-align: center;
+  z-index: 5;
+}
+.fan-coil-controller .footer .btn.modes {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.fan-coil-controller .footer .btn.modes .label {
+  font-family: UniversNextMedium !important;
+  line-height: inherit;
+}
+.fan-coil-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  width: 21.0625rem;
+  height: 21.0625rem;
+  pointer-events: all;
+}
+.fan-coil-container :before {
+  content: '';
+  position: absolute;
+  width: 31.25vh;
+  height: 15.625rem;
+  max-width: 52.083333333333336vw;
+  max-height: 52.083333333333336vw;
+  border-radius: 50%;
+  z-index: 5;
+  pointer-events: all;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+.fan-coil-container canvas {
+  cursor: pointer;
+}
+.fan-coil-container .knob-svg {
+  overflow: visible;
+}
+.fan-coil-container input {
+  display: none;
+}
+.fan-coil-fan-speed-control {
+  height: 2.5rem;
+  width: 11.375rem;
+  -webkit-border-radius: 24px;
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 rgba(0, 0, 0, 0.2) inset;
+  background-color: transparent;
+  display: inline-block;
+  text-shadow: 0 1px 0 var(--color-c0);
+  /* you can barely see this white shadow, but it is there */
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .fan-coil-fan-speed-control {
+    -webkit-border-radius: 18.66666667px;
+  }
+}
+@media (max-width: 320px) and (max-height: 600px) {
+  .fan-coil-fan-speed-control {
+    -webkit-border-radius: 16px;
+  }
+}
+.fan-coil-controller .fan-coil-fan-speed-control {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.fan-coil-controller .fan-coil-fan-speed-control .buttongroup {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+}
+.fan-coil-controller .fan-coil-fan-speed-control .buttongroup .down,
+.fan-coil-controller .fan-coil-fan-speed-control .buttongroup .up {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  margin-right: 0.4375rem;
+  margin-left: 0.4375rem;
+}
+.fan-speed-value {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  padding-top: 4px;
+}
+.fan-coil-controller .error-alert {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 1.125rem;
+  bottom: 1.125rem;
+  z-index: 10;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.fan-coil-settings-button {
+  position: absolute;
+  height: 2.25rem;
+  width: 2.25rem;
+  margin-top: 1.125rem;
+  margin-right: 1.125rem;
+  width: 2.625rem;
+  height: 2.625rem;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  display: inline-block;
+  z-index: 10;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.fan-coil-settings-button:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  top: -5px;
+  left: -15px;
+  right: -15px;
+  bottom: -5px;
+  border: 5px solid transparent;
+}
+.fan-coil-settings {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 82.22222222%;
+  background-color: var(--color-c1);
+  -webkit-transform: translateZ(0);
+  margin: 0 auto;
+}
+.fan-coil-settings-list {
+  position: absolute;
+  width: 100%;
+  height: 31.25rem;
+  background: #F4F4F4;
+  top: 0;
+  left: 0;
+  -webkit-transform: translateZ(0);
+}
+.fan-coil-settings-list .settings-row-icon {
+  width: 3.125rem;
+  height: 2.75rem;
+  float: left;
+  margin: auto 7px;
+}
+@media (max-height: 480px) {
+  .fan-coil-settings-list .settings-row-icon {
+    margin-top: 7px;
+  }
+}
+.fan-coil-settings-list .radio {
+  position: absolute;
+  right: 3.75vw;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  background: var(--radio-button-background);
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.1), 0 1px var(--color-c0);
+}
+.fan-coil-settings-list .down .settings-row-icon {
+  -webkit-filter: brightness(10);
+}
+.fan-coil-settings-swiping-container {
+  height: 100%;
+  width: 100%;
+}
+.fan-coil-settings-description-row {
+  width: 100%;
+  height: 1.875rem;
+  background-color: #dcdcdc;
+}
+.fan-coil-settings-description-row .fan-coil-settings-description-row-text {
+  padding-top: 1.125vh;
+  padding-left: 0.1875rem;
+  position: relative;
+}
+.fan-coil-settings-list .settings-row .settings-arrow {
+  width: 1.125rem !important;
+  height: 1.25rem !important;
+  top: 1.25rem;
+  right: 1.125rem;
+  position: absolute;
+  content: url("../img/uielements/gc4_icon_arrow_right.svg");
+}
+.fan-coil-settings-list .settings-row.down .settings-arrow {
+  content: url("../img/uielements/gc4_icon_arrow_right_down.svg");
+}
+.fan-coil-mode-icon-in-button {
+  margin: auto auto;
+  width: 71%;
+  height: 71%;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+}
+/* We overwrite the height so that the row height dynamically adapts to the height of the detail text */
+.settings-row.fan-coil-setting-row-presets,
+.timer-action-row.fan-coil-setting-row-presets {
+  height: auto;
+}
+.settings-row.fan-coil-setting-row-presets .detail-menu-row-item,
+.timer-action-row.fan-coil-setting-row-presets .detail-menu-row-item {
+  height: auto;
+}
+.settings-row.fan-coil-setting-row-presets .presets-menu-row-description,
+.timer-action-row.fan-coil-setting-row-presets .presets-menu-row-description {
+  height: auto;
+}
+.settings-row.fan-coil-setting-row-presets .with-icons,
+.timer-action-row.fan-coil-setting-row-presets .with-icons {
+  height: auto;
+}
+.fan-coil-presets-row {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+}
+.fan-coil-presets-row .fan-coil-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  margin-top: 0.75rem;
+  margin-right: 1.125rem;
+}
+.fan-coil-presets-row .fan-coil-text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  min-height: 2.75rem;
+  white-space: normal;
+  max-width: 62.5vw;
+}
+.fan-coil-presets-row .fan-coil-text .fan-coil-detail-text {
+  white-space: normal;
+}
+.fan-coil-presets-row .settings-arrow {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  right: 1.125rem;
+}
+.fan-coil-row-detail-font {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  text-shadow: 0 1px 0 var(--color-c0);
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+}

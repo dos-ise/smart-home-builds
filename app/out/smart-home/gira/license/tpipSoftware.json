@@ -1,0 +1,116 @@
+[
+  {
+    "license": "LGPL v2.1",
+    "name": "alphanum js",
+    "src": "http://www.davekoelle.com/files/alphanum.js",
+    "version": "n/a"
+  },
+  {
+    "license": "MIT License",
+    "name": "base64js",
+    "src": "https://github.com/beatgammit/base64-js",
+    "version": "1.1.2"
+  },
+  {
+    "license": "MIT License",
+    "name": "jQuery",
+    "src": "http://jquery.com/",
+    "version": "3.5.14"
+  },
+  {
+    "license": "see license text",
+    "name": "jQuery Bez",
+    "src": "https://github.com/rdallasgray/bez",
+    "version": "not specified"
+  },
+  {
+    "license": "MIT Licence",
+    "name": "jQuery Knob",
+    "src": "http://anthonyterrien.com/knob/",
+    "version": "1.2.8"
+  },
+  {
+    "license": "Microsoft Public License (Ms-Pl)",
+    "name": "jQuery List DragSort",
+    "src": "http://dragsort.codeplex.com/",
+    "version": "0.5.2"
+  },
+  {
+    "license": "MIT License",
+    "name": "knockout js",
+    "src": "http://knockoutjs.com/",
+    "version": "3.5.1"
+  },
+  {
+    "license": "MIT License",
+    "name": "Moment.js",
+    "src": "http://momentjs.com/",
+    "version": "2.5.1"
+  },
+  {
+    "license": "BSD",
+    "name": "Nordic IOS-Pods-DFU-Library",
+    "src": "https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library",
+    "version": "3.1.0"
+  },
+  {
+    "license": "BSD",
+    "name": "Nordic Android-DFU-Library",
+    "src": "https://github.com/NordicSemiconductor/Android-DFU-Library",
+    "version": "1.12.0"
+  },
+  {
+    "license": "MIT",
+    "name": "Spinning Wheel",
+    "src": "http://cubiq.org/spinning-wheel-on-webkit-for-iphone-ipod-touch/11",
+    "version": "1.4"
+  },
+  {
+    "license": "Apache License",
+    "name": "Starscream",
+    "src": "https://github.com/daltoniam/Starscream",
+    "version": "1.1.3"
+  },
+  {
+    "license": "MIT",
+    "name": "Swiper",
+    "src": "http://www.idangero.us/sliders/swiper/",
+    "version": "2.4.2"
+  },
+  {
+    "license": "MIT",
+    "name": "Swiper Scrollbar",
+    "src": "http://www.idangero.us/sliders/swiper/",
+    "version": "2.3"
+  },
+  {
+    "license": "Apache License",
+    "name": "TextEncoderLite",
+    "src": "https://github.com/coolaj86/TextEncoderLite",
+    "version": "1.0"
+  },
+  {
+    "license": "MIT",
+    "name": "underscore.js",
+    "src": "https://github.com/jashkenas/underscore",
+    "version": "1.9.1"
+  },
+  {
+    "license": "MIT",
+    "name": "Velocity jQuery Shim",
+    "src": "http://velocityjs.org/",
+    "version": "1.5.0"
+  },
+  {
+    "license": "LGPL v2.1",
+    "name": "LibVLC Android",
+    "src": "https://code.videolan.org/videolan/LibVLCSharp/-/tree/3.4.9/",
+    "version": "3.4.9"
+  },
+  {
+    "license": "LGPL v2.1",
+    "name": "VLCKit",
+    "src": "https://code.videolan.org/videolan/VLCKit",
+    "version": "3.4.0"
+  }
+]

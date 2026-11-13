@@ -1,0 +1,129 @@
+.value-transmitter-numeric-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.value-transmitter-numeric-container .display-container {
+  width: 100%;
+  height: 5.875rem;
+  background-color: var(--color-c2);
+  position: relative;
+}
+.value-transmitter-numeric-container .display-container .display-current {
+  position: absolute;
+  left: 1.125rem;
+  bottom: 1.125rem;
+  width: 70%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+}
+.value-transmitter-numeric-container .display-container .display {
+  position: absolute;
+  right: 3.75vw;
+  top: 3.75vw;
+  width: 85vw;
+}
+.value-transmitter-numeric-container .display-container .display .value {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+  text-align: right;
+}
+.value-transmitter-numeric-container .display-container .display .unit {
+  position: absolute;
+  padding-top: 0.625vh;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  text-shadow: 0 1px 0 var(--color-c0);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+  width: 20%;
+  text-align: right;
+  right: 0px;
+}
+.value-transmitter-numeric-container .numeric-placeholder {
+  width: 100%;
+  background-color: var(--color-c0);
+}
+.value-transmitter-numeric-container .numeric-input {
+  display: flex;
+  flex-grow: 2;
+  flex-direction: column;
+  background-color: var(--color-c1);
+  /*ANDROID 4.4.4 WORKAROUND */
+}
+.value-transmitter-numeric-container .numeric-input .row-with-divider {
+  content: "";
+  position: relative;
+  width: 100%;
+  float: none;
+  height: 1px;
+  background-color: var(--color-c6);
+  border-bottom-color: var(--color-c0);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row {
+  display: flex;
+  flex-grow: 1;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button {
+  flex-grow: 1;
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+  position: relative;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button.numeric-button-double-size {
+  flex-grow: 2;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button.disabled {
+  color: var(--color-inactive);
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button .delete-button {
+  height: 3rem;
+  width: 7.083333333333333vw;
+  background-image: url('../img/operationelements/gc4_keyboard_delete.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button .delete-button-inactive {
+  height: 3rem;
+  width: 7.083333333333333vw;
+  background-image: url('../img/operationelements/gc4_keyboard_delete_inactive.svg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button .numeric-button-value {
+  position: absolute;
+  right: 24px;
+  bottom: 18px;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button.down:not(.disabled) {
+  background-color: var(--color-c4);
+  color: var(--color-c0);
+  text-shadow: none;
+}
+.value-transmitter-numeric-container .numeric-input .numeric-row .numeric-button:not(:first-child):after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 100%;
+  background-color: var(--color-c0);
+  border-left-color: var(--color-c6);
+  border-left-style: solid;
+  border-left-width: 1px;
+}

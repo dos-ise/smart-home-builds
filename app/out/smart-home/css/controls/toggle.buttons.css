@@ -1,0 +1,8 @@
+.toggle-button-detail-onOff-switch {
+  position: absolute;
+  z-index: 10;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  margin: 18px;
+  margin: 1.125rem;
+}

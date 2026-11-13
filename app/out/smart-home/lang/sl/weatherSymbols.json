@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "viharno",
+    "text2": "vihar"
+  },
+  "ahc": {
+    "text1": "koprenasti oblaki",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "pretežno oblačno",
+    "text2": "snežni vihar"
+  },
+  "ahcf": {
+    "text1": "pretežno oblačno",
+    "text2": "nizka megla"
+  },
+  "ahcg": {
+    "text1": "pretežno oblačno",
+    "text2": "viharno"
+  },
+  "ahcha": {
+    "text1": "pretežno oblačno",
+    "text2": "nevihta s sodro"
+  },
+  "ahchas": {
+    "text1": "pretežno oblačno",
+    "text2": "neurje s sodro"
+  },
+  "ahchr": {
+    "text1": "pretežno oblačno",
+    "text2": "močno pršenje"
+  },
+  "ahchs": {
+    "text1": "pretežno oblačno",
+    "text2": "močno sneženje"
+  },
+  "ahcih": {
+    "text1": "pretežno oblačno",
+    "text2": "nevarnost poledice"
+  },
+  "ahcmr": {
+    "text1": "pretežno oblačno",
+    "text2": "zmerno pršenje"
+  },
+  "ahcr": {
+    "text1": "pretežno oblačno",
+    "text2": "pršenje"
+  },
+  "ahcrih": {
+    "text1": "pretežno oblačno",
+    "text2": "pršenje z nevarnostjo poledice"
+  },
+  "ahcs": {
+    "text1": "pretežno oblačno",
+    "text2": "sneženje"
+  },
+  "ahcsr": {
+    "text1": "pretežno oblačno",
+    "text2": "dež s snegom"
+  },
+  "ahct": {
+    "text1": "pretežno oblačno",
+    "text2": "nevihtno"
+  },
+  "ahcts": {
+    "text1": "pretežno oblačno",
+    "text2": "nevihta"
+  },
+  "aoc": {
+    "text1": "popolnoma oblačno",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "popolnoma oblačno",
+    "text2": "snežni vihar"
+  },
+  "aocg": {
+    "text1": "popolnoma oblačno",
+    "text2": "viharno"
+  },
+  "aocha": {
+    "text1": "popolnoma oblačno",
+    "text2": "nevihta s sodro"
+  },
+  "aocih": {
+    "text1": "popolnoma oblačno",
+    "text2": "nevarnost poledice"
+  },
+  "aocr": {
+    "text1": "popolnoma oblačno",
+    "text2": "pršenje"
+  },
+  "aocrih": {
+    "text1": "popolnoma oblačno",
+    "text2": "pršenje z nevarnostjo poledice"
+  },
+  "aocrs": {
+    "text1": "popolnoma oblačno",
+    "text2": "naliv"
+  },
+  "aocs": {
+    "text1": "popolnoma oblačno",
+    "text2": "sneženje"
+  },
+  "aocsr": {
+    "text1": "popolnoma oblačno",
+    "text2": "dež s snegom"
+  },
+  "aoct": {
+    "text1": "popolnoma oblačno",
+    "text2": "nevihtno"
+  },
+  "aocts": {
+    "text1": "popolnoma oblačno",
+    "text2": "nevihta"
+  },
+  "dlc": {
+    "text1": "jasno",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "jasno",
+    "text2": "snežni vihar"
+  },
+  "dlcg": {
+    "text1": "jasno",
+    "text2": "viharno"
+  },
+  "dlchas": {
+    "text1": "jasno",
+    "text2": "neurje s sodro"
+  },
+  "dlchr": {
+    "text1": "jasno",
+    "text2": "močno pršenje"
+  },
+  "dlchs": {
+    "text1": "jasno",
+    "text2": "močno sneženje"
+  },
+  "dlcih": {
+    "text1": "jasno",
+    "text2": "nevarnost poledice"
+  },
+  "dlcmr": {
+    "text1": "jasno",
+    "text2": "zmerno pršenje"
+  },
+  "dlcms": {
+    "text1": "jasno",
+    "text2": "zmerno sneženje"
+  },
+  "dlcr": {
+    "text1": "jasno",
+    "text2": "pršenje"
+  },
+  "dlcrih": {
+    "text1": "jasno",
+    "text2": "pršenje z nevarnostjo poledice"
+  },
+  "dlcs": {
+    "text1": "jasno",
+    "text2": "sneženje"
+  },
+  "dlcsr": {
+    "text1": "jasno",
+    "text2": "dež s snegom"
+  },
+  "dlct": {
+    "text1": "jasno",
+    "text2": "nevihta s sodro"
+  },
+  "dlcth": {
+    "text1": "jasno",
+    "text2": "nevihtno"
+  },
+  "dlcts": {
+    "text1": "jasno",
+    "text2": "nevihta"
+  },
+  "dmc": {
+    "text1": "oblačno",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "oblačno",
+    "text2": "snežni vihar"
+  },
+  "dmcg": {
+    "text1": "oblačno",
+    "text2": "viharno"
+  },
+  "dmcha": {
+    "text1": "oblačno",
+    "text2": "nevihta s sodro"
+  },
+  "dmchas": {
+    "text1": "oblačno",
+    "text2": "neurje s sodro"
+  },
+  "dmchr": {
+    "text1": "oblačno",
+    "text2": "močno pršenje"
+  },
+  "dmchs": {
+    "text1": "oblačno",
+    "text2": "močno sneženje"
+  },
+  "dmclr": {
+    "text1": "oblačno",
+    "text2": "rahlo pršenje"
+  },
+  "dmcls": {
+    "text1": "oblačno",
+    "text2": "rahlo sneženje"
+  },
+  "dmcmr": {
+    "text1": "oblačno",
+    "text2": "zmerno pršenje"
+  },
+  "dmcms": {
+    "text1": "oblačno",
+    "text2": "zmerno sneženje"
+  },
+  "dmcrih": {
+    "text1": "oblačno",
+    "text2": "pršenje z nevarnostjo poledice"
+  },
+  "dmcsr": {
+    "text1": "oblačno",
+    "text2": "dež s snegom"
+  },
+  "dmct": {
+    "text1": "oblačno",
+    "text2": "nevihtno"
+  },
+  "dmcts": {
+    "text1": "oblačno",
+    "text2": "nevihta"
+  },
+  "dnc": {
+    "text1": "sončno",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "sončno",
+    "text2": "nizka megla"
+  },
+  "dncg": {
+    "text1": "sončno",
+    "text2": "viharno"
+  },
+  "nlc": {
+    "text1": "delno oblačno",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "delno oblačno",
+    "text2": "snežni vihar"
+  },
+  "nlcg": {
+    "text1": "delno oblačno",
+    "text2": "viharno"
+  },
+  "nlcha": {
+    "text1": "delno oblačno",
+    "text2": "nevihta s sodro"
+  },
+  "nlchas": {
+    "text1": "delno oblačno",
+    "text2": "neurje s sodro"
+  },
+  "nlchr": {
+    "text1": "delno oblačno",
+    "text2": "močno pršenje"
+  },
+  "nlchs": {
+    "text1": "delno oblačno",
+    "text2": "močno sneženje"
+  },
+  "nlcih": {
+    "text1": "delno oblačno",
+    "text2": "nevarnost poledice"
+  },
+  "nlcmr": {
+    "text1": "delno oblačno",
+    "text2": "zmerno pršenje"
+  },
+  "nlcms": {
+    "text1": "delno oblačno",
+    "text2": "zmerno sneženje"
+  },
+  "nlcr": {
+    "text1": "delno oblačno",
+    "text2": "pršenje"
+  },
+  "nlcrih": {
+    "text1": "delno oblačno",
+    "text2": "pršenje z nevarnostjo poledice"
+  },
+  "nlcs": {
+    "text1": "delno oblačno",
+    "text2": "sneženje"
+  },
+  "nlcsr": {
+    "text1": "delno oblačno",
+    "text2": "dež s snegom"
+  },
+  "nlcth": {
+    "text1": "delno oblačno",
+    "text2": "nevihtno"
+  },
+  "nlcts": {
+    "text1": "delno oblačno",
+    "text2": "nevihta"
+  },
+  "nmc": {
+    "text1": "oblačno",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "oblačno",
+    "text2": "snežni vihar"
+  },
+  "nmcg": {
+    "text1": "oblačno",
+    "text2": "viharno"
+  },
+  "nmcha": {
+    "text1": "oblačno",
+    "text2": "nevihta s sodro"
+  },
+  "nmchas": {
+    "text1": "oblačno",
+    "text2": "neurje s sodro"
+  },
+  "nmchr": {
+    "text1": "oblačno",
+    "text2": "močno pršenje"
+  },
+  "nmchs": {
+    "text1": "oblačno",
+    "text2": "močno sneženje"
+  },
+  "nmclr": {
+    "text1": "oblačno",
+    "text2": "rahlo pršenje"
+  },
+  "nmcls": {
+    "text1": "oblačno",
+    "text2": "rahlo sneženje"
+  },
+  "nmcmr": {
+    "text1": "oblačno",
+    "text2": "zmerno pršenje"
+  },
+  "nmcms": {
+    "text1": "oblačno",
+    "text2": "zmerno sneženje"
+  },
+  "nmcrih": {
+    "text1": "oblačno",
+    "text2": "pršenje z nevarnostjo poledice"
+  },
+  "nmcsr": {
+    "text1": "oblačno",
+    "text2": "dež s snegom"
+  },
+  "nmct": {
+    "text1": "oblačno",
+    "text2": "nevihtno"
+  },
+  "nmcts": {
+    "text1": "oblačno",
+    "text2": "nevihta"
+  },
+  "nnc": {
+    "text1": "jasno",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "jasno",
+    "text2": "nizka megla"
+  },
+  "nncg": {
+    "text1": "jasno",
+    "text2": "viharno"
+  }
+}

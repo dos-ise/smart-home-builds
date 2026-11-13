@@ -1,0 +1,46 @@
+.dimmer-button {
+  display: none;
+  width: 173px;
+  height: 112px;
+  position: absolute;
+  vertical-align: middle;
+  margin-top: 112px;
+  margin-left: -255px;
+  border: 0px;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-size: 67px;
+  line-height: normal;
+  font-family: Arial;
+  text-align: center;
+  color: transparent;
+  padding: 0px;
+  -webkit-appearance: none;
+  background: none;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
+.dimabs-container .event-blocker {
+  top: 100px;
+  left: 50%;
+  width: 270px;
+  height: 270px;
+  margin-left: -135px;
+  border-radius: 180px;
+  position: absolute;
+}
+.dimabs-container .notouchdec,
+.dimabs-container .notouchinc {
+  top: 206px;
+  left: 94px;
+  width: 60px;
+  height: 60px;
+  border-radius: 60px;
+  position: absolute;
+  z-index: 9;
+}
+.dimabs-container .notouchinc {
+  left: 289px;
+}

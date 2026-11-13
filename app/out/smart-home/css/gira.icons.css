@@ -1,0 +1,1060 @@
+html[data-theme='dark'] {
+  --led-icon-b: url("../img\/icons\/dark/leds/gc4_led_b.svg");
+  --led-icon-g: url("../img\/icons\/dark/leds/gc4_led_g.svg");
+  --led-icon-r: url("../img\/icons\/dark/leds/gc4_led_r.svg");
+  --led-icon-y: url("../img\/icons\/dark/leds/gc4_led_y.svg");
+  --led-icon-o: url("../img\/icons\/dark/leds/gc4_led_o.svg");
+  --led-icon-off: url("../img\/icons\/dark/leds/gc4_led_off.svg");
+  --gc4_button_timer: url("../img\/icons\/dark/timer/gc4_button_timer.svg");
+  --gc4_button_timer_active: url("../img\/icons\/dark/timer/gc4_button_timer_active.svg");
+  --gc4_button_timer_down: url("../img\/icons\/dark/timer/gc4_button_timer_down.svg");
+  --gc4_clocktimer_hours_day: url("../img\/icons\/dark/timer/gc4_clocktimer_hours_day.svg");
+  --gc4_clocktimer_hours_day_inactive: url("../img\/icons\/dark/timer/gc4_clocktimer_hours_day_inactive.svg");
+  --gc4_clocktimer_hours_night: url("../img\/icons\/dark/timer/gc4_clocktimer_hours_night.svg");
+  --gc4_clocktimer_hours_night_inactive: url("../img\/icons\/dark/timer/gc4_clocktimer_hours_night_inactive.svg");
+  --gc4_clocktimer_minutes_day: url("../img\/icons\/dark/timer/gc4_clocktimer_minutes_day.svg");
+  --gc4_clocktimer_minutes_day_inactive: url("../img\/icons\/dark/timer/gc4_clocktimer_minutes_day_inactive.svg");
+  --gc4_clocktimer_minutes_night: url("../img\/icons\/dark/timer/gc4_clocktimer_minutes_night.svg");
+  --gc4_clocktimer_minutes_night_inactive: url("../img\/icons\/dark/timer/gc4_clocktimer_minutes_night_inactive.svg");
+  --gc4_clocktimer_day: url("../img\/icons\/dark/timer/gc4_clocktimer_day.svg");
+  --gc4_clocktimer_day_inactive: url("../img\/icons\/dark/timer/gc4_clocktimer_day_inactive.svg");
+  --gc4_clocktimer_night: url("../img\/icons\/dark/timer/gc4_clocktimer_night.svg");
+  --gc4_clocktimer_night_inactive: url("../img\/icons\/dark/timer/gc4_clocktimer_night_inactive.svg");
+  --sda-connected-icon: url("../img\/icons\/dark/operationelements/GiraIconSDAIcon-G1-X1-38x44px.svg");
+  --bullet-icon: url("../img\/icons\/dark/bullet/bullet.svg");
+  --delete-icon: url('../img\/icons\/dark/operationelements/gc4_keyboard_delete.svg');
+  --delete-icon-inactive: url('../img\/icons\/dark/operationelements/gc4_keyboard_delete_inactive.svg');
+  --bullet-active-icon: url("../img\/icons\/dark/bullet/bullet_active.svg");
+  --status-alert-icon: url("../img\/icons\/dark/statuszeile/gc4_headericon_alert.svg");
+  --status-demo: url("../img\/icons\/dark/statuszeile/gc4_headericon_demomode.svg");
+  --status-license-icon: url("../img\/icons\/dark/statuszeile/gc4_headericon_licensewarning.svg");
+  --status-forward-icon: url("../img\/icons\/dark/statuszeile/gc4_headericon_forward.svg");
+  --status-battery-alert-icon: url("../img\/icons\/dark/statuszeile/gc4_headericon_batteryalert.svg");
+  --status-presence-record-icon: url("../img\/icons\/dark/presencesimulation/icon_house_record.svg");
+  --status-presence-record-icon-disabled: url("../img\/icons\/dark/presencesimulation/icon_house_record_inactive.svg");
+  --status-presence-playback-icon: url("../img\/icons\/dark/presencesimulation/icon_house_play.svg");
+  --status-presence-playback-icon-disabled: url("../img\/icons\/dark/presencesimulation/icon_house_play_inactive.svg");
+  --status-door-auto-open-icon: url("../img\/icons\/dark/statuszeile/gc4_headericon_doorautom.svg");
+  --status-door-bell-mute-icon: url("../img\/icons\/dark/statuszeile/gc4_headericon_tks_mute.svg");
+  --status-temp-in-icon: url("../img\/icons\/dark/statuszeile/gc4_stat_temp_in.svg");
+  --status-temp-out-icon: url("../img\/icons\/dark/statuszeile/gc4_stat_temp_out.svg");
+  --status-logging-icon: url("../img\/icons\/dark/statuszeile/gc4_headericon_logging.svg");
+  --gc4_clocktimer_lateoffset: url("../img\/icons\/dark/statuszeile/gc4_clocktimer_lateoffset.svg");
+  --gc4_clocktimer_sunrise: url("../img\/icons\/dark/timer/gc4_clocktimer_sunrise.svg");
+  --gc4_clocktimer_sunset: url("../img\/icons\/dark/timer/gc4_clocktimer_sunset.svg");
+  --gc4_clocktimer_earlyoffset: url("../img\/icons\/dark/timer/gc4_clocktimer_earlyoffset.svg");
+  --gc4_clocktimer_sunset_list: url("../img\/icons\/dark/timer/gc4_clocktimer_sunset_list.svg");
+  --gc4_clocktimer_sunrise_list: url("../img\/icons\/dark/timer/gc4_clocktimer_sunrise_list.svg");
+  --icon-selected-full: url('../img\/icons\/dark/operationelements/gc4_cssicon_selected.svg');
+  --icon-selected: url('../img\/icons\/dark/operationelements/gc4_cssicon_selected.svg');
+  --icon-selected-green: url('../img\/icons\/dark/operationelements/gc4_cssicon_selected-green.svg');
+  --icon-selected-red: url('../img\/icons\/dark/operationelements/gc4_cssicon_selected-red.svg');
+  --icon-rtc-comfort-list: url('../img\/icons\/dark/rtr/gc4_icon_comfort_list.svg');
+  --icon-rtc-comfort-list-inactive: url('../img\/icons\/dark/rtr/gc4_icon_comfort_list_inactive.svg');
+  --icon-rtc-standby-list-inactive: url('../img\/icons\/dark/rtr/gc4_icon_standby_list_inactive.svg');
+  --icon-rtc-night-list-inactive: url('../img\/icons\/dark/rtr/gc4_icon_night_list_inactive.svg');
+  --icon-rtc-standby-list: url('../img\/icons\/dark/rtr/gc4_icon_standby_list.svg');
+  --icon-rtc-night-list: url('../img\/icons\/dark/rtr/gc4_icon_night_list.svg');
+  --icon-rtc-frost-list: url('../img\/icons\/dark/rtr/gc4_icon_frost_list.svg');
+  --icon-rtc-frost-list-disabled: url('../img\/icons\/dark/rtr/gc4_icon_frost_list_inactive.svg');
+  --icon-info: url('../img\/icons\/dark/navigationszeile/info/icon/gc4_navicon_info.svg');
+  --icon-info_inactive: url('../img\/icons\/dark/navigationszeile/info/icon/gc4_navicon_info_inactive.svg');
+  --icon-warning: url('../img\/icons\/dark/uielements/gc4_cssicon_warning.svg');
+  --icon-clear-input: url('../img\/icons\/dark/uielements/gc4_icon_help_cancel.svg');
+  --icon-search-input: url('../img\/icons\/dark/uielements/gc4_icon_help_search.svg');
+  --gc4_repeating_grid_line: url("../img\/icons\/dark/4x2_repeating_gc4_grid_line.png") repeat-x top;
+  --gc4_icon_arrow_right_inactive: url("../img\/icons\/dark/uielements/gc4_icon_arrow_right_inactive.svg");
+  --gc4_icon_arrow_right: url("../img\/icons\/dark/uielements/gc4_icon_arrow_right.svg");
+  --gc4_icon_arrow_right_down: url("../img\/icons\/dark/uielements/gc4_icon_arrow_right_down.svg");
+  --gc4_icon_arrow_left_inactive: url("../img\/icons\/dark/uielements/gc4_icon_arrow_left_inactive.svg");
+  --gc4_icon_arrow_left: url("../img\/icons\/dark/uielements/gc4_icon_arrow_left.svg");
+  --gc4_icon_arrow_left_down: url("../img\/icons\/dark/uielements/gc4_icon_arrow_left_down.svg");
+  --gc4_icon_arrow_right1px: url("../img\/icons\/dark/uielements/gc4_icon_arrow_right1px.svg");
+  --gc4_icon_arrow_right1px_down: url("../img\/icons\/dark/uielements/gc4_icon_arrow_right1px_down.svg");
+  --gc4_icon_arrow_left1px: url("../img\/icons\/dark/uielements/gc4_icon_arrow_left1px.svg");
+  --gc4_icon_arrow_left1px_down: url("../img\/icons\/dark/uielements/gc4_icon_arrow_left1px_down.svg");
+  --gc4_rtr-button_comfortmode: url("../img\/icons\/dark/rtr/gc4_rtr-button_comfortmode.svg");
+  --gc4_rtr-button_comfortmode_active: url("../img\/icons\/dark/rtr/gc4_rtr-button_comfortmode_active.svg");
+  --gc4_icon_config_plus: url("../img\/icons\/dark/buttons/gc4_cssbutton_plus.svg");
+  --gc4_icon_config_plus_inactive: url("../img\/icons\/dark/buttons/gc4_cssbutton_plus_inactive.svg");
+  --gc4_icon_config_minus: url("../img\/icons\/dark/buttons/gc4_cssbutton_minus.svg");
+  --gc4_icon_config_minus_inactive: url("../img\/icons\/dark/buttons/gc4_cssbutton_minus_inactive.svg");
+  --gc4_icon_wlan_0: url("../img\/icons\/dark/uielements/gc4_icon_wlan_stat0.svg");
+  --gc4_icon_wlan_25: url("../img\/icons\/dark/uielements/gc4_icon_wlan_stat25.svg");
+  --gc4_icon_wlan_50: url("../img\/icons\/dark/uielements/gc4_icon_wlan_stat50.svg");
+  --gc4_icon_wlan_75: url("../img\/icons\/dark/uielements/gc4_icon_wlan_stat75.svg");
+  --gc4_icon_wlan_100: url("../img\/icons\/dark/uielements/gc4_icon_wlan_stat100.svg");
+  --gc4_icon_wlan_100_active: url("../img\/icons\/dark/uielements/gc4_icon_wlan_stat100_down.svg");
+  --gc4_icon_9_locked: url("../img\/icons\/dark/icons/icon_9.svg");
+  --gc4_listicon_refresh: url("../img\/icons\/dark/operationelements/gc4_listicon_refresh.svg");
+  --gc4_listicon_refresh_inactive: url("../img\/icons\/dark/operationelements/gc4_listicon_refresh_inactive.svg");
+  --gc4_listicon_error: url("../img\/icons\/dark/operationelements/gc4_listicon_error.svg");
+  --gc4_button_set: url("../img\/icons\/dark/buttons/gc4_button_set.svg");
+  --gc4_button_set_inactive: url("../img\/icons\/dark/buttons/gc4_button_set_inactive.svg");
+  --gc4_button_set_down: url("../img\/icons\/dark/buttons/gc4_button_set_down.svg");
+  --fan-coil-icon-refresh-list: url("../img\/icons\/dark/operationelements/gc4_listicon_refresh.svg");
+  --fan-coil-icon-refresh-list_inactive: url("../img\/icons\/dark/operationelements/gc4_listicon_refresh_inactive.svg");
+  --fan-coil-icon-heating-list: url("../img\/icons\/dark/rtr/fanCoil/gc4_rtr-icon_heating_list_gray.svg");
+  --fan-coil-icon-heating-list_inactive: url("../img\/icons\/dark/rtr/gc4_rtr-icon_heating_list_inactive.svg");
+  --fan-coil-icon-cooling-list: url("../img\/icons\/dark/rtr/fanCoil/gc4_rtr-icon_cooling_list_gray.svg");
+  --fan-coil-icon-cooling-list_inactive: url("../img\/icons\/dark/rtr/gc4_rtr-icon_cooling_list_inactive.svg");
+  --fan-coil-icon-dry-list: url("../img\/icons\/dark/rtr/fanCoil/GiraIconFunctionsDehydrate.svg");
+  --fan-coil-icon-dry-list_inactive: url("../img\/icons\/dark/rtr/fanCoil/GiraIconFunctionsDehydrate-detail.svg");
+  --fan-coil-icon-speed-list: url("../img\/icons\/dark/rtr/fanCoil/GiraIconFunctionsVentilation.svg");
+  --fan-coil-icon-speed-list_inactive: url("../img\/icons\/dark/rtr/fanCoil/GiraIconFunctionsVentilation-detail.svg");
+  --fan-coil-icon-air-flow-list: url("../img\/icons\/dark/rtr/fanCoil/gc4_rtr-icon_air-flow_list.svg");
+  --fan-coil-icon-air-flow-list_inactive: url("../img\/icons\/dark/rtr/fanCoil/gc4_rtr-icon_air-flow_list_inactive.svg");
+  --color-picker-background: url("../img\/icons\/dark/color-picker.png");
+  --rtc-scale-10-30: url("../img\/icons\/dark/rtr/gc4_rtr_skala_mask.svg");
+  --rtc-scale-40-70: url("../img\/icons\/dark/rtr/sauna/gc4_rtr_skala_mask_40-70.svg");
+  --rtc-scale-50-80: url("../img\/icons\/dark/rtr/sauna/gc4_rtr_skala_mask_50-80.svg");
+  --rtc-scale-60-90: url("../img\/icons\/dark/rtr/sauna/gc4_rtr_skala_mask_60-90.svg");
+  --rtc-scale-70-100: url("../img\/icons\/dark/rtr/sauna/gc4_rtr_skala_mask_70-100.svg");
+  --rtc-scale-80-110: url("../img\/icons\/dark/rtr/sauna/gc4_rtr_skala_mask_80-110.svg");
+  --rtc-icon-heating: url("../img\/icons\/dark/rtr/gc4_rtr-icon_heating_detail.svg");
+  --rtc-icon-heating-disabled: url("../img\/icons\/dark/rtr/gc4_rtr-icon_heating_detail_inactive.svg");
+  --rtc-icon-cooling: url("../img\/icons\/dark/rtr/gc4_rtr-icon_cooling_detail.svg");
+  --rtc-icon-cooling-disabled: url("../img\/icons\/dark/rtr/gc4_rtr-icon_cooling_detail_inactive.svg");
+  --bluetooth-icon: url("../img\/icons\/dark/GiraIconMediaBluetooth2.svg");
+  --g1-app-update-available-icon: url("../img\/icons\/dark/icons/icon_402.svg");
+  --missing-icon-icon: url("../img\/icons\/dark/icons/icon_300.svg");
+  --dices-icon: url("../img\/icons\/dark/icons/icon_223.svg");
+  --sprite_4x2_repeating_gc4_grid_line: url('../img\/icons\/dark/4x2_repeating_gc4_grid_line.png');
+  --sprite_4x2_repeating_gc4_grid_line_down: url('../img\/icons\/dark/4x2_repeating_gc4_grid_line_down.png');
+  --gc4_icon_checkmark_green: url('../img\/icons\/dark/uielements/gc4_icon_checkmark_green.svg');
+  --grid-line-down: url('../img\/icons\/dark/4x2_repeating_gc4_grid_line_down.png');
+  --led-icon-o_down: url("../img\/icons\/dark/leds/gc4_led_o_down.svg");
+  --led-icon-g_down: url("../img\/icons\/dark/leds/gc4_led_g_down.svg");
+  --led-icon-b_down: url("../img\/icons\/dark/leds/gc4_led_b_down.svg");
+  --led-icon-r_down: url("../img\/icons\/dark/leds/gc4_led_r_down.svg");
+  --led-icon-y_down: url("../img\/icons\/dark/leds/gc4_led_y_down.svg");
+  --led-icon-off_down: url("../img\/icons\/dark/leds/gc4_led_off_down.svg");
+  --timer-item-astro: url("../img\/icons\/dark/timer/gc4_clocktimer_astro.svg");
+  --detail-error-indicator: url('../img\/icons\/dark/icons/icon_113.svg') no-repeat right;
+  --info-panel-close-button-icon: url("../img\/icons\/dark/icons/icon_152.svg") no-repeat center;
+  --info-panel-warning-icon: url("../img\/icons\/dark/icons/icon_113.svg") no-repeat center;
+  --info-panel-question-icon: url("../img\/icons\/dark/icons/icon_288.svg") no-repeat center;
+  --info-panel-info-icon: url("../img\/icons\/dark/buttons/gc4_button_info.svg") no-repeat center;
+  --holiday-mode-symbol: url("../img\/icons\/dark/icons/icon_89.svg");
+  --rtc-boost-mode-symbol: url("../img\/icons\/dark/rtr/gc4_rtr-icon_boost.svg");
+  --setting-image-01: url("../img\/icons\/dark/settings/scene01.svg");
+  --setting-image-02: url("../img\/icons\/dark/settings/scene02.svg");
+  --setting-image-03: url("../img\/icons\/dark/settings/scene03.svg");
+  --setting-image-04: url("../img\/icons\/dark/settings/scene04.svg");
+  --setting-image-05: url("../img\/icons\/dark/settings/scene05.svg");
+  --setting-image-06: url("../img\/icons\/dark/settings/scene06.svg");
+  --setting-image-07: url("../img\/icons\/dark/settings/scene07.svg");
+  --detail-control-lock-symbol: url("../img\/icons\/dark/icons/icon_9.svg");
+  --header-row-content-gc4_icons_grid_402: url("../img\/icons\/dark/sda/gira_remote_globe.svg") center center no-repeat;
+  --header-row-content-gc4_icons_grid_402_active: url("../img\/icons\/dark/sda/gira_remote_globe_active.svg") center center no-repeat;
+  --image-container-gc4_icons_grid_132: url("../img\/icons\/dark/sda/gira_remote_image.svg") center center no-repeat;
+  --image-container-gc4_icons_grid_132_active: url("../img\/icons\/dark/sda/gira_remote_image_active.svg") center center no-repeat;
+  --detail-note: url("../img\/icons\/dark/functionfolder/gap_folder_bg.png") repeat left top;
+  --detail-folder_bottom: url("../img\/icons\/dark/functionfolder/gap_folder_bg.png") repeat left top;
+  --detail-foldertopleft: url("../img\/icons\/dark/functionfolder/gap_folder_bg.png") repeat left top;
+  --detail-foldertopright: url("../img\/icons\/dark/functionfolder/gap_folder_bg.png") repeat left top;
+  --camera-state-loading-after: url("../img\/icons\/dark/camera/camera_state_loading.svg");
+  --camera-full-screen-camera-full-screen-icon: url("../img\/icons\/dark/camera/onvif_icon_fullscreen.svg");
+  --camera-full-screen-exit-icon: url("../img\/icons\/dark/camera/cssbutton_fullscreen_off.svg");
+  --camera-icon-led-green: url("../img\/icons\/dark/camera/camera_led_green.svg");
+  --camera-icon-led-yellow: url("../img\/icons\/dark/camera/camera_led_yellow.svg");
+  --camera-icon-led-orange: url("../img\/icons\/dark/camera/camera_led_orange.svg");
+  --camera-icon-led-red: url("../img\/icons\/dark/camera/camera_led_red.svg");
+  --camera-icon-led-off: url("../img\/icons\/dark/camera/camera_led_off.svg");
+  --play-button-after: url("../img\/icons\/dark/camera/camera_icon_play.svg");
+  --camera-move-btns-camera-settings-btn: url("../img\/icons\/dark/camera/onvif_icon_settings.svg");
+  --camera-move-btns-camera-left-btn: url("../img\/icons\/dark/camera/onvif_icon_left.svg");
+  --camera-move-btns-camera-up-btn: url("../img\/icons\/dark/camera/onvif_icon_up.svg");
+  --camera-move-btns-camera-right-btn: url("../img\/icons\/dark/camera/onvif_icon_right.svg");
+  --camera-move-btns-camera-down-btn: url("../img\/icons\/dark/camera/onvif_icon_down.svg");
+  --camera-move-btns-camera-save-home-btn: url("../img\/icons\/dark/camera/onvif_icon_save.svg");
+  --camera-move-btns-activate-movement: url("../img\/icons\/dark/camera/onvif_icon_movement.svg");
+  --camera-zoom-plus-btn: url("../img\/icons\/dark/camera/onvif_icon_zoom-in.svg") !important;
+  --camera-zoom-minus-btn: url("../img\/icons\/dark/camera/onvif_icon_zoom-out.svg") !important;
+  --camera-zoom-move-stop-btn: url("../img\/icons\/dark/camera/onvif_icon_stop.svg") !important;
+  --onvif-play-button: url("../img\/icons\/dark/camera/onvif_camera_play.svg");
+  --upper-endstop: url('../img\/icons\/dark/icons/icon_435.svg') no-repeat;
+  --lower-endstop: url('../img\/icons\/dark/icons/icon_322.svg') no-repeat;
+}
+.led-icon-b {
+  background-image: var(--led-icon-b, url("../img/leds/gc4_led_b.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.led-icon-g {
+  background-image: var(--led-icon-g, url("../img/leds/gc4_led_g.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.led-icon-r {
+  background-image: var(--led-icon-r, url("../img/leds/gc4_led_r.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.led-icon-y {
+  background-image: var(--led-icon-y, url("../img/leds/gc4_led_y.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.led-icon-o {
+  background-image: var(--led-icon-o, url("../img/leds/gc4_led_o.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.led-icon-off {
+  background-image: var(--led-icon-off, url("../img/leds/gc4_led_off.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_button_timer {
+  background-image: var(--gc4_button_timer, url("../img/timer/gc4_button_timer.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_button_timer_active {
+  background-image: var(--gc4_button_timer_active, url("../img/timer/gc4_button_timer_active.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_button_timer_down {
+  background-image: var(--gc4_button_timer_down, url("../img/timer/gc4_button_timer_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_day {
+  background-image: var(--gc4_clocktimer_day, url("../img/timer/gc4_clocktimer_day.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_day_inactive {
+  background-image: var(--gc4_clocktimer_day_inactive, url("../img/timer/gc4_clocktimer_day_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_hours_day {
+  background-image: var(--gc4_clocktimer_hours_day, url("../img/timer/gc4_clocktimer_hours_day.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_hours_day_inactive {
+  background-image: var(--gc4_clocktimer_hours_day_inactive, url("../img/timer/gc4_clocktimer_hours_day_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_hours_night {
+  background-image: var(--gc4_clocktimer_hours_night, url("../img/timer/gc4_clocktimer_hours_night.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_hours_night_inactive {
+  background-image: var(--gc4_clocktimer_hours_night_inactive, url("../img/timer/gc4_clocktimer_hours_night_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_minutes_day {
+  background-image: var(--gc4_clocktimer_minutes_day, url("../img/timer/gc4_clocktimer_minutes_day.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_minutes_day_inactive {
+  background-image: var(--gc4_clocktimer_minutes_day_inactive, url("../img/timer/gc4_clocktimer_minutes_day_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_minutes_night {
+  background-image: var(--gc4_clocktimer_minutes_night, url("../img/timer/gc4_clocktimer_minutes_night.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_minutes_night_inactive {
+  background-image: var(--gc4_clocktimer_minutes_night_inactive, url("../img/timer/gc4_clocktimer_minutes_night_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_day {
+  background-image: var(--gc4_clocktimer_day, url("../img/timer/gc4_clocktimer_day.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_day_inactive {
+  background-image: var(--gc4_clocktimer_day_inactive, url("../img/timer/gc4_clocktimer_day_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_night {
+  background-image: var(--gc4_clocktimer_night, url("../img/timer/gc4_clocktimer_night.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_night_inactive {
+  background-image: var(--gc4_clocktimer_night_inactive, url("../img/timer/gc4_clocktimer_night_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.sda-connected-icon {
+  background-image: var(--sda-connected-icon, url("../img/operationelements/GiraIconSDAIcon-G1-X1-38x44px.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bullet-icon {
+  background-image: var(--bullet-icon, url("../img/bullet/bullet.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.delete-icon {
+  background-image: var(--delete-icon, url('../img/operationelements/gc4_keyboard_delete.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.delete-icon-inactive {
+  background-image: var(--delete-icon-inactive, url('../img/operationelements/gc4_keyboard_delete_inactive.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bullet-active-icon {
+  background-image: var(--bullet-active-icon, url("../img/bullet/bullet_active.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-alert-icon {
+  background-image: var(--status-alert-icon, url("../img/statuszeile/gc4_headericon_alert.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-demo-icon {
+  background-image: var(--status-demo, url("../img/statuszeile/gc4_headericon_demomode.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-license-icon {
+  background-image: var(--status-license-icon, url("../img/statuszeile/gc4_headericon_licensewarning.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-forward-icon {
+  background-image: var(--status-forward-icon, url("../img/statuszeile/gc4_headericon_forward.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-battery-alert-icon {
+  background-image: var(--status-battery-alert-icon, url("../img/statuszeile/gc4_headericon_batteryalert.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-presence-record-icon {
+  background-image: var(--status-presence-record-icon, url("../img/presencesimulation/icon_house_record.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-presence-record-icon-disabled {
+  background-image: var(--status-presence-record-icon-disabled, url("../img/presencesimulation/icon_house_record_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-presence-playback-icon {
+  background-image: var(--status-presence-playback-icon, url("../img/presencesimulation/icon_house_play.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-presence-playback-icon-disabled {
+  background-image: var(--status-presence-playback-icon-disabled, url("../img/presencesimulation/icon_house_play_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-door-auto-open-icon {
+  background-image: var(--status-door-auto-open-icon, url("../img/statuszeile/gc4_headericon_doorautom.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-door-bell-mute-icon {
+  background-image: var(--status-door-bell-mute-icon, url("../img/statuszeile/gc4_headericon_tks_mute.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-temp-in-icon {
+  background-image: var(--status-temp-in-icon, url("../img/statuszeile/gc4_stat_temp_in.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-temp-out-icon {
+  background-image: var(--status-temp-out-icon, url("../img/statuszeile/gc4_stat_temp_out.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.status-logging-icon {
+  background-image: var(--status-logging-icon, url("../img/statuszeile/gc4_headericon_logging.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_lateoffset {
+  background-image: var(--gc4_clocktimer_lateoffset, url("../img/timer/gc4_clocktimer_lateoffset.svg"));
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_sunrise {
+  background-image: var(--gc4_clocktimer_sunrise, url("../img/timer/gc4_clocktimer_sunrise.svg"));
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_sunset {
+  background-image: var(--gc4_clocktimer_sunset, url("../img/timer/gc4_clocktimer_sunset.svg"));
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_earlyoffset {
+  background-image: var(--gc4_clocktimer_earlyoffset, url("../img/timer/gc4_clocktimer_earlyoffset.svg"));
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.gc4_clocktimer_sunset_list {
+  background-image: var(--gc4_clocktimer_sunset_list, url("../img/timer/gc4_clocktimer_sunset_list.svg"));
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.gc4_clocktimer_sunrise_list {
+  background-image: var(--gc4_clocktimer_sunrise_list, url("../img/timer/gc4_clocktimer_sunrise_list.svg"));
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.icon-selected-full {
+  background-image: var(--icon-selected-full, url('../img/operationelements/gc4_cssicon_selected.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon-selected {
+  background-image: var(--icon-selected, url('../img/operationelements/gc4_cssicon_selected.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-selected-green {
+  background-image: var(--icon-selected-green, url('../img/operationelements/gc4_cssicon_selected-green.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-selected-red {
+  background-image: var(--icon-selected-red, url('../img/operationelements/gc4_cssicon_selected-red.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.icon-rtc-comfort-list {
+  background-image: var(--icon-rtc-comfort-list, url('../img/rtr/gc4_icon_comfort_list.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-rtc-comfort-list-inactive {
+  background-image: var(--icon-rtc-comfort-list-inactive, url('../img/rtr/gc4_icon_comfort_list_inactive.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-rtc-standby-list {
+  background-image: var(--icon-rtc-standby-list, url('../img/rtr/gc4_icon_standby_list.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-rtc-standby-list-inactive {
+  background-image: var(--icon-rtc-standby-list, url('../img/rtr/gc4_icon_standby_list_inactive.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-rtc-night-list {
+  background-image: var(--icon-rtc-night-list, url('../img/rtr/gc4_icon_night_list.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-rtc-night-list-inactive {
+  background-image: var(--icon-rtc-night-list, url('../img/rtr/gc4_icon_night_list_inactive.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-rtc-frost-list {
+  background-image: var(--icon-rtc-frost-list, url('../img/rtr/gc4_icon_frost_list.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-rtc-frost-list-disabled {
+  background-image: var(--icon-rtc-frost-list-disabled, url('../img/rtr/gc4_icon_frost_list_inactive.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-info {
+  background-image: var(--icon-info, url('../img/navigationszeile/info/icon/gc4_navicon_info.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-info_inactive {
+  background-image: var(--icon-info_inactive, url('../img/navigationszeile/info/icon/gc4_navicon_info_inactive.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-warning {
+  background-image: var(--icon-warning, url('../img/uielements/gc4_cssicon_warning.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-clear-input {
+  background-image: var(--icon-clear-input, url('../img/uielements/gc4_icon_help_cancel.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-search-input {
+  background-image: var(--icon-search-input, url('../img/uielements/gc4_icon_help_search.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_repeating_grid_line {
+  background: var(--gc4_repeating_grid_line, url("../img/4x2_repeating_gc4_grid_line.png") repeat-x top);
+}
+.gc4_icon_arrow_right_inactive {
+  background-image: var(--gc4_icon_arrow_right_inactive, url("../img/uielements/gc4_icon_arrow_right_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_icon_arrow_right {
+  content: var(--gc4_icon_arrow_right, url("../img/uielements/gc4_icon_arrow_right.svg"));
+}
+.gc4_icon_arrow_right_down {
+  content: var(--gc4_icon_arrow_right_down, url("../img/uielements/gc4_icon_arrow_right_down.svg"));
+}
+.gc4_icon_arrow_left_inactive {
+  background-image: var(--gc4_icon_arrow_left_inactive, url("../img/uielements/gc4_icon_arrow_left_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_icon_arrow_left {
+  content: var(--gc4_icon_arrow_left, url("../img/uielements/gc4_icon_arrow_left.svg"));
+}
+.gc4_icon_arrow_left_down {
+  content: var(--gc4_icon_arrow_left_down, url("../img/uielements/gc4_icon_arrow_left_down.svg"));
+}
+.gc4_icon_arrow_right1px {
+  content: var(--gc4_icon_arrow_right1px, url("../img/uielements/gc4_icon_arrow_right1px.svg"));
+}
+.gc4_icon_arrow_right1px_down {
+  content: var(--gc4_icon_arrow_right1px_down, url("../img/uielements/gc4_icon_arrow_right1px_down.svg"));
+}
+.gc4_icon_arrow_left1px {
+  content: var(--gc4_icon_arrow_left1px, url("../img/uielements/gc4_icon_arrow_left1px.svg"));
+}
+.gc4_icon_arrow_left1px_down {
+  content: var(--gc4_icon_arrow_left1px_down, url("../img/uielements/gc4_icon_arrow_left1px_down.svg"));
+}
+.gc4_rtr-button_comfortmode {
+  background-image: var(--gc4_rtr-button_comfortmode, url("../img/rtr/gc4_rtr-button_comfortmode.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_rtr-button_comfortmode_active {
+  background-image: var(--gc4_rtr-button_comfortmode_active, url("../img/rtr/gc4_rtr-button_comfortmode_active.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_icon_config_plus {
+  background-image: var(--gc4_icon_config_plus, url("../img/buttons/gc4_cssbutton_plus.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_config_plus_inactive {
+  background-image: var(--gc4_icon_config_plus_inactive, url("../img/buttons/gc4_cssbutton_plus_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_config_minus {
+  background-image: var(--gc4_icon_config_minus, url("../img/buttons/gc4_cssbutton_minus.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_config_minus_inactive {
+  background-image: var(--gc4_icon_config_minus_inactive, url("../img/buttons/gc4_cssbutton_minus_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_wlan_0 {
+  background-image: var(--gc4_icon_wlan_0, url("../img/uielements/gc4_icon_wlan_stat0.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_wlan_25 {
+  background-image: var(--gc4_icon_wlan_25, url("../img/uielements/gc4_icon_wlan_stat25.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_wlan_50 {
+  background-image: var(--gc4_icon_wlan_50, url("../img/uielements/gc4_icon_wlan_stat50.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_wlan_75 {
+  background-image: var(--gc4_icon_wlan_75, url("../img/uielements/gc4_icon_wlan_stat75.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_wlan_100 {
+  background-image: var(--gc4_icon_wlan_100, url("../img/uielements/gc4_icon_wlan_stat100.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_wlan_100_active {
+  background-image: var(--gc4_icon_wlan_100_active, url("../img/uielements/gc4_icon_wlan_stat100_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_icon_9_locked {
+  background-image: var(--gc4_icon_9_locked, url("../img\/icons\/light/icon_9.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_listicon_refresh {
+  background-image: var(--gc4_listicon_refresh, url("../img/operationelements/gc4_listicon_refresh.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_listicon_refresh_inactive {
+  background-image: var(--gc4_listicon_refresh_inactive, url("../img/operationelements/gc4_listicon_refresh_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_listicon_error {
+  background-image: var(--gc4_listicon_error, url("../img/operationelements/gc4_listicon_error.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.gc4_button_set {
+  background-image: var(--gc4_button_set, url("../img/buttons/gc4_button_set.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_button_set_inactive {
+  background-image: var(--gc4_button_set_inactive, url("../img/buttons/gc4_button_set_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_button_set_down {
+  background-image: var(--gc4_button_set_down, url("../img/buttons/gc4_button_set_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-refresh-list {
+  background-image: var(--fan-coil-icon-refresh-list, url("../img/operationelements/gc4_listicon_refresh.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-refresh-list_inactive {
+  background-image: var(--fan-coil-icon-refresh-list_inactive, url("../img/operationelements/gc4_listicon_refresh_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-heating-list {
+  background-image: var(--fan-coil-icon-heating-list, url("../img/rtr/fanCoil/gc4_rtr-icon_heating_list_gray.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-heating-list_inactive {
+  background-image: var(--fan-coil-icon-heating-list_inactive, url("../img/rtr/gc4_rtr-icon_heating_list_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-cooling-list {
+  background-image: var(--fan-coil-icon-cooling-list, url("../img/rtr/fanCoil/gc4_rtr-icon_cooling_list_gray.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-cooling-list_inactive {
+  background-image: var(--fan-coil-icon-cooling-list_inactive, url("../img/rtr/gc4_rtr-icon_cooling_list_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-dry-list {
+  background-image: var(--fan-coil-icon-dry-list, url("../img/rtr/fanCoil/GiraIconFunctionsDehydrate.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-dry-list_inactive {
+  background-image: var(--fan-coil-icon-dry-list_inactive, url("../img/rtr/fanCoil/GiraIconFunctionsDehydrate-detail.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-speed-list {
+  background-image: var(--fan-coil-icon-speed-list, url("../img/rtr/fanCoil/GiraIconFunctionsVentilation.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.fan-coil-icon-speed-list_inactive {
+  background-image: var(--fan-coil-icon-speed-list_inactive, url("../img/rtr/fanCoil/GiraIconFunctionsVentilation-detail.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.fan-coil-icon-air-flow-list {
+  background-image: var(--fan-coil-icon-air-flow-list, url("../img/rtr/fanCoil/gc4_rtr-icon_air-flow_list.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.fan-coil-icon-air-flow-list_inactive {
+  background-image: var(--fan-coil-icon-air-flow-list_inactive, url("../img/rtr/fanCoil/gc4_rtr-icon_air-flow_list_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.color-picker-background {
+  background-image: var(--color-picker-background, url("../img/color-picker.png"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-scale-10-30 {
+  background-image: var(--rtc-scale-10-30, url("../img/rtr/gc4_rtr_skala_mask.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-scale-40-70 {
+  background-image: var(--rtc-scale-40-70, url("../img/rtr/sauna/gc4_rtr_skala_mask_40-70.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-scale-50-80 {
+  background-image: var(--rtc-scale-50-80, url("../img/rtr/sauna/gc4_rtr_skala_mask_50-80.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-scale-60-90 {
+  background-image: var(--rtc-scale-60-90, url("../img/rtr/sauna/gc4_rtr_skala_mask_60-90.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-scale-70-100 {
+  background-image: var(--rtc-scale-70-100, url("../img/rtr/sauna/gc4_rtr_skala_mask_70-100.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-scale-80-110 {
+  background-image: var(--rtc-scale-80-110, url("../img/rtr/sauna/gc4_rtr_skala_mask_80-110.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-icon-heating {
+  background-image: var(--rtc-icon-heating, url("../img/rtr/gc4_rtr-icon_heating_detail.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-icon-heating-disabled {
+  background-image: var(--rtc-icon-heating-disabled, url("../img/rtr/gc4_rtr-icon_heating_detail_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-icon-cooling {
+  background-image: var(--rtc-icon-cooling, url("../img/rtr/gc4_rtr-icon_cooling_detail.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.rtc-icon-cooling-disabled {
+  background-image: var(--rtc-icon-cooling-disabled, url("../img/rtr/gc4_rtr-icon_cooling_detail_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.bluetooth-icon {
+  background-image: var(--bluetooth-icon, url("../img/GiraIconMediaBluetooth2.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.g1-app-update-available-icon {
+  background-image: var(--g1-app-update-available-icon, url("../img\/icons\/light/icon_402.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.missing-icon-icon {
+  background-image: var(--missing-icon-icon, url("../img\/icons\/light/icon_300.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dices-icon {
+  background-image: var(--dices-icon, url("../img\/icons\/light/icon_223.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.sprite_4x2_repeating_gc4_grid_line {
+  background-image: var(--sprite_4x2_repeating_gc4_grid_line, url('../img/4x2_repeating_gc4_grid_line.png'));
+  background-repeat: repeat-x;
+}
+.sprite_4x2_repeating_gc4_grid_line_down {
+  background-image: var(--sprite_4x2_repeating_gc4_grid_line_down, url('../img/4x2_repeating_gc4_grid_line_down.png'));
+  background-repeat: repeat-x;
+}
+.gc4_icon_checkmark_green {
+  background-image: var(--gc4_icon_checkmark_green, url('../img/uielements/gc4_icon_checkmark_green.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* TILE */
+.grid-line-down {
+  background-image: var(--grid-line-down, url('../img/4x2_repeating_gc4_grid_line_down.png'));
+}
+.tile-invert .tile-status-led .led-icon-o {
+  background-image: var(--led-icon-o_down, url("../img/leds/gc4_led_o_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tile-invert .tile-status-led .led-icon-g {
+  background-image: var(--led-icon-g_down, url("../img/leds/gc4_led_g_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tile-invert .tile-status-led .led-icon-b {
+  background-image: var(--led-icon-b_down, url("../img/leds/gc4_led_b_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tile-invert .tile-status-led .led-icon-r {
+  background-image: var(--led-icon-r_down, url("../img/leds/gc4_led_r_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tile-invert .tile-status-led .led-icon-y {
+  background-image: var(--led-icon-y_down, url("../img/leds/gc4_led_y_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.tile-invert .tile-status-led .led-icon-off {
+  background-image: var(--led-icon-off_down, url("../img/leds/gc4_led_off_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.timer-item-astro {
+  background: var(--timer-item-astro, url("../img/timer/gc4_clocktimer_astro.svg"));
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.detail-control .detail-error-indicator {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  height: 2.75rem;
+  width: 2rem;
+  background: var(--detail-error-indicator, url('../img\/icons\/light/icon_113.svg') no-repeat right);
+  margin-top: 0.875rem;
+}
+.info-panel .close-button-icon {
+  width: 100%;
+  height: 100%;
+  background: var(--info-panel-close-button-icon, url("../img\/icons\/light/icon_152.svg") no-repeat center);
+}
+.info-panel .warning-icon {
+  width: 100%;
+  height: 100%;
+  background: var(--info-panel-warning-icon, url("../img\/icons\/light/icon_113.svg") no-repeat center);
+}
+.info-panel .question-icon {
+  width: 100%;
+  height: 100%;
+  background: var(--info-panel-question-icon, url("../img\/icons\/light/icon_288.svg") no-repeat center);
+}
+.info-panel .info-icon {
+  width: 100%;
+  height: 100%;
+  background: var(--info-panel-info-icon, url("../img/uielements/gc4_cssicon_info.svg") no-repeat center);
+}
+.info-panel .info-panel-icon {
+  width: 100%;
+  height: 100%;
+}
+.holiday-mode-symbol {
+  width: 6.25rem;
+  height: 2.75rem;
+  margin-top: 1.125rem;
+  margin-left: 1.125rem;
+  position: absolute;
+  background-image: var(--holiday-mode-symbol, url("../img\/icons\/light/icon_89.svg"));
+  background-repeat: no-repeat;
+  background-position: left;
+  z-index: 4;
+}
+.rtc-boost-mode-symbol {
+  background-image: var(--rtc-boost-mode-symbol, url("../img/rtr/gc4_rtr-icon_boost.svg"));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 2.0625rem;
+}
+.setting-image-01 {
+  background-image: var(--setting-image-01, url("../img/settings/scene01.svg"));
+}
+.setting-image-02 {
+  background-image: var(--setting-image-02, url("../img/settings/scene02.svg"));
+}
+.setting-image-03 {
+  background-image: var(--setting-image-03, url("../img/settings/scene03.svg"));
+}
+.setting-image-04 {
+  background-image: var(--setting-image-04, url("../img/settings/scene04.svg"));
+}
+.setting-image-05 {
+  background-image: var(--setting-image-05, url("../img/settings/scene05.svg"));
+}
+.setting-image-06 {
+  background-image: var(--setting-image-06, url("../img/settings/scene06.svg"));
+  height: 21.875rem;
+}
+.setting-image-07 {
+  background-image: var(--setting-image-07, url("../img/settings/scene07.svg"));
+  height: 21.875rem;
+}
+.detail-control .lock-symbol {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.125rem;
+  margin-left: 1.125rem;
+  position: absolute;
+  background-image: var(--detail-control-lock-symbol, url("../img\/icons\/light/icon_9.svg"));
+  background-repeat: no-repeat;
+}
+.row.header-row .header-row-content .gc4_icons_grid_402 {
+  background: var(--header-row-content-gc4_icons_grid_402, url("../img/sda/gira_remote_globe.svg") center center no-repeat);
+}
+.row.header-row .header-row-content .gc4_icons_grid_402_active {
+  background: var(--header-row-content-gc4_icons_grid_402_active, url("../img/sda/gira_remote_globe_active.svg") center center no-repeat);
+}
+.row.image-row .image-container .gc4_icons_grid_132 {
+  background: var(--image-container-gc4_icons_grid_132, url("../img/sda/gira_remote_image.svg") center center no-repeat);
+  width: 100%;
+  flex: 1;
+  background-size: auto 11rem;
+}
+.row.image-row .image-container .gc4_icons_grid_132_active {
+  background: var(--image-container-gc4_icons_grid_132_active, url("../img/sda/gira_remote_image_active.svg") center center no-repeat);
+  width: 100%;
+  flex: 1;
+  background-size: auto 11rem;
+}
+.detail-note {
+  background: var(--detail-note, url("../img/functionfolder/gap_folder_bg.png") repeat left top);
+}
+.detail-folder_bottom {
+  background: var(--detail-folder_bottom, url("../img/functionfolder/gap_folder_bg.png") repeat left top);
+}
+.detail-foldertopleft {
+  background: var(--detail-foldertopleft, url("../img/functionfolder/gap_folder_bg.png") repeat left top);
+}
+.detail-foldertopright {
+  background: var(--detail-foldertopright, url("../img/functionfolder/gap_folder_bg.png") repeat left top);
+}
+/* Camera */
+.camera-state-loading:after {
+  background-image: var(--camera-state-loading-after, url("../img/camera/camera_state_loading.svg"));
+}
+.camera-full-screen.camera-full-screen-icon {
+  background-image: var(--camera-full-screen-camera-full-screen-icon, url("../img/camera/onvif_icon_fullscreen.svg"));
+  background-size: cover;
+}
+.camera-full-screen-exit-icon {
+  background-image: var(--camera-full-screen-exit-icon, url("../img/camera/cssbutton_fullscreen_off.svg"));
+  background-repeat: no-repeat;
+}
+.camera-icon-led-green {
+  background-image: var(--camera-icon-led-green, url("../img/camera/camera_led_green.svg"));
+  background-repeat: no-repeat;
+}
+.camera-icon-led-yellow {
+  background-image: var(--camera-icon-led-yellow, url("../img/camera/camera_led_yellow.svg"));
+  background-repeat: no-repeat;
+}
+.camera-icon-led-orange {
+  background-image: var(--camera-icon-led-orange, url("../img/camera/camera_led_orange.svg"));
+  background-repeat: no-repeat;
+}
+.camera-icon-led-red {
+  background-image: var(--camera-icon-led-red, url("../img/camera/camera_led_red.svg"));
+  background-repeat: no-repeat;
+}
+.camera-icon-led-off {
+  background-image: var(--camera-icon-led-off, url("../img/camera/camera_led_off.svg"));
+  background-repeat: no-repeat;
+}
+.play-button:after {
+  background-image: var(--play-button-after, url("../img/camera/camera_icon_play.svg"));
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.camera-move-btns.camera-settings-btn {
+  background-image: var(--camera-move-btns-camera-settings-btn, url("../img/camera/onvif_icon_settings.svg"));
+  background-size: cover;
+}
+.camera-move-btns.camera-left-btn {
+  background-image: var(--camera-move-btns-camera-left-btn, url("../img/camera/onvif_icon_left.svg"));
+  background-size: cover;
+}
+.camera-move-btns.camera-up-btn {
+  background-image: var(--camera-move-btns-camera-up-btn, url("../img/camera/onvif_icon_up.svg"));
+  background-size: cover;
+}
+.camera-move-btns.camera-right-btn {
+  background-image: var(--camera-move-btns-camera-right-btn, url("../img/camera/onvif_icon_right.svg"));
+  background-size: cover;
+}
+.camera-move-btns.camera-down-btn {
+  background-image: var(--camera-move-btns-camera-down-btn, url("../img/camera/onvif_icon_down.svg"));
+  background-size: cover;
+}
+.camera-move-btns.camera-save-home-btn {
+  background-image: var(--camera-move-btns-camera-save-home-btn, url("../img/camera/onvif_icon_save.svg"));
+  background-size: cover;
+}
+.camera-move-btns.activate-movement {
+  background-image: var(--camera-move-btns-activate-movement, url("../img/camera/onvif_icon_movement.svg"));
+  background-size: cover;
+}
+.camera-zoom-plus-btn {
+  background-image: var(--camera-zoom-plus-btn, url("../img/camera/onvif_icon_zoom-in.svg")) !important;
+  background-size: cover;
+}
+.camera-zoom-minus-btn {
+  background-image: var(--camera-zoom-minus-btn, url("../img/camera/onvif_icon_zoom-out.svg")) !important;
+  background-size: cover;
+}
+.camera-zoom-move-stop-btn {
+  background-image: var(--camera-zoom-move-stop-btn, url("../img/camera/onvif_icon_stop.svg")) !important;
+  background-size: cover;
+}
+.onvif-play-button {
+  background-image: var(--onvif-play-button, url("../img/camera/onvif_camera_play.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.upper-endstop {
+  background: var(--upper-endstop, url('../img\/icons\/light/icon_322.svg') no-repeat);
+}
+.lower-endstop {
+  background: var(--lower-endstop, url('../img\/icons\/light/icon_322.svg') no-repeat);
+}

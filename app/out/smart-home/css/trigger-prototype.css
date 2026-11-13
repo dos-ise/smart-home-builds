@@ -1,0 +1,123 @@
+.sceneSettingsBtn {
+  position: absolute;
+  margin: 1.125rem;
+  width: 2.625rem;
+  height: 2.625rem;
+  right: 0;
+  top: 0;
+  border-radius: 50%;
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  z-index: 4;
+}
+.sceneSettingsBtn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+  top: -5px;
+  left: -15px;
+  right: -15px;
+  bottom: -5px;
+  border: 5px solid transparent;
+}
+.absolute-center-wrapper {
+  margin: auto;
+  display: flex;
+}
+.trigger-vert {
+  flex-direction: column;
+}
+.trigger-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  display: flex;
+}
+.trigger-container .trigger-button {
+  position: relative;
+  width: 18.75rem;
+  height: 18.75rem;
+  z-index: 3;
+  display: flex;
+  margin: 1.125rem;
+  border-radius: 50%;
+  box-shadow: 0px 12px 20px -15px rgba(0, 0, 0, 0.2);
+}
+.trigger-container .trigger-ring,
+.trigger-container .trigger-transition-container {
+  position: absolute;
+  width: 21rem;
+  height: 21rem;
+  pointer-events: none;
+  z-index: 2;
+}
+.trigger-container .trigger-text {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  display: block;
+  width: 85%;
+  /* leave some space */
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+  padding-top: 4px;
+  margin: auto;
+}
+.trigger-container .trigger-text-on {
+  opacity: 0;
+}
+.trigger-container .trigger-press-and-hold {
+  position: absolute;
+}
+.trigger-container .trigger-press-and-hold .ring1 {
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+}
+.trigger-container .trigger-press-and-hold .ring2 {
+  opacity: 1;
+  -webkit-transition: opacity 500ms ease-in-out;
+}
+.trigger-container .trigger-press-and-hold.is-up .ring1 {
+  opacity: 1;
+}
+.trigger-container .trigger-press-and-hold.is-up .ring2 {
+  opacity: 0;
+}
+.trigger-container .absolute-center-wrapper :not(.trigger-press-and-hold) .trigger-ring.ring2 {
+  opacity: 0;
+}
+.trigger-container .absolute-center-wrapper :not(.trigger-press-and-hold) .trigger-text-off {
+  opacity: 1;
+}
+.trigger-container .shadow-trigger {
+  -webkit-filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.2));
+}
+.trigger-text-fade-out {
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+}
+.trigger-text-fade-in {
+  opacity: 1;
+  -webkit-transition: opacity 500ms ease-in-out;
+}
+.trigger-ring-fade-out {
+  opacity: 0;
+  -webkit-transition: opacity 500ms ease-in-out;
+}
+.trigger-ring-fade-in {
+  opacity: 1;
+  -webkit-transition: opacity 500ms ease-in-out;
+}
+.trigger-ring-container {
+  position: absolute;
+}

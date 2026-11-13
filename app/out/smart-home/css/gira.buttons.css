@@ -1,0 +1,345 @@
+.cssButton35p {
+  height: 2.5rem;
+  width: 9.75rem;
+  border-radius: 1.25rem;
+  min-height: 2.5rem;
+  border: 1px solid var(--color-inactive);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  font-size: 1.3125rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px 0 var(--color-c0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.cssButton35p .arrow-right {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  height: 1.25rem;
+}
+.cssButton35p .arrow-right .arrow-right {
+  top: 0.625rem;
+  right: 0.5rem;
+  width: 0.8125rem;
+  height: 0.9375rem;
+}
+.cssButton35p.down {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+  background-color: var(--color-c6) !important;
+  color: var(--color-c0);
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.35);
+}
+.cssButton35p.inactive {
+  border: 1px solid var(--color-inactive);
+  color: var(--color-c6);
+  text-shadow: 0 1px 0 var(--color-c0);
+}
+.cssButton35p.right.disabled {
+  color: var(--color-c6);
+}
+.cssButton35-red {
+  height: 2.5rem;
+  width: 9.75rem;
+  border-radius: 1.25rem;
+  min-height: 2.5rem;
+  border: 1px solid var(--color-c9);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  font-family: UniversNextLight;
+  color: var(--color-c9);
+  font-size: 1.3125rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px 0 var(--color-c0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.cssButton35-red .arrow-right {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  height: 1.25rem;
+}
+.cssButton35-red .arrow-right .arrow-right {
+  top: 0.625rem;
+  right: 0.5rem;
+  width: 0.8125rem;
+  height: 0.9375rem;
+}
+.cssButton35-red.down {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+  background-color: var(--color-c6) !important;
+  color: var(--color-c0);
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.35);
+}
+.cssButton35-red.inactive {
+  border: 1px solid var(--color-inactive);
+  color: var(--color-c6);
+  text-shadow: 0 1px 0 #ffffff;
+}
+.cssButton170 {
+  height: 2.5rem;
+  width: 10.5rem;
+  border-radius: 1.25rem;
+  min-height: 2.5rem;
+  border: 1px solid var(--color-inactive);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  font-size: 1.3125rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px 0 var(--color-c0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.cssButton170 .arrow-right {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  height: 1.25rem;
+}
+.cssButton170 .arrow-right .arrow-right {
+  top: 0.625rem;
+  right: 0.5rem;
+  width: 0.8125rem;
+  height: 0.9375rem;
+}
+.cssButton170.down {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+  background-color: var(--color-c6) !important;
+  color: var(--color-c0);
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.35);
+}
+.cssButton170 .inactive {
+  color: var(--color-c6);
+}
+.cssButton170 .arrowLeft {
+  position: absolute;
+  top: 0.625rem;
+  left: 0.6875rem;
+  width: 1.125rem;
+  height: 1.25rem;
+}
+.cssButton170 .arrowRight {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  width: 1.125rem;
+  height: 1.25rem;
+}
+.cssButton171 {
+  height: 2.5rem;
+  width: 12.5rem;
+  border-radius: 1.25rem;
+  min-height: 2.5rem;
+  border: 1px solid var(--color-inactive);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  font-size: 1.3125rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px 0 var(--color-c0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.cssButton171 .arrow-right {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  height: 1.25rem;
+}
+.cssButton171 .arrow-right .arrow-right {
+  top: 0.625rem;
+  right: 0.5rem;
+  width: 0.8125rem;
+  height: 0.9375rem;
+}
+.cssButton171.down {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+  background-color: var(--color-c6) !important;
+  color: var(--color-c0);
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.35);
+}
+.cssButton171 .rtc-arrow-right {
+  width: 60%;
+  height: 60%;
+  align-self: center;
+}
+.cssButtonFullSize {
+  height: 2.5rem;
+  width: 12.375rem;
+  border-radius: 1.25rem;
+  min-height: 2.5rem;
+  border: 1px solid var(--color-inactive);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  font-size: 1.3125rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px 0 var(--color-c0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  margin-left: 1.125rem;
+  margin-right: 1.125rem;
+  width: 100%;
+}
+.cssButtonFullSize .arrow-right {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  height: 1.25rem;
+}
+.cssButtonFullSize .arrow-right .arrow-right {
+  top: 0.625rem;
+  right: 0.5rem;
+  width: 0.8125rem;
+  height: 0.9375rem;
+}
+.cssButtonFullSize.down {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+  background-color: var(--color-c6) !important;
+  color: var(--color-c0);
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.35);
+}
+.cssButtonFullSize .inactive {
+  color: var(--color-c6);
+}
+.cssButtonFullSize .arrowLeft {
+  position: absolute;
+  top: 0.625rem;
+  left: 0.6875rem;
+  width: 1.125rem;
+  height: 1.25rem;
+}
+.cssButtonFullSize .arrowRight {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  width: 1.125rem;
+  height: 1.25rem;
+}
+.cssButtonFullSize.disabled {
+  color: var(--color-c6);
+  pointer-events: none;
+}
+.cssButton158 {
+  height: 2.5rem;
+  width: 9.75rem;
+  border-radius: 1.25rem;
+  min-height: 2.5rem;
+  border: 1px solid var(--color-inactive);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  font-size: 1.3125rem;
+  line-height: 2.5rem;
+  text-decoration: none;
+  text-align: center;
+  text-shadow: 0 1px 0 var(--color-c0);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.cssButton158 .arrow-right {
+  position: absolute;
+  top: 0.625rem;
+  right: 0.6875rem;
+  height: 1.25rem;
+}
+.cssButton158 .arrow-right .arrow-right {
+  top: 0.625rem;
+  right: 0.5rem;
+  width: 0.8125rem;
+  height: 0.9375rem;
+}
+.cssButton158.down {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+  background-color: var(--color-c6) !important;
+  color: var(--color-c0);
+  text-shadow: 0px -1px 0 rgba(0, 0, 0, 0.35);
+}
+.cssButton158 .right.disabled {
+  color: var(--color-c6);
+}
+.cssButton158 .inactive {
+  color: var(--color-c6);
+}
+.button-grey {
+  width: 2.5rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid var(--color-inactive);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), 0 1px 0 0 var(--color-c0) inset;
+  background-color: transparent;
+  display: inline-block;
+  float: left;
+}
+.slider-thumb-btn input[type="range"]::-webkit-slider-thumb:before {
+  content: '';
+  height: 2.25rem;
+  width: 2.25rem;
+}
+.slider-thumb-btn input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  position: relative;
+  border-radius: 50%;
+  height: 2.25rem;
+  width: 2.25rem;
+  border: 1px solid #c8c8c8;
+  background: -webkit-linear-gradient(top, #e1e1e1 0%, #fafafa 100%);
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px #ffffff;
+  display: block;
+}
+.search-button {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  border-bottom: 1px solid var(--color-c6);
+}
+.search-button.simple {
+  padding-top: 2.125rem;
+  border-bottom: none;
+}
+.search-button.is-scanning:after,
+.search-button.show-spinner:after {
+  content: '';
+  position: absolute;
+  box-sizing: border-box;
+  height: 1.75rem;
+  /* 34 is the height of the button */
+  width: 1.75rem;
+  right: 2rem;
+  /* we are 18 from the right border plus half the width */
+  /* this is the spinner but without a size */
+  border-color: var(--color-c3) var(--color-c3) var(--color-c6) var(--color-c6);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  -webkit-animation: rotation 2s infinite linear;
+}

@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "kastbyar",
+    "text2": "storm"
+  },
+  "ahc": {
+    "text1": "slöjmoln",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "nästan mulet",
+    "text2": "snöstorm"
+  },
+  "ahcf": {
+    "text1": "nästan mulet",
+    "text2": "markdimma"
+  },
+  "ahcg": {
+    "text1": "nästan mulet",
+    "text2": "kastbyar"
+  },
+  "ahcha": {
+    "text1": "nästan mulet",
+    "text2": "hagelskurar"
+  },
+  "ahchas": {
+    "text1": "nästan mulet",
+    "text2": "åska och hagel"
+  },
+  "ahchr": {
+    "text1": "nästan mulet",
+    "text2": "kraftigt duggregn"
+  },
+  "ahchs": {
+    "text1": "nästan mulet",
+    "text2": "kraftigt snöfall"
+  },
+  "ahcih": {
+    "text1": "nästan mulet",
+    "text2": "risk för ishalka"
+  },
+  "ahcmr": {
+    "text1": "nästan mulet",
+    "text2": "måttligt duggregn"
+  },
+  "ahcr": {
+    "text1": "nästan mulet",
+    "text2": "duggregn"
+  },
+  "ahcrih": {
+    "text1": "nästan mulet",
+    "text2": "duggregn med risk för ishalka"
+  },
+  "ahcs": {
+    "text1": "nästan mulet",
+    "text2": "snöfall"
+  },
+  "ahcsr": {
+    "text1": "nästan mulet",
+    "text2": "snöblandat regn"
+  },
+  "ahct": {
+    "text1": "nästan mulet",
+    "text2": "åskigt"
+  },
+  "ahcts": {
+    "text1": "nästan mulet",
+    "text2": "åska"
+  },
+  "aoc": {
+    "text1": "mulet",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "mulet",
+    "text2": "snöstorm"
+  },
+  "aocg": {
+    "text1": "mulet",
+    "text2": "kastbyar"
+  },
+  "aocha": {
+    "text1": "mulet",
+    "text2": "hagelskurar"
+  },
+  "aocih": {
+    "text1": "mulet",
+    "text2": "risk för ishalka"
+  },
+  "aocr": {
+    "text1": "mulet",
+    "text2": "duggregn"
+  },
+  "aocrih": {
+    "text1": "mulet",
+    "text2": "duggregn med risk för ishalka"
+  },
+  "aocrs": {
+    "text1": "mulet",
+    "text2": "regnskurar"
+  },
+  "aocs": {
+    "text1": "mulet",
+    "text2": "snöfall"
+  },
+  "aocsr": {
+    "text1": "mulet",
+    "text2": "snöblandat regn"
+  },
+  "aoct": {
+    "text1": "mulet",
+    "text2": "åskigt"
+  },
+  "aocts": {
+    "text1": "mulet",
+    "text2": "åska"
+  },
+  "dlc": {
+    "text1": "mestadels klart",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "mestadels klart",
+    "text2": "snöstorm"
+  },
+  "dlcg": {
+    "text1": "mestadels klart",
+    "text2": "kastbyar"
+  },
+  "dlchas": {
+    "text1": "mestadels klart",
+    "text2": "åska och hagel"
+  },
+  "dlchr": {
+    "text1": "mestadels klart",
+    "text2": "kraftigt duggregn"
+  },
+  "dlchs": {
+    "text1": "mestadels klart",
+    "text2": "kraftigt snöfall"
+  },
+  "dlcih": {
+    "text1": "mestadels klart",
+    "text2": "risk för ishalka"
+  },
+  "dlcmr": {
+    "text1": "mestadels klart",
+    "text2": "måttligt duggregn"
+  },
+  "dlcms": {
+    "text1": "mestadels klart",
+    "text2": "måttligt snöfall"
+  },
+  "dlcr": {
+    "text1": "mestadels klart",
+    "text2": "duggregn"
+  },
+  "dlcrih": {
+    "text1": "mestadels klart",
+    "text2": "duggregn med risk för ishalka"
+  },
+  "dlcs": {
+    "text1": "mestadels klart",
+    "text2": "snöfall"
+  },
+  "dlcsr": {
+    "text1": "mestadels klart",
+    "text2": "snöblandat regn"
+  },
+  "dlct": {
+    "text1": "mestadels klart",
+    "text2": "hagelskurar"
+  },
+  "dlcth": {
+    "text1": "mestadels klart",
+    "text2": "åskigt"
+  },
+  "dlcts": {
+    "text1": "mestadels klart",
+    "text2": "åska"
+  },
+  "dmc": {
+    "text1": "molnigt",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "molnigt",
+    "text2": "snöstorm"
+  },
+  "dmcg": {
+    "text1": "molnigt",
+    "text2": "kastbyar"
+  },
+  "dmcha": {
+    "text1": "molnigt",
+    "text2": "hagelskurar"
+  },
+  "dmchas": {
+    "text1": "molnigt",
+    "text2": "åska och hagel"
+  },
+  "dmchr": {
+    "text1": "molnigt",
+    "text2": "kraftigt duggregn"
+  },
+  "dmchs": {
+    "text1": "molnigt",
+    "text2": "kraftigt snöfall"
+  },
+  "dmclr": {
+    "text1": "molnigt",
+    "text2": "lätt duggregn"
+  },
+  "dmcls": {
+    "text1": "molnigt",
+    "text2": "lätt snöfall"
+  },
+  "dmcmr": {
+    "text1": "molnigt",
+    "text2": "måttligt duggregn"
+  },
+  "dmcms": {
+    "text1": "molnigt",
+    "text2": "måttligt snöfall"
+  },
+  "dmcrih": {
+    "text1": "molnigt",
+    "text2": "duggregn med risk för ishalka"
+  },
+  "dmcsr": {
+    "text1": "molnigt",
+    "text2": "snöblandat regn"
+  },
+  "dmct": {
+    "text1": "molnigt",
+    "text2": "åskigt"
+  },
+  "dmcts": {
+    "text1": "molnigt",
+    "text2": "åska"
+  },
+  "dnc": {
+    "text1": "soligt",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "soligt",
+    "text2": "markdimma"
+  },
+  "dncg": {
+    "text1": "soligt",
+    "text2": "kastbyar"
+  },
+  "nlc": {
+    "text1": "lätt molnighet",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "lätt molnighet",
+    "text2": "snöstorm"
+  },
+  "nlcg": {
+    "text1": "lätt molnighet",
+    "text2": "kastbyar"
+  },
+  "nlcha": {
+    "text1": "lätt molnighet",
+    "text2": "hagelskurar"
+  },
+  "nlchas": {
+    "text1": "lätt molnighet",
+    "text2": "åska och hagel"
+  },
+  "nlchr": {
+    "text1": "lätt molnighet",
+    "text2": "kraftigt duggregn"
+  },
+  "nlchs": {
+    "text1": "lätt molnighet",
+    "text2": "kraftigt snöfall"
+  },
+  "nlcih": {
+    "text1": "lätt molnighet",
+    "text2": "risk för ishalka"
+  },
+  "nlcmr": {
+    "text1": "lätt molnighet",
+    "text2": "måttligt duggregn"
+  },
+  "nlcms": {
+    "text1": "lätt molnighet",
+    "text2": "måttligt snöfall"
+  },
+  "nlcr": {
+    "text1": "lätt molnighet",
+    "text2": "duggregn"
+  },
+  "nlcrih": {
+    "text1": "lätt molnighet",
+    "text2": "duggregn med risk för ishalka"
+  },
+  "nlcs": {
+    "text1": "lätt molnighet",
+    "text2": "snöfall"
+  },
+  "nlcsr": {
+    "text1": "lätt molnighet",
+    "text2": "snöblandat regn"
+  },
+  "nlcth": {
+    "text1": "lätt molnighet",
+    "text2": "åskigt"
+  },
+  "nlcts": {
+    "text1": "lätt molnighet",
+    "text2": "åska"
+  },
+  "nmc": {
+    "text1": "molnigt",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "molnigt",
+    "text2": "snöstorm"
+  },
+  "nmcg": {
+    "text1": "molnigt",
+    "text2": "kastbyar"
+  },
+  "nmcha": {
+    "text1": "molnigt",
+    "text2": "hagelskurar"
+  },
+  "nmchas": {
+    "text1": "molnigt",
+    "text2": "åska och hagel"
+  },
+  "nmchr": {
+    "text1": "molnigt",
+    "text2": "kraftigt duggregn"
+  },
+  "nmchs": {
+    "text1": "molnigt",
+    "text2": "kraftigt snöfall"
+  },
+  "nmclr": {
+    "text1": "molnigt",
+    "text2": "lätt duggregn"
+  },
+  "nmcls": {
+    "text1": "molnigt",
+    "text2": "lätt snöfall"
+  },
+  "nmcmr": {
+    "text1": "molnigt",
+    "text2": "måttligt duggregn"
+  },
+  "nmcms": {
+    "text1": "molnigt",
+    "text2": "måttligt snöfall"
+  },
+  "nmcrih": {
+    "text1": "molnigt",
+    "text2": "duggregn med risk för ishalka"
+  },
+  "nmcsr": {
+    "text1": "molnigt",
+    "text2": "snöblandat regn"
+  },
+  "nmct": {
+    "text1": "molnigt",
+    "text2": "åskigt"
+  },
+  "nmcts": {
+    "text1": "molnigt",
+    "text2": "åska"
+  },
+  "nnc": {
+    "text1": "klart",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "klart",
+    "text2": "markdimma"
+  },
+  "nncg": {
+    "text1": "klart",
+    "text2": "kastbyar"
+  }
+}

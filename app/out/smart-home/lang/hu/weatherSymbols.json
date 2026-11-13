@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "erősen szeles",
+    "text2": "vihar"
+  },
+  "ahc": {
+    "text1": "fátyolfelhős",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "erősen felhős",
+    "text2": "hóvihar"
+  },
+  "ahcf": {
+    "text1": "erősen felhős",
+    "text2": "talajmenti köd"
+  },
+  "ahcg": {
+    "text1": "erősen felhős",
+    "text2": "erősen szeles"
+  },
+  "ahcha": {
+    "text1": "erősen felhős",
+    "text2": "ónos eső"
+  },
+  "ahchas": {
+    "text1": "erősen felhős",
+    "text2": "zivataros ónos eső"
+  },
+  "ahchr": {
+    "text1": "erősen felhős",
+    "text2": "sűrű szitáló eső"
+  },
+  "ahchs": {
+    "text1": "erősen felhős",
+    "text2": "sűrű hóesés"
+  },
+  "ahcih": {
+    "text1": "erősen felhős",
+    "text2": "jegesedés veszélye"
+  },
+  "ahcmr": {
+    "text1": "erősen felhős",
+    "text2": "mérsékelt szitáló eső"
+  },
+  "ahcr": {
+    "text1": "erősen felhős",
+    "text2": "szitáló eső"
+  },
+  "ahcrih": {
+    "text1": "erősen felhős",
+    "text2": "szitáló eső jegesedéssel"
+  },
+  "ahcs": {
+    "text1": "erősen felhős",
+    "text2": "havazás"
+  },
+  "ahcsr": {
+    "text1": "erősen felhős",
+    "text2": "havas eső"
+  },
+  "ahct": {
+    "text1": "erősen felhős",
+    "text2": "zivataros"
+  },
+  "ahcts": {
+    "text1": "erősen felhős",
+    "text2": "zivatar"
+  },
+  "aoc": {
+    "text1": "borult",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "borult",
+    "text2": "hóvihar"
+  },
+  "aocg": {
+    "text1": "borult",
+    "text2": "erősen szeles"
+  },
+  "aocha": {
+    "text1": "borult",
+    "text2": "ónos eső"
+  },
+  "aocih": {
+    "text1": "borult",
+    "text2": "jegesedés veszélye"
+  },
+  "aocr": {
+    "text1": "borult",
+    "text2": "szitáló eső"
+  },
+  "aocrih": {
+    "text1": "borult",
+    "text2": "szitáló eső jegesedéssel"
+  },
+  "aocrs": {
+    "text1": "borult",
+    "text2": "zápor"
+  },
+  "aocs": {
+    "text1": "borult",
+    "text2": "havazás"
+  },
+  "aocsr": {
+    "text1": "borult",
+    "text2": "havas eső"
+  },
+  "aoct": {
+    "text1": "borult",
+    "text2": "zivataros"
+  },
+  "aocts": {
+    "text1": "borult",
+    "text2": "zivatar"
+  },
+  "dlc": {
+    "text1": "derült",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "derült",
+    "text2": "hóvihar"
+  },
+  "dlcg": {
+    "text1": "derült",
+    "text2": "erősen szeles"
+  },
+  "dlchas": {
+    "text1": "derült",
+    "text2": "zivataros ónos eső"
+  },
+  "dlchr": {
+    "text1": "derült",
+    "text2": "sűrű szitáló eső"
+  },
+  "dlchs": {
+    "text1": "derült",
+    "text2": "sűrű hóesés"
+  },
+  "dlcih": {
+    "text1": "derült",
+    "text2": "jegesedés veszélye"
+  },
+  "dlcmr": {
+    "text1": "derült",
+    "text2": "mérsékelt szitáló eső"
+  },
+  "dlcms": {
+    "text1": "derült",
+    "text2": "mérsékelt havazás"
+  },
+  "dlcr": {
+    "text1": "derült",
+    "text2": "szitáló eső"
+  },
+  "dlcrih": {
+    "text1": "derült",
+    "text2": "szitáló eső jegesedéssel"
+  },
+  "dlcs": {
+    "text1": "derült",
+    "text2": "havazás"
+  },
+  "dlcsr": {
+    "text1": "derült",
+    "text2": "havas eső"
+  },
+  "dlct": {
+    "text1": "derült",
+    "text2": "ónos eső"
+  },
+  "dlcth": {
+    "text1": "derült",
+    "text2": "zivataros"
+  },
+  "dlcts": {
+    "text1": "derült",
+    "text2": "zivatar"
+  },
+  "dmc": {
+    "text1": "felhős",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "felhős",
+    "text2": "hóvihar"
+  },
+  "dmcg": {
+    "text1": "felhős",
+    "text2": "erősen szeles"
+  },
+  "dmcha": {
+    "text1": "felhős",
+    "text2": "ónos eső"
+  },
+  "dmchas": {
+    "text1": "felhős",
+    "text2": "zivataros ónos eső"
+  },
+  "dmchr": {
+    "text1": "felhős",
+    "text2": "sűrű szitáló eső"
+  },
+  "dmchs": {
+    "text1": "felhős",
+    "text2": "sűrű hóesés"
+  },
+  "dmclr": {
+    "text1": "felhős",
+    "text2": "enyhe szitáló eső"
+  },
+  "dmcls": {
+    "text1": "felhős",
+    "text2": "enyhe havazás"
+  },
+  "dmcmr": {
+    "text1": "felhős",
+    "text2": "mérsékelt szitáló eső"
+  },
+  "dmcms": {
+    "text1": "felhős",
+    "text2": "mérsékelt havazás"
+  },
+  "dmcrih": {
+    "text1": "felhős",
+    "text2": "szitáló eső jegesedéssel"
+  },
+  "dmcsr": {
+    "text1": "felhős",
+    "text2": "havas eső"
+  },
+  "dmct": {
+    "text1": "felhős",
+    "text2": "zivataros"
+  },
+  "dmcts": {
+    "text1": "felhős",
+    "text2": "zivatar"
+  },
+  "dnc": {
+    "text1": "napos",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "napos",
+    "text2": "talajmenti köd"
+  },
+  "dncg": {
+    "text1": "napos",
+    "text2": "erősen szeles"
+  },
+  "nlc": {
+    "text1": "enyhén felhős",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "enyhén felhős",
+    "text2": "hóvihar"
+  },
+  "nlcg": {
+    "text1": "enyhén felhős",
+    "text2": "erősen szeles"
+  },
+  "nlcha": {
+    "text1": "enyhén felhős",
+    "text2": "ónos eső"
+  },
+  "nlchas": {
+    "text1": "enyhén felhős",
+    "text2": "zivataros ónos eső"
+  },
+  "nlchr": {
+    "text1": "enyhén felhős",
+    "text2": "sűrű szitáló eső"
+  },
+  "nlchs": {
+    "text1": "enyhén felhős",
+    "text2": "sűrű hóesés"
+  },
+  "nlcih": {
+    "text1": "enyhén felhős",
+    "text2": "jegesedés veszélye"
+  },
+  "nlcmr": {
+    "text1": "enyhén felhős",
+    "text2": "mérsékelt szitáló eső"
+  },
+  "nlcms": {
+    "text1": "enyhén felhős",
+    "text2": "mérsékelt havazás"
+  },
+  "nlcr": {
+    "text1": "enyhén felhős",
+    "text2": "szitáló eső"
+  },
+  "nlcrih": {
+    "text1": "enyhén felhős",
+    "text2": "szitáló eső jegesedéssel"
+  },
+  "nlcs": {
+    "text1": "enyhén felhős",
+    "text2": "havazás"
+  },
+  "nlcsr": {
+    "text1": "enyhén felhős",
+    "text2": "havas eső"
+  },
+  "nlcth": {
+    "text1": "enyhén felhős",
+    "text2": "zivataros"
+  },
+  "nlcts": {
+    "text1": "enyhén felhős",
+    "text2": "zivatar"
+  },
+  "nmc": {
+    "text1": "felhős",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "felhős",
+    "text2": "hóvihar"
+  },
+  "nmcg": {
+    "text1": "felhős",
+    "text2": "erősen szeles"
+  },
+  "nmcha": {
+    "text1": "felhős",
+    "text2": "ónos eső"
+  },
+  "nmchas": {
+    "text1": "felhős",
+    "text2": "zivataros ónos eső"
+  },
+  "nmchr": {
+    "text1": "felhős",
+    "text2": "sűrű szitáló eső"
+  },
+  "nmchs": {
+    "text1": "felhős",
+    "text2": "sűrű hóesés"
+  },
+  "nmclr": {
+    "text1": "felhős",
+    "text2": "enyhe szitáló eső"
+  },
+  "nmcls": {
+    "text1": "felhős",
+    "text2": "enyhe havazás"
+  },
+  "nmcmr": {
+    "text1": "felhős",
+    "text2": "mérsékelt szitáló eső"
+  },
+  "nmcms": {
+    "text1": "felhős",
+    "text2": "mérsékelt havazás"
+  },
+  "nmcrih": {
+    "text1": "felhős",
+    "text2": "szitáló eső jegesedéssel"
+  },
+  "nmcsr": {
+    "text1": "felhős",
+    "text2": "havas eső"
+  },
+  "nmct": {
+    "text1": "felhős",
+    "text2": "zivataros"
+  },
+  "nmcts": {
+    "text1": "felhős",
+    "text2": "zivatar"
+  },
+  "nnc": {
+    "text1": "tiszta",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "tiszta",
+    "text2": "talajmenti köd"
+  },
+  "nncg": {
+    "text1": "tiszta",
+    "text2": "erősen szeles"
+  }
+}

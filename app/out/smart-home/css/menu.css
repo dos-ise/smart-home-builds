@@ -1,0 +1,53 @@
+/* Use this container for scrollable content in the detail view */
+.detail-scroll-container {
+  overflow: hidden;
+  width: 100%;
+  height: 82.22222222%;
+  /* this is not a perfect size, because of the media queries */
+}
+.detail-menu-row-item {
+  height: 100%;
+}
+.detail-menu-row-item .presets-menu-row-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: left 1s;
+}
+.detail-menu-row-item .presets-menu-row-description.slide-in {
+  left: 3.375rem;
+}
+.detail-menu-row-item .presets-menu-row-description.slide-out {
+  left: 0;
+}
+.detail-menu-row-item .presets-menu-row-description .settings-row-text {
+  padding-top: 4px;
+  margin-left: 0 !important;
+}
+.detail-menu-row-item .presets-menu-row-description .settings-row-text.temperature {
+  min-width: 4.5rem;
+  /* needs the min width so that it does not get truncated */
+}
+.detail-menu-row-item .presets-menu-row-description .settings-row-text.percentage {
+  min-width: 3.5rem;
+  margin-right: 0.5rem;
+}
+.detail-menu-row-item .presets-menu-row-description .settings-row-text.number {
+  min-width: 2rem;
+  margin-right: 0.5rem;
+}
+.detail-menu-row-item .presets-menu-row-description .preset-row-icon {
+  width: 7.5vw;
+  /* needs the width and height for android 4.4 */
+  height: 2.25rem;
+}
+.detail-menu-row-item .presets-menu-row-description .preset-row-icon div {
+  width: 7.5vw;
+  height: 2.25rem;
+}
+.detail-menu-row-item .presets-menu-row-description .preset-row-icon.with-spacing {
+  margin-left: 0.5rem;
+}

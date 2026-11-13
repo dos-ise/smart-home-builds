@@ -1,0 +1,1 @@
+window.Gira=window.Gira||{},window.Gira.OS=window.Gira.OS||{},window.Gira.SDA=window.Gira.SDA||{},window.Gira.AlarmSystem2=window.Gira.AlarmSystem2||{},window.Gira.Development=window.Gira.Development||{};

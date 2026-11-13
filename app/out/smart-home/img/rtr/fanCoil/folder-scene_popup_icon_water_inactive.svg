@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Ebene_1"
+   x="0px"
+   y="0px"
+   width="19px"
+   height="20px"
+   viewBox="0 0 19 20"
+   enable-background="new 0 0 19 20"
+   xml:space="preserve"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="folder-scene_popup_icon_water.svg"><metadata
+   id="metadata15"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs13" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="640"
+   inkscape:window-height="480"
+   id="namedview11"
+   showgrid="false"
+   inkscape:zoom="11.8"
+   inkscape:cx="9.5"
+   inkscape:cy="10"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Ebene_1" />
+<circle
+   fill="#FFFFFF"
+   cx="8.496"
+   cy="14.503"
+   r="0.75"
+   id="circle3" />
+<path
+   fill="#FFFFFF"
+   d="M14.044,11.985l0.007-0.003l-3.586-8.654L10.461,3.33c-0.07-0.19-0.25-0.327-0.465-0.327  S9.602,3.14,9.531,3.33L9.527,3.328l-3.574,8.627l0.006,0.002c-0.215,0.516-0.338,1.078-0.338,1.671  c0,2.415,1.959,4.375,4.375,4.375s4.375-1.96,4.375-4.375C14.371,13.045,14.251,12.493,14.044,11.985z M9.996,17.003  c-1.861,0-3.375-1.515-3.375-3.375c0-0.428,0.083-0.836,0.229-1.213H6.85l0.011-0.028c0.017-0.04,0.032-0.081,0.05-0.12l1.037-2.503  C7.945,9.765,7.943,9.767,7.941,9.768l2.055-4.959l2.055,4.959c-0.002-0.001-0.004-0.003-0.006-0.004l1.039,2.508  c0.016,0.035,0.03,0.071,0.045,0.108l0.004,0.011l0,0c0.152,0.384,0.238,0.801,0.238,1.237  C13.371,15.488,11.857,17.003,9.996,17.003z"
+   id="path5" />
+<circle
+   fill="#505050"
+   cx="8.496"
+   cy="13.503"
+   r="0.75"
+   id="circle7"
+   style="fill:#c8c8c8;fill-opacity:1" />
+<path
+   fill="#505050"
+   d="M14.044,10.985l0.007-0.003l-3.586-8.654L10.461,2.33c-0.07-0.19-0.25-0.327-0.465-0.327  S9.602,2.14,9.531,2.33L9.527,2.328l-3.574,8.627l0.006,0.002c-0.215,0.516-0.338,1.078-0.338,1.671  c0,2.415,1.959,4.375,4.375,4.375s4.375-1.96,4.375-4.375C14.371,12.045,14.251,11.493,14.044,10.985z M9.996,16.003  c-1.861,0-3.375-1.515-3.375-3.375c0-0.428,0.083-0.836,0.229-1.213H6.85l0.011-0.028c0.017-0.04,0.032-0.081,0.05-0.12l1.037-2.503  C7.945,8.765,7.943,8.767,7.941,8.768l2.055-4.959l2.055,4.959c-0.002-0.001-0.004-0.003-0.006-0.004l1.039,2.508  c0.016,0.035,0.03,0.071,0.045,0.108l0.004,0.011l0,0c0.152,0.384,0.238,0.801,0.238,1.237  C13.371,14.488,11.857,16.003,9.996,16.003z"
+   id="path9"
+   style="fill:#c8c8c8;fill-opacity:1" />
+</svg>

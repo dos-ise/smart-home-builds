@@ -1,0 +1,433 @@
+html[data-theme='dark'] {
+  --dcs-icon-camera: url("../icons/gc4_tks_icon_camera.svg");
+  --dcs-icon-camera-down: url("../icons/gc4_tks_icon_camera_down.svg");
+  --dcs-icon-camera-inactive: url("../icons/gc4_tks_icon_camera_inactive.svg");
+  --dcs-icon-camera-off: url("../icons/gc4_tks_icon_camera_off.svg");
+  --dcs-icon-camera-off-down: url("../icons/gc4_tks_icon_camera_off_down.svg");
+  --dcs-icon-bell: url("../icons/gc4_tks_icon_bell.svg");
+  --dcs-icon-bell-down: url("../icons/gc4_tks_icon_bell_down.svg");
+  --dcs-icon-bell-inactive: url("../icons/gc4_tks_icon_bell_inactive.svg");
+  --dcs-icon-bell-off: url("../icons/gc4_tks_icon_bell_off.svg");
+  --dcs-icon-bell-off-down: url("../icons/gc4_tks_icon_bell_off_down.svg");
+  --dcs-icon-key: url("../icons/gc4_tks_icon_key.svg");
+  --dcs-icon-key-down: url("../icons/gc4_tks_icon_key_down.svg");
+  --dcs-icon-key-inactive: url("../icons/gc4_tks_icon_key_inactive.svg");
+  --dcs-icon-door-call: url("../icons/gc4_tks_icon_door_call.svg");
+  --dcs-icon-door-call-active: url("../icons/gc4_tks_icon_door_call_active.svg");
+  --dcs-icon-door-call-active-down: url("../icons/gc4_tks_icon_door_call_active_down.svg");
+  --dcs-icon-door-call-down: url("../icons/gc4_tks_icon_door_call_down.svg");
+  --dcs-icon-door-call-inactive: url("../icons/gc4_tks_icon_door_call_inactive.svg");
+  --dcs-icon-conversation-stop-active: url("../icons/gc4_tks_icon_conversation_stop_active.svg");
+  --dcs-icon-conversation-stop-down: url("../icons/gc4_tks_icon_conversation_stop_down.svg");
+  --dcs-icon-light: url("../icons/gc4_tks_icon_light.svg");
+  --dcs-icon-lights: url("../icons/gc4_tks_icon_light.svg");
+  --dcs-icon-light-down: url("../icons/gc4_tks_icon_light_down.svg");
+  --dcs-icon-automatic-doorrelease-icon: url("../icons/gc4_tks_icon_automatic_doorrelease_icon.svg");
+  --dcs-icon-automatic-doorrelease: url("../icons/gc4_tks_icon_automatic_doorrelease.svg");
+  --dcs-icon-automatic-doorrelease-down: url("../icons/gc4_tks_icon_automatic_doorrelease_down.svg");
+  --dcs-icon-automatic-doorrelease-active: url("../icons/gc4_tks_icon_automatic_doorrelease_active.svg");
+  --dcs-icon-automatic-doorrelease-active-down: url("../icons/gc4_tks_icon_automatic_doorrelease_active_down.svg");
+  --dcs-icon-doorstation-call: url("../icons/gc4_tks_icon_doorstation_call.svg");
+  --dcs-icon-doorstation-call-down: url("../icons/gc4_tks_icon_doorstation_call_down.svg");
+  --dcs-icon-internal-call: url("../icons/gc4_tks_icon_internal_call.svg");
+  --dcs-icon-internal-call-green: url("../icons/gc4_tks_icon_internal_call_green.svg");
+  --dcs-icon-internal-call-down: url("../icons/gc4_tks_icon_internal_call_down.svg");
+  --dcs-icon-on-off-down: url("../icons/gc4_tks_icon_on-off_down.svg");
+  --dcs-icon-on-off: url("../icons/gc4_tks_icon_on-off.svg");
+  --dcs-icon-trash: url("../icons/gc4_tks_icon_trash.svg");
+  --dcs-icon-trash-down: url("../icons/gc4_tks_icon_trash_down.svg");
+  --dcs-icon-trash-inactive: url("../icons/gc4_tks_icon_trash_inactive.svg");
+  --dcs-icon-actuator-off: url("../icons/gc4_tks_icon_light_off.svg");
+  --dcs-icon-actuator-off-down: url("../icons/gc4_tks_icon_light_off_down.svg");
+  --dcs-icon-actuator-off-inactive: url("../icons/gc4_tks_icon_light_off_inactive.svg");
+  --dcs-icon-actuator-on: url("../icons/gc4_tks_icon_light.svg");
+  --dcs-icon-actuator-on-down: url("../icons/gc4_tks_icon_light_down.svg");
+  --dcs-icon-actuator-on-inactive: url("../icons/gc4_tks_icon_light_inactive.svg");
+  --dcs-icon-forwarding: url("../icons/GiraIconDoorCommunicationPhoneCallForwarding.svg");
+  --dcs-icon-forwarding-down: url("../icons/GiraIconDoorCommunicationPhoneCallForwarding_down.svg");
+  --dcs-icon-forwarding-deactivated: url("../icons/GiraIconDoorCommunicationPhoneCallForwarding_deactivated.svg");
+  --dcs-icon-forwarding-off: url("../icons/GiraIconDoorCommunicationPhoneCallForwardingOff.svg");
+  --dcs-icon-forwarding-off-down: url("../icons/GiraIconDoorCommunicationPhoneCallForwardingOff_down.svg");
+  --dcs-popup-icon-call: url("../icons/gc4_tks_popupicon_call.svg");
+  --dcs-popup-icon-hangup: url("../icons/gc4_tks_popupicon_hangup.svg");
+  --dcs-popup-icon-incoming-call: url("../icons/gc4_tks_popupicon_incomcall.svg");
+  --dcs-icon-popUp-recall-down: url("../../dcs/icons/gc4_tks_popupicon_recall_down.svg");
+  --dcs-popup-icon-incoming-camera: url("../icons/gc4_tks_popupicon_camera.svg");
+  --dcs-popup-icon-incoming-floor-call: url("../icons/gc4_tks_popupicon_storeycall.svg");
+  --dcs-icon-skala-0-100-h: url("../icons/gc4_skala_0-100_h.svg");
+  --dcs-icon-skala-10-100-h: url("../icons/gc4_skala_10-100_h.svg");
+  --dcs-icon-skala-10-100-v: url("../icons/gc4_skala_10-100_v.svg");
+  --dcs-icon-volume-speechmax: url("../icons/gc4_icon_volume_speechmax.svg");
+  --dcs-icon-volume-speechmax-down: url("../icons/gc4_icon_volume_speechmax_down.svg");
+  --dcs-icon-volume-speechmin: url("../icons/gc4_icon_volume_speechmin.svg");
+  --dcs-icon-volume-max-down: url("../icons/gc4_icon_volume_max_down.svg");
+  --dcs-icon-volume-microphone-max: url("../icons/gc4_icon_volume_microphonemax.svg");
+  --dcs-icon-volume-microphone-min: url("../icons/gc4_icon_volume_microphonemin.svg");
+  --dcs-icon-image-storage-off: url("../../img\/icons\/dark/icons/icon_848.svg");
+  --dcs-icon-image-storage-on: url("../../img\/icons\/dark/icons/icon_333.svg");
+  --dcs-icon-volume-max: url("../../img\/icons\/dark/icons/icon_331.svg");
+  --dcs-icon-volume-min: url("../../img\/icons\/dark/icons/icon_305.svg");
+  --dcs-hangup-receiver: url("../icons/gc4_tks_status_conversation-stop1.png");
+  --dcs-display-table-image-busbusy: url("../../img\/icons\/dark/icons/icon_368.svg");
+  --dcs-display-table-image-idle: url("../icons/gc4_tks_status_standby.png");
+  --dcs-display-table-image-noconnection: url("../icons/gc4_tks_status_tkserror.svg");
+}
+.dcs-icon-camera {
+  background-image: var(--dcs-icon-camera, url("../icons/gc4_tks_icon_camera.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-camera-down {
+  background-image: var(--dcs-icon-camera-down, url("../icons/gc4_tks_icon_camera_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-camera-inactive {
+  background-image: var(--dcs-icon-camera-inactive, url("../icons/gc4_tks_icon_camera_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-camera-off {
+  background-image: var(--dcs-icon-camera-off, url("../icons/gc4_tks_icon_camera_off.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-camera-off-down {
+  background-image: var(--dcs-icon-camera-off-down, url("../icons/gc4_tks_icon_camera_off_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-bell {
+  background-image: var(--dcs-icon-bell, url("../icons/gc4_tks_icon_bell.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-bell-down {
+  background-image: var(--dcs-icon-bell-down, url("../icons/gc4_tks_icon_bell_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-bell-inactive {
+  background-image: var(--dcs-icon-bell-inactive, url("../icons/gc4_tks_icon_bell_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-bell-off {
+  background-image: var(--dcs-icon-bell-off, url("../icons/gc4_tks_icon_bell_off.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-bell-off-down {
+  background-image: var(--dcs-icon-bell-off-down, url("../icons/gc4_tks_icon_bell_off_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-key {
+  background-image: var(--dcs-icon-key, url("../icons/gc4_tks_icon_key.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-key-down {
+  background-image: var(--dcs-icon-key-down, url("../icons/gc4_tks_icon_key_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-key-inactive {
+  background-image: var(--dcs-icon-key-inactive, url("../icons/gc4_tks_icon_key_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-door-call {
+  background-image: var(--dcs-icon-door-call, url("../icons/gc4_tks_icon_door_call.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-door-call-active {
+  background-image: var(--dcs-icon-door-call-active, url("../icons/gc4_tks_icon_door_call_active.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-door-call-active-down {
+  background-image: var(--dcs-icon-door-call-active-down, url("../icons/gc4_tks_icon_door_call_active_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-door-call-down {
+  background-image: var(--dcs-icon-door-call-down, url("../icons/gc4_tks_icon_door_call_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-door-call-inactive {
+  background-image: var(--dcs-icon-door-call-inactive, url("../icons/gc4_tks_icon_door_call_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-conversation-stop-active {
+  background-image: var(--dcs-icon-conversation-stop-active, url("../icons/gc4_tks_icon_conversation_stop_active.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-conversation-stop-down {
+  background-image: var(--dcs-icon-conversation-stop-down, url("../icons/gc4_tks_icon_conversation_stop_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-light {
+  background-image: var(--dcs-icon-light, url("../icons/gc4_tks_icon_light.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-lights {
+  background-image: var(--dcs-icon-lights, url("../icons/gc4_tks_icon_light.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-light-down {
+  background-image: var(--dcs-icon-light-down, url("../icons/gc4_tks_icon_light_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-automatic-doorrelease-icon {
+  background-image: var(--dcs-icon-automatic-doorrelease-icon, url("../icons/gc4_tks_icon_automatic_doorrelease_icon.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-automatic-doorrelease {
+  background-image: var(--dcs-icon-automatic-doorrelease, url("../icons/gc4_tks_icon_automatic_doorrelease.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-automatic-doorrelease-down {
+  background-image: var(--dcs-icon-automatic-doorrelease-down, url("../icons/gc4_tks_icon_automatic_doorrelease_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-automatic-doorrelease-active {
+  background-image: var(--dcs-icon-automatic-doorrelease-active, url("../icons/gc4_tks_icon_automatic_doorrelease_active.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-automatic-doorrelease-active-down {
+  background-image: var(--dcs-icon-automatic-doorrelease-active-down, url("../icons/gc4_tks_icon_automatic_doorrelease_active_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-doorstation-call {
+  background-image: var(--dcs-icon-doorstation-call, url("../icons/gc4_tks_icon_doorstation_call.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-doorstation-call-down {
+  background-image: var(--dcs-icon-doorstation-call-down, url("../icons/gc4_tks_icon_doorstation_call_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-internal-call {
+  background-image: var(--dcs-icon-internal-call, url("../icons/gc4_tks_icon_internal_call.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-internal-call-green {
+  background-image: var(--dcs-icon-internal-call-green, url("../icons/gc4_tks_icon_internal_call_green.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-internal-call-down {
+  background-image: var(--dcs-icon-internal-call-down, url("../icons/gc4_tks_icon_internal_call_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-on-off-down {
+  background-image: var(--dcs-icon-on-off-down, url("../icons/gc4_tks_icon_on-off_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-on-off {
+  background-image: var(--dcs-icon-on-off, url("../icons/gc4_tks_icon_on-off.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-trash {
+  background-image: var(--dcs-icon-trash, url("../icons/gc4_tks_icon_trash.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-trash-down {
+  background-image: var(--dcs-icon-trash-down, url("../icons/gc4_tks_icon_trash_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-trash-inactive {
+  background-image: var(--dcs-icon-trash-inactive, url("../icons/gc4_tks_icon_trash_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-actuator-off {
+  background-image: var(--dcs-icon-actuator-off, url("../icons/gc4_tks_icon_light_off.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-actuator-off-down {
+  background-image: var(--dcs-icon-actuator-off-down, url("../icons/gc4_tks_icon_light_off_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-actuator-off-inactive {
+  background-image: var(--dcs-icon-actuator-off-inactive, url("../icons/gc4_tks_icon_light_off_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-actuator-on {
+  background-image: var(--dcs-icon-actuator-on, url("../icons/gc4_tks_icon_light.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-actuator-on-down {
+  background-image: var(--dcs-icon-actuator-on-down, url("../icons/gc4_tks_icon_light_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-actuator-on-inactive {
+  background-image: var(--dcs-icon-actuator-on-inactive, url("../icons/gc4_tks_icon_light_inactive.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-forwarding {
+  background-image: var(--dcs-icon-forwarding, url("../icons/GiraIconDoorCommunicationPhoneCallForwarding.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-forwarding-down {
+  background-image: var(--dcs-icon-forwarding-down, url("../icons/GiraIconDoorCommunicationPhoneCallForwarding_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-forwarding-deactivated {
+  background-image: var(--dcs-icon-forwarding-deactivated, url("../icons/GiraIconDoorCommunicationPhoneCallForwarding_deactivated.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-forwarding-off {
+  background-image: var(--dcs-icon-forwarding-off, url("../icons/GiraIconDoorCommunicationPhoneCallForwardingOff.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-forwarding-off-down {
+  background-image: var(--dcs-icon-forwarding-off-down, url("../icons/GiraIconDoorCommunicationPhoneCallForwardingOff_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-popup-icon-call {
+  background-image: var(--dcs-popup-icon-call, url("../icons/gc4_tks_popupicon_call.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-popup-icon-hangup {
+  background-image: var(--dcs-popup-icon-hangup, url("../icons/gc4_tks_popupicon_hangup.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-popup-icon-incoming-call {
+  background-image: var(--dcs-popup-icon-incoming-call, url("../icons/gc4_tks_popupicon_incomcall.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-popup-icon-incoming-camera {
+  background-image: var(--dcs-popup-icon-incoming-camera, url("../icons/gc4_tks_popupicon_camera.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-popup-icon-incoming-floor-call {
+  background-image: var(--dcs-popup-icon-incoming-floor-call, url("../icons/gc4_tks_popupicon_storeycall.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 90% !important;
+}
+.dcs-icon-skala-0-100-h {
+  background-image: var(--dcs-icon-skala-0-100-h, url("../icons/gc4_skala_0-100_h.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-skala-10-100-h {
+  background-image: var(--dcs-icon-skala-10-100-h, url("../icons/gc4_skala_10-100_h.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-skala-10-100-v {
+  background-image: var(--dcs-icon-skala-10-100-v, url("../icons/gc4_skala_10-100_v.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-speechmax {
+  background-image: var(--dcs-icon-volume-speechmax, url("../icons/gc4_icon_volume_speechmax.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-speechmax-down {
+  background-image: var(--dcs-icon-volume-speechmax-down, url("../icons/gc4_icon_volume_speechmax_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-speechmin {
+  background-image: var(--dcs-icon-volume-speechmin, url("../icons/gc4_icon_volume_speechmin.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-max-down {
+  background-image: var(--dcs-icon-volume-max-down, url("../icons/gc4_icon_volume_max_down.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-microphone-max {
+  background-image: var(--dcs-icon-volume-microphone-max, url("../icons/gc4_icon_volume_microphonemax.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-microphone-min {
+  background-image: var(--dcs-icon-volume-microphone-min, url("../icons/gc4_icon_volume_microphonemin.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-image-storage-off {
+  background-image: var(--dcs-icon-image-storage-off, url("../../img\/icons\/light/icon_848.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-image-storage-on {
+  background-image: var(--dcs-icon-image-storage-on, url("../../light/icons/icon_333.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-max {
+  background-image: var(--dcs-icon-volume-max, url("../../img\/icons\/light/icon_331.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-icon-volume-min {
+  background-image: var(--dcs-icon-volume-min, url("../../img\/icons\/light/icon_305.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dcs-hangup-receiver {
+  background-image: var(--dcs-hangup-receiver, url("../icons/gc4_tks_status_conversation-stop1.png"));
+}
+.dcs-display-table-image-busbusy {
+  background-image: var(--dcs-display-table-image-busbusy, url("../../img\/icons\/light/icon_368.svg"));
+  background-size: 9rem;
+  position: absolute;
+  top: 20px;
+  right: 0;
+  bottom: 0;
+  background-repeat: no-repeat;
+}
+.dcs-display-table-image-idle {
+  background-image: var(--dcs-display-table-image-idle, url("../icons/gc4_tks_status_standby.png"));
+  background-repeat: no-repeat;
+}
+.dcs-display-table-image-noconnection {
+  background: var(--dcs-display-table-image-noconnection, url("../icons/gc4_tks_status_tkserror.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(0, 0.5rem);
+}

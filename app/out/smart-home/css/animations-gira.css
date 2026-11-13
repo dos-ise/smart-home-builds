@@ -1,0 +1,592 @@
+.animated {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+#animatedContent,
+#pageContent,
+#pageContentNew,
+#pageContentOld {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--color-c0);
+  overflow: hidden;
+  width: 100%;
+}
+#pageContentOld {
+  height: 100%;
+}
+#animatedContent {
+  z-index: 100;
+}
+#pageContentNew {
+  z-index: 20;
+}
+.backButtonSlideOut {
+  -webkit-animation-duration: 0.8s;
+  animation-duration: 0.8s;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.slideOutRight {
+  -webkit-animation-name: slideOutRight;
+  animation-name: slideOutRight;
+}
+@-webkit-keyframes slideOutRight {
+  0% {
+    -webkit-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@keyframes slideOutRight {
+  0% {
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translate3d(100%, 0, 0);
+    -ms-transform: translate3d(100%, 0, 0);
+    transform: translate3d(100%, 0, 0);
+  }
+}
+@-webkit-keyframes worldsBackground {
+  0% {
+    background-color: #DCDCDC;
+  }
+  100% {
+    background-color: #DCDCDC;
+  }
+}
+.changeWorldsAnimationOut {
+  -webkit-animation-name: moveWorldOut;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 240px 400px;
+}
+.changeWorldsAnimationIn {
+  -webkit-animation-name: moveWorldIn;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: 240px 400px;
+}
+.changeWorldsBackground {
+  -webkit-animation-name: worldsBackground;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-iteration-count: 1;
+}
+.hideHomeScreen {
+  opacity: 0;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+.fadeIn-animation {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.home-animation {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.fadeOut {
+  -webkit-animation-name: fadeOut;
+  animation-name: fadeOut;
+}
+.fadeOut-animation {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+@-webkit-keyframes scaleIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scaleIn {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  50% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.scaleIn {
+  -webkit-animation-name: scaleIn;
+  animation-name: scaleIn;
+}
+.coverZoom-animation {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  animation-delay: 0.25s;
+  /* Time for rendering before animation*/
+}
+.slideInFromBottom-popupAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translateY(-105%);
+}
+.slideOutFromBottom-popupAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translateY(0, 12px, 0);
+}
+.slideInFromBottom-settingsAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translate3d(0, -100%, 0);
+}
+.slideOutFromBottom-settingsAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.fadeOut-settingsAnimation {
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+.slideInFromBottom-infoAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translateY(-500px);
+}
+.slideOutFromBottom-infoAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translateY(0);
+}
+@-webkit-keyframes primary-function-scale {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes primary-function-scale {
+  0% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.primary-function-scale,
+.overlay-function-scaleIn {
+  -webkit-animation-name: primary-function-scale;
+  animation-name: primary-function-scale;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  flex: 1;
+  padding-bottom: 3rem;
+}
+@-webkit-keyframes primary-function-scaleOut {
+  100% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes primary-function-scaleOut {
+  100% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  50% {
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    opacity: 0;
+  }
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.primary-function-scaleOut,
+.overlay-function-scaleOut {
+  -webkit-animation-name: primary-function-scaleOut;
+  animation-name: primary-function-scaleOut;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  flex: 1;
+  padding-bottom: 3rem;
+}
+@-webkit-keyframes primary-function-slideIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@keyframes primary-function-slideIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.primary-function-slideIn {
+  -webkit-animation-name: primary-function-slideIn;
+  animation-name: primary-function-slideIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes primary-function-slideOut {
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+  }
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@keyframes primary-function-slideOut {
+  100% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  0% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.primary-function-slideOut {
+  -webkit-animation-name: primary-function-slideOut;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes primary-function-slideIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-200px);
+    transform: translateY(-200px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+@keyframes primary-function-slideIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  50% {
+    opacity: 0;
+    -webkit-transform: translateY(-2000px);
+    -ms-transform: translateY(-2000px);
+    transform: translateY(-2000px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+.primary-function-slideIn {
+  -webkit-animation-name: primary-function-slideIn;
+  animation-name: primary-function-slideIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes primary-function-fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes primary-function-fadeIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.primary-function-fadeIn {
+  -webkit-animation-name: primary-function-fadeIn;
+  animation-name: primary-function-fadeIn;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes primary-function-fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes primary-function-fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.primary-function-fadeOut {
+  -webkit-animation-name: primary-function-fadeOut;
+  animation-name: primary-function-fadeOut;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes primary-function-addBlur {
+  50% {
+    -webkit-filter: blur(3px);
+    filter: url(#blur-effect-1);
+  }
+  100% {
+    -webkit-filter: blur(3px);
+    filter: url(#blur-effect-1);
+  }
+}
+.primary-function-addBlur {
+  -webkit-animation-name: primary-function-addBlur;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+@-webkit-keyframes primary-function-removeBlur {
+  0% {
+    -webkit-filter: blur(3px);
+    filter: url(#blur-effect-1);
+  }
+  50% {
+    -webkit-filter: blur(3px);
+    filter: url(#blur-effect-1);
+  }
+}
+.primary-function-removeBlur {
+  -webkit-animation-name: primary-function-removeBlur;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+#meta-container {
+  -webkit-perspective: 3000px;
+  -webkit-perspective-origin: 50% 50%;
+}
+.coverflip-container {
+  height: 100%;
+  /* without his height, when changing orientation, the height of the contained slider is sometimes not correct */
+}
+.coverflip-container,
+.bulletbar {
+  -webkit-perspective: 3000px;
+}
+.coverflip-container.flip-animation .coverflip-viewsides,
+.bulletbar.flip-animation {
+  -webkit-transform-style: preserve-3d;
+  -webkit-transition: -webkit-transform 1000ms ease;
+}
+.coverflip-viewsides.flipped,
+.bulletbar.flipped {
+  -webkit-transform: rotateY(180deg) translateZ(0.1px);
+}
+/* The 'ended' and 'restore' classes are a workaround for the problem that on iOS
+   the flipped side of the detail is blurred after the animation.
+   This is a known problem and the suggested workarounds did not work for us */
+.coverflip-viewsides.ended.flipped {
+  -webkit-transition: none;
+  -webkit-transform: rotateY(0);
+}
+.coverflip-viewsides.ended.flipped .coverflip-side.front {
+  display: none;
+}
+.coverflip-viewsides.ended.flipped .coverflip-side.back {
+  -webkit-transform: rotateY(0);
+}
+.coverflip-viewsides.restore.flipped {
+  -webkit-transform: rotateY(180deg) translateZ(0.1px);
+}
+.coverflip-viewsides.restore.flipped .coverflip-side.front {
+  display: block;
+}
+.coverflip-viewsides.restore.flipped .coverflip-side.back {
+  -webkit-transform: rotateY(180deg) translateZ(0.1px);
+}
+/* BEGIN: Needed for coverflip animation */
+.bulletbar.back {
+  background-color: transparent;
+  z-index: 0;
+}
+.bulletbar.front {
+  background-color: var(--color-c0);
+  z-index: 2;
+}
+/* END: Needed for coverflip animation */
+.coverflip-side.front {
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.coverflip-side.back {
+  z-index: 0;
+  -webkit-transform: rotateY(180deg) translateZ(0.1px);
+  transform: rotateY(180deg) translateZ(0.1px);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.card,
+.bulletbar .bullets {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}

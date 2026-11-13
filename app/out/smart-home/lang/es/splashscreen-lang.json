@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Configuración del Gira G1",
+    "action": "El Gira G1 se inicia."
+  },
+  {
+    "title": "Configuración del Gira G1",
+    "action": "Ejecutando preparación para \nprimera puesta en funcionam."
+  },
+  {
+    "title": "Configuración del Gira G1",
+    "action": "El Gira G1 aplica la nueva \nconfiguración."
+  },
+  {
+    "title": "Configuración del Gira G1",
+    "action": "El Gira G1 actualiza el \nfirmware."
+  },
+  {
+    "title": "Configuración del Gira G1",
+    "action": "El Gira G1 se restablece a los \najustes de fábrica."
+  },
+  {
+    "title": "Configuración del Gira G1",
+    "action": "El Gira G1 se reinicia."
+  }
+]

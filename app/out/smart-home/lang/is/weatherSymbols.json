@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "vindhviður",
+    "text2": "stormur"
+  },
+  "ahc": {
+    "text1": "skýjablika",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "skýjað",
+    "text2": "stórhríð"
+  },
+  "ahcf": {
+    "text1": "skýjað",
+    "text2": "dalalæða"
+  },
+  "ahcg": {
+    "text1": "skýjað",
+    "text2": "vindhviður"
+  },
+  "ahcha": {
+    "text1": "skýjað",
+    "text2": "haglél"
+  },
+  "ahchas": {
+    "text1": "skýjað",
+    "text2": "haglhríð"
+  },
+  "ahchr": {
+    "text1": "skýjað",
+    "text2": "mikil súld"
+  },
+  "ahchs": {
+    "text1": "skýjað",
+    "text2": "mikil snjókoma"
+  },
+  "ahcih": {
+    "text1": "skýjað",
+    "text2": "hætta á hálku"
+  },
+  "ahcmr": {
+    "text1": "skýjað",
+    "text2": "miðlungs súld"
+  },
+  "ahcr": {
+    "text1": "skýjað",
+    "text2": "súld"
+  },
+  "ahcrih": {
+    "text1": "skýjað",
+    "text2": "súld og hætta á hálku"
+  },
+  "ahcs": {
+    "text1": "skýjað",
+    "text2": "snjókoma"
+  },
+  "ahcsr": {
+    "text1": "skýjað",
+    "text2": "slydda"
+  },
+  "ahct": {
+    "text1": "skýjað",
+    "text2": "líkur á þrumuveðri"
+  },
+  "ahcts": {
+    "text1": "skýjað",
+    "text2": "þrumuveður"
+  },
+  "aoc": {
+    "text1": "alskýjað",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "alskýjað",
+    "text2": "stórhríð"
+  },
+  "aocg": {
+    "text1": "alskýjað",
+    "text2": "vindhviður"
+  },
+  "aocha": {
+    "text1": "alskýjað",
+    "text2": "haglél"
+  },
+  "aocih": {
+    "text1": "alskýjað",
+    "text2": "hætta á hálku"
+  },
+  "aocr": {
+    "text1": "alskýjað",
+    "text2": "súld"
+  },
+  "aocrih": {
+    "text1": "alskýjað",
+    "text2": "súld og hætta á hálku"
+  },
+  "aocrs": {
+    "text1": "alskýjað",
+    "text2": "skúrir"
+  },
+  "aocs": {
+    "text1": "alskýjað",
+    "text2": "snjókoma"
+  },
+  "aocsr": {
+    "text1": "alskýjað",
+    "text2": "slydda"
+  },
+  "aoct": {
+    "text1": "alskýjað",
+    "text2": "líkur á þrumuveðri"
+  },
+  "aocts": {
+    "text1": "alskýjað",
+    "text2": "þrumuveður"
+  },
+  "dlc": {
+    "text1": "léttskýjað",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "léttskýjað",
+    "text2": "stórhríð"
+  },
+  "dlcg": {
+    "text1": "léttskýjað",
+    "text2": "vindhviður"
+  },
+  "dlchas": {
+    "text1": "léttskýjað",
+    "text2": "haglhríð"
+  },
+  "dlchr": {
+    "text1": "léttskýjað",
+    "text2": "mikil súld"
+  },
+  "dlchs": {
+    "text1": "léttskýjað",
+    "text2": "mikil snjókoma"
+  },
+  "dlcih": {
+    "text1": "léttskýjað",
+    "text2": "hætta á hálku"
+  },
+  "dlcmr": {
+    "text1": "léttskýjað",
+    "text2": "miðlungs súld"
+  },
+  "dlcms": {
+    "text1": "léttskýjað",
+    "text2": "lítilsháttar snjókoma"
+  },
+  "dlcr": {
+    "text1": "léttskýjað",
+    "text2": "súld"
+  },
+  "dlcrih": {
+    "text1": "léttskýjað",
+    "text2": "súld og hætta á hálku"
+  },
+  "dlcs": {
+    "text1": "léttskýjað",
+    "text2": "snjókoma"
+  },
+  "dlcsr": {
+    "text1": "léttskýjað",
+    "text2": "slydda"
+  },
+  "dlct": {
+    "text1": "léttskýjað",
+    "text2": "haglél"
+  },
+  "dlcth": {
+    "text1": "léttskýjað",
+    "text2": "líkur á þrumuveðri"
+  },
+  "dlcts": {
+    "text1": "léttskýjað",
+    "text2": "þrumuveður"
+  },
+  "dmc": {
+    "text1": "hálfskýjað",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "hálfskýjað",
+    "text2": "stórhríð"
+  },
+  "dmcg": {
+    "text1": "hálfskýjað",
+    "text2": "vindhviður"
+  },
+  "dmcha": {
+    "text1": "hálfskýjað",
+    "text2": "haglél"
+  },
+  "dmchas": {
+    "text1": "hálfskýjað",
+    "text2": "haglhríð"
+  },
+  "dmchr": {
+    "text1": "hálfskýjað",
+    "text2": "mikil súld"
+  },
+  "dmchs": {
+    "text1": "hálfskýjað",
+    "text2": "mikil snjókoma"
+  },
+  "dmclr": {
+    "text1": "hálfskýjað",
+    "text2": "lítilsháttar súld"
+  },
+  "dmcls": {
+    "text1": "hálfskýjað",
+    "text2": "lítilsháttar snjókoma"
+  },
+  "dmcmr": {
+    "text1": "hálfskýjað",
+    "text2": "miðlungs súld"
+  },
+  "dmcms": {
+    "text1": "hálfskýjað",
+    "text2": "lítilsháttar snjókoma"
+  },
+  "dmcrih": {
+    "text1": "hálfskýjað",
+    "text2": "súld og hætta á hálku"
+  },
+  "dmcsr": {
+    "text1": "hálfskýjað",
+    "text2": "slydda"
+  },
+  "dmct": {
+    "text1": "hálfskýjað",
+    "text2": "líkur á þrumuveðri"
+  },
+  "dmcts": {
+    "text1": "hálfskýjað",
+    "text2": "þrumuveður"
+  },
+  "dnc": {
+    "text1": "léttskýjað",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "léttskýjað",
+    "text2": "dalalæða"
+  },
+  "dncg": {
+    "text1": "léttskýjað",
+    "text2": "vindhviður"
+  },
+  "nlc": {
+    "text1": "léttskýjað",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "léttskýjað",
+    "text2": "stórhríð"
+  },
+  "nlcg": {
+    "text1": "léttskýjað",
+    "text2": "vindhviður"
+  },
+  "nlcha": {
+    "text1": "léttskýjað",
+    "text2": "haglél"
+  },
+  "nlchas": {
+    "text1": "léttskýjað",
+    "text2": "haglhríð"
+  },
+  "nlchr": {
+    "text1": "léttskýjað",
+    "text2": "mikil súld"
+  },
+  "nlchs": {
+    "text1": "léttskýjað",
+    "text2": "mikil snjókoma"
+  },
+  "nlcih": {
+    "text1": "léttskýjað",
+    "text2": "hætta á hálku"
+  },
+  "nlcmr": {
+    "text1": "léttskýjað",
+    "text2": "miðlungs súld"
+  },
+  "nlcms": {
+    "text1": "léttskýjað",
+    "text2": "lítilsháttar snjókoma"
+  },
+  "nlcr": {
+    "text1": "léttskýjað",
+    "text2": "súld"
+  },
+  "nlcrih": {
+    "text1": "léttskýjað",
+    "text2": "súld og hætta á hálku"
+  },
+  "nlcs": {
+    "text1": "léttskýjað",
+    "text2": "snjókoma"
+  },
+  "nlcsr": {
+    "text1": "léttskýjað",
+    "text2": "slydda"
+  },
+  "nlcth": {
+    "text1": "léttskýjað",
+    "text2": "líkur á þrumuveðri"
+  },
+  "nlcts": {
+    "text1": "léttskýjað",
+    "text2": "þrumuveður"
+  },
+  "nmc": {
+    "text1": "hálfskýjað",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "hálfskýjað",
+    "text2": "stórhríð"
+  },
+  "nmcg": {
+    "text1": "hálfskýjað",
+    "text2": "vindhviður"
+  },
+  "nmcha": {
+    "text1": "hálfskýjað",
+    "text2": "haglél"
+  },
+  "nmchas": {
+    "text1": "hálfskýjað",
+    "text2": "haglhríð"
+  },
+  "nmchr": {
+    "text1": "hálfskýjað",
+    "text2": "mikil súld"
+  },
+  "nmchs": {
+    "text1": "hálfskýjað",
+    "text2": "mikil snjókoma"
+  },
+  "nmclr": {
+    "text1": "hálfskýjað",
+    "text2": "lítilsháttar súld"
+  },
+  "nmcls": {
+    "text1": "hálfskýjað",
+    "text2": "lítilsháttar snjókoma"
+  },
+  "nmcmr": {
+    "text1": "hálfskýjað",
+    "text2": "miðlungs súld"
+  },
+  "nmcms": {
+    "text1": "hálfskýjað",
+    "text2": "lítilsháttar snjókoma"
+  },
+  "nmcrih": {
+    "text1": "hálfskýjað",
+    "text2": "súld og hætta á hálku"
+  },
+  "nmcsr": {
+    "text1": "hálfskýjað",
+    "text2": "slydda"
+  },
+  "nmct": {
+    "text1": "hálfskýjað",
+    "text2": "líkur á þrumuveðri"
+  },
+  "nmcts": {
+    "text1": "hálfskýjað",
+    "text2": "þrumuveður"
+  },
+  "nnc": {
+    "text1": "heiðskírt",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "heiðskírt",
+    "text2": "dalalæða"
+  },
+  "nncg": {
+    "text1": "heiðskírt",
+    "text2": "vindhviður"
+  }
+}

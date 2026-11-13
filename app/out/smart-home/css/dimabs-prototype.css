@@ -1,0 +1,223 @@
+.dimabs-container {
+  width: 100%;
+  height: 100%;
+}
+.dimabs-container .down {
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0 0.125% 0 0 var(--color-c0) !important;
+}
+.dimabs-container .knob-container {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.dimabs-container .knob-container canvas {
+  cursor: pointer;
+  z-index: 1;
+}
+.dimabs-container .knob-container .knob-svg {
+  overflow: visible;
+}
+.dimabs-container .mask {
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  text-align: center;
+  z-index: 0;
+  width: 29.375rem;
+  height: 29.375rem;
+  margin-top: -0.1875rem;
+}
+.dimabs-container .bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  height: 21.125rem;
+  width: 21.125rem;
+  z-index: 1;
+}
+.dimabs-container .inc,
+.dimabs-container .dec {
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 1px solid var(--color-inactive);
+  border-radius: 50%;
+  position: absolute;
+  background-color: var(--color-c1);
+  cursor: pointer;
+}
+.dimabs-container .inc :before,
+.dimabs-container .dec :before {
+  content: '';
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  pointer-events: all;
+  width: 60px;
+  height: 60px;
+  top: -12px;
+  left: -12px;
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  .dimabs-container .inc :before,
+  .dimabs-container .dec :before {
+    width: 53.33333333px;
+    height: 53.33333333px;
+    top: -10.66666667px;
+    left: -10.66666667px;
+  }
+}
+@media (max-width: 320px) and (max-height: 600px) {
+  .dimabs-container .inc :before,
+  .dimabs-container .dec :before {
+    width: 40px;
+    height: 40px;
+    top: -8px;
+    left: -8px;
+  }
+}
+.dimabs-container .inc .shadow,
+.dimabs-container .dec .shadow {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), inset 0 1px var(--color-c0);
+}
+.dimabs-container .dec.enabled:active {
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+}
+.dimabs-container .inc.enabled:active {
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0);
+}
+.dimabs-container .incDec-container {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  width: 18.875rem;
+  height: 18.875rem;
+  position: absolute;
+  pointer-events: none;
+  z-index: 3;
+}
+.dimabs-container .incs.enabled {
+  background-image: url("../img/buttons/gc4_cssbutton_plus.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.dimabs-container .incs:not(.enabled) {
+  background-image: url("../img/buttons/gc4_cssbutton_plus_inactive.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.dimabs-container .decs.enabled {
+  background-image: url("../img/buttons/gc4_cssbutton_minus.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.dimabs-container .decs:not(.enabled) {
+  background-image: url("../img/buttons/gc4_cssbutton_minus_inactive.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.dimabs-container .inc {
+  right: 2.1875rem;
+}
+.dimabs-container .dec {
+  left: 2.1875rem;
+}
+.dimabs-container .dimbutton {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  width: 18.875rem;
+  height: 18.875rem;
+  z-index: 2;
+  position: absolute;
+  pointer-events: none;
+  /* this increases the touchable area of the ring */
+}
+.dimabs-container .dimbutton .dimbutton-touch {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 15.5rem;
+  height: 15.5rem;
+  position: absolute;
+  pointer-events: all;
+}
+.dimabs-container .dimbutton .dim-button-display {
+  width: 17.375rem;
+  height: 17.375rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+.dimabs-container .dimbutton .dim-button-display .dim-button-status {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  top: 19.42446043%;
+  width: 100%;
+}
+.dimabs-container .dimbutton .dim-button-display .dim-button-status .dimmer-text-on,
+.dimabs-container .dimbutton .dim-button-display .dim-button-status .dimmer-text-off {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  font-family: UniversNextLight;
+  color: var(--color-c5) !important;
+  text-shadow: 0 1px 0 var(--color-c0);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+  line-height: 1.5125rem;
+  margin-top: -0.2rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  width: 70%;
+  /* prevent text from bleeding into surrounding elements */
+}
+.dimabs-container .dimbutton .dim-button-display .set-percent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+.dimabs-container .dimbutton .dim-button-display .set-unit {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  top: 57.55395683%;
+}
+.dimmer-container {
+  position: absolute;
+  width: 21.0625rem;
+  height: 21.0625rem;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.dimabs-container .inc.shadow,
+.dimabs-container .dec.shadow {
+  -webkit-box-shadow: 0 1px 0 0 var(--color-c0), inset 0 1px var(--color-c0);
+}
+.dimmer-stop-knob-input {
+  pointer-events: none !important;
+}

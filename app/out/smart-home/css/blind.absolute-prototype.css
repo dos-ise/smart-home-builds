@@ -1,0 +1,244 @@
+/*
+  A long time ago, the shutter slider was done with the jQuery slider plugin.
+  When the html was converted to a fluid style, it was decided to implement the slider with an input range.
+  Though this was done with good intentions, it turned out that this is rather complex:
+  The value range cannot be shown vertical when overwriting styles, therefore it has to be rotated by 45°.
+  When we convert the fluid layout to percentages, we should consider the jQuery plugin (or alternatives) again, as the
+  input range does not cover our requirements (e.g. increasing the invisible touchable area of the thump cannot be achieved)
+*/
+.position-symbol {
+  width: 2rem;
+  height: 2rem;
+  margin-top: 1.125rem;
+  margin-left: 1.125rem;
+  position: absolute;
+}
+.position-symbol.moving {
+  /* this is the spinner but without a size */
+  border-color: var(--color-c3) var(--color-c3) var(--color-c6) var(--color-c6);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  -webkit-animation: rotation 2s infinite linear;
+  transform: translateZ(0);
+}
+.blind-absolute .main-controls .icon-container {
+  height: auto;
+  display: flex;
+  align-items: center;
+}
+.blind-absolute .main-controls .blind-slider {
+  height: 27.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 2.5rem;
+}
+.blind-absolute .main-controls .blind-slates-slider {
+  height: 27.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 2.5rem;
+}
+.blind-absolute .main-controls .blind-up {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.blind-absolute .main-controls .blind-down {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.blind-absolute .main-controls .shutter-up {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.blind-absolute .main-controls .shutter-down {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.blind-absolute .main-controls .lamination-up {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.blind-absolute .main-controls .lamination-down {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+.blind-absolute .main-controls .scala-double {
+  width: 5rem;
+  height: 20rem;
+}
+.blind-absolute .main-controls .scale {
+  width: 10vw;
+  width: 3rem;
+  height: 19.4375rem;
+}
+.blind-absolute {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.blind-absolute .sidebar-left {
+  height: 100%;
+}
+.blind-absolute .sidebar-left .stopBtn {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-left: 1.125rem;
+  bottom: 1.125rem;
+}
+.blind-absolute .sidebar-left .stopBtn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -15px;
+  right: -15px;
+  bottom: -5px;
+  border: 5px solid transparent;
+}
+.blind-absolute .sidebar-left .value {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  margin-left: 1.125rem;
+}
+.blind-absolute .sidebar-right {
+  height: 100%;
+}
+.blind-absolute .sidebar-right .value {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  right: 1.125rem;
+}
+.blind-absolute .sidebar-right .value_unit {
+  float: right;
+}
+.gira-slider-bar {
+  width: 100%;
+  height: 21rem;
+  margin: 0.5rem 0;
+  /* We tried to show this slider background with a linear repeating gradient,
+     but that did not render nice on G1 and some iOS devices. So we show the stripes
+     with an additional div, that sits on top of the input
+  */
+  /*pressed style (But beware, if you press the button, you can not see the button(on the device))*/
+  /* what effect does this have? */
+}
+.gira-slider-bar input[type="range"] {
+  -webkit-appearance: none !important;
+  width: 21rem;
+  height: 1.125rem;
+  border-radius: 18px;
+  margin: auto;
+  transition: all 0.3s ease;
+  background: #DCDCDC;
+  -webkit-box-shadow: 0 1px 0 var(--color-c0), inset 0 0 3px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  position: absolute;
+  pointer-events: none;
+  backface-visibility: hidden;
+  -webkit-transform: rotate(90deg);
+  top: 13.25rem;
+  left: -9.25rem;
+  -webkit-box-orient: vertical;
+}
+.gira-slider-bar .repeating-slider-background {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  width: 1.125rem;
+  height: 21rem;
+  border-radius: 18px;
+  background: #DCDCDC url(../img/18x4_repeating_gc4_blind_hatch.png);
+  -webkit-box-shadow: 0 1px 0 var(--color-c0), inset 0 0 3px rgba(0, 0, 0, 0.2);
+}
+.gira-slider-bar input[type="range"]::-webkit-slider-thumb:before {
+  content: '';
+  height: 3rem;
+  width: 3rem;
+  display: block;
+  position: absolute;
+}
+.gira-slider-bar input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  position: relative;
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 50%;
+  border: 1px solid #c8c8c8;
+  background: -webkit-linear-gradient(left, #e1e1e1 0%, #fafafa 100%);
+  -webkit-box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.2), inset 1px 0 1px #ffffff;
+  display: block;
+  pointer-events: all;
+}
+.gira-slider-bar input[type="range"]::-webkit-slider-thumb:after {
+  content: '';
+  position: absolute;
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 1px 0 0 var(--color-c0);
+}
+.gira-slider-bar input[type="range"]::-webkit-slider-thumb:active {
+  background: -webkit-linear-gradient(left, #d7d7d7 0%, #e6e6e6 100%);
+  -webkit-box-shadow: 3px 0 5px 0 rgba(0, 0, 0, 0.2), inset 1px 0 1px #e6e6e6;
+}
+.gira-slider-bar input[type="range"]:after {
+  -webkit-appearance: none !important;
+  width: 100%;
+  height: 100%;
+  border-radius: 18px;
+  margin: auto;
+  transition: all 0.3s ease;
+  background: var(--color-c7);
+  z-index: 100;
+}
+.gira-slider-bar input[type="range"]:focus {
+  outline: none;
+}
+.shutter-relative,
+.blind-absolute {
+  width: 100%;
+  height: 100%;
+}
+.shutter-relative .sidebar-left-top,
+.blind-absolute .sidebar-left-top {
+  position: absolute;
+  display: flex;
+  column-gap: 0.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 1.125rem;
+  margin-left: 1.125rem;
+  justify-content: center;
+}
+.shutter-relative .sidebar-left-top .endposition-symbol-relative,
+.blind-absolute .sidebar-left-top .endposition-symbol-relative {
+  width: 2rem;
+  position: relative;
+  transform: translateZ(0);
+}
+.shutter-relative .sidebar-left-top .endposition-symbol-rotate-relative,
+.blind-absolute .sidebar-left-top .endposition-symbol-rotate-relative {
+  width: 2rem;
+  position: relative;
+  transform: rotate(180deg);
+}
+.shutter-relative .sidebar-left-top .movement-symbol-relative,
+.blind-absolute .sidebar-left-top .movement-symbol-relative {
+  width: 2rem;
+  height: 2rem;
+  /* this is the spinner but without a size */
+  border-color: var(--color-c3) var(--color-c3) var(--color-c6) var(--color-c6);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  -webkit-animation: rotation 2s infinite linear;
+  position: relative;
+  transform: translateZ(0);
+}

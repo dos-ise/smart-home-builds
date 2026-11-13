@@ -1,0 +1,10 @@
+<svg height="0">
+  <filter id="InnerShadow">
+    <feOffset dy="0" dx="0"/>
+    <feGaussianBlur stdDeviation="5.1" result="offset-blur"/>
+    <feComposite operator="out" in2="offset-blur" in="SourceGraphic" result="inverse"/>
+    <feFlood result="color" flood-color="#00FF00" flood-opacity="1"/>
+    <feComposite operator="in" in2="inverse" in="color" result="shadow"/>
+    <feComposite in2="SourceGraphic" in="shadow"/>
+  </filter>
+ </svg>

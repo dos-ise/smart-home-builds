@@ -1,0 +1,132 @@
+
+    /*!
+    * jQuery UI Slider 1.10.3
+    * http://jqueryui.com
+    *
+    * Copyright 2013 jQuery Foundation and other contributors
+    * Released under the MIT license.
+    * http://jquery.org/license
+    *
+    * http://docs.jquery.com/UI/Slider#theming
+    */
+
+    .ui-slider {
+    position: relative;
+    text-align: left;
+    }
+
+    .ui-slider .ui-slider-range {
+    position: absolute;
+    font-size: .7em;
+    display: block;
+    border: 0;
+    }
+
+    /* For IE8 - See #6727 */
+    .ui-slider.ui-state-disabled .ui-slider-handle,
+    .ui-slider.ui-state-disabled .ui-slider-range {
+    filter: inherit;
+    }
+
+    .ui-slider-horizontal {
+
+    }
+
+    .ui-slider-horizontal  .ui-slider-background{
+    position: absolute;
+    height: 100%;
+    }
+
+    .ui-slider-horizontal .ui-slider-handle {
+    top: 0px;
+    margin-left: -2px;
+    }
+    .ui-slider-horizontal .ui-slider-handle-range-size {
+    width: 258px;
+    position: relative;
+    }
+    .ui-slider-horizontal .ui-slider-range {
+    top: 22px;
+    height: 20px;
+    max-width: 97%;
+    background: #69d169;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    }
+    .ui-slider-horizontal .ui-slider-range-min {
+    left: 4px;
+    }
+    .ui-slider-horizontal .ui-slider-range-max {
+    right: 4px;
+    }
+
+    .ui-slider-vertical .ui-slider-range-min {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    bottom: 4px;
+    }
+    .ui-slider-vertical .ui-slider-range-max {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    /*top: 4px;*/
+    }
+
+    .slider-ui-widget-content {
+    /* border: 1px solid #dddddd;
+    background: #eeeeee url(images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x; */
+    color: #333333;
+    }
+
+    .slider-ui-state-default,
+    .slider-ui-widget-content .slider-ui-state-default,
+    .slider-ui-widget-header .slider-ui-state-default {
+    /* border: 1px solid #cccccc; */
+    /*background: #f6f6f6 url(images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x; */
+    font-weight: bold;
+    color: #1c94c4;
+    }
+
+    .slider-ui-state-hover,
+    .slider-ui-widget-content .slider-ui-state-hover,
+    .slider-ui-widget-header .slider-ui-state-hover,
+    .slider-ui-state-focus,
+    .slider-ui-widget-content .slider-ui-state-focus,
+    .slider-ui-widget-header .slider-ui-state-focus {
+    /* border: 1px solid #fbcb09;
+    background: #fdf5ce url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x; */
+    font-weight: bold;
+    color: #c77405;
+    }
+
+    .slider-ui-state-active,
+    .slider-ui-widget-content .slider-ui-state-active,
+    .slider-ui-widget-header .slider-ui-state-active {
+    /* border: 1px solid #fbd850;
+    background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x; */
+    font-weight: bold;
+    color: #eb8f00;
+    }
+
+    .ui-slider-bluebar
+    {
+    position: absolute;
+    }
+    .ui-slider-blue-bar
+    {
+    width: 18px;
+    z-index: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+
+    .ui-slider-stripe-bar
+    {
+    z-index: 0;
+    width: 18px;
+    margin-left: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
+  

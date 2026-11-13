@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "windy",
+    "text2": "storm"
+  },
+  "ahc": {
+    "text1": "clouds",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "mostly cloudy",
+    "text2": "snow"
+  },
+  "ahcf": {
+    "text1": "mostly cloudy",
+    "text2": "fog"
+  },
+  "ahcg": {
+    "text1": "mostly cloudy",
+    "text2": "windy"
+  },
+  "ahcha": {
+    "text1": "mostly cloudy",
+    "text2": "frozen rain"
+  },
+  "ahchas": {
+    "text1": "mostly cloudy",
+    "text2": "thunderstorm with frozen rain"
+  },
+  "ahchr": {
+    "text1": "mostly cloudy",
+    "text2": "heavy drizzle"
+  },
+  "ahchs": {
+    "text1": "mostly cloudy",
+    "text2": "heavy snowfall"
+  },
+  "ahcih": {
+    "text1": "mostly cloudy",
+    "text2": "danger of black ice"
+  },
+  "ahcmr": {
+    "text1": "mostly cloudy",
+    "text2": "moderate drizzle"
+  },
+  "ahcr": {
+    "text1": "mostly cloudy",
+    "text2": "drizzle"
+  },
+  "ahcrih": {
+    "text1": "mostly cloudy",
+    "text2": "drizzle with danger of black ice"
+  },
+  "ahcs": {
+    "text1": "mostly cloudy",
+    "text2": "snowfall"
+  },
+  "ahcsr": {
+    "text1": "mostly cloudy",
+    "text2": "sleet"
+  },
+  "ahct": {
+    "text1": "mostly cloudy",
+    "text2": "thunderstorms"
+  },
+  "ahcts": {
+    "text1": "mostly cloudy",
+    "text2": "thunderstorm"
+  },
+  "aoc": {
+    "text1": "overcast",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "overcast",
+    "text2": "snow"
+  },
+  "aocg": {
+    "text1": "overcast",
+    "text2": "windy"
+  },
+  "aocha": {
+    "text1": "overcast",
+    "text2": "frozen rain"
+  },
+  "aocih": {
+    "text1": "overcast",
+    "text2": "danger of black ice"
+  },
+  "aocr": {
+    "text1": "overcast",
+    "text2": "drizzle"
+  },
+  "aocrih": {
+    "text1": "overcast",
+    "text2": "drizzle with danger of black ice"
+  },
+  "aocrs": {
+    "text1": "overcast",
+    "text2": "showers"
+  },
+  "aocs": {
+    "text1": "overcast",
+    "text2": "snowfall"
+  },
+  "aocsr": {
+    "text1": "overcast",
+    "text2": "sleet"
+  },
+  "aoct": {
+    "text1": "overcast",
+    "text2": "thunderstorms"
+  },
+  "aocts": {
+    "text1": "overcast",
+    "text2": "thunderstorm"
+  },
+  "dlc": {
+    "text1": "mostly sunny",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "mostly sunny",
+    "text2": "snow"
+  },
+  "dlcg": {
+    "text1": "mostly sunny",
+    "text2": "windy"
+  },
+  "dlchas": {
+    "text1": "mostly sunny",
+    "text2": "thunderstorm with frozen rain"
+  },
+  "dlchr": {
+    "text1": "mostly sunny",
+    "text2": "heavy drizzle"
+  },
+  "dlchs": {
+    "text1": "mostly sunny",
+    "text2": "heavy snowfall"
+  },
+  "dlcih": {
+    "text1": "mostly sunny",
+    "text2": "danger of black ice"
+  },
+  "dlcmr": {
+    "text1": "mostly sunny",
+    "text2": "moderate drizzle"
+  },
+  "dlcms": {
+    "text1": "mostly sunny",
+    "text2": "moderate snowfall"
+  },
+  "dlcr": {
+    "text1": "mostly sunny",
+    "text2": "drizzle"
+  },
+  "dlcrih": {
+    "text1": "mostly sunny",
+    "text2": "drizzle with danger of black ice"
+  },
+  "dlcs": {
+    "text1": "mostly sunny",
+    "text2": "snowfall"
+  },
+  "dlcsr": {
+    "text1": "mostly sunny",
+    "text2": "sleet"
+  },
+  "dlct": {
+    "text1": "mostly sunny",
+    "text2": "frozen rain"
+  },
+  "dlcth": {
+    "text1": "mostly sunny",
+    "text2": "thunderstorms"
+  },
+  "dlcts": {
+    "text1": "mostly sunny",
+    "text2": "thunderstorm"
+  },
+  "dmc": {
+    "text1": "cloudy",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "cloudy",
+    "text2": "snow"
+  },
+  "dmcg": {
+    "text1": "cloudy",
+    "text2": "windy"
+  },
+  "dmcha": {
+    "text1": "cloudy",
+    "text2": "frozen rain"
+  },
+  "dmchas": {
+    "text1": "cloudy",
+    "text2": "thunderstorm with frozen rain"
+  },
+  "dmchr": {
+    "text1": "cloudy",
+    "text2": "heavy drizzle"
+  },
+  "dmchs": {
+    "text1": "cloudy",
+    "text2": "heavy snowfall"
+  },
+  "dmclr": {
+    "text1": "cloudy",
+    "text2": "slight drizzle"
+  },
+  "dmcls": {
+    "text1": "cloudy",
+    "text2": "light snowfall"
+  },
+  "dmcmr": {
+    "text1": "cloudy",
+    "text2": "moderate drizzle"
+  },
+  "dmcms": {
+    "text1": "cloudy",
+    "text2": "moderate snowfall"
+  },
+  "dmcrih": {
+    "text1": "cloudy",
+    "text2": "drizzle with danger of black ice"
+  },
+  "dmcsr": {
+    "text1": "cloudy",
+    "text2": "sleet"
+  },
+  "dmct": {
+    "text1": "cloudy",
+    "text2": "thunderstorms"
+  },
+  "dmcts": {
+    "text1": "cloudy",
+    "text2": "thunderstorm"
+  },
+  "dnc": {
+    "text1": "sunny",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "sunny",
+    "text2": "fog"
+  },
+  "dncg": {
+    "text1": "sunny",
+    "text2": "windy"
+  },
+  "nlc": {
+    "text1": "partly cloudy",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "partly cloudy",
+    "text2": "snow"
+  },
+  "nlcg": {
+    "text1": "partly cloudy",
+    "text2": "windy"
+  },
+  "nlcha": {
+    "text1": "partly cloudy",
+    "text2": "frozen rain"
+  },
+  "nlchas": {
+    "text1": "partly cloudy",
+    "text2": "thunderstorm with frozen rain"
+  },
+  "nlchr": {
+    "text1": "partly cloudy",
+    "text2": "heavy drizzle"
+  },
+  "nlchs": {
+    "text1": "partly cloudy",
+    "text2": "heavy snowfall"
+  },
+  "nlcih": {
+    "text1": "partly cloudy",
+    "text2": "danger of black ice"
+  },
+  "nlcmr": {
+    "text1": "partly cloudy",
+    "text2": "moderate drizzle"
+  },
+  "nlcms": {
+    "text1": "partly cloudy",
+    "text2": "moderate snowfall"
+  },
+  "nlcr": {
+    "text1": "partly cloudy",
+    "text2": "drizzle"
+  },
+  "nlcrih": {
+    "text1": "partly cloudy",
+    "text2": "drizzle with danger of black ice"
+  },
+  "nlcs": {
+    "text1": "partly cloudy",
+    "text2": "snowfall"
+  },
+  "nlcsr": {
+    "text1": "partly cloudy",
+    "text2": "sleet"
+  },
+  "nlcth": {
+    "text1": "partly cloudy",
+    "text2": "thunderstorms"
+  },
+  "nlcts": {
+    "text1": "partly cloudy",
+    "text2": "thunderstorm"
+  },
+  "nmc": {
+    "text1": "cloudy",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "cloudy",
+    "text2": "snow"
+  },
+  "nmcg": {
+    "text1": "cloudy",
+    "text2": "windy"
+  },
+  "nmcha": {
+    "text1": "cloudy",
+    "text2": "frozen rain"
+  },
+  "nmchas": {
+    "text1": "cloudy",
+    "text2": "thunderstorm with frozen rain"
+  },
+  "nmchr": {
+    "text1": "cloudy",
+    "text2": "heavy drizzle"
+  },
+  "nmchs": {
+    "text1": "cloudy",
+    "text2": "heavy snowfall"
+  },
+  "nmclr": {
+    "text1": "cloudy",
+    "text2": "slight drizzle"
+  },
+  "nmcls": {
+    "text1": "cloudy",
+    "text2": "light snowfall"
+  },
+  "nmcmr": {
+    "text1": "cloudy",
+    "text2": "moderate drizzle"
+  },
+  "nmcms": {
+    "text1": "cloudy",
+    "text2": "moderate snowfall"
+  },
+  "nmcrih": {
+    "text1": "cloudy",
+    "text2": "drizzle with danger of black ice"
+  },
+  "nmcsr": {
+    "text1": "cloudy",
+    "text2": "sleet"
+  },
+  "nmct": {
+    "text1": "cloudy",
+    "text2": "thunderstorms"
+  },
+  "nmcts": {
+    "text1": "cloudy",
+    "text2": "thunderstorm"
+  },
+  "nnc": {
+    "text1": "clear",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "clear",
+    "text2": "fog"
+  },
+  "nncg": {
+    "text1": "clear",
+    "text2": "windy"
+  }
+}

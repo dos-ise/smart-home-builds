@@ -1,0 +1,105 @@
+.dcs-hangup-receiver-animation {
+  -webkit-animation: rotateAndFade 4s;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 2s;
+}
+@-webkit-keyframes play {
+  100% {
+    background-position: -104.375rem;
+  }
+}
+@-webkit-keyframes playFloorCall {
+  100% {
+    background-position: -83.4375rem;
+  }
+}
+.dcs-incomingcall-icon-move {
+  -webkit-animation: animation-move 1s, animation-finish 1s;
+  -webkit-animation-fill-mode: forwards, forwards;
+  -webkit-animation-delay: 0s, 1s;
+}
+/*all animations and keyframes for the dcs*/
+html[data-theme='dark'] {
+  --dcs-rotateAndFade-0: url("../icons/gc4_tks_status_conversation-stop1.png");
+  --dcs-rotateAndFade-100: url("../icons/gc4_tks_status_conversation-stop2.png");
+  --dcs-incomingcall-icon-loop: url("../icons/gc4_tks_status_audiocall-in-sprite.png");
+  --dcs-internal-incomingcall-loop: url("../../img\/icons\/dark/icons/icon_255.svg");
+  --dcs-incoming-floor-call-icon-loop: url("../icons/gc4_tks_status_storeycall-in-sprite.png");
+  --dcs-incomingcall-icon-end: url("../icons/gc4_tks_status_audiocall-in_06.png");
+  --dcs-animation-move-0: url("../icons/gc4_tks_status_audiocall-in_05.png");
+  --dcs-animation-finish-0: url("../icons/gc4_tks_status_audiocall-in_05.png");
+  --dcs-animation-finish-100: url("../icons/gc4_tks_status_audiocall-in_06.png");
+  --dcs-animation-end-0: url("../icons/gc4_tks_status_audiocall-in_06.png");
+  --dcs-animation-end-100: url("../icons/gc4_tks_status_audiocall-in_07.png");
+}
+@-webkit-keyframes rotateAndFade {
+  0% {
+    background-image: var(--dcs-rotateAndFade-0, url("../icons/gc4_tks_status_conversation-stop1.png"));
+    opacity: 1;
+  }
+  20%,
+  100% {
+    background-image: var(--dcs-rotateAndFade-100, url("../icons/gc4_tks_status_conversation-stop2.png"));
+    opacity: 1;
+    -webkit-transform: rotate(90deg);
+  }
+}
+.dcs-incomingcall-icon-loop {
+  background-image: var(--dcs-incomingcall-icon-loop, url("../icons/gc4_tks_status_audiocall-in-sprite.png"));
+  -webkit-animation: play 3s steps(5) infinite;
+  background-size: cover;
+}
+.dcs-internal-incomingcall-loop {
+  background-image: var(--dcs-internal-incomingcall-loop, url("../../img\/icons\/light/icon_255.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 11.875rem;
+}
+.dcs-incoming-floor-call-icon-loop {
+  background-image: var(--dcs-incoming-floor-call-icon-loop, url("../icons/gc4_tks_status_storeycall-in-sprite.png"));
+  -webkit-animation: playFloorCall 3s steps(4) infinite;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.dcs-incomingcall-icon-end {
+  background-image: var(--dcs-incomingcall-icon-end, url("../icons/gc4_tks_status_audiocall-in_06.png"));
+  -webkit-animation: animation-end 6s;
+  -webkit-animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes animation-move {
+  0% {
+    background-image: var(--dcs-animation-move-0, url("../icons/gc4_tks_status_audiocall-in_05.png"));
+    left: 30px;
+  }
+  100% {
+    background-image: var(--dcs-animation-move-100, url("../icons/gc4_tks_status_audiocall-in_05.png"));
+  }
+}
+@-webkit-keyframes animation-finish {
+  0% {
+    background-image: var(--dcs-animation-finish-0, url("../icons/gc4_tks_status_audiocall-in_05.png"));
+    opacity: 1;
+  }
+  100% {
+    background-image: var(--dcs-animation-finish-100, url("../icons/gc4_tks_status_audiocall-in_06.png"));
+    opacity: 1;
+  }
+}
+@-webkit-keyframes animation-end {
+  0% {
+    background-image: var(--dcs-animation-end-0, url("../icons/gc4_tks_status_audiocall-in_06.png"));
+    opacity: 1;
+  }
+  20%,
+  100% {
+    background-image: var(--dcs-animation-end-100, url("../icons/gc4_tks_status_audiocall-in_07.png"));
+    opacity: 1;
+    -webkit-transform: rotate(45deg);
+  }
+}

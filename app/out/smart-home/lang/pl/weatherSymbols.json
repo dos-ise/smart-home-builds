@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "porywisty",
+    "text2": "wichura"
+  },
+  "ahc": {
+    "text1": "chmury warstwowo-pierzaste",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "duże zachmurzenie",
+    "text2": "burza śnieżna"
+  },
+  "ahcf": {
+    "text1": "duże zachmurzenie",
+    "text2": "mgła przygruntowa"
+  },
+  "ahcg": {
+    "text1": "duże zachmurzenie",
+    "text2": "porywisty"
+  },
+  "ahcha": {
+    "text1": "duże zachmurzenie",
+    "text2": "krupy"
+  },
+  "ahchas": {
+    "text1": "duże zachmurzenie",
+    "text2": "burza krupiasta"
+  },
+  "ahchr": {
+    "text1": "duże zachmurzenie",
+    "text2": "silna mżawka"
+  },
+  "ahchs": {
+    "text1": "duże zachmurzenie",
+    "text2": "silne opady śniegu"
+  },
+  "ahcih": {
+    "text1": "duże zachmurzenie",
+    "text2": "zagrożenie gołoledzią"
+  },
+  "ahcmr": {
+    "text1": "duże zachmurzenie",
+    "text2": "umiarkowana mżawka"
+  },
+  "ahcr": {
+    "text1": "duże zachmurzenie",
+    "text2": "mżawka"
+  },
+  "ahcrih": {
+    "text1": "duże zachmurzenie",
+    "text2": "mżawka z zagrożeniem gołoledzią"
+  },
+  "ahcs": {
+    "text1": "duże zachmurzenie",
+    "text2": "opady śniegu"
+  },
+  "ahcsr": {
+    "text1": "duże zachmurzenie",
+    "text2": "deszcz ze śniegiem"
+  },
+  "ahct": {
+    "text1": "duże zachmurzenie",
+    "text2": "burzowo"
+  },
+  "ahcts": {
+    "text1": "duże zachmurzenie",
+    "text2": "burza"
+  },
+  "aoc": {
+    "text1": "pochmurno",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "pochmurno",
+    "text2": "burza śnieżna"
+  },
+  "aocg": {
+    "text1": "pochmurno",
+    "text2": "porywisty"
+  },
+  "aocha": {
+    "text1": "pochmurno",
+    "text2": "krupy"
+  },
+  "aocih": {
+    "text1": "pochmurno",
+    "text2": "zagrożenie gołoledzią"
+  },
+  "aocr": {
+    "text1": "pochmurno",
+    "text2": "mżawka"
+  },
+  "aocrih": {
+    "text1": "pochmurno",
+    "text2": "mżawka z zagrożeniem gołoledzią"
+  },
+  "aocrs": {
+    "text1": "pochmurno",
+    "text2": "przelotne opady deszczu"
+  },
+  "aocs": {
+    "text1": "pochmurno",
+    "text2": "opady śniegu"
+  },
+  "aocsr": {
+    "text1": "pochmurno",
+    "text2": "deszcz ze śniegiem"
+  },
+  "aoct": {
+    "text1": "pochmurno",
+    "text2": "burzowo"
+  },
+  "aocts": {
+    "text1": "pochmurno",
+    "text2": "burza"
+  },
+  "dlc": {
+    "text1": "pogodnie",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "pogodnie",
+    "text2": "burza śnieżna"
+  },
+  "dlcg": {
+    "text1": "pogodnie",
+    "text2": "porywisty"
+  },
+  "dlchas": {
+    "text1": "pogodnie",
+    "text2": "burza krupiasta"
+  },
+  "dlchr": {
+    "text1": "pogodnie",
+    "text2": "silna mżawka"
+  },
+  "dlchs": {
+    "text1": "pogodnie",
+    "text2": "silne opady śniegu"
+  },
+  "dlcih": {
+    "text1": "pogodnie",
+    "text2": "zagrożenie gołoledzią"
+  },
+  "dlcmr": {
+    "text1": "pogodnie",
+    "text2": "umiarkowana mżawka"
+  },
+  "dlcms": {
+    "text1": "pogodnie",
+    "text2": "umiarkowane opady śniegu"
+  },
+  "dlcr": {
+    "text1": "pogodnie",
+    "text2": "mżawka"
+  },
+  "dlcrih": {
+    "text1": "pogodnie",
+    "text2": "mżawka z zagrożeniem gołoledzią"
+  },
+  "dlcs": {
+    "text1": "pogodnie",
+    "text2": "opady śniegu"
+  },
+  "dlcsr": {
+    "text1": "pogodnie",
+    "text2": "deszcz ze śniegiem"
+  },
+  "dlct": {
+    "text1": "pogodnie",
+    "text2": "krupy"
+  },
+  "dlcth": {
+    "text1": "pogodnie",
+    "text2": "burzowo"
+  },
+  "dlcts": {
+    "text1": "pogodnie",
+    "text2": "burza"
+  },
+  "dmc": {
+    "text1": "pochmurno",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "pochmurno",
+    "text2": "burza śnieżna"
+  },
+  "dmcg": {
+    "text1": "pochmurno",
+    "text2": "porywisty"
+  },
+  "dmcha": {
+    "text1": "pochmurno",
+    "text2": "krupy"
+  },
+  "dmchas": {
+    "text1": "pochmurno",
+    "text2": "burza krupiasta"
+  },
+  "dmchr": {
+    "text1": "pochmurno",
+    "text2": "silna mżawka"
+  },
+  "dmchs": {
+    "text1": "pochmurno",
+    "text2": "silne opady śniegu"
+  },
+  "dmclr": {
+    "text1": "pochmurno",
+    "text2": "lekka mżawka"
+  },
+  "dmcls": {
+    "text1": "pochmurno",
+    "text2": "lekkie opady śniegu"
+  },
+  "dmcmr": {
+    "text1": "pochmurno",
+    "text2": "umiarkowana mżawka"
+  },
+  "dmcms": {
+    "text1": "pochmurno",
+    "text2": "umiarkowane opady śniegu"
+  },
+  "dmcrih": {
+    "text1": "pochmurno",
+    "text2": "mżawka z zagrożeniem gołoledzią"
+  },
+  "dmcsr": {
+    "text1": "pochmurno",
+    "text2": "deszcz ze śniegiem"
+  },
+  "dmct": {
+    "text1": "pochmurno",
+    "text2": "burzowo"
+  },
+  "dmcts": {
+    "text1": "pochmurno",
+    "text2": "burza"
+  },
+  "dnc": {
+    "text1": "słonecznie",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "słonecznie",
+    "text2": "mgła przygruntowa"
+  },
+  "dncg": {
+    "text1": "słonecznie",
+    "text2": "porywisty"
+  },
+  "nlc": {
+    "text1": "lekkie zachmurzenie",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "burza śnieżna"
+  },
+  "nlcg": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "porywisty"
+  },
+  "nlcha": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "krupy"
+  },
+  "nlchas": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "burza krupiasta"
+  },
+  "nlchr": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "silna mżawka"
+  },
+  "nlchs": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "silne opady śniegu"
+  },
+  "nlcih": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "zagrożenie gołoledzią"
+  },
+  "nlcmr": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "umiarkowana mżawka"
+  },
+  "nlcms": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "umiarkowane opady śniegu"
+  },
+  "nlcr": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "mżawka"
+  },
+  "nlcrih": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "mżawka z zagrożeniem gołoledzią"
+  },
+  "nlcs": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "opady śniegu"
+  },
+  "nlcsr": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "deszcz ze śniegiem"
+  },
+  "nlcth": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "burzowo"
+  },
+  "nlcts": {
+    "text1": "lekkie zachmurzenie",
+    "text2": "burza"
+  },
+  "nmc": {
+    "text1": "pochmurno",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "pochmurno",
+    "text2": "burza śnieżna"
+  },
+  "nmcg": {
+    "text1": "pochmurno",
+    "text2": "porywisty"
+  },
+  "nmcha": {
+    "text1": "pochmurno",
+    "text2": "krupy"
+  },
+  "nmchas": {
+    "text1": "pochmurno",
+    "text2": "burza krupiasta"
+  },
+  "nmchr": {
+    "text1": "pochmurno",
+    "text2": "silna mżawka"
+  },
+  "nmchs": {
+    "text1": "pochmurno",
+    "text2": "silne opady śniegu"
+  },
+  "nmclr": {
+    "text1": "pochmurno",
+    "text2": "lekka mżawka"
+  },
+  "nmcls": {
+    "text1": "pochmurno",
+    "text2": "lekkie opady śniegu"
+  },
+  "nmcmr": {
+    "text1": "pochmurno",
+    "text2": "umiarkowana mżawka"
+  },
+  "nmcms": {
+    "text1": "pochmurno",
+    "text2": "umiarkowane opady śniegu"
+  },
+  "nmcrih": {
+    "text1": "pochmurno",
+    "text2": "mżawka z zagrożeniem gołoledzią"
+  },
+  "nmcsr": {
+    "text1": "pochmurno",
+    "text2": "deszcz ze śniegiem"
+  },
+  "nmct": {
+    "text1": "pochmurno",
+    "text2": "burzowo"
+  },
+  "nmcts": {
+    "text1": "pochmurno",
+    "text2": "burza"
+  },
+  "nnc": {
+    "text1": "dobra widoczność",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "dobra widoczność",
+    "text2": "mgła przygruntowa"
+  },
+  "nncg": {
+    "text1": "dobra widoczność",
+    "text2": "porywisty"
+  }
+}

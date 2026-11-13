@@ -1,0 +1,39 @@
+*::selection {
+  background: transparent;
+}
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+html * {
+  -webkit-user-select: none;
+}
+html {
+  font-size: 16px;
+}
+input,
+input:before,
+input:after {
+  -webkit-user-select: initial;
+  -khtml-user-select: initial;
+  -moz-user-select: initial;
+  -ms-user-select: initial;
+  user-select: initial;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-c0);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+td[colspan="4"] {
+  width: auto;
+}
+.restore-pointer-events {
+  pointer-events: all !important;
+}

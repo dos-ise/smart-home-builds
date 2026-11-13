@@ -1,0 +1,160 @@
+/*info overlay*/
+#info-overlay {
+  position: absolute;
+  width: 480px;
+  height: 649px;
+  margin: 0;
+  z-index: 90000;
+  top: 0px;
+}
+#info-view-element-box {
+  position: absolute;
+  top: 0px;
+  z-index: 90001;
+  height: 59px;
+  width: 444px;
+  margin-left: 18px;
+}
+#info-overlay #animatedHelpContent {
+  position: absolute;
+  bottom: 0px;
+  height: 0px;
+}
+#info-overlay #info-description-row {
+  position: relative;
+  height: 149px;
+  background-color: var(--color-c0);
+}
+#info-overlay #info-description-row .info-caption {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  width: 393px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#info-overlay #info-description-row .info-subcaption {
+  position: absolute;
+  top: 50px;
+  left: 20px;
+  width: 444px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+#info-overlay #info-view {
+  width: 475px;
+  height: 500px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+#info-overlay #info-view:hover {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+#info-overlay #info-view .container {
+  width: 444px;
+  min-height: 500px;
+  margin-left: 18px;
+  background-color: var(--color-c1);
+}
+#info-overlay #info-view .container .info-view-container-spacer {
+  height: 62px;
+}
+#info-overlay #info-view .container .info-view-container-end-spacer {
+  height: 60px;
+}
+#info-overlay #info-view .container .info-view-container-spacer-small {
+  height: 17px;
+}
+#info-overlay #info-view .container .info-view-container-spacer-small-end {
+  height: 14px;
+}
+#info-overlay #info-view .container .info-view-container-spacer-large {
+  height: 20px;
+}
+#info-overlay #info-view .container .info-view-container-spacer-large-end {
+  height: 16px;
+}
+#info-overlay #info-view .container .text {
+  margin-left: 18px;
+  margin-right: 56px;
+}
+#info-overlay #info-view .container .introduction {
+  line-height: 27px;
+}
+#info-overlay #info-view .container .paragraph-title {
+  margin-top: 20px;
+  height: 38px;
+}
+#info-overlay #info-view .container .paragraph-text {
+  white-space: pre-line;
+  line-height: 27px;
+}
+#info-overlay #info-view .container .paragraph-icon {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2px;
+  margin-right: 2px;
+  line-height: 27px;
+}
+#info-overlay #info-view .container .info-grid-line {
+  height: 2px;
+  margin-left: 18px;
+}
+#info-overlay #info-view .container .info-grid-line-large {
+  width: 406px;
+}
+#info-overlay .info-view-element-box-buttonbar {
+  position: absolute;
+  height: 59px;
+  width: 444px;
+  border: 0px;
+  border-bottom: 1px solid var(--color-c6);
+  z-index: 1;
+}
+#info-overlay .info-fade-out {
+  position: absolute;
+  top: 0px;
+  height: 59px;
+  width: 444px;
+}
+#info-overlay .info-view-element-box-white-line {
+  position: absolute;
+  border-bottom: 2px solid var(--color-c0);
+  width: 444px;
+  top: 60px;
+}
+#info-overlay .btnLeft {
+  position: relative;
+  top: 12px;
+  left: 15px;
+  float: left;
+}
+#info-overlay .btnRight {
+  position: relative;
+  top: 12px;
+  right: 15px;
+  float: right;
+}
+#info-overlay .btnText {
+  max-width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#info-overlay .info-swiper-scrollbar {
+  z-index: 2;
+  right: -12px;
+}
+#info-view::-webkit-scrollbar {
+  width: 7px;
+  -webkit-appearance: none;
+}
+#info-view::-webkit-scrollbar-thumb {
+  background: #C2C2C2;
+  height: 60px;
+}
+#info-view::-webkit-scrollbar-thumb:window-inactive {
+  background: #C2C2C2;
+}

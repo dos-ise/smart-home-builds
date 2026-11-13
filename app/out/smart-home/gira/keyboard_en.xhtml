@@ -1,0 +1,566 @@
+<div id="virtualKeyboard-template">
+  <div id="keyboard" style="bottom: 0px;">
+    <div id="keyboardHeader">
+    </div>
+    <div id="keyboardSmallLetter">
+      <div class="keyboard-row">
+        <div id="button_q" class="button"></div>
+        <div id="button_w" class="button"></div>
+        <div id="button_e" class="button"></div>
+        <div id="button_r" class="button"></div>
+        <div id="button_t" class="button"></div>
+        <div id="button_y" class="button"></div>
+        <div id="button_u" class="button"></div>
+        <div id="button_i" class="button"></div>
+        <div id="button_o" class="button"></div>
+        <div id="button_p" class="button"></div>
+        <div class="button button_del buttonSpecialKey icon-keyboard-delete-img" ontouchstart="jsKeyboard.withLongPress(event, jsKeyboard.del);">
+          <div class="key key_del">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div id="button_a" class="button"></div>
+        <div id="button_s" class="button"></div>
+        <div id="button_d" class="button"></div>
+        <div id="button_f" class="button"></div>
+        <div id="button_g" class="button"></div>
+        <div id="button_h" class="button"></div>
+        <div id="button_j" class="button"></div>
+        <div id="button_k" class="button"></div>
+        <div id="button_l" class="button"></div>
+        <div class="button button_wide buttonSpecialKey icon-keyboard-enter-img" ontouchstart="jsKeyboard.enter();">
+          <div class="key key_enter">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_capitalletterleft buttonSpecialKey icon-keyboard-shift-img" ontouchstart="jsKeyboard.changeToCapitalLetter();">
+          <div class="key key_capitalletterleft">
+          </div>
+        </div>
+        <div id="button_z" class="button"></div>
+        <div id="button_x" class="button"></div>
+        <div id="button_c" class="button"></div>
+        <div id="button_v" class="button"></div>
+        <div id="button_b" class="button"></div>
+        <div id="button_n" class="button"></div>
+        <div id="button_m" class="button"></div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.at);});">
+          <div class="key">&#64;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.dot);});">
+          <div class="key">&#46;</div>
+        </div>
+        <div class="button button_capitalletterleft buttonSpecialKey icon-keyboard-shift-img" ontouchstart="jsKeyboard.changeToCapitalLetter();">
+          <div class="key key_capitalletterleft">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_numberleft buttonSpecialKey icon-keyboard-character-img" ontouchstart="jsKeyboard.changeToSmallNumber();">
+          <div class="key key_number">
+            <span>123</span>
+            <span>#ä=</span>
+          </div>
+        </div>
+        <div class="button button_space" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.space);});">
+          <div class="key key_space">&nbsp;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.underscore);});">
+          <div class="key">&#95;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.minus);});">
+          <div class="key">&#45;</div>
+        </div>
+        <div class="button buttonSpecialKey icon-keyboard-keys-hide-img" ontouchstart="jsKeyboard.hide();">
+          <div class="key">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="keyboardCapitalLetter">
+      <div class="keyboard-row">
+        <div id="button_Q" class="button"></div>
+        <div id="button_W" class="button"></div>
+        <div id="button_E" class="button"></div>
+        <div id="button_R" class="button"></div>
+        <div id="button_T" class="button"></div>
+        <div id="button_Y" class="button"></div>
+        <div id="button_U" class="button"></div>
+        <div id="button_I" class="button"></div>
+        <div id="button_O" class="button"></div>
+        <div id="button_P" class="button"></div>
+        <div class="button button_del buttonSpecialKey icon-keyboard-delete-img" ontouchstart="jsKeyboard.withLongPress(event, jsKeyboard.del);">
+          <div class="key key_del">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div id="button_A" class="button"></div>
+        <div id="button_S" class="button"></div>
+        <div id="button_D" class="button"></div>
+        <div id="button_F" class="button"></div>
+        <div id="button_G" class="button"></div>
+        <div id="button_H" class="button"></div>
+        <div id="button_J" class="button"></div>
+        <div id="button_K" class="button"></div>
+        <div id="button_L" class="button"></div>
+        <div class="button button_wide buttonSpecialKey icon-keyboard-enter-img" ontouchstart="jsKeyboard.enter();">
+          <div class="key key_enter">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_smallletter staticDown icon-keyboard-shift-img-down" ontouchstart="jsKeyboard.changeToSmallLetter();">
+          <div class="key key_smallletter">
+          </div>
+        </div>
+
+        <div id="button_Z" class="button"></div>
+        <div id="button_X" class="button"></div>
+        <div id="button_C" class="button"></div>
+        <div id="button_V" class="button"></div>
+        <div id="button_B" class="button"></div>
+        <div id="button_N" class="button"></div>
+        <div id="button_M" class="button"></div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.at);});">
+          <div class="key">&#64;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.dot);});">
+          <div class="key">&#46;</div>
+        </div>
+        <div class="button button_smallletter staticDown icon-keyboard-shift-img-down" ontouchstart="jsKeyboard.changeToSmallLetter();">
+          <div class="key key_smallletter">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_numberleft buttonSpecialKey icon-keyboard-character-img" ontouchstart="jsKeyboard.changeToSmallNumber();">
+          <div class="key key_number">
+            <span>123</span>
+            <span>#ä=</span>
+          </div>
+        </div>
+        <div class="button button_space" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.space);});">
+          <div class="key key_space">&nbsp;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.underscore);});">
+          <div class="key">&#95;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.minus);});">
+          <div class="key">&#45;</div>
+        </div>
+        <div class="button buttonSpecialKey icon-keyboard-keys-hide-img" ontouchstart="jsKeyboard.hide();">
+          <div class="key">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="keyboardSmallNumber">
+      <div class="keyboard-row">
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.one);});">
+          <div class="key">1</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.two);});">
+          <div class="key">2</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.three);});">
+          <div class="key">3</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.four);});">
+          <div class="key">4</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.five);});">
+          <div class="key">5</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.six);});">
+          <div class="key">6</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.seven);});">
+          <div class="key">7</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.eight);});">
+          <div class="key">8</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.nine);});">
+          <div class="key">9</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.zero);});">
+          <div class="key">0</div>
+        </div>
+        <div class="button button_del buttonSpecialKey icon-keyboard-delete-img" ontouchstart="jsKeyboard.withLongPress(event, jsKeyboard.del);">
+          <div class="key key_del">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(92);});">
+          <div class="key">&#92;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(124);});">
+          <div class="key">&#124;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(47);});">
+          <div class="key">&#47;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(40);});">
+          <div class="key">&#40;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(41);});">
+          <div class="key">&#41;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8364);});">
+          <div class="key">&#8364;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(36);});">
+          <div class="key">&#36;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(163);});">
+          <div class="key">&#163;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(165);});">
+          <div class="key">&#165;</div>
+        </div>
+        <div class="button button_wide buttonSpecialKey icon-keyboard-enter-img" ontouchstart="jsKeyboard.enter();">
+          <div class="key key_enter">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_specialchars buttonSpecialKey" ontouchstart="jsKeyboard.changeToSymbols();">
+          <div class="key">#+=</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(63);});">
+          <div class="key">&#63;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(33);});">
+          <div class="key">&#33;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(39);});">
+          <div class="key">&#39;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(34);});">
+          <div class="key">&#34;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(59);});">
+          <div class="key">&#59;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(44);});">
+          <div class="key">&#44;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(58);});">
+          <div class="key">&#58;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(46);});">
+          <div class="key">&#46;</div>
+        </div>
+        <div class="button button_smallletter buttonSpecialKey icon-keyboard-shift-img" ontouchstart="jsKeyboard.changeToCapitalNumber();">
+          <div class="key">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_numberleft buttonSpecialKey" ontouchstart="jsKeyboard.changeToSmallLetter();">
+          <div class="key key_smallletter">abc</div>
+        </div>
+        <div class="button button_space" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(32);});">
+          <div class="key key_space">&nbsp;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8222);});">
+          <div class="key">&#8222;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8220);});">
+          <div class="key">&#8220;</div>
+        </div>
+        <div class="button buttonSpecialKey icon-keyboard-keys-hide-img" ontouchstart="jsKeyboard.hide();">
+          <div class="key">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="keyboardCapitalNumber">
+      <div class="keyboard-row">
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.one);});">
+          <div class="key">1</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.two);});">
+          <div class="key">2</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.three);});">
+          <div class="key">3</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.four);});">
+          <div class="key">4</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.five);});">
+          <div class="key">5</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.six);});">
+          <div class="key">6</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.seven);});">
+          <div class="key">7</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.eight);});">
+          <div class="key">8</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.nine);});">
+          <div class="key">9</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(jsKeyboard.letterEnum.zero);});">
+          <div class="key">0</div>
+        </div>
+        <div class="button button_del buttonSpecialKey icon-keyboard-delete-img" ontouchstart="jsKeyboard.withLongPress(event, jsKeyboard.del);">
+          <div class="key key_del">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(92);});">
+          <div class="key">&#92;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(124);});">
+          <div class="key">&#124;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(47);});">
+          <div class="key">&#47;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(40);});">
+          <div class="key">&#40;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(41);});">
+          <div class="key">&#41;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8364);});">
+          <div class="key">&#8364;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(36);});">
+          <div class="key">&#36;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(163);});">
+          <div class="key">&#163;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(165);});">
+          <div class="key">&#165;</div>
+        </div>
+        <div class="button button_wide buttonSpecialKey icon-keyboard-enter-img" ontouchstart="jsKeyboard.enter();">
+          <div class="key key_enter">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_specialchars buttonSpecialKey" ontouchstart="jsKeyboard.changeToSymbols();">
+          <div class="key">#+=</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(63);});">
+          <div class="key">&#63;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(33);});">
+          <div class="key">&#33;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(39);});">
+          <div class="key">&#39;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(34);});">
+          <div class="key">&#34;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(59);});">
+          <div class="key">&#59;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(44);});">
+          <div class="key">&#44;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(58);});">
+          <div class="key">&#58;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(46);});">
+          <div class="key">&#46;</div>
+        </div>
+        <div class="button button_smallletter staticDown icon-keyboard-shift-img-down" ontouchstart="jsKeyboard.changeToSmallNumber();">
+          <div class="key">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_numberleft buttonSpecialKey" ontouchstart="jsKeyboard.changeToSmallLetter();">
+          <div class="key key_smallletter">abc</div>
+        </div>
+        <div class="button button_space" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(32);});">
+          <div class="key key_space">&nbsp;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8222);});">
+          <div class="key">&#8222;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8220);});">
+          <div class="key">&#8220;</div>
+        </div>
+        <div class="button buttonSpecialKey icon-keyboard-keys-hide-img" ontouchstart="jsKeyboard.hide();">
+          <div class="key">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="keyboardSymbols">
+      <div class="keyboard-row">
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(91);});">
+          <div class="key">&#91;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(93);});">
+          <div class="key">&#93;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(123);});">
+          <div class="key">&#123;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(125);});">
+          <div class="key">&#125;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(35);});">
+          <div class="key">&#35;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(37);});">
+          <div class="key">&#37;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(94);});">
+          <div class="key">&#94;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(167);});">
+          <div class="key">&#167;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(43);});">
+          <div class="key">&#43;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(126);});">
+          <div class="key">&#126;</div>
+        </div>
+        <div class="button button_del buttonSpecialKey icon-keyboard-delete-img" ontouchstart="jsKeyboard.withLongPress(event, jsKeyboard.del);">
+          <div class="key key_del">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_underscore" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(42);});">
+          <div class="key">&#42;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(176);});">
+          <div class="key">&#176;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(60);});">
+          <div class="key">&#60;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(61);});">
+          <div class="key">&#61;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(62);});">
+          <div class="key">&#62;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8364);});">
+          <div class="key">&#8364;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(36);});">
+          <div class="key">&#36;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(163);});">
+          <div class="key">&#163;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(165);});">
+          <div class="key">&#165;</div>
+        </div>
+        <div class="button button_wide buttonSpecialKey icon-keyboard-enter-img" ontouchstart="jsKeyboard.enter();">
+          <div class="key key_enter">
+          </div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_wide buttonSpecialKey" ontouchstart="jsKeyboard.changeToSmallNumber();">
+          <div class="key">123</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(38);});">
+          <div class="key">&#38;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(33);});">
+          <div class="key">&#33;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(39);});">
+          <div class="key">&#39;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(34);});">
+          <div class="key">&#34;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(59);});">
+          <div class="key">&#59;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(44);});">
+          <div class="key">&#44;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(58);});">
+          <div class="key">&#58;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(46);});">
+          <div class="key">&#46;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(8216);});">
+          <div class="key">&#8216;</div>
+        </div>
+      </div>
+      <div class="keyboard-row">
+        <div class="button button_numberleft buttonSpecialKey" ontouchstart="jsKeyboard.changeToSmallLetter();">
+          <div class="key">abc</div>
+        </div>
+        <div class="button button_space" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(32);});">
+          <div class="key key_space">&nbsp;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(180);});">
+          <div class="key">&#180;</div>
+        </div>
+        <div class="button" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.write(96);});">
+          <div class="key">&#96;</div>
+        </div>
+        <div class="button buttonSpecialKey icon-keyboard-keys-hide-img" ontouchstart="jsKeyboard.hide();">
+          <div class="key">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="giraKeyboardNumericKeypad">
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.one);});">
+        <div class="key">1</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.two);});">
+        <div class="key">2</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.three);});">
+        <div class="key">3</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.four);});">
+        <div class="key">4</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.five);});">
+        <div class="key">5</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.six);});">
+        <div class="key">6</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.seven);});">
+        <div class="key">7</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.eight);});">
+        <div class="key">8</div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.nine);});">
+        <div class="key">9</div>
+      </div>
+      <div class="button button_wide_numeric buttonSpecialKey " ontouchstart="jsKeyboard.withLongPress(event, jsKeyboard.delOrClear);">
+        <div class="key_special_wide icon-keyboard-delete">
+        </div>
+      </div>
+      <div class="button button_wide_numeric" ontouchstart="jsKeyboard.withLongPress(event, function(){jsKeyboard.writeOverSelected(jsKeyboard.letterEnum.zero);});">
+        <div class="key">0</div>
+      </div>
+      <div class="button button_wide_numeric buttonSpecialKey " ontouchstart="jsKeyboard.hide();">
+        <div class="key_special_wide icon-keyboard-hide">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

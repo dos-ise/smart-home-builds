@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "vifor",
+    "text2": "furtună"
+  },
+  "ahc": {
+    "text1": "nori răsfiraţi",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "foarte înnorat",
+    "text2": "furtună de zăpadă"
+  },
+  "ahcf": {
+    "text1": "foarte înnorat",
+    "text2": "ceaţă la sol"
+  },
+  "ahcg": {
+    "text1": "foarte înnorat",
+    "text2": "vifor"
+  },
+  "ahcha": {
+    "text1": "foarte înnorat",
+    "text2": "aversă cu grindină"
+  },
+  "ahchas": {
+    "text1": "foarte înnorat",
+    "text2": "vijelie cu grindină"
+  },
+  "ahchr": {
+    "text1": "foarte înnorat",
+    "text2": "ploaie măruntă puternică"
+  },
+  "ahchs": {
+    "text1": "foarte înnorat",
+    "text2": "ninsoare puternică"
+  },
+  "ahcih": {
+    "text1": "foarte înnorat",
+    "text2": "pericol de polei"
+  },
+  "ahcmr": {
+    "text1": "foarte înnorat",
+    "text2": "ploaie măruntă moderată"
+  },
+  "ahcr": {
+    "text1": "foarte înnorat",
+    "text2": "ploaie măruntă"
+  },
+  "ahcrih": {
+    "text1": "foarte înnorat",
+    "text2": "ploaie măruntă cu pericol de polei"
+  },
+  "ahcs": {
+    "text1": "foarte înnorat",
+    "text2": "ninsoare"
+  },
+  "ahcsr": {
+    "text1": "foarte înnorat",
+    "text2": "lapoviţă"
+  },
+  "ahct": {
+    "text1": "foarte înnorat",
+    "text2": "vreme rea"
+  },
+  "ahcts": {
+    "text1": "foarte înnorat",
+    "text2": "vijelie"
+  },
+  "aoc": {
+    "text1": "acoperit",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "acoperit",
+    "text2": "furtună de zăpadă"
+  },
+  "aocg": {
+    "text1": "acoperit",
+    "text2": "vifor"
+  },
+  "aocha": {
+    "text1": "acoperit",
+    "text2": "aversă cu grindină"
+  },
+  "aocih": {
+    "text1": "acoperit",
+    "text2": "pericol de polei"
+  },
+  "aocr": {
+    "text1": "acoperit",
+    "text2": "ploaie măruntă"
+  },
+  "aocrih": {
+    "text1": "acoperit",
+    "text2": "ploaie măruntă cu pericol de polei"
+  },
+  "aocrs": {
+    "text1": "acoperit",
+    "text2": "aversă de ploaie"
+  },
+  "aocs": {
+    "text1": "acoperit",
+    "text2": "ninsoare"
+  },
+  "aocsr": {
+    "text1": "acoperit",
+    "text2": "lapoviţă"
+  },
+  "aoct": {
+    "text1": "acoperit",
+    "text2": "vreme rea"
+  },
+  "aocts": {
+    "text1": "acoperit",
+    "text2": "vijelie"
+  },
+  "dlc": {
+    "text1": "senin",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "senin",
+    "text2": "furtună de zăpadă"
+  },
+  "dlcg": {
+    "text1": "senin",
+    "text2": "vifor"
+  },
+  "dlchas": {
+    "text1": "senin",
+    "text2": "vijelie cu grindină"
+  },
+  "dlchr": {
+    "text1": "senin",
+    "text2": "ploaie măruntă puternică"
+  },
+  "dlchs": {
+    "text1": "senin",
+    "text2": "ninsoare puternică"
+  },
+  "dlcih": {
+    "text1": "senin",
+    "text2": "pericol de polei"
+  },
+  "dlcmr": {
+    "text1": "senin",
+    "text2": "ploaie măruntă moderată"
+  },
+  "dlcms": {
+    "text1": "senin",
+    "text2": "ninsoare moderată"
+  },
+  "dlcr": {
+    "text1": "senin",
+    "text2": "ploaie măruntă"
+  },
+  "dlcrih": {
+    "text1": "senin",
+    "text2": "ploaie măruntă cu pericol de polei"
+  },
+  "dlcs": {
+    "text1": "senin",
+    "text2": "ninsoare"
+  },
+  "dlcsr": {
+    "text1": "senin",
+    "text2": "lapoviţă"
+  },
+  "dlct": {
+    "text1": "senin",
+    "text2": "aversă cu grindină"
+  },
+  "dlcth": {
+    "text1": "senin",
+    "text2": "vreme rea"
+  },
+  "dlcts": {
+    "text1": "senin",
+    "text2": "vijelie"
+  },
+  "dmc": {
+    "text1": "noros",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "noros",
+    "text2": "furtună de zăpadă"
+  },
+  "dmcg": {
+    "text1": "noros",
+    "text2": "vifor"
+  },
+  "dmcha": {
+    "text1": "noros",
+    "text2": "aversă cu grindină"
+  },
+  "dmchas": {
+    "text1": "noros",
+    "text2": "vijelie cu grindină"
+  },
+  "dmchr": {
+    "text1": "noros",
+    "text2": "ploaie măruntă puternică"
+  },
+  "dmchs": {
+    "text1": "noros",
+    "text2": "ninsoare puternică"
+  },
+  "dmclr": {
+    "text1": "noros",
+    "text2": "ploaie măruntă uşoară"
+  },
+  "dmcls": {
+    "text1": "noros",
+    "text2": "ninsoare uşoară"
+  },
+  "dmcmr": {
+    "text1": "noros",
+    "text2": "ploaie măruntă moderată"
+  },
+  "dmcms": {
+    "text1": "noros",
+    "text2": "ninsoare moderată"
+  },
+  "dmcrih": {
+    "text1": "noros",
+    "text2": "ploaie măruntă cu pericol de polei"
+  },
+  "dmcsr": {
+    "text1": "noros",
+    "text2": "lapoviţă"
+  },
+  "dmct": {
+    "text1": "noros",
+    "text2": "vreme rea"
+  },
+  "dmcts": {
+    "text1": "noros",
+    "text2": "vijelie"
+  },
+  "dnc": {
+    "text1": "însorit",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "însorit",
+    "text2": "ceaţă la sol"
+  },
+  "dncg": {
+    "text1": "însorit",
+    "text2": "vifor"
+  },
+  "nlc": {
+    "text1": "uşor înnorat",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "uşor înnorat",
+    "text2": "furtună de zăpadă"
+  },
+  "nlcg": {
+    "text1": "uşor înnorat",
+    "text2": "vifor"
+  },
+  "nlcha": {
+    "text1": "uşor înnorat",
+    "text2": "aversă cu grindină"
+  },
+  "nlchas": {
+    "text1": "uşor înnorat",
+    "text2": "vijelie cu grindină"
+  },
+  "nlchr": {
+    "text1": "uşor înnorat",
+    "text2": "ploaie măruntă puternică"
+  },
+  "nlchs": {
+    "text1": "uşor înnorat",
+    "text2": "ninsoare puternică"
+  },
+  "nlcih": {
+    "text1": "uşor înnorat",
+    "text2": "pericol de polei"
+  },
+  "nlcmr": {
+    "text1": "uşor înnorat",
+    "text2": "ploaie măruntă moderată"
+  },
+  "nlcms": {
+    "text1": "uşor înnorat",
+    "text2": "ninsoare moderată"
+  },
+  "nlcr": {
+    "text1": "uşor înnorat",
+    "text2": "ploaie măruntă"
+  },
+  "nlcrih": {
+    "text1": "uşor înnorat",
+    "text2": "ploaie măruntă cu pericol de polei"
+  },
+  "nlcs": {
+    "text1": "uşor înnorat",
+    "text2": "ninsoare"
+  },
+  "nlcsr": {
+    "text1": "uşor înnorat",
+    "text2": "lapoviţă"
+  },
+  "nlcth": {
+    "text1": "uşor înnorat",
+    "text2": "vreme rea"
+  },
+  "nlcts": {
+    "text1": "uşor înnorat",
+    "text2": "vijelie"
+  },
+  "nmc": {
+    "text1": "noros",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "noros",
+    "text2": "furtună de zăpadă"
+  },
+  "nmcg": {
+    "text1": "noros",
+    "text2": "vifor"
+  },
+  "nmcha": {
+    "text1": "noros",
+    "text2": "aversă cu grindină"
+  },
+  "nmchas": {
+    "text1": "noros",
+    "text2": "vijelie cu grindină"
+  },
+  "nmchr": {
+    "text1": "noros",
+    "text2": "ploaie măruntă puternică"
+  },
+  "nmchs": {
+    "text1": "noros",
+    "text2": "ninsoare puternică"
+  },
+  "nmclr": {
+    "text1": "noros",
+    "text2": "ploaie măruntă uşoară"
+  },
+  "nmcls": {
+    "text1": "noros",
+    "text2": "ninsoare uşoară"
+  },
+  "nmcmr": {
+    "text1": "noros",
+    "text2": "ploaie măruntă moderată"
+  },
+  "nmcms": {
+    "text1": "noros",
+    "text2": "ninsoare moderată"
+  },
+  "nmcrih": {
+    "text1": "noros",
+    "text2": "ploaie măruntă cu pericol de polei"
+  },
+  "nmcsr": {
+    "text1": "noros",
+    "text2": "lapoviţă"
+  },
+  "nmct": {
+    "text1": "noros",
+    "text2": "vreme rea"
+  },
+  "nmcts": {
+    "text1": "noros",
+    "text2": "vijelie"
+  },
+  "nnc": {
+    "text1": "fără nori",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "fără nori",
+    "text2": "ceaţă la sol"
+  },
+  "nncg": {
+    "text1": "fără nori",
+    "text2": "vifor"
+  }
+}

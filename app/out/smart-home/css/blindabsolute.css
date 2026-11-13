@@ -1,0 +1,31 @@
+.blindabsolute .left {
+  text-align: left;
+  left: 18px;
+  position: absolute;
+}
+.blindabsolute .right {
+  text-align: right;
+  right: 18px;
+  position: absolute;
+}
+.blindabsolute .value {
+  float: left;
+  top: 221px;
+}
+.blindabsolute .value .value_unit {
+  margin-top: 7px;
+}
+.blindabsolute .lamination-up {
+  position: absolute;
+  width: 42px;
+  height: 45px;
+  top: 16px;
+  left: 268px;
+}
+.blindabsolute .lamination-down {
+  position: absolute;
+  width: 42px;
+  height: 45px;
+  top: 411px;
+  left: 268px;
+}

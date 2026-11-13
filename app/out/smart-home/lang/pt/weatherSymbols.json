@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "vento forte",
+    "text2": "tempestade"
+  },
+  "ahc": {
+    "text1": "nuvens altas",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "muito nublado",
+    "text2": "tempestade de neve"
+  },
+  "ahcf": {
+    "text1": "muito nublado",
+    "text2": "neblina"
+  },
+  "ahcg": {
+    "text1": "muito nublado",
+    "text2": "vento forte"
+  },
+  "ahcha": {
+    "text1": "muito nublado",
+    "text2": "queda de granizo"
+  },
+  "ahchas": {
+    "text1": "muito nublado",
+    "text2": "saraivadas"
+  },
+  "ahchr": {
+    "text1": "muito nublado",
+    "text2": "chuva forte"
+  },
+  "ahchs": {
+    "text1": "muito nublado",
+    "text2": "forte queda de neve"
+  },
+  "ahcih": {
+    "text1": "muito nublado",
+    "text2": "perigo de gelo na estrada"
+  },
+  "ahcmr": {
+    "text1": "muito nublado",
+    "text2": "chuva moderada"
+  },
+  "ahcr": {
+    "text1": "muito nublado",
+    "text2": "chuva"
+  },
+  "ahcrih": {
+    "text1": "muito nublado",
+    "text2": "chuva com perigo de gelo na estrada"
+  },
+  "ahcs": {
+    "text1": "muito nublado",
+    "text2": "queda de neve"
+  },
+  "ahcsr": {
+    "text1": "muito nublado",
+    "text2": "neve fina"
+  },
+  "ahct": {
+    "text1": "muito nublado",
+    "text2": "possibilidade de trovoadas"
+  },
+  "ahcts": {
+    "text1": "muito nublado",
+    "text2": "trovoadas"
+  },
+  "aoc": {
+    "text1": "encoberto",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "encoberto",
+    "text2": "tempestade de neve"
+  },
+  "aocg": {
+    "text1": "encoberto",
+    "text2": "vento forte"
+  },
+  "aocha": {
+    "text1": "encoberto",
+    "text2": "queda de granizo"
+  },
+  "aocih": {
+    "text1": "encoberto",
+    "text2": "perigo de gelo na estrada"
+  },
+  "aocr": {
+    "text1": "encoberto",
+    "text2": "chuva"
+  },
+  "aocrih": {
+    "text1": "encoberto",
+    "text2": "chuva com perigo de gelo na estrada"
+  },
+  "aocrs": {
+    "text1": "encoberto",
+    "text2": "aguaceiros"
+  },
+  "aocs": {
+    "text1": "encoberto",
+    "text2": "queda de neve"
+  },
+  "aocsr": {
+    "text1": "encoberto",
+    "text2": "neve fina"
+  },
+  "aoct": {
+    "text1": "encoberto",
+    "text2": "possibilidade de trovoadas"
+  },
+  "aocts": {
+    "text1": "encoberto",
+    "text2": "trovoadas"
+  },
+  "dlc": {
+    "text1": "céu limpo",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "céu limpo",
+    "text2": "tempestade de neve"
+  },
+  "dlcg": {
+    "text1": "céu limpo",
+    "text2": "vento forte"
+  },
+  "dlchas": {
+    "text1": "céu limpo",
+    "text2": "saraivadas"
+  },
+  "dlchr": {
+    "text1": "céu limpo",
+    "text2": "chuva forte"
+  },
+  "dlchs": {
+    "text1": "céu limpo",
+    "text2": "forte queda de neve"
+  },
+  "dlcih": {
+    "text1": "céu limpo",
+    "text2": "perigo de gelo na estrada"
+  },
+  "dlcmr": {
+    "text1": "céu limpo",
+    "text2": "chuva moderada"
+  },
+  "dlcms": {
+    "text1": "céu limpo",
+    "text2": "queda de neve moderada"
+  },
+  "dlcr": {
+    "text1": "céu limpo",
+    "text2": "chuva"
+  },
+  "dlcrih": {
+    "text1": "céu limpo",
+    "text2": "chuva com perigo de gelo na estrada"
+  },
+  "dlcs": {
+    "text1": "céu limpo",
+    "text2": "queda de neve"
+  },
+  "dlcsr": {
+    "text1": "céu limpo",
+    "text2": "neve fina"
+  },
+  "dlct": {
+    "text1": "céu limpo",
+    "text2": "queda de granizo"
+  },
+  "dlcth": {
+    "text1": "céu limpo",
+    "text2": "possibilidade de trovoadas"
+  },
+  "dlcts": {
+    "text1": "céu limpo",
+    "text2": "trovoadas"
+  },
+  "dmc": {
+    "text1": "nublado",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "nublado",
+    "text2": "tempestade de neve"
+  },
+  "dmcg": {
+    "text1": "nublado",
+    "text2": "vento forte"
+  },
+  "dmcha": {
+    "text1": "nublado",
+    "text2": "queda de granizo"
+  },
+  "dmchas": {
+    "text1": "nublado",
+    "text2": "saraivadas"
+  },
+  "dmchr": {
+    "text1": "nublado",
+    "text2": "chuva forte"
+  },
+  "dmchs": {
+    "text1": "nublado",
+    "text2": "forte queda de neve"
+  },
+  "dmclr": {
+    "text1": "nublado",
+    "text2": "chuva fraca"
+  },
+  "dmcls": {
+    "text1": "nublado",
+    "text2": "leve queda de neve"
+  },
+  "dmcmr": {
+    "text1": "nublado",
+    "text2": "chuva moderada"
+  },
+  "dmcms": {
+    "text1": "nublado",
+    "text2": "queda de neve moderada"
+  },
+  "dmcrih": {
+    "text1": "nublado",
+    "text2": "chuva com perigo de gelo na estrada"
+  },
+  "dmcsr": {
+    "text1": "nublado",
+    "text2": "neve fina"
+  },
+  "dmct": {
+    "text1": "nublado",
+    "text2": "possibilidade de trovoadas"
+  },
+  "dmcts": {
+    "text1": "nublado",
+    "text2": "trovoadas"
+  },
+  "dnc": {
+    "text1": "soalheiro",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "soalheiro",
+    "text2": "neblina"
+  },
+  "dncg": {
+    "text1": "soalheiro",
+    "text2": "vento forte"
+  },
+  "nlc": {
+    "text1": "ligeiramente nublado",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "ligeiramente nublado",
+    "text2": "tempestade de neve"
+  },
+  "nlcg": {
+    "text1": "ligeiramente nublado",
+    "text2": "vento forte"
+  },
+  "nlcha": {
+    "text1": "ligeiramente nublado",
+    "text2": "queda de granizo"
+  },
+  "nlchas": {
+    "text1": "ligeiramente nublado",
+    "text2": "saraivadas"
+  },
+  "nlchr": {
+    "text1": "ligeiramente nublado",
+    "text2": "chuva forte"
+  },
+  "nlchs": {
+    "text1": "ligeiramente nublado",
+    "text2": "forte queda de neve"
+  },
+  "nlcih": {
+    "text1": "ligeiramente nublado",
+    "text2": "perigo de gelo na estrada"
+  },
+  "nlcmr": {
+    "text1": "ligeiramente nublado",
+    "text2": "chuva moderada"
+  },
+  "nlcms": {
+    "text1": "ligeiramente nublado",
+    "text2": "queda de neve moderada"
+  },
+  "nlcr": {
+    "text1": "ligeiramente nublado",
+    "text2": "chuva"
+  },
+  "nlcrih": {
+    "text1": "ligeiramente nublado",
+    "text2": "chuva com perigo de gelo na estrada"
+  },
+  "nlcs": {
+    "text1": "ligeiramente nublado",
+    "text2": "queda de neve"
+  },
+  "nlcsr": {
+    "text1": "ligeiramente nublado",
+    "text2": "neve fina"
+  },
+  "nlcth": {
+    "text1": "ligeiramente nublado",
+    "text2": "possibilidade de trovoadas"
+  },
+  "nlcts": {
+    "text1": "ligeiramente nublado",
+    "text2": "trovoadas"
+  },
+  "nmc": {
+    "text1": "nublado",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "nublado",
+    "text2": "tempestade de neve"
+  },
+  "nmcg": {
+    "text1": "nublado",
+    "text2": "vento forte"
+  },
+  "nmcha": {
+    "text1": "nublado",
+    "text2": "queda de granizo"
+  },
+  "nmchas": {
+    "text1": "nublado",
+    "text2": "saraivadas"
+  },
+  "nmchr": {
+    "text1": "nublado",
+    "text2": "chuva forte"
+  },
+  "nmchs": {
+    "text1": "nublado",
+    "text2": "forte queda de neve"
+  },
+  "nmclr": {
+    "text1": "nublado",
+    "text2": "chuva fraca"
+  },
+  "nmcls": {
+    "text1": "nublado",
+    "text2": "leve queda de neve"
+  },
+  "nmcmr": {
+    "text1": "nublado",
+    "text2": "chuva moderada"
+  },
+  "nmcms": {
+    "text1": "nublado",
+    "text2": "queda de neve moderada"
+  },
+  "nmcrih": {
+    "text1": "nublado",
+    "text2": "chuva com perigo de gelo na estrada"
+  },
+  "nmcsr": {
+    "text1": "nublado",
+    "text2": "neve fina"
+  },
+  "nmct": {
+    "text1": "nublado",
+    "text2": "possibilidade de trovoadas"
+  },
+  "nmcts": {
+    "text1": "nublado",
+    "text2": "trovoadas"
+  },
+  "nnc": {
+    "text1": "límpido",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "límpido",
+    "text2": "neblina"
+  },
+  "nncg": {
+    "text1": "límpido",
+    "text2": "vento forte"
+  }
+}

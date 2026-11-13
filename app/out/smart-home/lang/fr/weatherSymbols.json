@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "venteux",
+    "text2": "tempête"
+  },
+  "ahc": {
+    "text1": "cirrostratus",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "fortement nuageux",
+    "text2": "tempête de neige"
+  },
+  "ahcf": {
+    "text1": "fortement nuageux",
+    "text2": "brouillard au sol"
+  },
+  "ahcg": {
+    "text1": "fortement nuageux",
+    "text2": "venteux"
+  },
+  "ahcha": {
+    "text1": "fortement nuageux",
+    "text2": "giboulée"
+  },
+  "ahchas": {
+    "text1": "fortement nuageux",
+    "text2": "neige roulée"
+  },
+  "ahchr": {
+    "text1": "fortement nuageux",
+    "text2": "forte bruine"
+  },
+  "ahchs": {
+    "text1": "fortement nuageux",
+    "text2": "forte chute de neige"
+  },
+  "ahcih": {
+    "text1": "fortement nuageux",
+    "text2": "danger de verglas"
+  },
+  "ahcmr": {
+    "text1": "fortement nuageux",
+    "text2": "bruine moyennement forte"
+  },
+  "ahcr": {
+    "text1": "fortement nuageux",
+    "text2": "bruine"
+  },
+  "ahcrih": {
+    "text1": "fortement nuageux",
+    "text2": "bruine avec danger de verglas"
+  },
+  "ahcs": {
+    "text1": "fortement nuageux",
+    "text2": "chute de neige"
+  },
+  "ahcsr": {
+    "text1": "fortement nuageux",
+    "text2": "neige fondue"
+  },
+  "ahct": {
+    "text1": "fortement nuageux",
+    "text2": "temps orageux"
+  },
+  "ahcts": {
+    "text1": "fortement nuageux",
+    "text2": "orage"
+  },
+  "aoc": {
+    "text1": "couvert",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "couvert",
+    "text2": "tempête de neige"
+  },
+  "aocg": {
+    "text1": "couvert",
+    "text2": "venteux"
+  },
+  "aocha": {
+    "text1": "couvert",
+    "text2": "giboulée"
+  },
+  "aocih": {
+    "text1": "couvert",
+    "text2": "danger de verglas"
+  },
+  "aocr": {
+    "text1": "couvert",
+    "text2": "bruine"
+  },
+  "aocrih": {
+    "text1": "couvert",
+    "text2": "bruine avec danger de verglas"
+  },
+  "aocrs": {
+    "text1": "couvert",
+    "text2": "ondée passagère"
+  },
+  "aocs": {
+    "text1": "couvert",
+    "text2": "chute de neige"
+  },
+  "aocsr": {
+    "text1": "couvert",
+    "text2": "neige fondue"
+  },
+  "aoct": {
+    "text1": "couvert",
+    "text2": "temps orageux"
+  },
+  "aocts": {
+    "text1": "couvert",
+    "text2": "orage"
+  },
+  "dlc": {
+    "text1": "ciel dégagé",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "ciel dégagé",
+    "text2": "tempête de neige"
+  },
+  "dlcg": {
+    "text1": "ciel dégagé",
+    "text2": "venteux"
+  },
+  "dlchas": {
+    "text1": "ciel dégagé",
+    "text2": "neige roulée"
+  },
+  "dlchr": {
+    "text1": "ciel dégagé",
+    "text2": "forte bruine"
+  },
+  "dlchs": {
+    "text1": "ciel dégagé",
+    "text2": "forte chute de neige"
+  },
+  "dlcih": {
+    "text1": "ciel dégagé",
+    "text2": "danger de verglas"
+  },
+  "dlcmr": {
+    "text1": "ciel dégagé",
+    "text2": "bruine moyennement forte"
+  },
+  "dlcms": {
+    "text1": "ciel dégagé",
+    "text2": "chute de neige moyennement forte"
+  },
+  "dlcr": {
+    "text1": "ciel dégagé",
+    "text2": "bruine"
+  },
+  "dlcrih": {
+    "text1": "ciel dégagé",
+    "text2": "bruine avec danger de verglas"
+  },
+  "dlcs": {
+    "text1": "ciel dégagé",
+    "text2": "chute de neige"
+  },
+  "dlcsr": {
+    "text1": "ciel dégagé",
+    "text2": "neige fondue"
+  },
+  "dlct": {
+    "text1": "ciel dégagé",
+    "text2": "giboulée"
+  },
+  "dlcth": {
+    "text1": "ciel dégagé",
+    "text2": "temps orageux"
+  },
+  "dlcts": {
+    "text1": "ciel dégagé",
+    "text2": "orage"
+  },
+  "dmc": {
+    "text1": "nuageux",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "nuageux",
+    "text2": "tempête de neige"
+  },
+  "dmcg": {
+    "text1": "nuageux",
+    "text2": "venteux"
+  },
+  "dmcha": {
+    "text1": "nuageux",
+    "text2": "giboulée"
+  },
+  "dmchas": {
+    "text1": "nuageux",
+    "text2": "neige roulée"
+  },
+  "dmchr": {
+    "text1": "nuageux",
+    "text2": "forte bruine"
+  },
+  "dmchs": {
+    "text1": "nuageux",
+    "text2": "forte chute de neige"
+  },
+  "dmclr": {
+    "text1": "nuageux",
+    "text2": "légère bruine"
+  },
+  "dmcls": {
+    "text1": "nuageux",
+    "text2": "légère chute de neige"
+  },
+  "dmcmr": {
+    "text1": "nuageux",
+    "text2": "bruine moyennement forte"
+  },
+  "dmcms": {
+    "text1": "nuageux",
+    "text2": "chute de neige moyennement forte"
+  },
+  "dmcrih": {
+    "text1": "nuageux",
+    "text2": "bruine avec danger de verglas"
+  },
+  "dmcsr": {
+    "text1": "nuageux",
+    "text2": "neige fondue"
+  },
+  "dmct": {
+    "text1": "nuageux",
+    "text2": "temps orageux"
+  },
+  "dmcts": {
+    "text1": "nuageux",
+    "text2": "orage"
+  },
+  "dnc": {
+    "text1": "ensoleillé",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "ensoleillé",
+    "text2": "brouillard au sol"
+  },
+  "dncg": {
+    "text1": "ensoleillé",
+    "text2": "venteux"
+  },
+  "nlc": {
+    "text1": "légèrement nuageux",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "légèrement nuageux",
+    "text2": "tempête de neige"
+  },
+  "nlcg": {
+    "text1": "légèrement nuageux",
+    "text2": "venteux"
+  },
+  "nlcha": {
+    "text1": "légèrement nuageux",
+    "text2": "giboulée"
+  },
+  "nlchas": {
+    "text1": "légèrement nuageux",
+    "text2": "neige roulée"
+  },
+  "nlchr": {
+    "text1": "légèrement nuageux",
+    "text2": "forte bruine"
+  },
+  "nlchs": {
+    "text1": "légèrement nuageux",
+    "text2": "forte chute de neige"
+  },
+  "nlcih": {
+    "text1": "légèrement nuageux",
+    "text2": "danger de verglas"
+  },
+  "nlcmr": {
+    "text1": "légèrement nuageux",
+    "text2": "bruine moyennement forte"
+  },
+  "nlcms": {
+    "text1": "légèrement nuageux",
+    "text2": "chute de neige moyennement forte"
+  },
+  "nlcr": {
+    "text1": "légèrement nuageux",
+    "text2": "bruine"
+  },
+  "nlcrih": {
+    "text1": "légèrement nuageux",
+    "text2": "bruine avec danger de verglas"
+  },
+  "nlcs": {
+    "text1": "légèrement nuageux",
+    "text2": "chute de neige"
+  },
+  "nlcsr": {
+    "text1": "légèrement nuageux",
+    "text2": "neige fondue"
+  },
+  "nlcth": {
+    "text1": "légèrement nuageux",
+    "text2": "temps orageux"
+  },
+  "nlcts": {
+    "text1": "légèrement nuageux",
+    "text2": "orage"
+  },
+  "nmc": {
+    "text1": "nuageux",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "nuageux",
+    "text2": "tempête de neige"
+  },
+  "nmcg": {
+    "text1": "nuageux",
+    "text2": "venteux"
+  },
+  "nmcha": {
+    "text1": "nuageux",
+    "text2": "giboulée"
+  },
+  "nmchas": {
+    "text1": "nuageux",
+    "text2": "neige roulée"
+  },
+  "nmchr": {
+    "text1": "nuageux",
+    "text2": "forte bruine"
+  },
+  "nmchs": {
+    "text1": "nuageux",
+    "text2": "forte chute de neige"
+  },
+  "nmclr": {
+    "text1": "nuageux",
+    "text2": "légère bruine"
+  },
+  "nmcls": {
+    "text1": "nuageux",
+    "text2": "légère chute de neige"
+  },
+  "nmcmr": {
+    "text1": "nuageux",
+    "text2": "bruine moyennement forte"
+  },
+  "nmcms": {
+    "text1": "nuageux",
+    "text2": "chute de neige moyennement forte"
+  },
+  "nmcrih": {
+    "text1": "nuageux",
+    "text2": "bruine avec danger de verglas"
+  },
+  "nmcsr": {
+    "text1": "nuageux",
+    "text2": "neige fondue"
+  },
+  "nmct": {
+    "text1": "nuageux",
+    "text2": "temps orageux"
+  },
+  "nmcts": {
+    "text1": "nuageux",
+    "text2": "orage"
+  },
+  "nnc": {
+    "text1": "ciel clair",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "ciel clair",
+    "text2": "brouillard au sol"
+  },
+  "nncg": {
+    "text1": "ciel clair",
+    "text2": "venteux"
+  }
+}

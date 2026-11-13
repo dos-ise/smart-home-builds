@@ -1,0 +1,58 @@
+.detail-status {
+  position: absolute;
+  width: 100%;
+  margin-left: 18px;
+}
+.detail-status .detail-status-value {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 0.75vh;
+  text-align: left;
+  margin-bottom: 0;
+}
+.detail-status .detail-status-unit {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 1.75rem;
+  padding-top: 0.75vh;
+}
+.detail-status .detail-status-led {
+  height: 15px;
+  width: 14px;
+  padding-top: 20px;
+}
+.detail-status .detail-status-extended-text {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  padding-top: 0.75vh;
+}
+.detail-status .separator-line {
+  padding-top: 0.25vh;
+  width: 100%;
+  height: 1px;
+  display: block;
+  background: url("../img/4x2_repeating_gc4_grid_line.png") repeat-x top;
+}
+.detail-status .section-line {
+  width: 100%;
+  height: 1px;
+  background-color: var(--color-c6);
+}

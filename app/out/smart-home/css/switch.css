@@ -1,0 +1,77 @@
+#switch {
+  position: relative;
+  width: 444px;
+  height: 470px;
+  z-index: 1;
+  background: var(--color-c1);
+}
+.switch-container .switch-button {
+  position: absolute;
+  left: 18px;
+  top: 18px;
+  z-index: 3;
+}
+.switch-container .switch-button-vertical {
+  position: absolute;
+  width: 302px;
+  left: 18px;
+  top: 18px;
+  z-index: 3;
+}
+.switch-container .switch-button-left {
+  border-top-left-radius: 151px;
+  border-bottom-left-radius: 151px;
+  z-index: 3;
+}
+.switch-container .switch-button-right {
+  border-top-right-radius: 151px;
+  border-bottom-right-radius: 151px;
+  z-index: 3;
+}
+.switch-container .shadow {
+  -webkit-filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.2));
+}
+.switch-container .switch-ring {
+  pointer-events: none;
+  position: absolute;
+  z-index: 2;
+}
+.switch-container .switch-ring.ring2 {
+  opacity: 0;
+}
+.switch-container .switch-text-on {
+  width: 36px;
+  height: 36px;
+  top: 67px;
+  left: 133px;
+  position: absolute;
+  display: block;
+  z-index: 5;
+}
+.switch-container .switch-text-off {
+  width: 36px;
+  height: 36px;
+  top: 197px;
+  left: 133px;
+  position: absolute;
+  display: block;
+  z-index: 5;
+}
+.switch-container .switch-text-down {
+  width: 34px;
+  height: 37px;
+  top: 129px;
+  left: 65px;
+  position: absolute;
+  display: block;
+  z-index: 5;
+}
+.switch-container .switch-text-up {
+  width: 34px;
+  height: 37px;
+  top: 129px;
+  left: 200px;
+  position: absolute;
+  display: block;
+  z-index: 5;
+}

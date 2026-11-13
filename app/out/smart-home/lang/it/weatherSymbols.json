@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "vento a folate",
+    "text2": "tempesta"
+  },
+  "ahc": {
+    "text1": "cirrostrati",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "molto nuvoloso",
+    "text2": "tempesta di neve"
+  },
+  "ahcf": {
+    "text1": "molto nuvoloso",
+    "text2": "nebbia bassa"
+  },
+  "ahcg": {
+    "text1": "molto nuvoloso",
+    "text2": "vento a folate"
+  },
+  "ahcha": {
+    "text1": "molto nuvoloso",
+    "text2": "pioggia mista a grandine"
+  },
+  "ahchas": {
+    "text1": "molto nuvoloso",
+    "text2": "gragnola"
+  },
+  "ahchr": {
+    "text1": "molto nuvoloso",
+    "text2": "acquerugiola forte"
+  },
+  "ahchs": {
+    "text1": "molto nuvoloso",
+    "text2": "forte precipitazione nevosa"
+  },
+  "ahcih": {
+    "text1": "molto nuvoloso",
+    "text2": "pericolo di ghiaccio"
+  },
+  "ahcmr": {
+    "text1": "molto nuvoloso",
+    "text2": "acquerugiola moderata"
+  },
+  "ahcr": {
+    "text1": "molto nuvoloso",
+    "text2": "acquerugiola"
+  },
+  "ahcrih": {
+    "text1": "molto nuvoloso",
+    "text2": "acquerugiola e pericolo di ghiaccio"
+  },
+  "ahcs": {
+    "text1": "molto nuvoloso",
+    "text2": "precipitazione nevosa"
+  },
+  "ahcsr": {
+    "text1": "molto nuvoloso",
+    "text2": "pioggia mista a neve"
+  },
+  "ahct": {
+    "text1": "molto nuvoloso",
+    "text2": "temporalesco"
+  },
+  "ahcts": {
+    "text1": "molto nuvoloso",
+    "text2": "temporale"
+  },
+  "aoc": {
+    "text1": "coperto",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "coperto",
+    "text2": "tempesta di neve"
+  },
+  "aocg": {
+    "text1": "coperto",
+    "text2": "vento a folate"
+  },
+  "aocha": {
+    "text1": "coperto",
+    "text2": "pioggia mista a grandine"
+  },
+  "aocih": {
+    "text1": "coperto",
+    "text2": "pericolo di ghiaccio"
+  },
+  "aocr": {
+    "text1": "coperto",
+    "text2": "acquerugiola"
+  },
+  "aocrih": {
+    "text1": "coperto",
+    "text2": "acquerugiola e pericolo di ghiaccio"
+  },
+  "aocrs": {
+    "text1": "coperto",
+    "text2": "rovescio"
+  },
+  "aocs": {
+    "text1": "coperto",
+    "text2": "precipitazione nevosa"
+  },
+  "aocsr": {
+    "text1": "coperto",
+    "text2": "pioggia mista a neve"
+  },
+  "aoct": {
+    "text1": "coperto",
+    "text2": "temporalesco"
+  },
+  "aocts": {
+    "text1": "coperto",
+    "text2": "temporale"
+  },
+  "dlc": {
+    "text1": "sereno",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "sereno",
+    "text2": "tempesta di neve"
+  },
+  "dlcg": {
+    "text1": "sereno",
+    "text2": "vento a folate"
+  },
+  "dlchas": {
+    "text1": "sereno",
+    "text2": "gragnola"
+  },
+  "dlchr": {
+    "text1": "sereno",
+    "text2": "acquerugiola forte"
+  },
+  "dlchs": {
+    "text1": "sereno",
+    "text2": "forte precipitazione nevosa"
+  },
+  "dlcih": {
+    "text1": "sereno",
+    "text2": "pericolo di ghiaccio"
+  },
+  "dlcmr": {
+    "text1": "sereno",
+    "text2": "acquerugiola moderata"
+  },
+  "dlcms": {
+    "text1": "sereno",
+    "text2": "precipitazione nevosa moderata"
+  },
+  "dlcr": {
+    "text1": "sereno",
+    "text2": "acquerugiola"
+  },
+  "dlcrih": {
+    "text1": "sereno",
+    "text2": "acquerugiola e pericolo di ghiaccio"
+  },
+  "dlcs": {
+    "text1": "sereno",
+    "text2": "precipitazione nevosa"
+  },
+  "dlcsr": {
+    "text1": "sereno",
+    "text2": "pioggia mista a neve"
+  },
+  "dlct": {
+    "text1": "sereno",
+    "text2": "pioggia mista a grandine"
+  },
+  "dlcth": {
+    "text1": "sereno",
+    "text2": "temporalesco"
+  },
+  "dlcts": {
+    "text1": "sereno",
+    "text2": "temporale"
+  },
+  "dmc": {
+    "text1": "nuvoloso",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "nuvoloso",
+    "text2": "tempesta di neve"
+  },
+  "dmcg": {
+    "text1": "nuvoloso",
+    "text2": "vento a folate"
+  },
+  "dmcha": {
+    "text1": "nuvoloso",
+    "text2": "pioggia mista a grandine"
+  },
+  "dmchas": {
+    "text1": "nuvoloso",
+    "text2": "gragnola"
+  },
+  "dmchr": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola forte"
+  },
+  "dmchs": {
+    "text1": "nuvoloso",
+    "text2": "forte precipitazione nevosa"
+  },
+  "dmclr": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola leggera"
+  },
+  "dmcls": {
+    "text1": "nuvoloso",
+    "text2": "precipitazione nevosa leggera"
+  },
+  "dmcmr": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola moderata"
+  },
+  "dmcms": {
+    "text1": "nuvoloso",
+    "text2": "precipitazione nevosa moderata"
+  },
+  "dmcrih": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola e pericolo di ghiaccio"
+  },
+  "dmcsr": {
+    "text1": "nuvoloso",
+    "text2": "pioggia mista a neve"
+  },
+  "dmct": {
+    "text1": "nuvoloso",
+    "text2": "temporalesco"
+  },
+  "dmcts": {
+    "text1": "nuvoloso",
+    "text2": "temporale"
+  },
+  "dnc": {
+    "text1": "soleggiato",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "soleggiato",
+    "text2": "nebbia bassa"
+  },
+  "dncg": {
+    "text1": "soleggiato",
+    "text2": "vento a folate"
+  },
+  "nlc": {
+    "text1": "poco nuvoloso",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "poco nuvoloso",
+    "text2": "tempesta di neve"
+  },
+  "nlcg": {
+    "text1": "poco nuvoloso",
+    "text2": "vento a folate"
+  },
+  "nlcha": {
+    "text1": "poco nuvoloso",
+    "text2": "pioggia mista a grandine"
+  },
+  "nlchas": {
+    "text1": "poco nuvoloso",
+    "text2": "gragnola"
+  },
+  "nlchr": {
+    "text1": "poco nuvoloso",
+    "text2": "acquerugiola forte"
+  },
+  "nlchs": {
+    "text1": "poco nuvoloso",
+    "text2": "forte precipitazione nevosa"
+  },
+  "nlcih": {
+    "text1": "poco nuvoloso",
+    "text2": "pericolo di ghiaccio"
+  },
+  "nlcmr": {
+    "text1": "poco nuvoloso",
+    "text2": "acquerugiola moderata"
+  },
+  "nlcms": {
+    "text1": "poco nuvoloso",
+    "text2": "precipitazione nevosa moderata"
+  },
+  "nlcr": {
+    "text1": "poco nuvoloso",
+    "text2": "acquerugiola"
+  },
+  "nlcrih": {
+    "text1": "poco nuvoloso",
+    "text2": "acquerugiola e pericolo di ghiaccio"
+  },
+  "nlcs": {
+    "text1": "poco nuvoloso",
+    "text2": "precipitazione nevosa"
+  },
+  "nlcsr": {
+    "text1": "poco nuvoloso",
+    "text2": "pioggia mista a neve"
+  },
+  "nlcth": {
+    "text1": "poco nuvoloso",
+    "text2": "temporalesco"
+  },
+  "nlcts": {
+    "text1": "poco nuvoloso",
+    "text2": "temporale"
+  },
+  "nmc": {
+    "text1": "nuvoloso",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "nuvoloso",
+    "text2": "tempesta di neve"
+  },
+  "nmcg": {
+    "text1": "nuvoloso",
+    "text2": "vento a folate"
+  },
+  "nmcha": {
+    "text1": "nuvoloso",
+    "text2": "pioggia mista a grandine"
+  },
+  "nmchas": {
+    "text1": "nuvoloso",
+    "text2": "gragnola"
+  },
+  "nmchr": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola forte"
+  },
+  "nmchs": {
+    "text1": "nuvoloso",
+    "text2": "forte precipitazione nevosa"
+  },
+  "nmclr": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola leggera"
+  },
+  "nmcls": {
+    "text1": "nuvoloso",
+    "text2": "precipitazione nevosa leggera"
+  },
+  "nmcmr": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola moderata"
+  },
+  "nmcms": {
+    "text1": "nuvoloso",
+    "text2": "precipitazione nevosa moderata"
+  },
+  "nmcrih": {
+    "text1": "nuvoloso",
+    "text2": "acquerugiola e pericolo di ghiaccio"
+  },
+  "nmcsr": {
+    "text1": "nuvoloso",
+    "text2": "pioggia mista a neve"
+  },
+  "nmct": {
+    "text1": "nuvoloso",
+    "text2": "temporalesco"
+  },
+  "nmcts": {
+    "text1": "nuvoloso",
+    "text2": "temporale"
+  },
+  "nnc": {
+    "text1": "chiaro",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "chiaro",
+    "text2": "nebbia bassa"
+  },
+  "nncg": {
+    "text1": "chiaro",
+    "text2": "vento a folate"
+  }
+}

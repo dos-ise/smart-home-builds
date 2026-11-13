@@ -1,0 +1,771 @@
+[
+
+  {
+    "license": "LGPL v2.1",
+    "name": "alphanum js",
+    "src": "http://www.davekoelle.com/files/alphanum.js",
+    "version": "n/a"
+  },
+  {
+    "license": "MIT License",
+    "name": "base64js",
+    "src": "https://github.com/beatgammit/base64-js",
+    "version": "1.1.2"
+  },
+  {
+    "license": "MIT License",
+    "name": "jQuery",
+    "src": "http://jquery.com/",
+    "version": "3.5.14"
+  },
+  {
+    "license": "see license text",
+    "name": "jQuery Bez",
+    "src": "https://github.com/rdallasgray/bez",
+    "version": "not specified"
+  },
+  {
+    "license": "MIT Licence",
+    "name": "jQuery Knob",
+    "src": "http://anthonyterrien.com/knob/",
+    "version": "1.2.8"
+  },
+  {
+    "license": "Microsoft Public License (Ms-Pl)",
+    "name": "jQuery List DragSort",
+    "src": "http://dragsort.codeplex.com/",
+    "version": "0.5.2"
+  },
+  {
+    "license": "MIT License",
+    "name": "knockout js",
+    "src": "http://knockoutjs.com/",
+    "version": "3.5.1"
+  },
+  {
+    "license": "MIT License",
+    "name": "Moment.js",
+    "src": "http://momentjs.com/",
+    "version": "2.5.1"
+  },
+  {
+    "license": "BSD",
+    "name": "Nordic IOS-Pods-DFU-Library",
+    "src": "https://github.com/NordicSemiconductor/IOS-Pods-DFU-Library",
+    "version": "3.1.0"
+  },
+  {
+    "license": "BSD",
+    "name": "Nordic Android-DFU-Library",
+    "src": "https://github.com/NordicSemiconductor/Android-DFU-Library",
+    "version": "1.12.0"
+  },
+  {
+    "license": "MIT",
+    "name": "Spinning Wheel",
+    "src": "http://cubiq.org/spinning-wheel-on-webkit-for-iphone-ipod-touch/11",
+    "version": "1.4"
+  },
+  {
+    "license": "Apache License",
+    "name": "Starscream",
+    "src": "https://github.com/daltoniam/Starscream",
+    "version": "1.1.3"
+  },
+  {
+    "license": "MIT",
+    "name": "Swiper",
+    "src": "http://www.idangero.us/sliders/swiper/",
+    "version": "2.4.2"
+  },
+  {
+    "license": "MIT",
+    "name": "Swiper Scrollbar",
+    "src": "http://www.idangero.us/sliders/swiper/",
+    "version": "2.3"
+  },
+  {
+    "license": "Apache License",
+    "name": "TextEncoderLite",
+    "src": "https://github.com/coolaj86/TextEncoderLite",
+    "version": "1.0"
+  },
+  {
+    "license": "MIT",
+    "name": "underscore.js",
+    "src": "https://github.com/jashkenas/underscore",
+    "version": "1.9.1"
+  },
+  {
+    "license": "MIT",
+    "name": "Velocity jQuery Shim",
+    "src": "http://velocityjs.org/",
+    "version": "1.5.0"
+  },
+  {
+    "license": "LGPL v2.1",
+    "name": "LibVLC Android",
+    "src": "https://code.videolan.org/videolan/LibVLCSharp/-/tree/3.4.9/",
+    "version": "3.4.9"
+  },
+  {
+    "license": "LGPL v2.1",
+    "name": "VLCKit",
+    "src": "https://code.videolan.org/videolan/VLCKit",
+    "version": "3.4.0"
+  },
+  {
+    "name": "alsa-lib",
+    "version": "1.1.3",
+    "license": "LGPL-2.1+ (library), GPL-2.0+ (aserver)",
+    "src": ""
+  },
+  {
+    "name": "alsa-utils",
+    "version": "1.1.3",
+    "license": "GPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "ncurses",
+    "version": "6.0",
+    "license": "MIT with advertising clause",
+    "src": ""
+  },
+  {
+    "name": "bash",
+    "version": "4.4",
+    "license": "GPL-3.0+",
+    "src": ""
+  },
+  {
+    "name": "busybox",
+    "version": "1.26.2",
+    "license": "GPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "readline",
+    "version": "7.0",
+    "license": "GPL-3.0+",
+    "src": ""
+  },
+  {
+    "name": "bctoolbox",
+    "version": "0.4.0",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "boost",
+    "version": "1.65.1",
+    "license": "BSL-1.0",
+    "src": ""
+  },
+  {
+    "name": "bzip2",
+    "version": "1.0.6",
+    "license": "bzip2 license",
+    "src": ""
+  },
+  {
+    "name": "zlib",
+    "version": "1.2.11",
+    "license": "Zlib",
+    "src": ""
+  },
+  {
+    "name": "ca-certificates",
+    "version": "20161130",
+    "license": "GPL-2.0+ (script), MPL-2.0 (data)",
+    "src": ""
+  },
+  {
+    "name": "cairo",
+    "version": "1.14.8",
+    "license": "LGPL-2.1 or MPL-1.1 (library)",
+    "src": ""
+  },
+  {
+    "name": "fontconfig",
+    "version": "2.12.1",
+    "license": "fontconfig license",
+    "src": ""
+  },
+  {
+    "name": "expat",
+    "version": "2.2.0",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "freetype",
+    "version": "2.7.1",
+    "license": "Dual FTL/GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "mesa3d-headers",
+    "version": "17.0.5",
+    "license": "MIT, SGI, Khronos",
+    "src": ""
+  },
+  {
+    "name": "libglib2",
+    "version": "2.50.3",
+    "license": "LGPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libffi",
+    "version": "3.2.1",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "pcre",
+    "version": "8.40",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "util-linux",
+    "version": "2.29.2",
+    "license": "GPL-2.0+, BSD-4-Clause, LGPL-2.1+ (libblkid, libfdisk, libmount), BSD-3-Clause (libuuid)",
+    "src": ""
+  },
+  {
+    "name": "pixman",
+    "version": "0.34.0",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "connman",
+    "version": "1.35",
+    "license": "GPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "dbus",
+    "version": "1.10.18",
+    "license": "AFL-2.1 or GPL-2.0+ (library, tools), GPL-2.0+ (tools)",
+    "src": ""
+  },
+  {
+    "name": "iptables",
+    "version": "1.6.1",
+    "license": "GPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "libmnl",
+    "version": "1.0.4",
+    "license": "LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "libnetfilter_conntrack",
+    "version": "1.0.6",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libnfnetlink",
+    "version": "1.0.1",
+    "license": "GPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "libnftnl",
+    "version": "1.0.7",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "e2fsprogs",
+    "version": "1.43.4",
+    "license": "GPL-2.0, MIT-like with advertising clause (libss and libet)",
+    "src": ""
+  },
+  {
+    "name": "ethtool",
+    "version": "4.10",
+    "license": "GPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "eudev",
+    "version": "3.2.2",
+    "license": "GPL-2.0+ (programs), LGPL-2.1+ (libraries)",
+    "src": ""
+  },
+  {
+    "name": "kmod",
+    "version": "24",
+    "license": "LGPL-2.1+ (library)",
+    "src": ""
+  },
+  {
+    "name": "evtest",
+    "version": "1.33",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "imx-vpu",
+    "version": "3.10.31-1.1.0-beta",
+    "license": "Freescale License",
+    "src": ""
+  },
+  {
+    "name": "linux",
+    "version": "3.17",
+    "license": "GPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "gst1-plugins-bad",
+    "version": "1.2.4",
+    "license": "LGPLv2+ LGPLv2.1+",
+    "src": ""
+  },
+  {
+    "name": "gst1-plugins-base",
+    "version": "1.2.4",
+    "license": "LGPLv2+ LGPLv2.1+",
+    "src": ""
+  },
+  {
+    "name": "gstreamer1",
+    "version": "1.2.4",
+    "license": "LGPLv2+ LGPLv2.1+",
+    "src": ""
+  },
+  {
+    "name": "libvorbis",
+    "version": "1.3.5",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "libogg",
+    "version": "1.3.2",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "orc",
+    "version": "0.4.26",
+    "license": "BSD-2-Clause, BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "gst1-plugins-good",
+    "version": "1.2.4",
+    "license": "LGPLv2.1+",
+    "src": ""
+  },
+  {
+    "name": "wavpack",
+    "version": "5.1.0",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "gst1-libav",
+    "version": "1.2.4",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "gtest",
+    "version": "release-1.8.0",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "harfbuzz",
+    "version": "1.4.6",
+    "license": "MIT, ISC (ucdn library)",
+    "src": ""
+  },
+  {
+    "name": "jpeg-turbo",
+    "version": "1.5.1",
+    "license": "jpeg-license (BSD-3-Clause-like)",
+    "src": ""
+  },
+  {
+    "name": "json-for-modern-cpp",
+    "version": "v3.5.0",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "libcap",
+    "version": "2.25",
+    "license": "GPL-2.0 or BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "libcurl",
+    "version": "7.54.0",
+    "license": "ISC",
+    "src": ""
+  },
+  {
+    "name": "openssl",
+    "version": "1.0.2k",
+    "license": "OpenSSL or SSLeay",
+    "src": ""
+  },
+  {
+    "name": "libpthread-stubs",
+    "version": "0.4",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "libeXosip2",
+    "version": "4.0.0",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libosip2",
+    "version": "4.0.0",
+    "license": "LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "libexif",
+    "version": "0.6.21",
+    "license": "LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "libfuse",
+    "version": "2.9.7",
+    "license": "GPL-2.0, LGPL-2.1",
+    "src": ""
+  },
+  {
+    "name": "libgcrypt",
+    "version": "1.7.6",
+    "license": "LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "libgpg-error",
+    "version": "1.27",
+    "license": "GPL-2.0+, LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "libnet",
+    "version": "1.1.6",
+    "license": "BSD-2-Clause, BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "libnetfilter_acct",
+    "version": "1.0.3",
+    "license": "LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "libnetfilter_cthelper",
+    "version": "1.0.0",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libnetfilter_cttimeout",
+    "version": "1.0.0",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libnetfilter_log",
+    "version": "1.0.1",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libnetfilter_queue",
+    "version": "1.0.2",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libnl",
+    "version": "3.3.0",
+    "license": "LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "libnspr",
+    "version": "4.14",
+    "license": "MPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "libnss",
+    "version": "3.15.1",
+    "license": "MPL-2.0",
+    "src": ""
+  },
+  {
+    "name": "sqlite",
+    "version": "3180000",
+    "license": "Public domain",
+    "src": ""
+  },
+  {
+    "name": "libupnp",
+    "version": "1.6.21",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "libvncserver",
+    "version": "0.9.11",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "libxml2",
+    "version": "2.9.4",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "libxslt",
+    "version": "1.1.29",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "libzip",
+    "version": "0.11.2",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "log4cplus",
+    "version": "1.1.2",
+    "license": "Apache-2.0",
+    "src": ""
+  },
+  {
+    "name": "lsof",
+    "version": "4.89",
+    "license": "lsof license",
+    "src": ""
+  },
+  {
+    "name": "lua",
+    "version": "5.3.4",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "minizip",
+    "version": "5f56dd81d94bd7028f7dc05d7d14112697c30241",
+    "license": "Zlib",
+    "src": ""
+  },
+  {
+    "name": "nginx",
+    "version": "1.10.3",
+    "license": "BSD-2-Clause",
+    "src": ""
+  },
+  {
+    "name": "openssh",
+    "version": "7.5p1",
+    "license": "BSD-3-Clause, BSD-2-Clause, Public Domain",
+    "src": ""
+  },
+  {
+    "name": "ortp",
+    "version": "0.27.0",
+    "license": "LGPL-2.1+",
+    "src": ""
+  },
+  {
+    "name": "pango",
+    "version": "1.40.4",
+    "license": "LGPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "pciutils",
+    "version": "3.5.2",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "rapidjson",
+    "version": "v1.1.0",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "rapidxml",
+    "version": "1.13",
+    "license": "BSL-1.0 or MIT",
+    "src": ""
+  },
+  {
+    "name": "strace",
+    "version": "4.16",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "tree",
+    "version": "1.7.0",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "uboot-tools",
+    "version": "2017.03",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "utf8cpp",
+    "version": "2.3.5",
+    "license": "Other",
+    "src": ""
+  },
+  {
+    "name": "wpa_supplicant",
+    "version": "2.6",
+    "license": "BSD-3-Clause",
+    "src": ""
+  },
+  {
+    "name": "x11vnc",
+    "version": "0.9.13",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "zip",
+    "version": "30",
+    "license": "Info-ZIP",
+    "src": ""
+  },
+  {
+    "name": "uboot",
+    "version": "imx_v2013.04_3.10.17_1.0.0_beta",
+    "license": "GPL-2.0+",
+    "src": ""
+  },
+  {
+    "name": "json_spirit",
+    "version": "4.06",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "libxmlsec1",
+    "version": "1.2.18",
+    "license": "proprietary",
+    "src": ""
+  },
+  {
+    "name": "websocketpp",
+    "version": "0.8.2",
+    "license": "Copyright (c) 2014, Peter Thorson",
+    "src": ""
+  },
+  {
+    "name": "chromium",
+    "version": "40.0.2214.94",
+    "license": "BSD",
+    "src": ""
+  },
+  {
+    "name": "cpp-netlib",
+    "version": "0.13-release",
+    "license": "BSL-1.0",
+    "src": ""
+  },
+  {
+    "name": "owjai18n",
+    "version": "1.0.0-alpha.7",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "owjaioc",
+    "version": "1.0.1",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "core-js",
+    "version": "3.6.5",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "file-saver",
+    "version": "2.0.2",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "js-sha256",
+    "version": "0.9.0",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "preact",
+    "version": "10.5.4",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "preact-router",
+    "version": "3.2.1",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "process",
+    "version": "0.11.10",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "semver-compare",
+    "version": "1.0.0",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "webpack",
+    "version": "4.44.2",
+    "license": "MIT",
+    "src": ""
+  },
+  {
+    "name": "kmsfbwrap",
+    "version": "5",
+    "license": "LGPLv2.1+",
+    "src": ""
+  },
+  {
+    "name": "v4l2loopback",
+    "version": "0.7.0",
+    "license": "GPL-2.0+",
+    "src": ""
+  }
+]

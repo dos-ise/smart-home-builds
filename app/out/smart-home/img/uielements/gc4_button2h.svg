@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.4, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="302px"
+	 height="302px" viewBox="0 0 302 302" enable-background="new 0 0 302 302" xml:space="preserve">
+<g id="Layout">
+</g>
+<g id="Ebene_1">
+	<g id="Ebene_1_1_">
+	</g>
+	<g>
+		<path fill="#FFFFFF" d="M301,149.998C301,232.842,233.843,300,151,300C68.159,300,1,232.842,1,149.998C1,67.159,68.159,0,151,0
+			C233.843,0,301,67.159,301,149.998z"/>
+	</g>
+	<g>
+		
+			<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="279.5" y1="-248.9995" x2="279.5" y2="51" gradientTransform="matrix(1 0 0 -1 -128.5 51)">
+			<stop  offset="0" style="stop-color:#FAFAFA"/>
+			<stop  offset="1" style="stop-color:#F0F0F0"/>
+		</linearGradient>
+		<path fill="url(#SVGID_1_)" d="M301,149.999C301,232.842,233.843,300,151,300C68.159,300,1,232.842,1,149.999
+			C1,67.159,68.159,0,151,0C233.843,0,301,67.159,301,149.999z"/>
+	</g>
+	<path fill="#C8C8C8" d="M151,1c82.843,0,150,67.157,150,150c0,82.844-67.157,150-150,150S1,233.844,1,151C1,68.157,68.157,1,151,1
+		 M151,0C110.667,0,72.747,15.707,44.227,44.228C15.707,72.748,0,110.667,0,151c0,40.334,15.707,78.253,44.227,106.773
+		C72.747,286.294,110.667,302,151,302c40.334,0,78.253-15.706,106.773-44.227C286.293,229.253,302,191.334,302,151
+		c0-40.333-15.707-78.252-44.227-106.772C229.253,15.707,191.334,0,151,0L151,0z"/>
+	
+		<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="279.5" y1="-249.9995" x2="279.5" y2="50" gradientTransform="matrix(1 0 0 -1 -128.5 51)">
+		<stop  offset="0" style="stop-color:#E6E6E6"/>
+		<stop  offset="1" style="stop-color:#FFFFFF"/>
+	</linearGradient>
+	<path fill="url(#SVGID_2_)" d="M151,1C68.157,1,1,68.157,1,151c0,82.844,67.157,150,150,150s150-67.156,150-150
+		C301,68.157,233.843,1,151,1z M151,299C69.262,299,3,232.738,3,151S69.262,3,151,3s148,66.262,148,148
+		C299,232.738,232.738,299,151,299z"/>
+	<g>
+		<rect x="1" y="151" fill="#FFFFFF" width="300" height="1"/>
+		<rect x="1" y="150" fill="#C8C8C8" width="300" height="1"/>
+	</g>
+</g>
+<g id="Isolationsmodus">
+</g>
+</svg>

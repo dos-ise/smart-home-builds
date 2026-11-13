@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 44">
+    <filter id="InnerShadow">
+        <feOffset dy="0" dx="0"/>
+        <feGaussianBlur stdDeviation="0.5" result="offset-blur"/>
+        <feComposite operator="out" in2="offset-blur" in="SourceGraphic" result="inverse"/>
+        <feFlood result="color" flood-color="#000000" flood-opacity="0.7"/>
+        <feComposite operator="in" in2="inverse" in="color" result="shadow"/>
+        <feComposite in2="SourceGraphic" in="shadow"/>
+    </filter>
+    <style type="text/css">
+    svg path {
+    filter: url(#InnerShadow);
+    }
+    </style>
+    <path fill="#dc3c3c" fill-rule="evenodd" d="M16.1 29a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0ZM14 25h2V15h-2v10Zm1-17a15 15 0 1 1-.01 30.01A15 15 0 0 1 15 8Zm0 2a13 13 0 1 0 .01 26.01A13 13 0 0 0 15 10Z"/>
+</svg>

@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "brāzmas",
+    "text2": "vētra"
+  },
+  "ahc": {
+    "text1": "spalvu mākoņi",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "mākoņains",
+    "text2": "putenis"
+  },
+  "ahcf": {
+    "text1": "mākoņains",
+    "text2": "zemā migla"
+  },
+  "ahcg": {
+    "text1": "mākoņains",
+    "text2": "brāzmas"
+  },
+  "ahcha": {
+    "text1": "mākoņains",
+    "text2": "lietusgāzes ar krusu"
+  },
+  "ahchas": {
+    "text1": "mākoņains",
+    "text2": "negaiss ar krusu"
+  },
+  "ahchr": {
+    "text1": "mākoņains",
+    "text2": "stiprs lietus"
+  },
+  "ahchs": {
+    "text1": "mākoņains",
+    "text2": "stipra snigšana"
+  },
+  "ahcih": {
+    "text1": "mākoņains",
+    "text2": "iespējama atkala"
+  },
+  "ahcmr": {
+    "text1": "mākoņains",
+    "text2": "mērens lietus"
+  },
+  "ahcr": {
+    "text1": "mākoņains",
+    "text2": "lietus"
+  },
+  "ahcrih": {
+    "text1": "mākoņains",
+    "text2": "lietus, iespējama atkala"
+  },
+  "ahcs": {
+    "text1": "mākoņains",
+    "text2": "snigšana"
+  },
+  "ahcsr": {
+    "text1": "mākoņains",
+    "text2": "slapjš sniegs"
+  },
+  "ahct": {
+    "text1": "mākoņains",
+    "text2": "iespējami negaisi"
+  },
+  "ahcts": {
+    "text1": "mākoņains",
+    "text2": "negaiss"
+  },
+  "aoc": {
+    "text1": "apmācies",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "apmācies",
+    "text2": "putenis"
+  },
+  "aocg": {
+    "text1": "apmācies",
+    "text2": "brāzmas"
+  },
+  "aocha": {
+    "text1": "apmācies",
+    "text2": "lietusgāzes ar krusu"
+  },
+  "aocih": {
+    "text1": "apmācies",
+    "text2": "iespējama atkala"
+  },
+  "aocr": {
+    "text1": "apmācies",
+    "text2": "lietus"
+  },
+  "aocrih": {
+    "text1": "apmācies",
+    "text2": "lietus, iespējama atkala"
+  },
+  "aocrs": {
+    "text1": "apmācies",
+    "text2": "lietusgāzes"
+  },
+  "aocs": {
+    "text1": "apmācies",
+    "text2": "snigšana"
+  },
+  "aocsr": {
+    "text1": "apmācies",
+    "text2": "slapjš sniegs"
+  },
+  "aoct": {
+    "text1": "apmācies",
+    "text2": "iespējami negaisi"
+  },
+  "aocts": {
+    "text1": "apmācies",
+    "text2": "negaiss"
+  },
+  "dlc": {
+    "text1": "skaidrs laiks",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "skaidrs laiks",
+    "text2": "putenis"
+  },
+  "dlcg": {
+    "text1": "skaidrs laiks",
+    "text2": "brāzmas"
+  },
+  "dlchas": {
+    "text1": "skaidrs laiks",
+    "text2": "negaiss ar krusu"
+  },
+  "dlchr": {
+    "text1": "skaidrs laiks",
+    "text2": "stiprs lietus"
+  },
+  "dlchs": {
+    "text1": "skaidrs laiks",
+    "text2": "stipra snigšana"
+  },
+  "dlcih": {
+    "text1": "skaidrs laiks",
+    "text2": "iespējama atkala"
+  },
+  "dlcmr": {
+    "text1": "skaidrs laiks",
+    "text2": "mērens lietus"
+  },
+  "dlcms": {
+    "text1": "skaidrs laiks",
+    "text2": "mērena snigšana"
+  },
+  "dlcr": {
+    "text1": "skaidrs laiks",
+    "text2": "lietus"
+  },
+  "dlcrih": {
+    "text1": "skaidrs laiks",
+    "text2": "lietus, iespējama atkala"
+  },
+  "dlcs": {
+    "text1": "skaidrs laiks",
+    "text2": "snigšana"
+  },
+  "dlcsr": {
+    "text1": "skaidrs laiks",
+    "text2": "slapjš sniegs"
+  },
+  "dlct": {
+    "text1": "skaidrs laiks",
+    "text2": "lietusgāzes ar krusu"
+  },
+  "dlcth": {
+    "text1": "skaidrs laiks",
+    "text2": "iespējami negaisi"
+  },
+  "dlcts": {
+    "text1": "skaidrs laiks",
+    "text2": "negaiss"
+  },
+  "dmc": {
+    "text1": "daļēji mākoņains",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "daļēji mākoņains",
+    "text2": "putenis"
+  },
+  "dmcg": {
+    "text1": "daļēji mākoņains",
+    "text2": "brāzmas"
+  },
+  "dmcha": {
+    "text1": "daļēji mākoņains",
+    "text2": "lietusgāzes ar krusu"
+  },
+  "dmchas": {
+    "text1": "daļēji mākoņains",
+    "text2": "negaiss ar krusu"
+  },
+  "dmchr": {
+    "text1": "daļēji mākoņains",
+    "text2": "stiprs lietus"
+  },
+  "dmchs": {
+    "text1": "daļēji mākoņains",
+    "text2": "stipra snigšana"
+  },
+  "dmclr": {
+    "text1": "daļēji mākoņains",
+    "text2": "neliels lietus"
+  },
+  "dmcls": {
+    "text1": "daļēji mākoņains",
+    "text2": "neliela snigšana"
+  },
+  "dmcmr": {
+    "text1": "daļēji mākoņains",
+    "text2": "mērens lietus"
+  },
+  "dmcms": {
+    "text1": "daļēji mākoņains",
+    "text2": "mērena snigšana"
+  },
+  "dmcrih": {
+    "text1": "daļēji mākoņains",
+    "text2": "lietus, iespējama atkala"
+  },
+  "dmcsr": {
+    "text1": "daļēji mākoņains",
+    "text2": "slapjš sniegs"
+  },
+  "dmct": {
+    "text1": "daļēji mākoņains",
+    "text2": "iespējami negaisi"
+  },
+  "dmcts": {
+    "text1": "daļēji mākoņains",
+    "text2": "negaiss"
+  },
+  "dnc": {
+    "text1": "saulains",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "saulains",
+    "text2": "zemā migla"
+  },
+  "dncg": {
+    "text1": "saulains",
+    "text2": "brāzmas"
+  },
+  "nlc": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "putenis"
+  },
+  "nlcg": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "brāzmas"
+  },
+  "nlcha": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "lietusgāzes ar krusu"
+  },
+  "nlchas": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "negaiss ar krusu"
+  },
+  "nlchr": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "stiprs lietus"
+  },
+  "nlchs": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "stipra snigšana"
+  },
+  "nlcih": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "iespējama atkala"
+  },
+  "nlcmr": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "mērens lietus"
+  },
+  "nlcms": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "mērena snigšana"
+  },
+  "nlcr": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "lietus"
+  },
+  "nlcrih": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "lietus, iespējama atkala"
+  },
+  "nlcs": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "snigšana"
+  },
+  "nlcsr": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "slapjš sniegs"
+  },
+  "nlcth": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "iespējami negaisi"
+  },
+  "nlcts": {
+    "text1": "mainīgs mākoņu daudzums",
+    "text2": "negaiss"
+  },
+  "nmc": {
+    "text1": "daļēji mākoņains",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "daļēji mākoņains",
+    "text2": "putenis"
+  },
+  "nmcg": {
+    "text1": "daļēji mākoņains",
+    "text2": "brāzmas"
+  },
+  "nmcha": {
+    "text1": "daļēji mākoņains",
+    "text2": "lietusgāzes ar krusu"
+  },
+  "nmchas": {
+    "text1": "daļēji mākoņains",
+    "text2": "negaiss ar krusu"
+  },
+  "nmchr": {
+    "text1": "daļēji mākoņains",
+    "text2": "stiprs lietus"
+  },
+  "nmchs": {
+    "text1": "daļēji mākoņains",
+    "text2": "stipra snigšana"
+  },
+  "nmclr": {
+    "text1": "daļēji mākoņains",
+    "text2": "neliels lietus"
+  },
+  "nmcls": {
+    "text1": "daļēji mākoņains",
+    "text2": "neliela snigšana"
+  },
+  "nmcmr": {
+    "text1": "daļēji mākoņains",
+    "text2": "mērens lietus"
+  },
+  "nmcms": {
+    "text1": "daļēji mākoņains",
+    "text2": "mērena snigšana"
+  },
+  "nmcrih": {
+    "text1": "daļēji mākoņains",
+    "text2": "lietus, iespējama atkala"
+  },
+  "nmcsr": {
+    "text1": "daļēji mākoņains",
+    "text2": "slapjš sniegs"
+  },
+  "nmct": {
+    "text1": "daļēji mākoņains",
+    "text2": "iespējami negaisi"
+  },
+  "nmcts": {
+    "text1": "daļēji mākoņains",
+    "text2": "negaiss"
+  },
+  "nnc": {
+    "text1": "skaidrs",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "skaidrs",
+    "text2": "zemā migla"
+  },
+  "nncg": {
+    "text1": "skaidrs",
+    "text2": "brāzmas"
+  }
+}

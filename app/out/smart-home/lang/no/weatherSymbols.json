@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "sterke vindkast",
+    "text2": "storm"
+  },
+  "ahc": {
+    "text1": "slørskyer",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "tett skydekke",
+    "text2": "snøstorm"
+  },
+  "ahcf": {
+    "text1": "tett skydekke",
+    "text2": "lave tåkeskyer"
+  },
+  "ahcg": {
+    "text1": "tett skydekke",
+    "text2": "sterke vindkast"
+  },
+  "ahcha": {
+    "text1": "tett skydekke",
+    "text2": "haglskurer"
+  },
+  "ahchas": {
+    "text1": "tett skydekke",
+    "text2": "hagl og torden"
+  },
+  "ahchr": {
+    "text1": "tett skydekke",
+    "text2": "tett yr"
+  },
+  "ahchs": {
+    "text1": "tett skydekke",
+    "text2": "kraftig snøfall"
+  },
+  "ahcih": {
+    "text1": "tett skydekke",
+    "text2": "fare for frost"
+  },
+  "ahcmr": {
+    "text1": "tett skydekke",
+    "text2": "moderat yr"
+  },
+  "ahcr": {
+    "text1": "tett skydekke",
+    "text2": "yr"
+  },
+  "ahcrih": {
+    "text1": "tett skydekke",
+    "text2": "yr med fare for frost"
+  },
+  "ahcs": {
+    "text1": "tett skydekke",
+    "text2": "snø"
+  },
+  "ahcsr": {
+    "text1": "tett skydekke",
+    "text2": "sludd"
+  },
+  "ahct": {
+    "text1": "tett skydekke",
+    "text2": "torden"
+  },
+  "ahcts": {
+    "text1": "tett skydekke",
+    "text2": "tordenbyger"
+  },
+  "aoc": {
+    "text1": "overskyet",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "overskyet",
+    "text2": "snøstorm"
+  },
+  "aocg": {
+    "text1": "overskyet",
+    "text2": "sterke vindkast"
+  },
+  "aocha": {
+    "text1": "overskyet",
+    "text2": "haglskurer"
+  },
+  "aocih": {
+    "text1": "overskyet",
+    "text2": "fare for frost"
+  },
+  "aocr": {
+    "text1": "overskyet",
+    "text2": "yr"
+  },
+  "aocrih": {
+    "text1": "overskyet",
+    "text2": "yr med fare for frost"
+  },
+  "aocrs": {
+    "text1": "overskyet",
+    "text2": "regnskurer"
+  },
+  "aocs": {
+    "text1": "overskyet",
+    "text2": "snø"
+  },
+  "aocsr": {
+    "text1": "overskyet",
+    "text2": "sludd"
+  },
+  "aoct": {
+    "text1": "overskyet",
+    "text2": "torden"
+  },
+  "aocts": {
+    "text1": "overskyet",
+    "text2": "tordenbyger"
+  },
+  "dlc": {
+    "text1": "pent",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "pent",
+    "text2": "snøstorm"
+  },
+  "dlcg": {
+    "text1": "pent",
+    "text2": "sterke vindkast"
+  },
+  "dlchas": {
+    "text1": "pent",
+    "text2": "hagl og torden"
+  },
+  "dlchr": {
+    "text1": "pent",
+    "text2": "tett yr"
+  },
+  "dlchs": {
+    "text1": "pent",
+    "text2": "kraftig snøfall"
+  },
+  "dlcih": {
+    "text1": "pent",
+    "text2": "fare for frost"
+  },
+  "dlcmr": {
+    "text1": "pent",
+    "text2": "moderat yr"
+  },
+  "dlcms": {
+    "text1": "pent",
+    "text2": "moderat snøfall"
+  },
+  "dlcr": {
+    "text1": "pent",
+    "text2": "yr"
+  },
+  "dlcrih": {
+    "text1": "pent",
+    "text2": "yr med fare for frost"
+  },
+  "dlcs": {
+    "text1": "pent",
+    "text2": "snø"
+  },
+  "dlcsr": {
+    "text1": "pent",
+    "text2": "sludd"
+  },
+  "dlct": {
+    "text1": "pent",
+    "text2": "haglskurer"
+  },
+  "dlcth": {
+    "text1": "pent",
+    "text2": "torden"
+  },
+  "dlcts": {
+    "text1": "pent",
+    "text2": "tordenbyger"
+  },
+  "dmc": {
+    "text1": "skyet",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "skyet",
+    "text2": "snøstorm"
+  },
+  "dmcg": {
+    "text1": "skyet",
+    "text2": "sterke vindkast"
+  },
+  "dmcha": {
+    "text1": "skyet",
+    "text2": "haglskurer"
+  },
+  "dmchas": {
+    "text1": "skyet",
+    "text2": "hagl og torden"
+  },
+  "dmchr": {
+    "text1": "skyet",
+    "text2": "tett yr"
+  },
+  "dmchs": {
+    "text1": "skyet",
+    "text2": "kraftig snøfall"
+  },
+  "dmclr": {
+    "text1": "skyet",
+    "text2": "lett yr"
+  },
+  "dmcls": {
+    "text1": "skyet",
+    "text2": "lett snøfall"
+  },
+  "dmcmr": {
+    "text1": "skyet",
+    "text2": "moderat yr"
+  },
+  "dmcms": {
+    "text1": "skyet",
+    "text2": "moderat snøfall"
+  },
+  "dmcrih": {
+    "text1": "skyet",
+    "text2": "yr med fare for frost"
+  },
+  "dmcsr": {
+    "text1": "skyet",
+    "text2": "sludd"
+  },
+  "dmct": {
+    "text1": "skyet",
+    "text2": "torden"
+  },
+  "dmcts": {
+    "text1": "skyet",
+    "text2": "tordenbyger"
+  },
+  "dnc": {
+    "text1": "sol",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "sol",
+    "text2": "lave tåkeskyer"
+  },
+  "dncg": {
+    "text1": "sol",
+    "text2": "sterke vindkast"
+  },
+  "nlc": {
+    "text1": "lett skydekke",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "lett skydekke",
+    "text2": "snøstorm"
+  },
+  "nlcg": {
+    "text1": "lett skydekke",
+    "text2": "sterke vindkast"
+  },
+  "nlcha": {
+    "text1": "lett skydekke",
+    "text2": "haglskurer"
+  },
+  "nlchas": {
+    "text1": "lett skydekke",
+    "text2": "hagl og torden"
+  },
+  "nlchr": {
+    "text1": "lett skydekke",
+    "text2": "tett yr"
+  },
+  "nlchs": {
+    "text1": "lett skydekke",
+    "text2": "kraftig snøfall"
+  },
+  "nlcih": {
+    "text1": "lett skydekke",
+    "text2": "fare for frost"
+  },
+  "nlcmr": {
+    "text1": "lett skydekke",
+    "text2": "moderat yr"
+  },
+  "nlcms": {
+    "text1": "lett skydekke",
+    "text2": "moderat snøfall"
+  },
+  "nlcr": {
+    "text1": "lett skydekke",
+    "text2": "yr"
+  },
+  "nlcrih": {
+    "text1": "lett skydekke",
+    "text2": "yr med fare for frost"
+  },
+  "nlcs": {
+    "text1": "lett skydekke",
+    "text2": "snø"
+  },
+  "nlcsr": {
+    "text1": "lett skydekke",
+    "text2": "sludd"
+  },
+  "nlcth": {
+    "text1": "lett skydekke",
+    "text2": "torden"
+  },
+  "nlcts": {
+    "text1": "lett skydekke",
+    "text2": "tordenbyger"
+  },
+  "nmc": {
+    "text1": "skyet",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "skyet",
+    "text2": "snøstorm"
+  },
+  "nmcg": {
+    "text1": "skyet",
+    "text2": "sterke vindkast"
+  },
+  "nmcha": {
+    "text1": "skyet",
+    "text2": "haglskurer"
+  },
+  "nmchas": {
+    "text1": "skyet",
+    "text2": "hagl og torden"
+  },
+  "nmchr": {
+    "text1": "skyet",
+    "text2": "tett yr"
+  },
+  "nmchs": {
+    "text1": "skyet",
+    "text2": "kraftig snøfall"
+  },
+  "nmclr": {
+    "text1": "skyet",
+    "text2": "lett yr"
+  },
+  "nmcls": {
+    "text1": "skyet",
+    "text2": "lett snøfall"
+  },
+  "nmcmr": {
+    "text1": "skyet",
+    "text2": "moderat yr"
+  },
+  "nmcms": {
+    "text1": "skyet",
+    "text2": "moderat snøfall"
+  },
+  "nmcrih": {
+    "text1": "skyet",
+    "text2": "yr med fare for frost"
+  },
+  "nmcsr": {
+    "text1": "skyet",
+    "text2": "sludd"
+  },
+  "nmct": {
+    "text1": "skyet",
+    "text2": "torden"
+  },
+  "nmcts": {
+    "text1": "skyet",
+    "text2": "tordenbyger"
+  },
+  "nnc": {
+    "text1": "klart",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "klart",
+    "text2": "lave tåkeskyer"
+  },
+  "nncg": {
+    "text1": "klart",
+    "text2": "sterke vindkast"
+  }
+}

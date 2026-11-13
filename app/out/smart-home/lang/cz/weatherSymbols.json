@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "nárazový vítr",
+    "text2": "bouře"
+  },
+  "ahc": {
+    "text1": "vysoká oblačnost",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "hustá oblačnost",
+    "text2": "sněhová bouře"
+  },
+  "ahcf": {
+    "text1": "hustá oblačnost",
+    "text2": "přízemní mlha"
+  },
+  "ahcg": {
+    "text1": "hustá oblačnost",
+    "text2": "nárazový vítr"
+  },
+  "ahcha": {
+    "text1": "hustá oblačnost",
+    "text2": "přeháňka s kroupami"
+  },
+  "ahchas": {
+    "text1": "hustá oblačnost",
+    "text2": "krupobití"
+  },
+  "ahchr": {
+    "text1": "hustá oblačnost",
+    "text2": "silné mrholení"
+  },
+  "ahchs": {
+    "text1": "hustá oblačnost",
+    "text2": "silné sněžení"
+  },
+  "ahcih": {
+    "text1": "hustá oblačnost",
+    "text2": "nebezpečí ledovky"
+  },
+  "ahcmr": {
+    "text1": "hustá oblačnost",
+    "text2": "mírné mrholení"
+  },
+  "ahcr": {
+    "text1": "hustá oblačnost",
+    "text2": "mrholení"
+  },
+  "ahcrih": {
+    "text1": "hustá oblačnost",
+    "text2": "mrholení s nebezpečím ledovky"
+  },
+  "ahcs": {
+    "text1": "hustá oblačnost",
+    "text2": "sněžení"
+  },
+  "ahcsr": {
+    "text1": "hustá oblačnost",
+    "text2": "sněžení s deštěm"
+  },
+  "ahct": {
+    "text1": "hustá oblačnost",
+    "text2": "hrozí bouřky"
+  },
+  "ahcts": {
+    "text1": "hustá oblačnost",
+    "text2": "bouřka"
+  },
+  "aoc": {
+    "text1": "zataženo",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "zataženo",
+    "text2": "sněhová bouře"
+  },
+  "aocg": {
+    "text1": "zataženo",
+    "text2": "nárazový vítr"
+  },
+  "aocha": {
+    "text1": "zataženo",
+    "text2": "přeháňka s kroupami"
+  },
+  "aocih": {
+    "text1": "zataženo",
+    "text2": "nebezpečí ledovky"
+  },
+  "aocr": {
+    "text1": "zataženo",
+    "text2": "mrholení"
+  },
+  "aocrih": {
+    "text1": "zataženo",
+    "text2": "mrholení s nebezpečím ledovky"
+  },
+  "aocrs": {
+    "text1": "zataženo",
+    "text2": "dešťová přeháňka"
+  },
+  "aocs": {
+    "text1": "zataženo",
+    "text2": "sněžení"
+  },
+  "aocsr": {
+    "text1": "zataženo",
+    "text2": "sněžení s deštěm"
+  },
+  "aoct": {
+    "text1": "zataženo",
+    "text2": "hrozí bouřky"
+  },
+  "aocts": {
+    "text1": "zataženo",
+    "text2": "bouřka"
+  },
+  "dlc": {
+    "text1": "jasno",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "jasno",
+    "text2": "sněhová bouře"
+  },
+  "dlcg": {
+    "text1": "jasno",
+    "text2": "nárazový vítr"
+  },
+  "dlchas": {
+    "text1": "jasno",
+    "text2": "krupobití"
+  },
+  "dlchr": {
+    "text1": "jasno",
+    "text2": "silné mrholení"
+  },
+  "dlchs": {
+    "text1": "jasno",
+    "text2": "silné sněžení"
+  },
+  "dlcih": {
+    "text1": "jasno",
+    "text2": "nebezpečí ledovky"
+  },
+  "dlcmr": {
+    "text1": "jasno",
+    "text2": "mírné mrholení"
+  },
+  "dlcms": {
+    "text1": "jasno",
+    "text2": "mírné sněžení"
+  },
+  "dlcr": {
+    "text1": "jasno",
+    "text2": "mrholení"
+  },
+  "dlcrih": {
+    "text1": "jasno",
+    "text2": "mrholení s nebezpečím ledovky"
+  },
+  "dlcs": {
+    "text1": "jasno",
+    "text2": "sněžení"
+  },
+  "dlcsr": {
+    "text1": "jasno",
+    "text2": "sněžení s deštěm"
+  },
+  "dlct": {
+    "text1": "jasno",
+    "text2": "přeháňka s kroupami"
+  },
+  "dlcth": {
+    "text1": "jasno",
+    "text2": "hrozí bouřky"
+  },
+  "dlcts": {
+    "text1": "jasno",
+    "text2": "bouřka"
+  },
+  "dmc": {
+    "text1": "oblačno",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "oblačno",
+    "text2": "sněhová bouře"
+  },
+  "dmcg": {
+    "text1": "oblačno",
+    "text2": "nárazový vítr"
+  },
+  "dmcha": {
+    "text1": "oblačno",
+    "text2": "přeháňka s kroupami"
+  },
+  "dmchas": {
+    "text1": "oblačno",
+    "text2": "krupobití"
+  },
+  "dmchr": {
+    "text1": "oblačno",
+    "text2": "silné mrholení"
+  },
+  "dmchs": {
+    "text1": "oblačno",
+    "text2": "silné sněžení"
+  },
+  "dmclr": {
+    "text1": "oblačno",
+    "text2": "slabé mrholení"
+  },
+  "dmcls": {
+    "text1": "oblačno",
+    "text2": "slabé sněžení"
+  },
+  "dmcmr": {
+    "text1": "oblačno",
+    "text2": "mírné mrholení"
+  },
+  "dmcms": {
+    "text1": "oblačno",
+    "text2": "mírné sněžení"
+  },
+  "dmcrih": {
+    "text1": "oblačno",
+    "text2": "mrholení s nebezpečím ledovky"
+  },
+  "dmcsr": {
+    "text1": "oblačno",
+    "text2": "sněžení s deštěm"
+  },
+  "dmct": {
+    "text1": "oblačno",
+    "text2": "hrozí bouřky"
+  },
+  "dmcts": {
+    "text1": "oblačno",
+    "text2": "bouřka"
+  },
+  "dnc": {
+    "text1": "slunečno",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "slunečno",
+    "text2": "přízemní mlha"
+  },
+  "dncg": {
+    "text1": "slunečno",
+    "text2": "nárazový vítr"
+  },
+  "nlc": {
+    "text1": "slabě oblačno",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "slabě oblačno",
+    "text2": "sněhová bouře"
+  },
+  "nlcg": {
+    "text1": "slabě oblačno",
+    "text2": "nárazový vítr"
+  },
+  "nlcha": {
+    "text1": "slabě oblačno",
+    "text2": "přeháňka s kroupami"
+  },
+  "nlchas": {
+    "text1": "slabě oblačno",
+    "text2": "krupobití"
+  },
+  "nlchr": {
+    "text1": "slabě oblačno",
+    "text2": "silné mrholení"
+  },
+  "nlchs": {
+    "text1": "slabě oblačno",
+    "text2": "silné sněžení"
+  },
+  "nlcih": {
+    "text1": "slabě oblačno",
+    "text2": "nebezpečí ledovky"
+  },
+  "nlcmr": {
+    "text1": "slabě oblačno",
+    "text2": "mírné mrholení"
+  },
+  "nlcms": {
+    "text1": "slabě oblačno",
+    "text2": "mírné sněžení"
+  },
+  "nlcr": {
+    "text1": "slabě oblačno",
+    "text2": "mrholení"
+  },
+  "nlcrih": {
+    "text1": "slabě oblačno",
+    "text2": "mrholení s nebezpečím ledovky"
+  },
+  "nlcs": {
+    "text1": "slabě oblačno",
+    "text2": "sněžení"
+  },
+  "nlcsr": {
+    "text1": "slabě oblačno",
+    "text2": "sněžení s deštěm"
+  },
+  "nlcth": {
+    "text1": "slabě oblačno",
+    "text2": "hrozí bouřky"
+  },
+  "nlcts": {
+    "text1": "slabě oblačno",
+    "text2": "bouřka"
+  },
+  "nmc": {
+    "text1": "oblačno",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "oblačno",
+    "text2": "sněhová bouře"
+  },
+  "nmcg": {
+    "text1": "oblačno",
+    "text2": "nárazový vítr"
+  },
+  "nmcha": {
+    "text1": "oblačno",
+    "text2": "přeháňka s kroupami"
+  },
+  "nmchas": {
+    "text1": "oblačno",
+    "text2": "krupobití"
+  },
+  "nmchr": {
+    "text1": "oblačno",
+    "text2": "silné mrholení"
+  },
+  "nmchs": {
+    "text1": "oblačno",
+    "text2": "silné sněžení"
+  },
+  "nmclr": {
+    "text1": "oblačno",
+    "text2": "slabé mrholení"
+  },
+  "nmcls": {
+    "text1": "oblačno",
+    "text2": "slabé sněžení"
+  },
+  "nmcmr": {
+    "text1": "oblačno",
+    "text2": "mírné mrholení"
+  },
+  "nmcms": {
+    "text1": "oblačno",
+    "text2": "mírné sněžení"
+  },
+  "nmcrih": {
+    "text1": "oblačno",
+    "text2": "mrholení s nebezpečím ledovky"
+  },
+  "nmcsr": {
+    "text1": "oblačno",
+    "text2": "sněžení s deštěm"
+  },
+  "nmct": {
+    "text1": "oblačno",
+    "text2": "hrozí bouřky"
+  },
+  "nmcts": {
+    "text1": "oblačno",
+    "text2": "bouřka"
+  },
+  "nnc": {
+    "text1": "bezoblačno",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "bezoblačno",
+    "text2": "přízemní mlha"
+  },
+  "nncg": {
+    "text1": "bezoblačno",
+    "text2": "nárazový vítr"
+  }
+}

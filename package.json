@@ -1,0 +1,36 @@
+{
+  "name": "gira-smart-home-linux",
+  "version": "6.0.72",
+  "description": "Gira Smart Home - Linux AppImage build wrapper",
+  "main": "app/out/main.js",
+  "private": true,
+  "scripts": {
+    "start": "electron app",
+    "dist": "electron-builder --linux AppImage"
+  },
+  "build": {
+    "appId": "com.gira.smart-home",
+    "productName": "Gira Smart Home",
+    "asar": true,
+    "electronVersion": "27.2.1",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "app/**/*"
+    ],
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Utility",
+      "icon": "build/icon.png",
+      "maintainer": "Gira Giersiepen GmbH & Co. KG",
+      "synopsis": "Gira Smart Home"
+    },
+    "npmRebuild": false
+  },
+  "devDependencies": {
+    "electron-builder": "^24.13.3"
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 302 151" style="enable-background:new 0 0 302 151;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DCDCDC;}
+	.st1{fill:#C8C8C8;}
+</style>
+	<filter id="InnerShadow">
+	<feOffset  dx="0" dy="4"></feOffset>
+	<feGaussianBlur  result="offset-blur" stdDeviation="2.5"></feGaussianBlur>
+	<feComposite  in="SourceGraphic" in2="offset-blur" operator="out" result="inverse"></feComposite>
+	<feFlood  flood-color="#000000" flood-opacity=".6" result="color"></feFlood>
+	<feComposite  in="color" in2="inverse" operator="in" result="shadow"></feComposite>
+	<feComposite  in="shadow" in2="SourceGraphic" operator="over"></feComposite>
+</filter>
+<path class="st0" filter="url(#InnerShadow)" d="M301,1c0,82.8-67.2,150-150,150C68.2,151,1,83.8,1,1"/>
+<path class="st1" d="M302,0h-1H1H0v1h0c0.3,40,15.9,77.5,44.2,105.8C72.7,135.3,110.7,151,151,151c40.3,0,78.3-15.7,106.8-44.2
+	C286.1,78.5,301.7,41,302,1h0V0z M151,150C68.5,150,1.6,83.4,1,1h300C300.4,83.4,233.5,150,151,150z"/>
+</svg>

@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "ventoso",
+    "text2": "tormenta"
+  },
+  "ahc": {
+    "text1": "nubes ligeras",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "muy nublado",
+    "text2": "tormenta de nieve"
+  },
+  "ahcf": {
+    "text1": "muy nublado",
+    "text2": "neblina"
+  },
+  "ahcg": {
+    "text1": "muy nublado",
+    "text2": "ventoso"
+  },
+  "ahcha": {
+    "text1": "muy nublado",
+    "text2": "lluvia de granizo"
+  },
+  "ahchas": {
+    "text1": "muy nublado",
+    "text2": "tormenta de granizo"
+  },
+  "ahchr": {
+    "text1": "muy nublado",
+    "text2": "fuerte llovizna"
+  },
+  "ahchs": {
+    "text1": "muy nublado",
+    "text2": "nevada fuerte"
+  },
+  "ahcih": {
+    "text1": "muy nublado",
+    "text2": "peligro de hielo"
+  },
+  "ahcmr": {
+    "text1": "muy nublado",
+    "text2": "llovizna moderada"
+  },
+  "ahcr": {
+    "text1": "muy nublado",
+    "text2": "llovizna"
+  },
+  "ahcrih": {
+    "text1": "muy nublado",
+    "text2": "llovizna con peligro de hielo"
+  },
+  "ahcs": {
+    "text1": "muy nublado",
+    "text2": "nevada"
+  },
+  "ahcsr": {
+    "text1": "muy nublado",
+    "text2": "aguanieve"
+  },
+  "ahct": {
+    "text1": "muy nublado",
+    "text2": "tormentoso"
+  },
+  "ahcts": {
+    "text1": "muy nublado",
+    "text2": "tempestad"
+  },
+  "aoc": {
+    "text1": "cubierto",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "cubierto",
+    "text2": "tormenta de nieve"
+  },
+  "aocg": {
+    "text1": "cubierto",
+    "text2": "ventoso"
+  },
+  "aocha": {
+    "text1": "cubierto",
+    "text2": "lluvia de granizo"
+  },
+  "aocih": {
+    "text1": "cubierto",
+    "text2": "peligro de hielo"
+  },
+  "aocr": {
+    "text1": "cubierto",
+    "text2": "llovizna"
+  },
+  "aocrih": {
+    "text1": "cubierto",
+    "text2": "llovizna con peligro de hielo"
+  },
+  "aocrs": {
+    "text1": "cubierto",
+    "text2": "lluvia"
+  },
+  "aocs": {
+    "text1": "cubierto",
+    "text2": "nevada"
+  },
+  "aocsr": {
+    "text1": "cubierto",
+    "text2": "aguanieve"
+  },
+  "aoct": {
+    "text1": "cubierto",
+    "text2": "tormentoso"
+  },
+  "aocts": {
+    "text1": "cubierto",
+    "text2": "tempestad"
+  },
+  "dlc": {
+    "text1": "sereno",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "sereno",
+    "text2": "tormenta de nieve"
+  },
+  "dlcg": {
+    "text1": "sereno",
+    "text2": "ventoso"
+  },
+  "dlchas": {
+    "text1": "sereno",
+    "text2": "tormenta de granizo"
+  },
+  "dlchr": {
+    "text1": "sereno",
+    "text2": "fuerte llovizna"
+  },
+  "dlchs": {
+    "text1": "sereno",
+    "text2": "nevada fuerte"
+  },
+  "dlcih": {
+    "text1": "sereno",
+    "text2": "peligro de hielo"
+  },
+  "dlcmr": {
+    "text1": "sereno",
+    "text2": "llovizna moderada"
+  },
+  "dlcms": {
+    "text1": "sereno",
+    "text2": "nevada moderada"
+  },
+  "dlcr": {
+    "text1": "sereno",
+    "text2": "llovizna"
+  },
+  "dlcrih": {
+    "text1": "sereno",
+    "text2": "llovizna con peligro de hielo"
+  },
+  "dlcs": {
+    "text1": "sereno",
+    "text2": "nevada"
+  },
+  "dlcsr": {
+    "text1": "sereno",
+    "text2": "aguanieve"
+  },
+  "dlct": {
+    "text1": "sereno",
+    "text2": "lluvia de granizo"
+  },
+  "dlcth": {
+    "text1": "sereno",
+    "text2": "tormentoso"
+  },
+  "dlcts": {
+    "text1": "sereno",
+    "text2": "tempestad"
+  },
+  "dmc": {
+    "text1": "nublado",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "nublado",
+    "text2": "tormenta de nieve"
+  },
+  "dmcg": {
+    "text1": "nublado",
+    "text2": "ventoso"
+  },
+  "dmcha": {
+    "text1": "nublado",
+    "text2": "lluvia de granizo"
+  },
+  "dmchas": {
+    "text1": "nublado",
+    "text2": "tormenta de granizo"
+  },
+  "dmchr": {
+    "text1": "nublado",
+    "text2": "fuerte llovizna"
+  },
+  "dmchs": {
+    "text1": "nublado",
+    "text2": "nevada fuerte"
+  },
+  "dmclr": {
+    "text1": "nublado",
+    "text2": "llovizna ligera"
+  },
+  "dmcls": {
+    "text1": "nublado",
+    "text2": "nevada ligera"
+  },
+  "dmcmr": {
+    "text1": "nublado",
+    "text2": "llovizna moderada"
+  },
+  "dmcms": {
+    "text1": "nublado",
+    "text2": "nevada moderada"
+  },
+  "dmcrih": {
+    "text1": "nublado",
+    "text2": "llovizna con peligro de hielo"
+  },
+  "dmcsr": {
+    "text1": "nublado",
+    "text2": "aguanieve"
+  },
+  "dmct": {
+    "text1": "nublado",
+    "text2": "tormentoso"
+  },
+  "dmcts": {
+    "text1": "nublado",
+    "text2": "tempestad"
+  },
+  "dnc": {
+    "text1": "soleado",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "soleado",
+    "text2": "neblina"
+  },
+  "dncg": {
+    "text1": "soleado",
+    "text2": "ventoso"
+  },
+  "nlc": {
+    "text1": "ligeramente nublado",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "ligeramente nublado",
+    "text2": "tormenta de nieve"
+  },
+  "nlcg": {
+    "text1": "ligeramente nublado",
+    "text2": "ventoso"
+  },
+  "nlcha": {
+    "text1": "ligeramente nublado",
+    "text2": "lluvia de granizo"
+  },
+  "nlchas": {
+    "text1": "ligeramente nublado",
+    "text2": "tormenta de granizo"
+  },
+  "nlchr": {
+    "text1": "ligeramente nublado",
+    "text2": "fuerte llovizna"
+  },
+  "nlchs": {
+    "text1": "ligeramente nublado",
+    "text2": "nevada fuerte"
+  },
+  "nlcih": {
+    "text1": "ligeramente nublado",
+    "text2": "peligro de hielo"
+  },
+  "nlcmr": {
+    "text1": "ligeramente nublado",
+    "text2": "llovizna moderada"
+  },
+  "nlcms": {
+    "text1": "ligeramente nublado",
+    "text2": "nevada moderada"
+  },
+  "nlcr": {
+    "text1": "ligeramente nublado",
+    "text2": "llovizna"
+  },
+  "nlcrih": {
+    "text1": "ligeramente nublado",
+    "text2": "llovizna con peligro de hielo"
+  },
+  "nlcs": {
+    "text1": "ligeramente nublado",
+    "text2": "nevada"
+  },
+  "nlcsr": {
+    "text1": "ligeramente nublado",
+    "text2": "aguanieve"
+  },
+  "nlcth": {
+    "text1": "ligeramente nublado",
+    "text2": "tormentoso"
+  },
+  "nlcts": {
+    "text1": "ligeramente nublado",
+    "text2": "tempestad"
+  },
+  "nmc": {
+    "text1": "nublado",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "nublado",
+    "text2": "tormenta de nieve"
+  },
+  "nmcg": {
+    "text1": "nublado",
+    "text2": "ventoso"
+  },
+  "nmcha": {
+    "text1": "nublado",
+    "text2": "lluvia de granizo"
+  },
+  "nmchas": {
+    "text1": "nublado",
+    "text2": "tormenta de granizo"
+  },
+  "nmchr": {
+    "text1": "nublado",
+    "text2": "fuerte llovizna"
+  },
+  "nmchs": {
+    "text1": "nublado",
+    "text2": "nevada fuerte"
+  },
+  "nmclr": {
+    "text1": "nublado",
+    "text2": "llovizna ligera"
+  },
+  "nmcls": {
+    "text1": "nublado",
+    "text2": "nevada ligera"
+  },
+  "nmcmr": {
+    "text1": "nublado",
+    "text2": "llovizna moderada"
+  },
+  "nmcms": {
+    "text1": "nublado",
+    "text2": "nevada moderada"
+  },
+  "nmcrih": {
+    "text1": "nublado",
+    "text2": "llovizna con peligro de hielo"
+  },
+  "nmcsr": {
+    "text1": "nublado",
+    "text2": "aguanieve"
+  },
+  "nmct": {
+    "text1": "nublado",
+    "text2": "tormentoso"
+  },
+  "nmcts": {
+    "text1": "nublado",
+    "text2": "tempestad"
+  },
+  "nnc": {
+    "text1": "despejado",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "despejado",
+    "text2": "neblina"
+  },
+  "nncg": {
+    "text1": "despejado",
+    "text2": "ventoso"
+  }
+}

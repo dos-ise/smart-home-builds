@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Configuração de Gira G1",
+    "action": "O Gira G1 está a iniciar."
+  },
+  {
+    "title": "Configuração de Gira G1",
+    "action": "A primeira colocação em funcionamento \nestá em preparação"
+  },
+  {
+    "title": "Configuração de Gira G1",
+    "action": "O Gira G1 está a assumir a nova \nconfiguração."
+  },
+  {
+    "title": "Configuração de Gira G1",
+    "action": "O Gira G1 está a actualizar o \nfirmware."
+  },
+  {
+    "title": "Configuração de Gira G1",
+    "action": "O Gira G1 está a ser reposto para \nas config. de fábrica."
+  },
+  {
+    "title": "Configuração de Gira G1",
+    "action": "O Gira G1 está a reiniciar."
+  }
+]

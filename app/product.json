@@ -1,0 +1,22 @@
+{
+	"nameShort": "Gira Smart Home",
+	"nameLong": "Gira Smart Home",
+	"applicationName": "smart-home",
+	"company": "Gira Giersiepen GmbH & Co. KG.",
+	"description": "Gira Smart Home",
+	"dataFolderName": ".gira-smart-home",
+	"win32MutexName": "gira-smart-home",
+	"licenseUrl": "https://www.gira.de",
+	"win32DirName": "Gira Smart Home",
+	"win32NameVersion": "Gira Smart Home",
+	"win32AppUserModelId": "gira.smart-home",
+	"darwinBundleIdentifier": "com.gira.smart-home",
+	"packagePrefix": "gira-smart-home",
+	"win32RegValueName": "GiraSmartHome",
+	"win32AppId": "{{9555D796-C5DA-429F-AF9C-80F045B8E46A}",
+	"win32x64AppId": "{{D1471252-8985-4AAB-B6DF-7338CFEA1837}",
+	"win32UserAppId": "{{5D8A90BE-A68F-4C68-B825-28665EFB44DC}",
+	"win32x64UserAppId": "{{5D8A90BE-A68F-4C68-B825-28665EFB44DC}",
+	"date": "2026-08-31T14:04:04.107Z",
+	"target": "system"
+}

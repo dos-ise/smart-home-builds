@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" viewBox="0 0 90 90">
+  <title>gc4_clocktimer_sunrise</title>
+  <g>
+    <g>
+      <path d="M45,89.5A44.5,44.5,0,1,1,89.5,45,44.55,44.55,0,0,1,45,89.5Z" style="fill: #fff"/>
+      <path d="M45,1A44,44,0,1,1,1,45,44,44,0,0,1,45,1m0-1A45,45,0,1,0,90,45,45,45,0,0,0,45,0Z" style="fill: #c8c8c8"/>
+    </g>
+    <g>
+      <rect x="48.53" y="81.79" width="1" height="3" transform="translate(-8.3 5.48) rotate(-5.9)" style="fill: #3c3c3c"/>
+      <rect x="40.48" y="5.21" width="1" height="3" transform="translate(-0.47 4.27) rotate(-5.94)" style="fill: #3c3c3c"/>
+      <rect x="52.51" y="81.16" width="1" height="3" transform="translate(-15.87 12.67) rotate(-11.87)" style="fill: #3c3c3c"/>
+      <rect x="36.5" y="5.84" width="1" height="3" transform="translate(-0.72 7.83) rotate(-11.96)" style="fill: #3c3c3c"/>
+      <rect x="56.4" y="80.12" width="1" height="3" transform="translate(-22.31 21.42) rotate(-17.88)" style="fill: #3c3c3c"/>
+      <rect x="32.61" y="6.88" width="1" height="3" transform="translate(-0.97 10.61) rotate(-17.95)" style="fill: #3c3c3c"/>
+      <rect x="60.16" y="78.67" width="1" height="3" transform="translate(-27.3 31.49) rotate(-23.93)" style="fill: #3c3c3c"/>
+      <rect x="28.84" y="8.33" width="1" height="3" transform="translate(-1.46 12.76) rotate(-23.95)" style="fill: #3c3c3c"/>
+      <rect x="67.13" y="74.65" width="1" height="3" transform="translate(-31.8 54.08) rotate(-35.87)" style="fill: #3c3c3c"/>
+      <rect x="21.88" y="12.35" width="1" height="3" transform="translate(-3.87 15.77) rotate(-35.95)" style="fill: #3c3c3c"/>
+      <rect x="70.27" y="72.11" width="1" height="3" transform="translate(-31.06 66.01) rotate(-41.86)" style="fill: #3c3c3c"/>
+      <rect x="18.74" y="14.89" width="1" height="3" transform="translate(-6.03 17.06) rotate(-41.94)" style="fill: #3c3c3c"/>
+      <rect x="73.12" y="69.26" width="1" height="3" transform="translate(-28.24 77.94) rotate(-47.9)" style="fill: #3c3c3c"/>
+      <rect x="15.89" y="17.74" width="1" height="3" transform="translate(-8.87 18.53) rotate(-47.96)" style="fill: #3c3c3c"/>
+      <rect x="75.66" y="66.13" width="0.99" height="3" transform="translate(-23.38 89.25) rotate(-53.86)" style="fill: #3c3c3c"/>
+      <rect x="13.36" y="20.87" width="1" height="3" transform="translate(-12.38 20.42) rotate(-53.97)" style="fill: #3c3c3c"/>
+      <rect x="79.68" y="59.16" width="0.99" height="3" transform="translate(-7.93 109.08) rotate(-65.9)" style="fill: #3c3c3c"/>
+      <rect x="9.34" y="27.84" width="1" height="3" transform="translate(-20.97 26.4) rotate(-66.01)" style="fill: #3c3c3c"/>
+      <rect x="81.13" y="55.4" width="0.99" height="3" transform="translate(2.23 116.86) rotate(-71.94)" style="fill: #3c3c3c"/>
+      <rect x="7.89" y="31.6" width="1" height="3" transform="translate(-25.68 30.86) rotate(-72.01)" style="fill: #3c3c3c"/>
+      <rect x="82.17" y="51.5" width="0.99" height="3" transform="translate(13.61 122.82) rotate(-77.98)" style="fill: #3c3c3c"/>
+      <rect x="6.85" y="35.5" width="1" height="3" transform="translate(-30.37 36.51) rotate(-78.03)" style="fill: #3c3c3c"/>
+      <rect x="82.8" y="47.53" width="1" height="3" transform="translate(25.71 126.66) rotate(-83.92)" style="fill: #3c3c3c"/>
+      <rect x="6.22" y="39.47" width="1" height="3" transform="translate(-34.73 43.4) rotate(-84.04)" style="fill: #3c3c3c"/>
+      <rect x="81.79" y="40.48" width="3" height="1" transform="translate(-3.78 8.8) rotate(-5.91)" style="fill: #3c3c3c"/>
+      <rect x="5.22" y="48.52" width="3" height="1" transform="translate(-5.12 0.98) rotate(-6.04)" style="fill: #3c3c3c"/>
+      <rect x="81.16" y="36.49" width="3" height="0.99" transform="translate(-5.87 17.91) rotate(-11.95)" style="fill: #3c3c3c"/>
+      <rect x="5.85" y="52.5" width="3" height="1" transform="translate(-10.9 2.7) rotate(-12.05)" style="fill: #3c3c3c"/>
+      <rect x="80.12" y="32.6" width="3" height="0.99" transform="translate(-6.23 26.76) rotate(-17.95)" style="fill: #3c3c3c"/>
+      <rect x="6.89" y="56.4" width="3" height="1" transform="translate(-17.21 5.4) rotate(-18.05)" style="fill: #3c3c3c"/>
+      <rect x="78.68" y="28.84" width="3" height="1" transform="translate(-5.01 35.01) rotate(-23.91)" style="fill: #3c3c3c"/>
+      <rect x="8.34" y="60.16" width="3" height="1" transform="translate(-23.85 9.26) rotate(-24.03)" style="fill: #3c3c3c"/>
+      <rect x="74.66" y="21.87" width="3" height="0.99" transform="translate(1.36 48.94) rotate(-35.92)" style="fill: #3c3c3c"/>
+      <rect x="12.36" y="67.13" width="3" height="1" transform="translate(-37.08 21.04) rotate(-35.97)" style="fill: #3c3c3c"/>
+      <rect x="72.12" y="18.74" width="3" height="1" transform="translate(5.99 54.11) rotate(-41.92)" style="fill: #3c3c3c"/>
+      <rect x="14.9" y="70.26" width="3" height="1" transform="translate(-43.13 29.15) rotate(-42)" style="fill: #3c3c3c"/>
+      <rect x="69.27" y="15.89" width="3" height="1" transform="translate(11.17 57.91) rotate(-47.9)" style="fill: #3c3c3c"/>
+      <rect x="17.75" y="73.11" width="3" height="1" transform="translate(-48.31 38.61) rotate(-47.96)" style="fill: #3c3c3c"/>
+      <rect x="66.14" y="13.35" width="3" height="1" transform="translate(16.6 60.35) rotate(-53.91)" style="fill: #3c3c3c"/>
+      <rect x="20.88" y="75.65" width="3" height="1" transform="translate(-52.36 49.44) rotate(-53.96)" style="fill: #3c3c3c"/>
+      <rect x="59.17" y="9.33" width="3" height="0.99" transform="translate(26.93 61.19) rotate(-65.9)" style="fill: #3c3c3c"/>
+      <rect x="27.85" y="79.67" width="3" height="0.99" transform="translate(-55.83 74.41) rotate(-66.03)" style="fill: #3c3c3c"/>
+      <rect x="55.4" y="7.88" width="3" height="0.99" transform="translate(31.29 59.88) rotate(-71.93)" style="fill: #3c3c3c"/>
+      <rect x="31.61" y="81.11" width="3" height="0.99" transform="translate(-54.73 87.96) rotate(-72.05)" style="fill: #3c3c3c"/>
+      <rect x="51.51" y="6.84" width="3" height="1" transform="translate(34.75 57.64) rotate(-77.93)" style="fill: #3c3c3c"/>
+      <rect x="35.5" y="82.16" width="3" height="1" transform="translate(-51.54 101.67) rotate(-78)" style="fill: #3c3c3c"/>
+      <rect x="47.53" y="6.21" width="3" height="0.99" transform="translate(37.19 54.75) rotate(-83.94)" style="fill: #3c3c3c"/>
+      <rect x="39.48" y="82.79" width="3" height="1" transform="translate(-46.11 115.39) rotate(-84.04)" style="fill: #3c3c3c"/>
+    </g>
+    <g>
+      <rect x="44" y="79" width="2" height="6" style="fill: #3c3c3c"/>
+      <rect x="62.51" y="74.05" width="2" height="6" transform="translate(-30.02 42.09) rotate(-30.01)" style="fill: #3c3c3c"/>
+      <rect x="76.04" y="60.5" width="2" height="6" transform="translate(-16.47 98.48) rotate(-60.01)" style="fill: #3c3c3c"/>
+      <rect x="79" y="44" width="6" height="2" style="fill: #3c3c3c"/>
+      <rect x="74.05" y="25.5" width="6" height="2" transform="translate(-2.93 42.05) rotate(-29.98)" style="fill: #3c3c3c"/>
+      <rect x="60.5" y="11.96" width="6" height="2" transform="translate(20.51 61.45) rotate(-59.98)" style="fill: #3c3c3c"/>
+      <rect x="25.5" y="9.96" width="2" height="6" transform="translate(-2.93 14.97) rotate(-29.97)" style="fill: #3c3c3c"/>
+      <rect x="11.96" y="23.5" width="2" height="6" transform="translate(-16.47 24.45) rotate(-59.97)" style="fill: #3c3c3c"/>
+      <rect x="5" y="44" width="6" height="2" style="fill: #3c3c3c"/>
+      <rect x="9.96" y="62.5" width="6" height="2" transform="translate(-29.99 14.96) rotate(-29.97)" style="fill: #3c3c3c"/>
+      <rect x="23.5" y="76.05" width="6" height="2" transform="translate(-53.46 61.43) rotate(-59.97)" style="fill: #3c3c3c"/>
+      <rect x="44" y="5" width="2" height="6" style="fill: #3c3c3c"/>
+    </g>
+  </g>
+  <g>
+    <path d="M53,48a8,8,0,0,0-16,0H28v2H62V48ZM39,48a6,6,0,0,1,12,0Zm13.71-6.3a10,10,0,0,0-1.41-1.41L55.61,36,57,37.39ZM46,38.1V32H44v6.1a9.68,9.68,0,0,1,1-.1A9.93,9.93,0,0,1,46,38.1Zm-7.29,2.19L34.39,36,33,37.39l4.31,4.31A10,10,0,0,1,38.71,40.29Z" style="fill: #505050"/>
+    <polygon points="44 33.83 44 38 46 38 46 33.83 47.83 35.66 49.24 34.24 45 30 40.76 34.24 42.17 35.66 44 33.83" style="fill: #505050"/>
+  </g>
+</svg>

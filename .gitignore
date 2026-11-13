@@ -1,0 +1,10 @@
+# Build-Artefakte (werden als GitHub Release-Assets hochgeladen)
+dist/
+
+# Große, erneut ladbare Cache-Dateien (Electron-Runtimes, Tools)
+.electron-cache/
+
+# npm
+node_modules/
+package-lock.json
+.npmrc

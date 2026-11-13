@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Gira G1 Konfiguration",
+    "action": "Der Gira G1 startet."
+  },
+  {
+    "title": "Gira G1 Konfiguration",
+    "action": "Die Vorbereitung für die\nErstinbetriebnahme läuft."
+  },
+  {
+    "title": "Gira G1 Konfiguration",
+    "action": "Der Gira G1 übernimmt die\nneue Konfiguration."
+  },
+  {
+    "title": "Gira G1 Konfiguration",
+    "action": "Der Gira G1 aktualisiert die\nFirmware."
+  },
+  {
+    "title": "Gira G1 Konfiguration",
+    "action": "Der Gira G1 wird auf die\nWerkseinstellungen zurückgesetzt."
+  },
+  {
+    "title": "Gira G1 Konfiguration",
+    "action": "Der Gira G1 startet neu."
+  }
+]

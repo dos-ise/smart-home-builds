@@ -1,0 +1,919 @@
+html[data-theme='dark'] {
+  --gc4_headericon_alert: url("../../img\/icons\/dark/statuszeile/gc4_headericon_alert.svg");
+  --gc4_headericon_doorautom: url("../../img\/icons\/dark/statuszeile/gc4_headericon_doorautom.svg");
+  --gc4_gc4_app_doorcom: url("../../img\/icons\/dark/gc4_app_doorcom.png");
+  --gc4_stat_temp_in: url("../../img\/icons\/dark/statuszeile/gc4_stat_temp_in.svg");
+  --gc4_stat_temp_in_white: url("../../img\/icons\/dark/statuszeile/gc4_stat_temp_in_white.svg");
+  --gc4_stat_temp_out: url("../../img\/icons\/dark/statuszeile/gc4_stat_temp_out.svg");
+  --gc4_stat_temp_out_white: url("../../img\/icons\/dark/statuszeile/gc4_stat_temp_out_white.svg");
+  --gc4_navicon_back: url("../../img\/icons\/dark/navigationszeile/back/icon/gc4_navicon_back.svg");
+  --gc4_navicon_back_inactive: url("../../img\/icons\/dark/navigationszeile/back/icon/gc4_navicon_back_inactive.svg");
+  --gc4_navicon_grid: url("../../img\/icons\/dark/navigationszeile/grid/icon/gc4_navicon_grid.svg");
+  --gc4_navicon_grid_active: url("../../img\/icons\/dark/navigationszeile/grid/icon/gc4_navicon_grid_active.svg");
+  --gc4_navicon_grid_inactive: url("../../img\/icons\/dark/navigationszeile/grid/icon/gc4_navicon_grid_inactive.svg");
+  --gc4_navicon_home: url("../../img\/icons\/dark/navigationszeile/home/icon/gc4_navicon_home.svg");
+  --gc4_navicon_favorite: url("../../img\/icons\/dark/icons/icon_4.svg");
+  --gc4_navicon_home_inactive: url("../../img\/icons\/dark/navigationszeile/home/icon/gc4_navicon_home_inactive.svg");
+  --gc4_navicon_set: url("../../img\/icons\/dark/navigationszeile/set/icon/gc4_navicon_set.svg");
+  --gc4_navicon_set_active: url("../../img\/icons\/dark/navigationszeile/set/icon/gc4_navicon_set_active.svg");
+  --gc4_navicon_set_inactive: url("../../img\/icons\/dark/navigationszeile/set/icon/gc4_navicon_set_inactive.svg");
+  --gc4_cssbutton_plus: url("../../img\/icons\/dark/buttons/gc4_cssbutton_plus.svg");
+  --gc4_cssbutton_plus_inactive: url("../../img\/icons\/dark/buttons/gc4_cssbutton_plus_inactive.svg");
+  --gc4_cssbutton_minus: url("../../img\/icons\/dark/buttons/gc4_cssbutton_minus.svg");
+  --gc4_cssbutton_minus_inactive: url("../../img\/icons\/dark/buttons/gc4_cssbutton_minus_inactive.svg");
+  --gc4_cssbutton_fan_small: url("../../img\/icons\/dark/rtr/fanCoil/rtr-fancoil-icon-ventilation-minus.svg");
+  --gc4_cssbutton_fan_small_inactive: url("../../img\/icons\/dark/rtr/fanCoil/rtr-fancoil-icon-ventilation-minus-inactive.svg");
+  --gc4_cssbutton_fan_big: url("../../img\/icons\/dark/rtr/fanCoil/rtr-fancoil-icon-ventilation-plus.svg");
+  --gc4_cssbutton_fan_big_inactive: url("../../img\/icons\/dark/rtr/fanCoil/rtr-fancoil-icon-ventilation-plus-inactive.svg");
+  --gc4_cssbutton_trigger: url("../../img\/icons\/dark/buttons/gc4_cssbutton_trigger.svg");
+  --gc4_cssbutton_trigger_down: url("../../img\/icons\/dark/buttons/gc4_cssbutton_trigger_down.svg");
+  --gc4_ring: url("../../img\/icons\/dark/ring/gc4_ring.svg");
+  --gc4_ring_active_b: url("../../img\/icons\/dark/ring/gc4_ring_active_b.svg");
+  --gc4_ring_active_g: url("../../img\/icons\/dark/ring/gc4_ring_active_g.svg");
+  --gc4_ring_active_o: url("../../img\/icons\/dark/ring/gc4_ring_active_o.svg");
+  --gc4_ring_active_r: url("../../img\/icons\/dark/ring/gc4_ring_active_r.svg");
+  --gc4_dim_innerring_mask: url("../../img\/icons\/dark/dimmen/gc4_dim_innerring_mask.svg");
+  --gc4_button: url("../../img\/icons\/dark/gc4_button.svg");
+  --gc4_button_down: url("../../img\/icons\/dark/gc4_button_down.svg");
+  --gc4_rtr_skala_gradient: url("../../img\/icons\/dark/gc4_rtr_skala_gradient.png");
+  --gc4_button1-2hu: url("../../img\/icons\/dark/uielements/gc4_button1-2hu.svg");
+  --gc4_button1-2ho: url("../../img\/icons\/dark/uielements/gc4_button1-2ho.svg");
+  --gc4_button1-2hu_down: url("../../img\/icons\/dark/uielements/gc4_button1-2hu_down.svg");
+  --gc4_button1-2ho_down: url("../../img\/icons\/dark/uielements/gc4_button1-2ho_down.svg");
+  --gc4_button1-2vl: url("../../img\/icons\/dark/uielements/gc4_button1-2vl.svg");
+  --gc4_button1-2vl_down: url("../../img\/icons\/dark/uielements/gc4_button1-2vl_down.svg");
+  --gc4_button1-2vr: url("../../img\/icons\/dark/uielements/gc4_button1-2vr.svg");
+  --gc4_button1-2vr_down: url("../../img\/icons\/dark/uielements/gc4_button1-2vr_down.svg");
+  --gc4_button2v: url("../../img\/icons\/dark/uielements/gc4_button2v.svg");
+  --gc4_button2h: url("../../img\/icons\/dark/uielements/gc4_button2h.svg");
+  --gc4_icon_cssbutton-h: url("../../img\/icons\/dark/operationelements/gc4_icon_cssbutton-h.svg");
+  /*function folder*/
+  --image_gc4_folder_body_down: url("../../img\/icons\/dark/functionfolder/gc4_folder_body_down.svg");
+  --detail-status-background: url("../../img\/icons\/dark/gc4_statussheet_bg-no-lines.png");
+  /*TODO: INACTIVE IMAGES ARE MISSING - for now inactive and active will be the same*/
+  --gc4_cssicon_i: url("../../img\/icons\/dark/uielements/gc4_cssicon_i.svg");
+  --gc4_cssicon_i_inactive: url("../../img\/icons\/dark/uielements/gc4_cssicon_i.svg");
+  --gc4_cssicon_o: url("../../img\/icons\/dark/uielements/gc4_cssicon_o.svg");
+  --gc4_cssicon_o_inactive: url("../../img\/icons\/dark/uielements/gc4_cssicon_o.svg");
+  --gc4_cssbutton_arrowup: url("../../img\/icons\/dark/buttons/gc4_cssbutton_arrowup.svg");
+  --gc4_cssbutton_arrowup_inactive: url("../../img\/icons\/dark/buttons/gc4_cssbutton_arrowup_inactive.svg");
+  --gc4_cssbutton_arrowdown: url("../../img\/icons\/dark/buttons/gc4_cssbutton_arrowdown.svg");
+  --gc4_cssbutton_arrowdown_inactive: url("../../img\/icons\/dark/buttons/gc4_cssbutton_arrowdown_inactive.svg");
+  --gc4_arrow_up: url("../../img\/icons\/dark/dimmen/gc4_arrow_up.svg");
+  --gc4_arrow_down: url("../../img\/icons\/dark/dimmen/gc4_arrow_down.svg");
+  --gc4_blind_up: url("../../img\/icons\/dark/jalousie/gc4_blind_up.svg");
+  --gc4_blind_down: url("../../img\/icons\/dark/jalousie/gc4_blind_down.svg");
+  --gc4_lamination_up: url("../../img\/icons\/dark/jalousie/gc4_lamination_up.svg");
+  --gc4_lamination_down: url("../../img\/icons\/dark/jalousie/gc4_lamination_down.svg");
+  --gc4_slider_mask: url("../../img\/icons\/dark/jalousie/gc4_slidermask.svg");
+  --gc4_blind_hatch: url("../../img\/icons\/dark/jalousie/gc4_blind_hatch.svg");
+  --gc4_dim_scale: url("../../img\/icons\/dark/jalousie/gc4_dim_skala.svg");
+  --gc4_dim_scale_double: url("../../img\/icons\/dark/jalousie/gc4_dim_skala_double.svg");
+  --gc4_dim_sliderbg_active_b: url("../../img\/icons\/dark/jalousie/gc4_dim_sliderbg_active_b.svg");
+  --gc4_button_stop: url("../../img\/icons\/dark/jalousie/gc4_button_stop.svg");
+  --gc4_rtr_skala_mask_bg: url("../../img\/icons\/dark/rtr/gc4_rtr_skala_mask_bg.svg");
+  --gc4_temperature_line: url("../../img\/icons\/dark/rtr/gc4_temperature_line.svg");
+  --gc4_rtr-icon_comfort_detail: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_comfort_detail.svg");
+  --gc4_rtr-icon_standby_detail: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_standby_detail.svg");
+  --gc4_rtr-icon_night_detail: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_night_detail.svg");
+  --gc4_rtr-icon_frost_detail: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_frost_detail.svg");
+  --gc4_rtr-icon_cooling_detail: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_cooling_detail.svg");
+  --gc4_rtr-icon_heating_detail: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_heating_detail.svg");
+  --gc4_rtr-icon_cooling_detail_inactive: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_cooling_detail_inactive.svg");
+  --gc4_rtr-icon_heating_detail_inactive: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_heating_detail_inactive.svg");
+  --gc4_rtr-icon_cooling_list_inactive: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_cooling_list_inactive.svg");
+  --gc4_rtr-icon_heating_list_inactive: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_heating_list_inactive.svg");
+  --gc4_rtr-icon_tau: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_tau.svg");
+  --gc4_rtr-button_presencemode: url("../../img\/icons\/dark/rtr/gc4_rtr-button_presencemode.svg");
+  --gc4_rtr-button_presencemode_active: url("../../img\/icons\/dark/rtr/gc4_rtr-button_presencemode_active.svg");
+  --gc4_rtr-icon_ecomode: url("../../img\/icons\/dark/rtr/gc4_rtr-icon_ecomode.svg");
+  --gc4_listicon_lock: url("../../img\/icons\/dark/operationelements/gc4_listicon_lock.svg");
+  --gc4_cssicon_selected: url("../../img\/icons\/dark/operationelements/gc4_cssicon_selected.svg");
+  --gc4_cssicon_selected-green: url("../../img\/icons\/dark/operationelements/gc4_cssicon_selected-green.svg");
+  --gc4_icon_sort: url("../../img\/icons\/dark/operationelements/gc4_icon_sort.svg");
+  --gc4_gc4_app_weather: url("../../img\/icons\/dark/gc4_app_weather.png");
+  --gc4_app_wizard2: url("../../img\/icons\/dark/gc4_app_wizard2.png");
+  --al2_icon_8_unlocked: url("../../img\/icons\/dark/icons/icon_8.svg");
+  --al2_icon_78_armedTostay: url("../../img\/icons\/dark/icons/icon_78.svg");
+  --al2_icon_79_armedAway: url("../../img\/icons\/dark/icons/icon_79.svg");
+  --al2_icon_79_o_armedAway: url("../../img\/icons\/dark/icons/icon_79_o.svg");
+  --al2_icon_260_r_alarmFire: url("../../img\/icons\/dark/icons/icon_260_r.svg");
+  --al2_icon_261_r_alarmMedical: url("../../img\/icons\/dark/icons/icon_261_r.svg");
+  --al2_icon_262_r_alarmIntern: url("../../img\/icons\/dark/icons/icon_262_r.svg");
+  --al2_icon_262_o_alarmIntern: url("../../img\/icons\/dark/icons/icon_262_o.svg");
+  --al2_icon_264_r_alarmPanic: url("../../img\/icons\/dark/icons/icon_264_r.svg");
+  --al2_icon_266_r_alarmSabotage: url("../../img\/icons\/dark/icons/icon_266_r.svg");
+  --al2_icon_267_r_alarmSupervision: url("../../img\/icons\/dark/icons/icon_267_r.svg");
+  --al2_icon_268_r_alarmTechnical: url("../../img\/icons\/dark/icons/icon_268_r.svg");
+  --al2_icon_319_r_alarmTechnicalUrgent: url("../../alarmSystem2 / imgs/big_icon_319_r.svg");
+  --al2_icon_407_r_alarmMultiple: url("../../alarmSystem2 / imgs/big_icon_407_r.svg");
+  --al2_big_icon_8_unlocked: url("../../alarmSystem2 / imgs/big_icon_8.svg");
+  --al2_big_icon_78_armedTostay: url("../../alarmSystem2 / imgs/big_icon_78.svg");
+  --al2_big_icon_79_armedAway: url("../../alarmSystem2 / imgs/big_icon_79.svg");
+  --al2_big_icon_79_o_armedAway: url("../../alarmSystem2 / imgs/big_icon_79_o.svg");
+  --al2_big_icon_260_r_alarmFire: url("../../alarmSystem2 / imgs/big_icon_260_r.svg");
+  --al2_big_icon_261_r_alarmMedical: url("../../alarmSystem2 / imgs/big_icon_261_r.svg");
+  --al2_big_icon_262_r_alarmIntern: url("../../alarmSystem2 / imgs/big_icon_262_r.svg");
+  --al2_big_icon_262_o_alarmIntern: url("../../alarmSystem2 / imgs/big_icon_262_o.svg");
+  --al2_big_icon_264_r_alarmPanic: url("../../alarmSystem2 / imgs/big_icon_264_r.svg");
+  --al2_big_icon_266_r_alarmSabotage: url("../../alarmSystem2 / imgs/big_icon_266_r.svg");
+  --al2_big_icon_267_r_alarmSupervision: url("../../img\/icons\/dark/icons/icon_267_r.svg");
+  --al2_big_icon_268_r_alarmTechnical: url("../../alarmSystem2 / imgs/big_icon_268_r.svg");
+  --al2_big_icon_319_r_alarmTechnicalUrgent: url("../../alarmSystem2 / imgs/big_icon_319_r.svg");
+  --al2_big_icon_407_r_alarmMultiple: url("../../alarmSystem2 / imgs/big_icon_407_r.svg");
+  --al2_icon_175_componentOpen: url("../../img\/icons\/dark/icons/icon_175.svg");
+  --al2_icon_177_redInfo: url("../../img\/icons\/dark/icons/icon_177.svg");
+}
+.gc4_headericon_alert {
+  background-image: var(--gc4_headericon_alert, url("../../img/statuszeile/gc4_headericon_alert.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_headericon_doorautom {
+  background-image: var(--gc4_headericon_doorautom, url("../../img/statuszeile/gc4_headericon_doorautom.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_gc4_app_doorcom {
+  background-image: var(--gc4_gc4_app_doorcom, url("../../img/gc4_app_doorcom.png"));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gc4_stat_temp_in {
+  background-image: var(--gc4_stat_temp_in, url("../../img/statuszeile/gc4_stat_temp_in.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_stat_temp_in_white {
+  background-image: var(--gc4_stat_temp_in_white, url("../../img/statuszeile/gc4_stat_temp_in_white.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_stat_temp_out {
+  background-image: var(--gc4_stat_temp_out, url("../../img/statuszeile/gc4_stat_temp_out.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_stat_temp_out_white {
+  background-image: var(--gc4_stat_temp_out_white, url("../../img/statuszeile/gc4_stat_temp_out_white.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_back {
+  background-image: var(--gc4_navicon_back, url("../../img/navigationszeile/back/icon/gc4_navicon_back.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_back_inactive {
+  background-image: var(--gc4_navicon_back_inactive, url("../../img/navigationszeile/back/icon/gc4_navicon_back_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_grid {
+  background-image: var(--gc4_navicon_grid, url("../../img/navigationszeile/grid/icon/gc4_navicon_grid.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_grid_active {
+  background-image: var(--gc4_navicon_grid_active, url("../../img/navigationszeile/grid/icon/gc4_navicon_grid_active.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_grid_inactive {
+  background-image: var(--gc4_navicon_grid_inactive, url("../../img/navigationszeile/grid/icon/gc4_navicon_grid_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_home {
+  background-image: var(--gc4_navicon_home, url("../../img/navigationszeile/home/icon/gc4_navicon_home.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_favorite {
+  background-image: var(--gc4_navicon_favorite, url("../../img\/icons\/light/icon_4.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.gc4_navicon_home_inactive {
+  background-image: var(--gc4_navicon_home_inactive, url("../../img/navigationszeile/home/icon/gc4_navicon_home_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_set {
+  background-image: var(--gc4_navicon_set, url("../../img/navigationszeile/set/icon/gc4_navicon_set.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_set_active {
+  background-image: var(--gc4_navicon_set_active, url("../../img/navigationszeile/set/icon/gc4_navicon_set_active.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_navicon_set_inactive {
+  background-image: var(--gc4_navicon_set_inactive, url("../../img/navigationszeile/set/icon/gc4_navicon_set_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_plus {
+  background-image: var(--gc4_cssbutton_plus, url("../../img/buttons/gc4_cssbutton_plus.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_plus_inactive {
+  background-image: var(--gc4_cssbutton_plus_inactive, url("../../img/buttons/gc4_cssbutton_plus_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_minus {
+  background-image: var(--gc4_cssbutton_minus, url("../../img/buttons/gc4_cssbutton_minus.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_minus_inactive {
+  background-image: var(--gc4_cssbutton_minus_inactive, url("../../img/buttons/gc4_cssbutton_minus_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_fan_small {
+  content: var(--gc4_cssbutton_fan_small, url("../../img/rtr/fanCoil/rtr-fancoil-icon-ventilation-minus.svg"));
+  width: 100%;
+  height: 100%;
+}
+.gc4_cssbutton_fan_small_inactive {
+  content: var(--gc4_cssbutton_fan_small_inactive, url("../../img/rtr/fanCoil/rtr-fancoil-icon-ventilation-minus-inactive.svg"));
+  width: 100%;
+  height: 100%;
+}
+.gc4_cssbutton_fan_big {
+  content: var(--gc4_cssbutton_fan_big, url("../../img/rtr/fanCoil/rtr-fancoil-icon-ventilation-plus.svg"));
+  width: 100%;
+  height: 100%;
+}
+.gc4_cssbutton_fan_big_inactive {
+  content: var(--gc4_cssbutton_fan_big_inactive, url("../../img/rtr/fanCoil/rtr-fancoil-icon-ventilation-plus-inactive.svg"));
+  width: 100%;
+  height: 100%;
+}
+.gc4_cssbutton_trigger {
+  background-image: var(--gc4_cssbutton_trigger, url("../../img/buttons/gc4_cssbutton_trigger.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_trigger_down {
+  background-image: var(--gc4_cssbutton_trigger_down, url("../../img/buttons/gc4_cssbutton_trigger_down.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_ring {
+  background-image: var(--gc4_ring, url("../../img/ring/gc4_ring.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_ring_active_b {
+  background-image: var(--gc4_ring_active_b, url("../../img/ring/gc4_ring_active_b.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_ring_active_g {
+  background-image: var(--gc4_ring_active_g, url("../../img/ring/gc4_ring_active_g.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_ring_active_o {
+  background-image: var(--gc4_ring_active_o, url("../../img/ring/gc4_ring_active_o.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_ring_active_r {
+  background-image: var(--gc4_ring_active_r, url("../../img/ring/gc4_ring_active_r.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_dim_innerring_mask {
+  background-image: var(--gc4_dim_innerring_mask, url("../../img/dimmen/gc4_dim_innerring_mask.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_button {
+  background-image: var(--gc4_button, url("../../img/gc4_button.svg"));
+  background-size: 100% 100%;
+}
+.gc4_button_down {
+  background-image: var(--gc4_button_down, url("../../img/gc4_button_down.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr_skala_gradient {
+  background: var(--gc4_rtr_skala_gradient, url("../../img/gc4_rtr_skala_gradient.png"));
+}
+.gc4_button1-2hu {
+  background-image: var(--gc4_button1-2hu, url("../../img/uielements/gc4_button1-2hu.svg"));
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gc4_button1-2ho {
+  background-image: var(--gc4_button1-2ho, url("../../img/uielements/gc4_button1-2ho.svg"));
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.gc4_button1-2hu_down {
+  background-image: var(--gc4_button1-2hu_down, url("../../img/uielements/gc4_button1-2hu_down.svg"));
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.gc4_button1-2ho_down {
+  background-image: var(--gc4_button1-2ho_down, url("../../img/uielements/gc4_button1-2ho_down.svg"));
+  background-size: 100%;
+  background-repeat: no-repeat;
+  padding-top: 0.5rem;
+  box-sizing: border-box;
+}
+.gc4_button1-2vl {
+  background-image: var(--gc4_button1-2vl, url("../../img/uielements/gc4_button1-2vl.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_button1-2vl_down {
+  background-image: var(--gc4_button1-2vl_down, url("../../img/uielements/gc4_button1-2vl_down.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_button1-2vr {
+  background-image: var(--gc4_button1-2vr, url("../../img/uielements/gc4_button1-2vr.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_button1-2vr_down {
+  background-image: var(--gc4_button1-2vr_down, url("../../img/uielements/gc4_button1-2vr_down.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.gc4_button2v {
+  background-image: var(--gc4_button2v, url("../../img/uielements/gc4_button2v.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_button2h {
+  background-image: var(--gc4_button2h, url("../../img/uielements/gc4_button2h.svg"));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_icon_cssbutton-h {
+  background-image: var(--gc4_icon_cssbutton-h, url("../../img/operationelements/gc4_icon_cssbutton-h.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+/*function folder*/
+.image_gc4_folder_body_down {
+  background-image: var(--image_gc4_folder_body_down, url("../../img/functionfolder/gc4_folder_body_down.svg"));
+  background-size: cover;
+}
+.detail-status-background {
+  background: var(--detail-status-background, url("../../img/gc4_statussheet_bg-no-lines.png"));
+  background-size: 100% 100%;
+}
+/*TODO: INACTIVE IMAGES ARE MISSING - for now inactive and active will be the same*/
+.gc4_cssicon_i {
+  background-image: var(--gc4_cssicon_i, url("../../img/uielements/gc4_cssicon_i.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssicon_i_inactive {
+  background-image: var(--gc4_cssicon_i_inactive, url("../../img/uielements/gc4_cssicon_i.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssicon_o {
+  background-image: var(--gc4_cssicon_o, url("../../img/uielements/gc4_cssicon_o.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssicon_o_inactive {
+  background-image: var(--gc4_cssicon_o_inactive, url("../../img/uielements/gc4_cssicon_o.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_arrowup {
+  background-image: var(--gc4_cssbutton_arrowup, url("../../img/buttons/gc4_cssbutton_arrowup.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_arrowup_inactive {
+  background-image: var(--gc4_cssbutton_arrowup_inactive, url("../../img/buttons/gc4_cssbutton_arrowup_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_arrowdown {
+  background-image: var(--gc4_cssbutton_arrowdown, url("../../img/buttons/gc4_cssbutton_arrowdown.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssbutton_arrowdown_inactive {
+  background-image: var(--gc4_cssbutton_arrowdown_inactive, url("../../img/buttons/gc4_cssbutton_arrowdown_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_arrow_up {
+  background-image: var(--gc4_arrow_up, url("../../img/dimmen/gc4_arrow_up.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_arrow_down {
+  background-image: var(--gc4_arrow_down, url("../../img/dimmen/gc4_arrow_down.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_blind_up {
+  background-image: var(--gc4_blind_up, url("../../img/jalousie/gc4_blind_up.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_blind_down {
+  background-image: var(--gc4_blind_down, url("../../img/jalousie/gc4_blind_down.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_lamination_up {
+  background-image: var(--gc4_lamination_up, url("../../img/jalousie/gc4_lamination_up.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_lamination_down {
+  background-image: var(--gc4_lamination_down, url("../../img/jalousie/gc4_lamination_down.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_slider_mask {
+  background-image: var(--gc4_slider_mask, url("../../img/jalousie/gc4_slidermask.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.gc4_blind_hatch {
+  background-image: var(--gc4_blind_hatch, url("../../img/jalousie/gc4_blind_hatch.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+/* contain for stripes */
+.gc4_dim_scale {
+  background-image: var(--gc4_dim_scale, url("../../img/jalousie/gc4_dim_skala.svg"));
+  background-size: 100% 100%;
+}
+.gc4_dim_scale_double {
+  background-image: var(--gc4_dim_scale_double, url("../../img/jalousie/gc4_dim_skala_double.svg"));
+  background-size: 100% 100%;
+}
+.gc4_dim_sliderbg_active_b {
+  background-image: var(--gc4_dim_sliderbg_active_b, url("../../img/jalousie/gc4_dim_sliderbg_active_b.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_button_stop {
+  background-image: var(--gc4_button_stop, url("../../img/jalousie/gc4_button_stop.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr_skala_mask_bg {
+  background-image: var(--gc4_rtr_skala_mask_bg, url("../../img/rtr/gc4_rtr_skala_mask_bg.svg"));
+  background-size: 100% 100%;
+}
+.gc4_temperature_line {
+  background-image: var(--gc4_temperature_line, url("../../img/rtr/gc4_temperature_line.svg"));
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gc4_rtr-icon_comfort_detail {
+  background-image: var(--gc4_rtr-icon_comfort_detail, url("../../img/rtr/gc4_rtr-icon_comfort_detail.svg"));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gc4_rtr-icon_standby_detail {
+  background-image: var(--gc4_rtr-icon_standby_detail, url("../../img/rtr/gc4_rtr-icon_standby_detail.svg"));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gc4_rtr-icon_night_detail {
+  background-image: var(--gc4_rtr-icon_night_detail, url("../../img/rtr/gc4_rtr-icon_night_detail.svg"));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gc4_rtr-icon_frost_detail {
+  background-image: var(--gc4_rtr-icon_frost_detail, url("../../img/rtr/gc4_rtr-icon_frost_detail.svg"));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gc4_rtr-icon_cooling_detail {
+  background-image: var(--gc4_rtr-icon_cooling_detail, url("../../img/rtr/gc4_rtr-icon_cooling_detail.svg"));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gc4_rtr-icon_heating_detail {
+  background-image: var(--gc4_rtr-icon_heating_detail, url("../../img/rtr/gc4_rtr-icon_heating_detail.svg"));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.gc4_rtr-icon_cooling_detail_inactive {
+  background-image: var(--gc4_rtr-icon_cooling_detail_inactive, url("../../img/rtr/gc4_rtr-icon_cooling_detail_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr-icon_heating_detail_inactive {
+  background-image: var(--gc4_rtr-icon_heating_detail_inactive, url("../../img/rtr/gc4_rtr-icon_heating_detail_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr-icon_cooling_list_inactive {
+  background-image: var(--gc4_rtr-icon_cooling_list_inactive, url("../../img/rtr/gc4_rtr-icon_cooling_list_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr-icon_heating_list_inactive {
+  background-image: var(--gc4_rtr-icon_heating_list_inactive, url("../../img/rtr/gc4_rtr-icon_heating_list_inactive.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr-icon_tau {
+  background-image: var(--gc4_rtr-icon_tau, url("../../img/rtr/gc4_rtr-icon_tau.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr-button_presencemode {
+  background-image: var(--gc4_rtr-button_presencemode, url("../../img/rtr/gc4_rtr-button_presencemode.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr-button_presencemode_active {
+  background-image: var(--gc4_rtr-button_presencemode_active, url("../../img/rtr/gc4_rtr-button_presencemode_active.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_rtr-icon_ecomode {
+  background-image: var(--gc4_rtr-icon_ecomode, url("../../img/rtr/gc4_rtr-icon_ecomode.svg"));
+  background-size: 100% 100%;
+}
+.gc4_listicon_lock {
+  background-image: var(--gc4_listicon_lock, url("../../img/operationelements/gc4_listicon_lock.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.gc4_cssicon_selected {
+  background-image: var(--gc4_cssicon_selected, url("../../img/operationelements/gc4_cssicon_selected.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.gc4_cssicon_selected-green {
+  background-image: var(--gc4_cssicon_selected-green, url("../../img/operationelements/gc4_cssicon_selected-green.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.gc4_icon_sort {
+  background-image: var(--gc4_icon_sort, url("../../img/operationelements/gc4_icon_sort.svg"));
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.gc4_gc4_app_weather {
+  background-image: var(--gc4_gc4_app_weather, url("../../img/gc4_app_weather.png"));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.gc4_app_wizard2 {
+  background-image: var(--gc4_app_wizard2, url("../../img/gc4_app_wizard2.png"));
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.al2_icon_8_unlocked {
+  background-image: var(--al2_icon_8_unlocked, url("../../img\/icons\/light/icon_8.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.al2_icon_78_armedTostay {
+  background-image: var(--al2_icon_78_armedTostay, url("../../img\/icons\/light/icon_78.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.al2_icon_79_armedAway {
+  background-image: var(--al2_icon_79_armedAway, url("../../img\/icons\/light/icon_79.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: 100% 100%;
+}
+.al2_icon_79_o_armedAway {
+  background-image: var(--al2_icon_79_o_armedAway, url("../../img\/icons\/light/icon_79_o.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_260_r_alarmFire {
+  background-image: var(--al2_icon_260_r_alarmFire, url("../../img\/icons\/light/icon_260_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_261_r_alarmMedical {
+  background-image: var(--al2_icon_261_r_alarmMedical, url("../../img\/icons\/light/icon_261_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_262_r_alarmIntern {
+  background-image: var(--al2_icon_262_r_alarmIntern, url("../../img\/icons\/light/icon_262_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_262_o_alarmIntern {
+  background-image: var(--al2_icon_262_o_alarmIntern, url("../../img\/icons\/light/icon_262_o.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_264_r_alarmPanic {
+  background-image: var(--al2_icon_264_r_alarmPanic, url("../../img\/icons\/light/icon_264_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_266_r_alarmSabotage {
+  background-image: var(--al2_icon_266_r_alarmSabotage, url("../../img\/icons\/light/icon_266_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_267_r_alarmSupervision {
+  background-image: var(--al2_icon_267_r_alarmSupervision, url("../../img\/icons\/light/icon_267_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_268_r_alarmTechnical {
+  background-image: var(--al2_icon_268_r_alarmTechnical, url("../../img\/icons\/light/icon_268_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_319_r_alarmTechnicalUrgent {
+  background-image: var(--al2_icon_319_r_alarmTechnicalUrgent, url("../../alarmSystem2 / imgs/big_icon_319_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_407_r_alarmMultiple {
+  background-image: var(--al2_icon_407_r_alarmMultiple, url("../../alarmSystem2 / imgs/big_icon_407_r.svg"));
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_big_icon_8_unlocked {
+  background-image: var(--al2_big_icon_8_unlocked, url("../../alarmSystem2 / imgs/big_icon_8.svg"));
+  background-repeat: no-repeat;
+  height: 13.75rem;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_78_armedTostay {
+  background-image: var(--al2_big_icon_78_armedTostay, url("../../alarmSystem2 / imgs/big_icon_78.svg"));
+  background-repeat: no-repeat;
+  height: 13.75rem;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_79_armedAway {
+  background-image: var(--al2_big_icon_79_armedAway, url("../../alarmSystem2 / imgs/big_icon_79.svg"));
+  background-repeat: no-repeat;
+  height: 13.75rem;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_79_o_armedAway {
+  background-image: var(--al2_big_icon_79_o_armedAway, url("../../alarmSystem2 / imgs/big_icon_79_o.svg"));
+  background-repeat: no-repeat;
+  height: 13.75rem;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_260_r_alarmFire {
+  background-image: var(--al2_big_icon_260_r_alarmFire, url("../../alarmSystem2 / imgs/big_icon_260_r.svg"));
+  background-repeat: no-repeat;
+  height: 13.75rem;
+  width: 100%;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_262_r_alarmIntern {
+  background-image: var(--al2_big_icon_262_r_alarmIntern, url("../../alarmSystem2 / imgs/big_icon_262_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_262_o_alarmIntern {
+  background-image: var(--al2_big_icon_262_o_alarmIntern, url("../../alarmSystem2 / imgs/big_icon_262_o.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_264_r_alarmPanic {
+  background-image: var(--al2_big_icon_264_r_alarmPanic, url("../../alarmSystem2 / imgs/big_icon_264_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_261_r_alarmMedical {
+  background-image: var(--al2_big_icon_261_r_alarmMedical, url("../../alarmSystem2 / imgs/big_icon_261_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_266_r_alarmSabotage {
+  background-image: var(--al2_big_icon_266_r_alarmSabotage, url("../../alarmSystem2 / imgs/big_icon_266_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_267_r_alarmSupervision {
+  background-image: var(--al2_big_icon_267_r_alarmSupervision, url("../../img\/icons\/light/icon_267_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_268_r_alarmTechnical {
+  background-image: var(--al2_big_icon_268_r_alarmTechnical, url("../../alarmSystem2 / imgs/big_icon_268_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_319_r_alarmTechnicalUrgent {
+  background-image: var(--al2_big_icon_319_r_alarmTechnicalUrgent, url("../../alarmSystem2 / imgs/big_icon_319_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_big_icon_407_r_alarmMultiple {
+  background-image: var(--al2_big_icon_407_r_alarmMultiple, url("../../alarmSystem2 / imgs/big_icon_407_r.svg"));
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 13.75rem;
+  background-size: 100% 100%;
+  margin: 1.25rem auto;
+}
+.al2_icon_175_componentOpen {
+  background-image: var(--al2_icon_175_componentOpen, url("../../img\/icons\/light/icon_175.svg"));
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  background-size: 100% 100%;
+  margin: auto;
+}
+.al2_icon_177_redInfo {
+  background-image: var(--al2_icon_177_redInfo, url("../../img\/icons\/light/icon_177.svg"));
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  background-size: 100% 100%;
+  margin: auto;
+}

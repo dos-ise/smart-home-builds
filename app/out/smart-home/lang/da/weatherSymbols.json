@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "kraftige vindstød",
+    "text2": "storm"
+  },
+  "ahc": {
+    "text1": "slørskyer",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "overskyet",
+    "text2": "snestorm"
+  },
+  "ahcf": {
+    "text1": "overskyet",
+    "text2": "lav tåge"
+  },
+  "ahcg": {
+    "text1": "overskyet",
+    "text2": "kraftige vindstød"
+  },
+  "ahcha": {
+    "text1": "overskyet",
+    "text2": "hagl"
+  },
+  "ahchas": {
+    "text1": "overskyet",
+    "text2": "haglbyge"
+  },
+  "ahchr": {
+    "text1": "overskyet",
+    "text2": "kraftig støvregn"
+  },
+  "ahchs": {
+    "text1": "overskyet",
+    "text2": "kraftigt snefald"
+  },
+  "ahcih": {
+    "text1": "overskyet",
+    "text2": "fare for isglatte veje"
+  },
+  "ahcmr": {
+    "text1": "overskyet",
+    "text2": "middel støvregn"
+  },
+  "ahcr": {
+    "text1": "overskyet",
+    "text2": "støvregn"
+  },
+  "ahcrih": {
+    "text1": "overskyet",
+    "text2": "støvregn med fare for isglatte veje"
+  },
+  "ahcs": {
+    "text1": "overskyet",
+    "text2": "snefald"
+  },
+  "ahcsr": {
+    "text1": "overskyet",
+    "text2": "slud"
+  },
+  "ahct": {
+    "text1": "overskyet",
+    "text2": "uvejr"
+  },
+  "ahcts": {
+    "text1": "overskyet",
+    "text2": "tordenvejr"
+  },
+  "aoc": {
+    "text1": "skyet",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "skyet",
+    "text2": "snestorm"
+  },
+  "aocg": {
+    "text1": "skyet",
+    "text2": "kraftige vindstød"
+  },
+  "aocha": {
+    "text1": "skyet",
+    "text2": "hagl"
+  },
+  "aocih": {
+    "text1": "skyet",
+    "text2": "fare for isglatte veje"
+  },
+  "aocr": {
+    "text1": "skyet",
+    "text2": "støvregn"
+  },
+  "aocrih": {
+    "text1": "skyet",
+    "text2": "støvregn med fare for isglatte veje"
+  },
+  "aocrs": {
+    "text1": "skyet",
+    "text2": "regnbyge"
+  },
+  "aocs": {
+    "text1": "skyet",
+    "text2": "snefald"
+  },
+  "aocsr": {
+    "text1": "skyet",
+    "text2": "slud"
+  },
+  "aoct": {
+    "text1": "skyet",
+    "text2": "uvejr"
+  },
+  "aocts": {
+    "text1": "skyet",
+    "text2": "tordenvejr"
+  },
+  "dlc": {
+    "text1": "pænt vejr",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "pænt vejr",
+    "text2": "snestorm"
+  },
+  "dlcg": {
+    "text1": "pænt vejr",
+    "text2": "kraftige vindstød"
+  },
+  "dlchas": {
+    "text1": "pænt vejr",
+    "text2": "haglbyge"
+  },
+  "dlchr": {
+    "text1": "pænt vejr",
+    "text2": "kraftig støvregn"
+  },
+  "dlchs": {
+    "text1": "pænt vejr",
+    "text2": "kraftigt snefald"
+  },
+  "dlcih": {
+    "text1": "pænt vejr",
+    "text2": "fare for isglatte veje"
+  },
+  "dlcmr": {
+    "text1": "pænt vejr",
+    "text2": "middel støvregn"
+  },
+  "dlcms": {
+    "text1": "pænt vejr",
+    "text2": "middel snefald"
+  },
+  "dlcr": {
+    "text1": "pænt vejr",
+    "text2": "støvregn"
+  },
+  "dlcrih": {
+    "text1": "pænt vejr",
+    "text2": "støvregn med fare for isglatte veje"
+  },
+  "dlcs": {
+    "text1": "pænt vejr",
+    "text2": "snefald"
+  },
+  "dlcsr": {
+    "text1": "pænt vejr",
+    "text2": "slud"
+  },
+  "dlct": {
+    "text1": "pænt vejr",
+    "text2": "hagl"
+  },
+  "dlcth": {
+    "text1": "pænt vejr",
+    "text2": "uvejr"
+  },
+  "dlcts": {
+    "text1": "pænt vejr",
+    "text2": "tordenvejr"
+  },
+  "dmc": {
+    "text1": "skyet",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "skyet",
+    "text2": "snestorm"
+  },
+  "dmcg": {
+    "text1": "skyet",
+    "text2": "kraftige vindstød"
+  },
+  "dmcha": {
+    "text1": "skyet",
+    "text2": "hagl"
+  },
+  "dmchas": {
+    "text1": "skyet",
+    "text2": "haglbyge"
+  },
+  "dmchr": {
+    "text1": "skyet",
+    "text2": "kraftig støvregn"
+  },
+  "dmchs": {
+    "text1": "skyet",
+    "text2": "kraftigt snefald"
+  },
+  "dmclr": {
+    "text1": "skyet",
+    "text2": "let støvregn"
+  },
+  "dmcls": {
+    "text1": "skyet",
+    "text2": "let snefald"
+  },
+  "dmcmr": {
+    "text1": "skyet",
+    "text2": "middel støvregn"
+  },
+  "dmcms": {
+    "text1": "skyet",
+    "text2": "middel snefald"
+  },
+  "dmcrih": {
+    "text1": "skyet",
+    "text2": "støvregn med fare for isglatte veje"
+  },
+  "dmcsr": {
+    "text1": "skyet",
+    "text2": "slud"
+  },
+  "dmct": {
+    "text1": "skyet",
+    "text2": "uvejr"
+  },
+  "dmcts": {
+    "text1": "skyet",
+    "text2": "tordenvejr"
+  },
+  "dnc": {
+    "text1": "solskin",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "solskin",
+    "text2": "lav tåge"
+  },
+  "dncg": {
+    "text1": "solskin",
+    "text2": "kraftige vindstød"
+  },
+  "nlc": {
+    "text1": "let overskyet",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "let overskyet",
+    "text2": "snestorm"
+  },
+  "nlcg": {
+    "text1": "let overskyet",
+    "text2": "kraftige vindstød"
+  },
+  "nlcha": {
+    "text1": "let overskyet",
+    "text2": "hagl"
+  },
+  "nlchas": {
+    "text1": "let overskyet",
+    "text2": "haglbyge"
+  },
+  "nlchr": {
+    "text1": "let overskyet",
+    "text2": "kraftig støvregn"
+  },
+  "nlchs": {
+    "text1": "let overskyet",
+    "text2": "kraftigt snefald"
+  },
+  "nlcih": {
+    "text1": "let overskyet",
+    "text2": "fare for isglatte veje"
+  },
+  "nlcmr": {
+    "text1": "let overskyet",
+    "text2": "middel støvregn"
+  },
+  "nlcms": {
+    "text1": "let overskyet",
+    "text2": "middel snefald"
+  },
+  "nlcr": {
+    "text1": "let overskyet",
+    "text2": "støvregn"
+  },
+  "nlcrih": {
+    "text1": "let overskyet",
+    "text2": "støvregn med fare for isglatte veje"
+  },
+  "nlcs": {
+    "text1": "let overskyet",
+    "text2": "snefald"
+  },
+  "nlcsr": {
+    "text1": "let overskyet",
+    "text2": "slud"
+  },
+  "nlcth": {
+    "text1": "let overskyet",
+    "text2": "uvejr"
+  },
+  "nlcts": {
+    "text1": "let overskyet",
+    "text2": "tordenvejr"
+  },
+  "nmc": {
+    "text1": "skyet",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "skyet",
+    "text2": "snestorm"
+  },
+  "nmcg": {
+    "text1": "skyet",
+    "text2": "kraftige vindstød"
+  },
+  "nmcha": {
+    "text1": "skyet",
+    "text2": "hagl"
+  },
+  "nmchas": {
+    "text1": "skyet",
+    "text2": "haglbyge"
+  },
+  "nmchr": {
+    "text1": "skyet",
+    "text2": "kraftig støvregn"
+  },
+  "nmchs": {
+    "text1": "skyet",
+    "text2": "kraftigt snefald"
+  },
+  "nmclr": {
+    "text1": "skyet",
+    "text2": "let støvregn"
+  },
+  "nmcls": {
+    "text1": "skyet",
+    "text2": "let snefald"
+  },
+  "nmcmr": {
+    "text1": "skyet",
+    "text2": "middel støvregn"
+  },
+  "nmcms": {
+    "text1": "skyet",
+    "text2": "middel snefald"
+  },
+  "nmcrih": {
+    "text1": "skyet",
+    "text2": "støvregn med fare for isglatte veje"
+  },
+  "nmcsr": {
+    "text1": "skyet",
+    "text2": "slud"
+  },
+  "nmct": {
+    "text1": "skyet",
+    "text2": "uvejr"
+  },
+  "nmcts": {
+    "text1": "skyet",
+    "text2": "tordenvejr"
+  },
+  "nnc": {
+    "text1": "klart",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "klart",
+    "text2": "lav tåge"
+  },
+  "nncg": {
+    "text1": "klart",
+    "text2": "kraftige vindstød"
+  }
+}

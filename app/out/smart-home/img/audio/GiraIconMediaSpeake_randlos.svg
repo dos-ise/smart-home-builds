@@ -1,0 +1,15 @@
+<svg id="138d8f45-dd43-487e-9bad-a3e7f835c2c2" data-name="GiraIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 60">
+  <defs>
+    <style>
+      .\38 e6ba1be-9f98-4927-871e-4904d4ef8a0e {
+        fill: #505050;
+      }
+    </style>
+  </defs>
+  <title>GiraIconMediaSpeaker</title>
+  <g>
+    <path class="8e6ba1be-9f98-4927-871e-4904d4ef8a0e" d="M20,28A12,12,0,1,0,32,40,12,12,0,0,0,20,28Zm0,20a8,8,0,1,1,8-8A8,8,0,0,1,20,48Z"/>
+    <path class="8e6ba1be-9f98-4927-871e-4904d4ef8a0e" d="M20,20a6,6,0,1,0-6-6A6,6,0,0,0,20,20Zm0-8a2,2,0,1,1-2,2A2,2,0,0,1,20,12Z"/>
+    <path class="8e6ba1be-9f98-4927-871e-4904d4ef8a0e" d="M34,0H6A6,6,0,0,0,0,6V54a6.27,6.27,0,0,0,6,6H34a6,6,0,0,0,6-6V6A6,6,0,0,0,34,0Zm2,54a2,2,0,0,1-2,2H6a2,2,0,0,1-2-2V6A2,2,0,0,1,6,4H34a2,2,0,0,1,2,2Z"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="42px"
+	 height="45px" viewBox="0 0 42 45" enable-background="new 0 0 42 45" xml:space="preserve">
+<g id="Chart">
+</g>
+<g id="Ebene_1">
+	<g>
+		<path fill="#FFFFFF" d="M18,15v14H4V15H18 M18,13H4c-1.1,0-2,0.901-2,2v14c0,1.102,0.9,2,2,2h14c1.1,0,2-0.898,2-2V15
+			C20,13.902,19.1,13,18,13L18,13z"/>
+		<rect x="5" y="17" fill="#FFFFFF" width="12" height="2"/>
+		<rect x="5" y="21" fill="#FFFFFF" width="12" height="2"/>
+		<rect x="5" y="25" fill="#FFFFFF" width="12" height="2"/>
+	</g>
+	<g>
+		<path fill="#A0A0A0" d="M18,14.001v14H4v-14H18 M18,12H4c-1.1,0-2,0.901-2,2.001v14C2,29.1,2.9,30,4,30h14c1.1,0,2-0.9,2-1.999
+			v-14C20,12.901,19.1,12,18,12L18,12z"/>
+		<rect x="5" y="16" fill="#A0A0A0" width="12" height="2"/>
+		<rect x="5" y="20" fill="#A0A0A0" width="12" height="2"/>
+		<rect x="5" y="24" fill="#A0A0A0" width="12" height="2"/>
+	</g>
+	<polygon fill="#FFFFFF" points="40,24 38.586,22.585 34,27.171 33.998,13 32,13 32,27.172 27.414,22.585 26,24 33,31 	"/>
+	<polygon fill="#A0A0A0" points="40,23 38.586,21.585 34,26.171 33.998,12 32,12 32,26.172 27.414,21.585 26,23 33,30 	"/>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+	<g>
+	</g>
+</g>
+</svg>

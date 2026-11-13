@@ -1,0 +1,135 @@
+/*slider stylesheet*/
+.split-content-right .slider-single {
+  width: 9.375vw;
+}
+.slider-single {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1;
+  position: absolute;
+  left: 45%;
+  /* found by experiment, should position slider in center */
+  width: 18.75vw;
+  /* needed because else 4.4 gives it a width of 0, is width of children */
+}
+.slider-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  flex-grow: 1;
+  position: relative;
+  margin: 0 auto;
+}
+.slider-group .ui-slider-vertical .slider-handle-graphic,
+.slider-single .ui-slider-vertical .slider-handle-graphic {
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 50%;
+  margin-left: -0.65vh;
+}
+.slider-group .ui-slider-vertical .ui-slider-range,
+.slider-single .ui-slider-vertical .ui-slider-range {
+  width: 2.25vh;
+}
+.slider-group .ui-slider-vertical .ui-slider-handle,
+.slider-single .ui-slider-vertical .ui-slider-handle {
+  position: absolute;
+  z-index: 2;
+  cursor: default;
+  width: 9.583333333333334vw;
+  height: 2.25rem;
+  margin-left: -125%;
+  outline: 10px solid transparent;
+  border: 2.5vh solid transparent;
+  margin-bottom: -4vh;
+}
+.slider-group .ui-slider-vertical .ui-slider-background,
+.slider-single .ui-slider-vertical .ui-slider-background {
+  position: absolute;
+  height: 21rem;
+  width: 2.25vh;
+  z-index: 1;
+}
+.slider-group .ui-slider-vertical .ui-slider-handle-range-size,
+.slider-single .ui-slider-vertical .ui-slider-handle-range-size {
+  position: relative;
+  height: 18.8125rem;
+  top: 2.75vh;
+}
+.slide-container {
+  height: 100% !important;
+}
+.slide-container .tile-container {
+  flex: 1;
+  width: 0;
+  display: flex;
+  border-right: 1px solid var(--color-c6);
+  border-left: 1px solid var(--color-c0);
+}
+.slide-container .tile-container:last-child {
+  border-right: none;
+}
+.slide-container .tile-container:first-child {
+  border-left: none;
+}
+.slide-container .empty {
+  border-right: 1px solid transparent;
+}
+.slide-container .divider-small {
+  width: 100%;
+  float: none;
+  height: 1px;
+  background-color: var(--color-c6);
+  border-bottom-color: var(--color-c0);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+}
+.slide-container .divider-small-vertical {
+  position: relative;
+  width: 1px;
+  height: 100%;
+  background-color: var(--color-c0);
+  border-left-color: var(--color-c6);
+  border-left-style: solid;
+  border-left-width: 1px;
+}
+.sliderbutton-bg {
+  position: absolute;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  border: 1px solid #c0c0c0;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(top, #ffffff 0%, #ebebeb 100%);
+  box-shadow: 0 0.2rem 0.2rem rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.sliderbutton-bg-down {
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #d7d7d7 100%) !important;
+  box-shadow: none;
+}
+.sliderbutton-bg-switch-down {
+  background: -webkit-linear-gradient(top, #e6e6e6 0%, #d7d7d7 100%) !important;
+}
+.sliderbutton-fg {
+  position: absolute;
+  width: 88.23529412%;
+  height: 88.23529412%;
+  top: 5.88235294%;
+  /* move on top of button background */
+  left: 5.88235294%;
+  /* move on top of button background */
+  border-radius: 50%;
+  background: -webkit-linear-gradient(top, #ebebeb 0%, #fafafa 100%);
+  z-index: 2;
+}
+.sliderbutton-label {
+  position: relative;
+  z-index: 3;
+}
+.brightness-icon-lower {
+  background: var(--brightness-icon-lower, url(../img/uielements/gc4_icon_brightness_small.svg) no-repeat center);
+}

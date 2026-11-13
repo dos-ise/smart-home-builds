@@ -1,0 +1,74 @@
+.sceneSettingsBtnSprite {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+}
+.sceneSettingsBtn.down {
+  border: 1px solid var(--color-inactive);
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0px 1px 0px 0px var(--color-c0);
+}
+.detailscene {
+  background-color: transparent !important;
+}
+#scene-settings {
+  position: absolute;
+  width: 444px;
+  height: 500px;
+  z-index: 1;
+  background: #F4F4F4;
+  top: 0px;
+  right: 0px;
+}
+#scene-settings .settings-description-row {
+  width: 444px;
+  height: 30px;
+  background-color: var(--color-c2);
+}
+#scene-settings .settings-description-row .settings-description-row-text {
+  padding-top: 9px;
+  padding-left: 18px;
+}
+#scene-settings .settings-row {
+  border: none;
+  border-top: 1px solid var(--color-c0);
+  border-bottom: 1px solid var(--color-c6);
+  width: 444px;
+  height: 58px;
+  position: relative;
+  background-color: var(--color-c1);
+}
+#scene-settings .settings-row .settings-row-text {
+  left: 18px;
+  position: absolute;
+  width: 330px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#scene-settings .main-menu-text {
+  top: 18px;
+}
+#scene-settings .down {
+  background-color: var(--color-c4);
+}
+#scene-settings .flow-top {
+  background: -webkit-linear-gradient(top, #141414 0%, var(--color-c4) 100%);
+  visibility: hidden;
+}
+#scene-settings .settings-row .left,
+#scene-settings .settings-row .right {
+  position: absolute;
+  left: 18px;
+  top: 12px;
+}
+#scene-settings .settings-row .right {
+  left: 268px;
+}
+#scene-settings .scene-controls {
+  position: relative;
+  height: 58px;
+  border: none;
+  border-top: 1px solid var(--color-c0);
+  border-bottom: 1px solid var(--color-c6);
+}

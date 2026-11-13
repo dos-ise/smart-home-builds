@@ -1,0 +1,73 @@
+
+:root {
+	--gira-icon-color: #505050;
+--gira-icon-color-red: #dc3c3c;
+--gira-icon-color-green: #77a600;
+--gira-icon-color-yellow: #ffd000;
+}
+
+[data-theme="dark"] {
+	--gira-icon-color: #505050;
+--gira-icon-color-red: #dc3c3c;
+--gira-icon-color-green: #77a600;
+--gira-icon-color-yellow: #ffd000;
+}
+
+
+	.icons-universal-font-icon_407 { color: var(--gira-icon-color-red) !important; }
+
+	.icons-universal-font-icon_420 { color: #dc3c3c !important; }
+
+	.icons-universal-font-icon_325::before { content: url('../img/icons/light/icon_325.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_325::before { content: url('../img/icons/dark/icon_325.svg') !important; }
+
+	.icons-universal-font-icon_330::before { content: url('../img/icons/light/icon_330.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_330::before { content: url('../img/icons/dark/icon_330.svg') !important; }
+
+	.icons-universal-font-icon_320 { color: var(--gira-icon-color-green) !important; }
+
+	.icons-universal-font-icon_854::before { content: url('../img/icons/light/icon_854.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_854::before { content: url('../img/icons/dark/icon_854.svg') !important; }
+
+	.icons-universal-font-icon_177 { color: var(--gira-icon-color-red) !important; }
+
+	.icons-universal-font-icon_928::before { content: url('../img/icons/light/icon_928.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_928::before { content: url('../img/icons/dark/icon_928.svg') !important; }
+
+	.icons-universal-font-icon_401::before { content: url('../img/icons/light/icon_401.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_401::before { content: url('../img/icons/dark/icon_401.svg') !important; }
+
+	.icons-universal-font-icon_182 { color: var(--gira-icon-color-yellow) !important; }
+
+	.icons-universal-font-icon_335::before { content: url('../img/icons/light/icon_335.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_335::before { content: url('../img/icons/dark/icon_335.svg') !important; }
+
+	.icons-universal-font-icon_411::before { content: url('../img/icons/light/icon_411.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_411::before { content: url('../img/icons/dark/icon_411.svg') !important; }
+
+	.icons-universal-font-icon_117::before { content: url('../img/icons/light/icon_117.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_117::before { content: url('../img/icons/dark/icon_117.svg') !important; }
+
+	.icons-universal-font-icon_404::before { content: url('../img/icons/light/icon_404.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_404::before { content: url('../img/icons/dark/icon_404.svg') !important; }
+
+	.icons-universal-font-icon_368::before { content: url('../img/icons/light/icon_368.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_368::before { content: url('../img/icons/dark/icon_368.svg') !important; }
+
+	.icons-universal-font-icon_369::before { content: url('../img/icons/light/icon_369.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_369::before { content: url('../img/icons/dark/icon_369.svg') !important; }
+
+	.icons-universal-font-icon_808::before { content: url('../img/icons/light/icon_808.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_808::before { content: url('../img/icons/dark/icon_808.svg') !important; }
+
+	.icons-universal-font-icon_402::before { content: url('../img/icons/light/icon_402.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_402::before { content: url('../img/icons/dark/icon_402.svg') !important; }
+
+	.icons-universal-font-icon_847::before { content: url('../img/icons/light/icon_847.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_847::before { content: url('../img/icons/dark/icon_847.svg') !important; }
+
+	.icons-universal-font-icon_846::before { content: url('../img/icons/light/icon_846.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_846::before { content: url('../img/icons/dark/icon_846.svg') !important; }
+
+	.icons-universal-font-icon_332::before { content: url('../img/icons/light/icon_332.svg') !important; height: 2rem; aspect-ratio: 1; }
+	.selected .icons-universal-font-icon_332::before { content: url('../img/icons/dark/icon_332.svg') !important; }

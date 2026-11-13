@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Gira G1 configuration",
+    "action": "The Gira G1 is starting."
+  },
+  {
+    "title": "Gira G1 configuration",
+    "action": "Preparing for initial commissioning."
+  },
+  {
+    "title": "Gira G1 configuration",
+    "action": "The Gira G1 is applying the new \nconfiguration."
+  },
+  {
+    "title": "Gira G1 configuration",
+    "action": "The Gira G1 is updating the \nfirmware."
+  },
+  {
+    "title": "Gira G1 configuration",
+    "action": "The Gira G1 is being reset to \nfactory settings."
+  },
+  {
+    "title": "Gira G1 configuration",
+    "action": "The Gira G1 is restarting."
+  }
+]

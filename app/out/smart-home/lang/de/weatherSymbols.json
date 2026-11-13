@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "böig",
+    "text2": "Sturm"
+  },
+  "ahc": {
+    "text1": "Schleierwolken",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "stark bewölkt",
+    "text2": "Schneesturm"
+  },
+  "ahcf": {
+    "text1": "stark bewölkt",
+    "text2": "Bodennebel"
+  },
+  "ahcg": {
+    "text1": "stark bewölkt",
+    "text2": "böig"
+  },
+  "ahcha": {
+    "text1": "stark bewölkt",
+    "text2": "Graupelschauer"
+  },
+  "ahchas": {
+    "text1": "stark bewölkt",
+    "text2": "Graupelgewitter"
+  },
+  "ahchr": {
+    "text1": "stark bewölkt",
+    "text2": "starker Sprühregen"
+  },
+  "ahchs": {
+    "text1": "stark bewölkt",
+    "text2": "starker Schneefall"
+  },
+  "ahcih": {
+    "text1": "stark bewölkt",
+    "text2": "Glatteisgefahr"
+  },
+  "ahcmr": {
+    "text1": "stark bewölkt",
+    "text2": "mäßiger Sprühregen"
+  },
+  "ahcr": {
+    "text1": "stark bewölkt",
+    "text2": "Sprühregen"
+  },
+  "ahcrih": {
+    "text1": "stark bewölkt",
+    "text2": "Sprühregen mit Glatteisgefahr"
+  },
+  "ahcs": {
+    "text1": "stark bewölkt",
+    "text2": "Schneefall"
+  },
+  "ahcsr": {
+    "text1": "stark bewölkt",
+    "text2": "Schneeregen"
+  },
+  "ahct": {
+    "text1": "stark bewölkt",
+    "text2": "gewittrig"
+  },
+  "ahcts": {
+    "text1": "stark bewölkt",
+    "text2": "Gewitter"
+  },
+  "aoc": {
+    "text1": "bedeckt",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "bedeckt",
+    "text2": "Schneesturm"
+  },
+  "aocg": {
+    "text1": "bedeckt",
+    "text2": "böig"
+  },
+  "aocha": {
+    "text1": "bedeckt",
+    "text2": "Graupelschauer"
+  },
+  "aocih": {
+    "text1": "bedeckt",
+    "text2": "Glatteisgefahr"
+  },
+  "aocr": {
+    "text1": "bedeckt",
+    "text2": "Sprühregen"
+  },
+  "aocrih": {
+    "text1": "bedeckt",
+    "text2": "Sprühregen mit Glatteisgefahr"
+  },
+  "aocrs": {
+    "text1": "bedeckt",
+    "text2": "Regenschauer"
+  },
+  "aocs": {
+    "text1": "bedeckt",
+    "text2": "Schneefall"
+  },
+  "aocsr": {
+    "text1": "bedeckt",
+    "text2": "Schneeregen"
+  },
+  "aoct": {
+    "text1": "bedeckt",
+    "text2": "gewittrig"
+  },
+  "aocts": {
+    "text1": "bedeckt",
+    "text2": "Gewitter"
+  },
+  "dlc": {
+    "text1": "heiter",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "heiter",
+    "text2": "Schneesturm"
+  },
+  "dlcg": {
+    "text1": "heiter",
+    "text2": "böig"
+  },
+  "dlchas": {
+    "text1": "heiter",
+    "text2": "Graupelgewitter"
+  },
+  "dlchr": {
+    "text1": "heiter",
+    "text2": "starker Sprühregen"
+  },
+  "dlchs": {
+    "text1": "heiter",
+    "text2": "starker Schneefall"
+  },
+  "dlcih": {
+    "text1": "heiter",
+    "text2": "Glatteisgefahr"
+  },
+  "dlcmr": {
+    "text1": "heiter",
+    "text2": "mäßiger Sprühregen"
+  },
+  "dlcms": {
+    "text1": "heiter",
+    "text2": "mäßiger Schneefall"
+  },
+  "dlcr": {
+    "text1": "heiter",
+    "text2": "Sprühregen"
+  },
+  "dlcrih": {
+    "text1": "heiter",
+    "text2": "Sprühregen mit Glatteisgefahr"
+  },
+  "dlcs": {
+    "text1": "heiter",
+    "text2": "Schneefall"
+  },
+  "dlcsr": {
+    "text1": "heiter",
+    "text2": "Schneeregen"
+  },
+  "dlct": {
+    "text1": "heiter",
+    "text2": "Graupelschauer"
+  },
+  "dlcth": {
+    "text1": "heiter",
+    "text2": "gewittrig"
+  },
+  "dlcts": {
+    "text1": "heiter",
+    "text2": "Gewitter"
+  },
+  "dmc": {
+    "text1": "wolkig",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "wolkig",
+    "text2": "Schneesturm"
+  },
+  "dmcg": {
+    "text1": "wolkig",
+    "text2": "böig"
+  },
+  "dmcha": {
+    "text1": "wolkig",
+    "text2": "Graupelschauer"
+  },
+  "dmchas": {
+    "text1": "wolkig",
+    "text2": "Graupelgewitter"
+  },
+  "dmchr": {
+    "text1": "wolkig",
+    "text2": "starker Sprühregen"
+  },
+  "dmchs": {
+    "text1": "wolkig",
+    "text2": "starker Schneefall"
+  },
+  "dmclr": {
+    "text1": "wolkig",
+    "text2": "leichter Sprühregen"
+  },
+  "dmcls": {
+    "text1": "wolkig",
+    "text2": "leichter Schneefall"
+  },
+  "dmcmr": {
+    "text1": "wolkig",
+    "text2": "mäßiger Sprühregen"
+  },
+  "dmcms": {
+    "text1": "wolkig",
+    "text2": "mäßiger Schneefall"
+  },
+  "dmcrih": {
+    "text1": "wolkig",
+    "text2": "Sprühregen mit Glatteisgefahr"
+  },
+  "dmcsr": {
+    "text1": "wolkig",
+    "text2": "Schneeregen"
+  },
+  "dmct": {
+    "text1": "wolkig",
+    "text2": "gewittrig"
+  },
+  "dmcts": {
+    "text1": "wolkig",
+    "text2": "Gewitter"
+  },
+  "dnc": {
+    "text1": "sonnig",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "sonnig",
+    "text2": "Bodennebel"
+  },
+  "dncg": {
+    "text1": "sonnig",
+    "text2": "böig"
+  },
+  "nlc": {
+    "text1": "leicht bewölkt",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "leicht bewölkt",
+    "text2": "Schneesturm"
+  },
+  "nlcg": {
+    "text1": "leicht bewölkt",
+    "text2": "böig"
+  },
+  "nlcha": {
+    "text1": "leicht bewölkt",
+    "text2": "Graupelschauer"
+  },
+  "nlchas": {
+    "text1": "leicht bewölkt",
+    "text2": "Graupelgewitter"
+  },
+  "nlchr": {
+    "text1": "leicht bewölkt",
+    "text2": "starker Sprühregen"
+  },
+  "nlchs": {
+    "text1": "leicht bewölkt",
+    "text2": "starker Schneefall"
+  },
+  "nlcih": {
+    "text1": "leicht bewölkt",
+    "text2": "Glatteisgefahr"
+  },
+  "nlcmr": {
+    "text1": "leicht bewölkt",
+    "text2": "mäßiger Sprühregen"
+  },
+  "nlcms": {
+    "text1": "leicht bewölkt",
+    "text2": "mäßiger Schneefall"
+  },
+  "nlcr": {
+    "text1": "leicht bewölkt",
+    "text2": "Sprühregen"
+  },
+  "nlcrih": {
+    "text1": "leicht bewölkt",
+    "text2": "Sprühregen mit Glatteisgefahr"
+  },
+  "nlcs": {
+    "text1": "leicht bewölkt",
+    "text2": "Schneefall"
+  },
+  "nlcsr": {
+    "text1": "leicht bewölkt",
+    "text2": "Schneeregen"
+  },
+  "nlcth": {
+    "text1": "leicht bewölkt",
+    "text2": "gewittrig"
+  },
+  "nlcts": {
+    "text1": "leicht bewölkt",
+    "text2": "Gewitter"
+  },
+  "nmc": {
+    "text1": "wolkig",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "wolkig",
+    "text2": "Schneesturm"
+  },
+  "nmcg": {
+    "text1": "wolkig",
+    "text2": "böig"
+  },
+  "nmcha": {
+    "text1": "wolkig",
+    "text2": "Graupelschauer"
+  },
+  "nmchas": {
+    "text1": "wolkig",
+    "text2": "Graupelgewitter"
+  },
+  "nmchr": {
+    "text1": "wolkig",
+    "text2": "starker Sprühregen"
+  },
+  "nmchs": {
+    "text1": "wolkig",
+    "text2": "starker Schneefall"
+  },
+  "nmclr": {
+    "text1": "wolkig",
+    "text2": "leichter Sprühregen"
+  },
+  "nmcls": {
+    "text1": "wolkig",
+    "text2": "leichter Schneefall"
+  },
+  "nmcmr": {
+    "text1": "wolkig",
+    "text2": "mäßiger Sprühregen"
+  },
+  "nmcms": {
+    "text1": "wolkig",
+    "text2": "mäßiger Schneefall"
+  },
+  "nmcrih": {
+    "text1": "wolkig",
+    "text2": "Sprühregen mit Glatteisgefahr"
+  },
+  "nmcsr": {
+    "text1": "wolkig",
+    "text2": "Schneeregen"
+  },
+  "nmct": {
+    "text1": "wolkig",
+    "text2": "gewittrig"
+  },
+  "nmcts": {
+    "text1": "wolkig",
+    "text2": "Gewitter"
+  },
+  "nnc": {
+    "text1": "klar",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "klar",
+    "text2": "Bodennebel"
+  },
+  "nncg": {
+    "text1": "klar",
+    "text2": "böig"
+  }
+}

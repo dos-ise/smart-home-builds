@@ -1,0 +1,191 @@
+/*
+It seems that there are a few misconceptions of how the fonts work. For clarification please check:
+https://conf.ise.de/pages/viewpage.action?pageId=53118217
+ */
+@media (max-height: 740px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (min-width: 320px) and (max-width: 479px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media (max-width: 320px) and (max-height: 600px) {
+  html {
+    font-size: 10px;
+  }
+}
+.t2sg {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  text-shadow: 0 1px 0 var(--color-c0);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+}
+.t3sw {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.t3gg {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  text-shadow: 0 1px 0 var(--color-c0);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.t2sw {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+}
+.t2gw {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+}
+.t2gg {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  text-shadow: 0 1px 0 var(--color-c0);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+}
+.t2lgg {
+  font-family: UniversNextLight;
+  color: var(--color-c5) !important;
+  text-shadow: 0 1px 0 var(--color-c0);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.t2ws {
+  font-family: UniversNextMedium;
+  color: var(--color-c0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+}
+.t2lsg {
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  text-shadow: 0 1px 0 var(--color-c0);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+}
+.t2lws {
+  font-family: UniversNextLight;
+  color: var(--color-c0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  font-size: 1.3125rem;
+  line-height: 1.6875rem;
+}
+.t2lsw {
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  font-size: 1.3125rem;
+  line-height: 1.6875rem;
+}
+.t1sw {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+}
+.t1ws {
+  font-family: UniversNextMedium;
+  color: var(--color-c0);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+}
+.t1gw {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+}
+.t1sg {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+}
+.t1gg {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  line-height: 1.75rem;
+  font-size: 1.75rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+}
+.t3sg {
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+}
+.t3lsg-no-shadow {
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.t3lsg {
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+}
+.t3lsw {
+  font-family: UniversNextLight;
+  color: var(--color-c3);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.t3lws {
+  font-family: UniversNextLight;
+  color: var(--color-c0);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.t3lws_c {
+  font-family: UniversNextMedium;
+  color: var(--color-c0);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.t3lgg {
+  font-family: UniversNextLight;
+  color: var(--color-c5);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+  text-shadow: 0 1px 0 var(--color-c0);
+}
+.t3gw {
+  font-family: UniversNextMedium;
+  color: var(--color-c5);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.t3ws {
+  font-family: UniversNextMedium;
+  color: var(--color-c0);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35);
+  line-height: 0.9375rem;
+  font-size: 0.9375rem;
+}
+.icon-font-size-medium {
+  color: var(--color-c4);
+  line-height: 2.75rem;
+  font-size: 2.75rem;
+}

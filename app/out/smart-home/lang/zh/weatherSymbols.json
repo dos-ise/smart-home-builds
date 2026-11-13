@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "阵风",
+    "text2": "狂风"
+  },
+  "ahc": {
+    "text1": "卷层云",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "多云",
+    "text2": "暴风雪"
+  },
+  "ahcf": {
+    "text1": "多云",
+    "text2": "低雾"
+  },
+  "ahcg": {
+    "text1": "多云",
+    "text2": "阵风"
+  },
+  "ahcha": {
+    "text1": "多云",
+    "text2": "阵雹"
+  },
+  "ahchas": {
+    "text1": "多云",
+    "text2": "冰雹夹雨"
+  },
+  "ahchr": {
+    "text1": "多云",
+    "text2": "大雨"
+  },
+  "ahchs": {
+    "text1": "多云",
+    "text2": "强降雪"
+  },
+  "ahcih": {
+    "text1": "多云",
+    "text2": "薄冰层危险"
+  },
+  "ahcmr": {
+    "text1": "多云",
+    "text2": "中雨"
+  },
+  "ahcr": {
+    "text1": "多云",
+    "text2": "微雨"
+  },
+  "ahcrih": {
+    "text1": "多云",
+    "text2": "微雨，带薄冰层危险"
+  },
+  "ahcs": {
+    "text1": "多云",
+    "text2": "降雪"
+  },
+  "ahcsr": {
+    "text1": "多云",
+    "text2": "雨夹雪"
+  },
+  "ahct": {
+    "text1": "多云",
+    "text2": "雷"
+  },
+  "ahcts": {
+    "text1": "多云",
+    "text2": "雷雨"
+  },
+  "aoc": {
+    "text1": "阴天",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "阴天",
+    "text2": "暴风雪"
+  },
+  "aocg": {
+    "text1": "阴天",
+    "text2": "阵风"
+  },
+  "aocha": {
+    "text1": "阴天",
+    "text2": "阵雹"
+  },
+  "aocih": {
+    "text1": "阴天",
+    "text2": "薄冰层危险"
+  },
+  "aocr": {
+    "text1": "阴天",
+    "text2": "微雨"
+  },
+  "aocrih": {
+    "text1": "阴天",
+    "text2": "微雨，带薄冰层危险"
+  },
+  "aocrs": {
+    "text1": "阴天",
+    "text2": "阵雨"
+  },
+  "aocs": {
+    "text1": "阴天",
+    "text2": "降雪"
+  },
+  "aocsr": {
+    "text1": "阴天",
+    "text2": "雨夹雪"
+  },
+  "aoct": {
+    "text1": "阴天",
+    "text2": "雷"
+  },
+  "aocts": {
+    "text1": "阴天",
+    "text2": "雷雨"
+  },
+  "dlc": {
+    "text1": "晴朗",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "晴朗",
+    "text2": "暴风雪"
+  },
+  "dlcg": {
+    "text1": "晴朗",
+    "text2": "阵风"
+  },
+  "dlchas": {
+    "text1": "晴朗",
+    "text2": "冰雹夹雨"
+  },
+  "dlchr": {
+    "text1": "晴朗",
+    "text2": "大雨"
+  },
+  "dlchs": {
+    "text1": "晴朗",
+    "text2": "强降雪"
+  },
+  "dlcih": {
+    "text1": "晴朗",
+    "text2": "薄冰层危险"
+  },
+  "dlcmr": {
+    "text1": "晴朗",
+    "text2": "中雨"
+  },
+  "dlcms": {
+    "text1": "晴朗",
+    "text2": "中雪"
+  },
+  "dlcr": {
+    "text1": "晴朗",
+    "text2": "微雨"
+  },
+  "dlcrih": {
+    "text1": "晴朗",
+    "text2": "微雨，带薄冰层危险"
+  },
+  "dlcs": {
+    "text1": "晴朗",
+    "text2": "降雪"
+  },
+  "dlcsr": {
+    "text1": "晴朗",
+    "text2": "雨夹雪"
+  },
+  "dlct": {
+    "text1": "晴朗",
+    "text2": "阵雹"
+  },
+  "dlcth": {
+    "text1": "晴朗",
+    "text2": "雷"
+  },
+  "dlcts": {
+    "text1": "晴朗",
+    "text2": "雷雨"
+  },
+  "dmc": {
+    "text1": "局部有云",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "局部有云",
+    "text2": "暴风雪"
+  },
+  "dmcg": {
+    "text1": "局部有云",
+    "text2": "阵风"
+  },
+  "dmcha": {
+    "text1": "局部有云",
+    "text2": "阵雹"
+  },
+  "dmchas": {
+    "text1": "局部有云",
+    "text2": "冰雹夹雨"
+  },
+  "dmchr": {
+    "text1": "局部有云",
+    "text2": "大雨"
+  },
+  "dmchs": {
+    "text1": "局部有云",
+    "text2": "强降雪"
+  },
+  "dmclr": {
+    "text1": "局部有云",
+    "text2": "小雨"
+  },
+  "dmcls": {
+    "text1": "局部有云",
+    "text2": "小雪"
+  },
+  "dmcmr": {
+    "text1": "局部有云",
+    "text2": "中雨"
+  },
+  "dmcms": {
+    "text1": "局部有云",
+    "text2": "中雪"
+  },
+  "dmcrih": {
+    "text1": "局部有云",
+    "text2": "微雨，带薄冰层危险"
+  },
+  "dmcsr": {
+    "text1": "局部有云",
+    "text2": "雨夹雪"
+  },
+  "dmct": {
+    "text1": "局部有云",
+    "text2": "雷"
+  },
+  "dmcts": {
+    "text1": "局部有云",
+    "text2": "雷雨"
+  },
+  "dnc": {
+    "text1": "无云",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "无云",
+    "text2": "低雾"
+  },
+  "dncg": {
+    "text1": "无云",
+    "text2": "阵风"
+  },
+  "nlc": {
+    "text1": "少云",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "少云",
+    "text2": "暴风雪"
+  },
+  "nlcg": {
+    "text1": "少云",
+    "text2": "阵风"
+  },
+  "nlcha": {
+    "text1": "少云",
+    "text2": "阵雹"
+  },
+  "nlchas": {
+    "text1": "少云",
+    "text2": "冰雹夹雨"
+  },
+  "nlchr": {
+    "text1": "少云",
+    "text2": "大雨"
+  },
+  "nlchs": {
+    "text1": "少云",
+    "text2": "强降雪"
+  },
+  "nlcih": {
+    "text1": "少云",
+    "text2": "薄冰层危险"
+  },
+  "nlcmr": {
+    "text1": "少云",
+    "text2": "中雨"
+  },
+  "nlcms": {
+    "text1": "少云",
+    "text2": "中雪"
+  },
+  "nlcr": {
+    "text1": "少云",
+    "text2": "微雨"
+  },
+  "nlcrih": {
+    "text1": "少云",
+    "text2": "微雨，带薄冰层危险"
+  },
+  "nlcs": {
+    "text1": "少云",
+    "text2": "降雪"
+  },
+  "nlcsr": {
+    "text1": "少云",
+    "text2": "雨夹雪"
+  },
+  "nlcth": {
+    "text1": "少云",
+    "text2": "雷"
+  },
+  "nlcts": {
+    "text1": "少云",
+    "text2": "雷雨"
+  },
+  "nmc": {
+    "text1": "局部有云",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "局部有云",
+    "text2": "暴风雪"
+  },
+  "nmcg": {
+    "text1": "局部有云",
+    "text2": "阵风"
+  },
+  "nmcha": {
+    "text1": "局部有云",
+    "text2": "阵雹"
+  },
+  "nmchas": {
+    "text1": "局部有云",
+    "text2": "冰雹夹雨"
+  },
+  "nmchr": {
+    "text1": "局部有云",
+    "text2": "大雨"
+  },
+  "nmchs": {
+    "text1": "局部有云",
+    "text2": "强降雪"
+  },
+  "nmclr": {
+    "text1": "局部有云",
+    "text2": "小雨"
+  },
+  "nmcls": {
+    "text1": "局部有云",
+    "text2": "小雪"
+  },
+  "nmcmr": {
+    "text1": "局部有云",
+    "text2": "中雨"
+  },
+  "nmcms": {
+    "text1": "局部有云",
+    "text2": "中雪"
+  },
+  "nmcrih": {
+    "text1": "局部有云",
+    "text2": "微雨，带薄冰层危险"
+  },
+  "nmcsr": {
+    "text1": "局部有云",
+    "text2": "雨夹雪"
+  },
+  "nmct": {
+    "text1": "局部有云",
+    "text2": "雷"
+  },
+  "nmcts": {
+    "text1": "局部有云",
+    "text2": "雷雨"
+  },
+  "nnc": {
+    "text1": "晴天",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "晴天",
+    "text2": "低雾"
+  },
+  "nncg": {
+    "text1": "晴天",
+    "text2": "阵风"
+  }
+}

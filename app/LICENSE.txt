@@ -1,0 +1,128 @@
+License agreement
+
+Hereinafter are the contract terms for your use of the software as the "licensee".
+
+By accepting this agreement and installing the Gira device software or putting a Gira device into use, you conclude an agreement with Gira, Giersiepen GmbH & Co KG and agree to be legally bound to the terms of this agreement. This is exclusively a license agreement and does not constitute a product sales agreement.
+
+1. Definitions
+
+Licensor: Gira, Giersiepen GmbH & Co KG, Radevormwald, Germany
+
+Licensee: The legal recipient of the Gira device software.
+
+Gira devices: The term Gira devices refers to a set of at least one of the devices Gira G1, Gira Control 9 Client, Gira Control 19 Client, Gira X1, Gira S1, Gira System 3000, Gira DCS IP gateway, Gira security system Alarm Connect that consist of at least one hardware device and the associated firmware and at least one app for mobile devices or Gira G1, Gira Control 9 Client, Gira Control 19 Client devices.
+
+Apps: The term refers to applications for mobile devices. These are provided by the licensor for iOS devices in the Apple App Store, and for devices running the Android operating system in the Google Play Store.
+
+Firmware: Software which is embedded on the Gira device and is conducive for the operation of the same.
+
+Commissioning software: The commissioning software refers to the application program which is provided for the planning and configuration of Gira devices.
+
+Software from third parties: Third-party IP (list)
+
+
+
+TPIP Table here
+
+
+
+2. Licensed property
+
+The subject matter of this agreement is the software provided on the Gira software, as well as the corresponding documentation in written or electronic form.
+
+3. Rights of use of the Gira software
+
+The licensor grants the licensee the non-exclusive, non-transferable right to use the firmware for an unlimited time in accordance with the conditions of this usage license on a Gira device for the purposes and applications specified in the valid version of the documentation (which shall be provided in printed form or also as online help or online documentation).
+
+The licensee is obliged to ensure that each person who uses the program only does so as part of this license agreement and observes this license agreement.
+
+4. Restriction of rights of use, transfer to a third party
+
+4.1. The licensee is not authorised to use, copy, process or transfer the Gira software in whole or in part in any way other than as described herein. Excluded from this is one (1) copy, which shall be produced by the licensee exclusively for archiving and backup purposes.
+
+4.2. The licensee is not authorised to apply reverse-engineering techniques to the Gira software or to convert the Gira software to another form. Such techniques particularly include disassembly (conversion of the binary-coded computer instructions of an executable program into an assembler language which can be read by humans) or decompilation (conversion of binary-coded computer instructions or assembler instructions into source code in the form of high-level language instructions).
+
+4.3 The license for Gira software is bound to the use of the Gira device. Transferring the software to a third party or allowing a third party access to the software is only permitted in connection with the transfer of the Gira devices.
+
+The licensee's right of use shall expire upon the transfer to a third party.
+
+The licensee is permitted to transfer the software and all licence keys required to use the software with the exception of specifically labelled software to third parties when
+
+4.3.1 the licensee removes any backup copies or license keys required to use the software from their system by deleting and/or uninstalling them.
+
+4.3.2 the third party commits to Gira to comply with these terms of use prior to the transfer and use.
+
+The licensee shall expressly notify the third party of these terms of use before the transfer of the Gira device.
+
+4.4. The licensee is not authorised to rent or lease the Gira software or grant sublicenses to the program.
+
+4.5. The licensee requires written approval from the licensor to create and distribute software which is derived from the Gira software.
+
+4.6. The mechanisms of the licence management and copying protection of the Gira software may not be analysed, published, circumvented or disabled.
+
+5. Ownership, secrecy
+
+5.1. The Gira software and the documentation (which shall be provided in printed form or also as online help or online documentation), along with all changes made thereto, are and shall remain the property of the licensor. The licensor reserves all other rights and interests in the licensed property. The licensee shall observe these rights.
+
+5.2. No part of the licensed property, that is not software nor the data backup copy nor the documentation (which shall be provided in printed form or also as online help or online documentation), may be passed on to third parties at any point in time, in whole or in part, for a charge or free of charge. The licensee pledges only to use the licensed property for the sole purpose of exercising rights under this usage license.
+
+6. Changes
+
+The licensor may expand, improve or otherwise modify the licensed property at any time without notice. The license conditions continue to apply.
+
+7. Warranty
+
+The Gira software shall be delivered together with software from third parties as listed in section 1. No warranty is provided for software from third parties.
+
+With regard to the license conditions for this software, please refer to the links (URLs) specified in Section 1. These terms are included in this agreement.
+
+The licensor shall, upon request, provide the licensee with the complete, machine-readable source code for the third-party software listed in Point 1 (Open Source software) within 36 months after software delivery. The licensor shall invoice the licensee for the entailed delivery costs.
+
+7.1. The Gira software and the documentation (which shall be provided in printed form or also as online help or online documentation) shall be issued to the licensee in the respective valid version. The warranty period for the Gira software is 24 months. During this time the licensor shall provide the following warranty:
+
+* The software shall be free of material and manufacturing defects when transferred to the customer.
+
+* The software shall function in accordance with the documentation included with it in the respective valid version.
+
+* The software shall be runnable on the computer stations specified by the licensor.
+
+The warranty shall only be fulfilled through replacement delivery.
+
+7.2 Otherwise, no guarantee shall be provided for the freedom from faults of the Gira software and its data structures from defects. Nor does the warranty cover defects due to improper use or other causes outside the influence of the licensor. Any additional warranty claims shall be excluded.
+
+8. Liability
+
+The licensor shall not be liable for damages due to loss of profit, data loss or any other financial loss resulting from the use of the Gira software.
+
+This limitation of liability is valid for all damage claims of the licensee, regardless of the legal basis. Liability is limited to the product purchase price.
+
+The exclusion of liability does not apply to damage caused by premeditation or gross negligence on the part of the licensor. The exclusion of liability does not affect any licensee claims based on the legal provisions concerning product liability.
+
+9. Data protection
+
+By signing this license agreement, you agree to the validity of the GIRA data protection policy in its current version. See http://www.gira.de/impressum/datenschutz.html
+
+10. Applicable law and jurisdiction
+
+This agreement is governed by the law of the Federal Republic of Germany under expressive exclusion of the UN Convention on Contracts for the International Sale of Goods.
+
+Jurisdiction is the court competent for the location of the licensor.
+
+11. Termination
+
+This agreement and the rights granted herein shall end if the licensee fails to fulfil one or more provisions of this agreement or terminates this agreement in writing. The Gira software and the documentation submitted (which is provided in printed form or also as online help or online documentation), including all copies, shall in this case be returned immediately and without being requested to do so. No claim to reimbursement of the price paid shall be accepted in this case.
+
+The usage license for the Gira software shall expire upon the termination of the agreement. In this case, the Gira devices must be taken out of operation. Further use of the Gira devices without a license is prohibited.
+
+12. Subsidiary agreements and changes to the agreement
+
+Subsidiary agreements and changes to the agreement shall only be valid in writing. This agreement shall be issued in German and English. The English version shall be considered as for information only. In case of any discussion the German version shall be binding.
+
+
+
+
+
+13. Exception
+
+All rights not expressly mentioned in this agreement are reserved.
+

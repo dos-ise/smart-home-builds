@@ -1,0 +1,255 @@
+html[data-theme='dark'] {
+  --icon-keyboard-hide: url('../img\/icons\/dark/operationelements/gc4_keyboard_keydown.svg');
+  --icon-keyboard-hide-down: url('../img\/icons\/dark/operationelements/gc4_keyboard_keydown_down.svg');
+  --icon-keyboard-delete: url('../img\/icons\/dark/operationelements/gc4_keyboard_delete.svg');
+  --icon-keyboard-delete-down: url('../img\/icons\/dark/operationelements/gc4_keyboard_delete_down.svg');
+  --icon-keyboard-delete-img: url('../img\/icons\/dark/operationelements/gc4_keyboard_delete.svg');
+  --icon-keyboard-delete-img-down: url('../img\/icons\/dark/operationelements/gc4_keyboard_delete_down.svg');
+  --icon-keyboard-enter-img: url('../img\/icons\/dark/operationelements/gc4_keyboard_enter.svg');
+  --icon-keyboard-enter-img-down: url('../img\/icons\/dark/operationelements/gc4_keyboard_enter_down.svg');
+  --icon-keyboard-shift-img: url('../img\/icons\/dark/operationelements/gc4_keyboard_shift.svg');
+  --icon-keyboard-shift-img-down: url('../img\/icons\/dark/operationelements/gc4_keyboard_shift_down.svg');
+  --icon-keyboard-character-img: url('../img\/icons\/dark/operationelements/gc4_keyboard_character.svg');
+  --icon-keyboard-character-img-down: url('../img\/icons\/dark/operationelements/gc4_keyboard_character.svg');
+  --icon-keyboard-keys-hide-img: url('../img\/icons\/darkoperationelements/gc4_keyboard_keydown.svg');
+  --icon-keyboard-keys-hide-img-down: url('../img\/icons\/dark/operationelements/gc4_keyboard_keydown_down.svg');
+}
+.icon-keyboard-hide {
+  content: var(--icon-keyboard-hide, url('../img/operationelements/gc4_keyboard_keydown.svg'));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-hide-down {
+  content: var(--icon-keyboard-hide-down, url('../img/operationelements/gc4_keyboard_keydown_down.svg'));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-delete {
+  content: var(--icon-keyboard-delete, url('../img/operationelements/gc4_keyboard_delete.svg'));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-delete-down {
+  content: var(--icon-keyboard-delete-down, url('../img/operationelements/gc4_keyboard_delete_down.svg'));
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-delete-img {
+  background-image: var(--icon-keyboard-delete-img, url('../img/operationelements/gc4_keyboard_delete.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-delete-img-down {
+  background-image: var(--icon-keyboard-delete-img-down, url('../img/operationelements/gc4_keyboard_delete_down.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-enter-img {
+  background-image: var(--icon-keyboard-enter-img, url('../img/operationelements/gc4_keyboard_enter.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-enter-img-down {
+  background-image: var(--icon-keyboard-enter-img-down, url('../img/operationelements/gc4_keyboard_enter_down.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-shift-img {
+  background-image: var(--icon-keyboard-shift-img, url('../img/operationelements/gc4_keyboard_shift.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-shift-img-down {
+  background-image: var(--icon-keyboard-shift-img-down, url('../img/operationelements/gc4_keyboard_shift_down.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-character-img {
+  background-image: var(--icon-keyboard-character-img, url('../img/operationelements/gc4_keyboard_character.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-character-img-down {
+  background-image: var(--icon-keyboard-character-img-down, url('../img/operationelements/gc4_keyboard_character.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-keys-hide-img {
+  background-image: var(--icon-keyboard-keys-hide-img, url('../img/operationelements/gc4_keyboard_keydown.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.icon-keyboard-keys-hide-img-down {
+  background-image: var(--icon-keyboard-keys-hide-img-down, url('../img/operationelements/gc4_keyboard_keydown_down.svg'));
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+#virtualKeyboard {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+  background-color: var(--color-c0);
+}
+#keyboard {
+  padding-top: 1.6875rem;
+  padding-bottom: 1.6875rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  background: var(--color-c0);
+  -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.35);
+}
+#keyboard:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#keyboardHeader {
+  position: relative;
+}
+#keyboardHeader div {
+  color: var(--color-c0);
+  background-color: #7b8490;
+  padding-top: 0.375vh;
+  padding-bottom: 0.375vh;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  position: absolute;
+  cursor: pointer;
+  right: -2.083333333333333vw;
+  top: -5vh;
+}
+.closex {
+  font-weight: bolder;
+  color: var(--color-c12);
+}
+#keyboardCapitalLetter {
+  display: none;
+}
+#keyboardSmallLetter {
+  display: block;
+}
+#keyboardSmallNumber {
+  display: none;
+}
+#keyboardCapitalNumber {
+  display: none;
+}
+#keyboardSymbols {
+  display: none;
+}
+#keyboardSmallAccents {
+  display: none;
+}
+#giraKeyboardNumericKeypad {
+  display: none;
+  max-width: 800px;
+  margin: 0 auto;
+}
+.button {
+  height: 3rem;
+  float: left;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.35);
+  -webkit-border-radius: 4px;
+  background-color: var(--color-c1);
+  font-size: 1.75rem;
+  line-height: 3.375rem;
+  text-decoration: none;
+  text-align: center;
+  color: var(--color-c3);
+  text-shadow: 0px 1px 0px var(--color-c0);
+  font-family: 'UniversNextLight';
+  margin: 0.1875rem;
+  flex-grow: 1;
+}
+.buttonSpecialKey {
+  background-color: #dcdcdc;
+}
+.buttonDown,
+.staticDown {
+  box-shadow: none;
+  background-color: var(--color-c3) !important;
+  color: var(--color-c0) !important;
+  text-shadow: 0px -1px 0px var(--color-c12);
+}
+.button_wide {
+  width: 15.416666666666668vw;
+}
+.button_wide_numeric {
+  width: calc(33.3% - 0.4rem);
+  height: 3rem;
+}
+.button_del {
+  width: 34px;
+  width: 7.083333333333333vw;
+}
+.button_smallletter {
+  font-size: 1.5em;
+}
+.button_capitalletterleft {
+  font-size: 1.5em;
+}
+.button_capitalletterright {
+  font-size: 1.5em;
+}
+.button_specialchars {
+  width: 15.416666666666668vw;
+}
+.button_numberleft {
+  width: 15.416666666666668vw;
+}
+.button_numberright {
+  width: 13.333333333333334vw;
+  font-size: 0.9em;
+}
+.button_space {
+  width: 48.75vw;
+}
+.button_symbolsleft {
+  width: 14.791666666666666vw;
+  font-size: 0.9em;
+}
+.button_symbolsright {
+  width: 13.333333333333334vw;
+  font-size: 0.9em;
+}
+.key {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  min-width: 2.125rem;
+}
+.key_special_wide {
+  margin: 0 auto;
+}
+.key_number span {
+  display: block;
+  font-size: 1.125rem;
+  height: 1.5rem;
+  line-height: 1.8125rem;
+}
+.slideInFromBottom-keyboardAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translateY(-16.875rem);
+}
+.slideOutFromBottom-keyboardAnimation {
+  -webkit-transition: all 1000ms ease;
+  -webkit-transform: translateY(0);
+}
+.keyboard-row {
+  width: 100%;
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0.3125rem;
+}

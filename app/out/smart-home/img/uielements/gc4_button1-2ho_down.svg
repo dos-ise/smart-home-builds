@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 302 151" style="enable-background:new 0 0 302 151;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#DCDCDC;}
+	.st1{fill:#C8C8C8;}
+</style>
+<filter id="InnerShadow">
+	<feOffset  dx="0" dy="4"></feOffset>
+	<feGaussianBlur  result="offset-blur" stdDeviation="2.5"></feGaussianBlur>
+	<feComposite  in="SourceGraphic" in2="offset-blur" operator="out" result="inverse"></feComposite>
+	<feFlood  flood-color="#000000" flood-opacity=".6" result="color"></feFlood>
+	<feComposite  in="color" in2="inverse" operator="in" result="shadow"></feComposite>
+	<feComposite  in="shadow" in2="SourceGraphic" operator="over"></feComposite>
+</filter>
+<path class="st0" filter="url(#InnerShadow)" d="M1,150C1,67.2,68.2,0,151,0c82.8,0,150,67.2,150,150"/>
+<path class="st1" d="M0,151h1h300h1v-1h0c-0.3-40-15.9-77.5-44.2-105.8C229.3,15.7,191.3,0,151,0C110.7,0,72.7,15.7,44.2,44.2
+	C15.9,72.5,0.3,110,0,150h0V151z M151,1c82.5,0,149.4,66.6,150,149H1C1.6,67.6,68.5,1,151,1z"/>
+</svg>

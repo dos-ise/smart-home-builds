@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Konfiguration av Gira G1",
+    "action": "Gira G1 startar."
+  },
+  {
+    "title": "Konfiguration av Gira G1",
+    "action": "Förberedelserna för första \nidrifttagningen pågår."
+  },
+  {
+    "title": "Konfiguration av Gira G1",
+    "action": "Gira G1 accepterar den nya \nkonfigurationen."
+  },
+  {
+    "title": "Konfiguration av Gira G1",
+    "action": "Gira G1 uppdaterar den inbyggda \nprogramvaran."
+  },
+  {
+    "title": "Konfiguration av Gira G1",
+    "action": "Gira G1 återställs till \nfabriksinställningarna."
+  },
+  {
+    "title": "Konfiguration av Gira G1",
+    "action": "Gira G1 startar om."
+  }
+]

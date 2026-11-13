@@ -1,0 +1,23 @@
+.blindabsolute .skala {
+  position: absolute;
+  width: 48px;
+  height: 311px;
+  top: 81px;
+  left: 253px;
+}
+.blindabsolute .shutter-up {
+  position: absolute;
+  top: 16px;
+  left: 201px;
+}
+.blindabsolute .shutter-down {
+  position: absolute;
+  top: 411px;
+  left: 201px;
+}
+.blindabsolute .slider_center {
+  position: absolute;
+  height: 336px;
+  top: 68px;
+  left: 213px;
+}

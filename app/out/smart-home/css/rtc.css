@@ -1,0 +1,315 @@
+/* breadcrumb */
+/* rtc */
+#rtc {
+  position: relative;
+  width: 444px;
+  height: 470px;
+  z-index: 1;
+  background: var(--color-c1);
+  bottom: 0;
+  font-family: 'UniversNextLight';
+}
+div#detail-top-rtr {
+  background-color: transparent !important;
+}
+#rtc input {
+  outline: none;
+}
+#rtc .hide {
+  display: none;
+}
+.rtc-controller .down {
+  background-color: var(--color-c6);
+  -webkit-box-shadow: 0px 1px 0px 0px var(--color-c0);
+}
+#rtc-mode-edit-view .header div {
+  float: left;
+}
+#rtc-mode-edit-view .header {
+  height: 30px;
+  line-height: 35px;
+  box-sizing: border-box;
+  padding-top: 9px;
+  padding-left: 18px;
+  background: var(--color-c2);
+}
+#rtc-mode-edit-view .buttons {
+  height: 58px;
+  border-top: 1px solid var(--color-c0);
+  border-bottom: 1px solid var(--color-c6);
+  position: relative;
+}
+.rtcModeEdit ul,
+#rtc-modes ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: initial;
+}
+.rtcModeEdit li,
+#rtc-modes li {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid var(--color-c0);
+  border-bottom: 1px solid var(--color-c6);
+  line-height: 21px;
+}
+#rtc-modes .li-oneandhalfline {
+  height: 88px;
+}
+#rtc-modes .li-singleline {
+  height: 58px;
+}
+#rtc-modes li .label {
+  position: absolute;
+  left: 64px;
+  top: 17px;
+  line-height: 28px;
+}
+#rtc-modes li .temp-hot {
+  position: absolute;
+  top: 51px;
+  left: 82px;
+  color: #DB3B3B;
+}
+#rtc-modes li .temp-cold {
+  position: absolute;
+  top: 51px;
+  left: 198px;
+  color: #639FEF;
+}
+#rtc-modes .icon:first-child {
+  height: 58px;
+  width: 51px;
+  position: absolute;
+  left: 7px;
+}
+#rtc-modes .icon-oneandhalfline:first-child {
+  top: 2px;
+}
+#rtc-modes .icon-singleline:first-child {
+  top: 0px;
+}
+#rtc-modes .icon.hot {
+  position: absolute;
+  left: 64px;
+  top: 52px;
+}
+#rtc-modes .icon.cold {
+  position: absolute;
+  left: 181px;
+  top: 52px;
+}
+#rtc-modes .icon.seperator {
+  top: 44px;
+  left: 167px;
+  position: absolute;
+  width: 1px;
+  height: 30px;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(200, 200, 200, 0)), color-stop(50%, #c8c8c8), color-stop(100%, rgba(200, 200, 200, 0)));
+}
+#rtc-modes .radio-oneandhalfline {
+  top: 25px;
+}
+#rtc-modes .radio-singleline {
+  top: 11px;
+}
+/* active */
+#rtc-modes li.down {
+  background: var(--color-c4);
+}
+#rtc-modes li.down:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1px;
+  height: 6px;
+  background: -webkit-linear-gradient(top, #141414 0%, var(--color-c4) 100%);
+  border: none;
+}
+#rtc-modes li.down .radio {
+  box-shadow: none;
+}
+#rtc-modes li .radio.active:before {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  position: absolute;
+  border-radius: 12px;
+  left: 50%;
+  top: 50%;
+  margin-top: -6px;
+  margin-left: -6px;
+  background: var(--color-c3);
+}
+/* Fix for timer icon ploping in on rtc view */
+#detail-top-rtr .timer-icon {
+  -webkit-transform: translateZ(0);
+  z-index: 4;
+}
+#rtc-modes li .arrow-right {
+  position: absolute;
+  left: 400px;
+  top: 34px;
+}
+#rtc-modes li.disabled span {
+  color: var(--color-c6) !important;
+}
+#rtr-hatch {
+  position: absolute;
+  top: 67px;
+  left: 53px;
+  width: 338px;
+  height: 338px;
+  z-index: 3;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
+}
+#rtc-mode-edit-view {
+  position: absolute;
+  left: 464px;
+  display: none;
+  background-color: var(--color-c1);
+}
+#rtc-mode-edit-view .swiper-slide {
+  width: 444px;
+}
+.rtcModeEdit {
+  overflow: hidden;
+  position: relative;
+  width: 444px;
+  height: 407px;
+}
+.rtcModeEdit li {
+  height: px;
+}
+.rtcModeEdit .edit-temperature-headline {
+  position: relative;
+  top: 13px;
+  height: 35px;
+}
+.rtcModeEdit .edit-temperature-selection {
+  position: relative;
+  height: 228px;
+}
+.rtcModeEdit .temp-hot,
+.rtcModeEdit .temp-cold {
+  position: absolute;
+  top: 0px;
+  left: 36px;
+}
+.rtcModeEdit ul li .label {
+  position: absolute;
+  left: 64px;
+  top: 17px;
+  line-height: 28px;
+}
+.rtcModeEdit .temp {
+  position: absolute;
+  top: 53px;
+}
+.rtcModeEdit .temp-hot {
+  color: #DB3B3B;
+}
+.rtcModeEdit .temp-cold {
+  color: #639FEF;
+}
+.rtcModeEdit .icon.hot,
+.rtcModeEdit .icon.cold {
+  position: absolute;
+  left: 18px;
+  top: 0px;
+}
+.rtcModeEdit .valuator .slot-machine {
+  position: absolute;
+  top: 16px;
+  height: 196px;
+  left: 122px;
+  width: 190px;
+}
+.rtcModeEdit .valuator .sw-frame {
+  width: inherit;
+  height: inherit;
+  right: inherit;
+}
+.rtcModeEdit .valuator .sw-slots {
+  padding-top: 0px;
+  right: inherit;
+  width: inherit;
+}
+.rtcModeEdit .valuator .sw-slots ul {
+  top: 65px;
+}
+.rtcModeEdit .valuator li {
+  padding: 0 12px !important;
+  height: 76px;
+  border: 0px;
+  line-height: 84px;
+}
+.rtcModeEdit .valuator .floatingpoint {
+  position: absolute;
+  top: 119px;
+  left: 120px;
+}
+.rtcModeEdit .valuator .unitLabel {
+  top: 106px;
+}
+.rtcModeEdit .temp-double-line {
+  position: absolute;
+  left: 18px;
+  border: none;
+  border-top: 1px solid var(--color-c6);
+  border-bottom: 1px solid var(--color-c0);
+  width: 408px;
+}
+.rtcModeEdit .temp-double-line.upper {
+  top: 75px;
+}
+.rtcModeEdit .temp-double-line.lower {
+  bottom: 75px;
+}
+.rtcModeEdit .valuator .gradient-top {
+  position: absolute;
+  top: 16px;
+  left: 130px;
+  width: 190px;
+  height: 60px;
+}
+.rtcModeEdit .valuator .gradient-bottom {
+  position: absolute;
+  top: initial;
+  bottom: 16px !important;
+  left: 130px;
+  width: 190px;
+  height: 60px;
+}
+#rtc-mode-edit-view .rtc-edit-scrollbar {
+  position: absolute;
+  bottom: 0px;
+  height: 410px;
+  width: 6px;
+  right: -12px;
+  -ms-touch-action: none;
+  background-color: var(--color-c0);
+  display: block !important;
+}
+.rtcModeEdit .rtc-temp-double-line {
+  position: absolute;
+  left: 0px;
+  border: none;
+  border-top: 1px solid var(--color-c6);
+  border-bottom: 1px solid var(--color-c0);
+  width: 444px;
+  margin-top: -1px;
+}

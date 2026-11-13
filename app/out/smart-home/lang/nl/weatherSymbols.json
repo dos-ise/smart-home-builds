@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "buiig",
+    "text2": "storm"
+  },
+  "ahc": {
+    "text1": "sluierwolken",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "zwaar bewolkt",
+    "text2": "sneeuwstorm"
+  },
+  "ahcf": {
+    "text1": "zwaar bewolkt",
+    "text2": "laaghangende mist"
+  },
+  "ahcg": {
+    "text1": "zwaar bewolkt",
+    "text2": "buiig"
+  },
+  "ahcha": {
+    "text1": "zwaar bewolkt",
+    "text2": "fijne-hagelbui"
+  },
+  "ahchas": {
+    "text1": "zwaar bewolkt",
+    "text2": "fijne-hagelstorm"
+  },
+  "ahchr": {
+    "text1": "zwaar bewolkt",
+    "text2": "zware motregen"
+  },
+  "ahchs": {
+    "text1": "zwaar bewolkt",
+    "text2": "zware sneeuwval"
+  },
+  "ahcih": {
+    "text1": "zwaar bewolkt",
+    "text2": "kans op ijzel"
+  },
+  "ahcmr": {
+    "text1": "zwaar bewolkt",
+    "text2": "matige motregen"
+  },
+  "ahcr": {
+    "text1": "zwaar bewolkt",
+    "text2": "motregen"
+  },
+  "ahcrih": {
+    "text1": "zwaar bewolkt",
+    "text2": "motregen met kans op ijzel"
+  },
+  "ahcs": {
+    "text1": "zwaar bewolkt",
+    "text2": "sneeuwval"
+  },
+  "ahcsr": {
+    "text1": "zwaar bewolkt",
+    "text2": "natte sneeuw"
+  },
+  "ahct": {
+    "text1": "zwaar bewolkt",
+    "text2": "onweerachtig"
+  },
+  "ahcts": {
+    "text1": "zwaar bewolkt",
+    "text2": "onweer"
+  },
+  "aoc": {
+    "text1": "bewolkt",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "bewolkt",
+    "text2": "sneeuwstorm"
+  },
+  "aocg": {
+    "text1": "bewolkt",
+    "text2": "buiig"
+  },
+  "aocha": {
+    "text1": "bewolkt",
+    "text2": "fijne-hagelbui"
+  },
+  "aocih": {
+    "text1": "bewolkt",
+    "text2": "kans op ijzel"
+  },
+  "aocr": {
+    "text1": "bewolkt",
+    "text2": "motregen"
+  },
+  "aocrih": {
+    "text1": "bewolkt",
+    "text2": "motregen met kans op ijzel"
+  },
+  "aocrs": {
+    "text1": "bewolkt",
+    "text2": "regenbuien"
+  },
+  "aocs": {
+    "text1": "bewolkt",
+    "text2": "sneeuwval"
+  },
+  "aocsr": {
+    "text1": "bewolkt",
+    "text2": "natte sneeuw"
+  },
+  "aoct": {
+    "text1": "bewolkt",
+    "text2": "onweerachtig"
+  },
+  "aocts": {
+    "text1": "bewolkt",
+    "text2": "onweer"
+  },
+  "dlc": {
+    "text1": "helder",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "helder",
+    "text2": "sneeuwstorm"
+  },
+  "dlcg": {
+    "text1": "helder",
+    "text2": "buiig"
+  },
+  "dlchas": {
+    "text1": "helder",
+    "text2": "fijne-hagelstorm"
+  },
+  "dlchr": {
+    "text1": "helder",
+    "text2": "zware motregen"
+  },
+  "dlchs": {
+    "text1": "helder",
+    "text2": "zware sneeuwval"
+  },
+  "dlcih": {
+    "text1": "helder",
+    "text2": "kans op ijzel"
+  },
+  "dlcmr": {
+    "text1": "helder",
+    "text2": "matige motregen"
+  },
+  "dlcms": {
+    "text1": "helder",
+    "text2": "matige sneeuwval"
+  },
+  "dlcr": {
+    "text1": "helder",
+    "text2": "motregen"
+  },
+  "dlcrih": {
+    "text1": "helder",
+    "text2": "motregen met kans op ijzel"
+  },
+  "dlcs": {
+    "text1": "helder",
+    "text2": "sneeuwval"
+  },
+  "dlcsr": {
+    "text1": "helder",
+    "text2": "natte sneeuw"
+  },
+  "dlct": {
+    "text1": "helder",
+    "text2": "fijne-hagelbui"
+  },
+  "dlcth": {
+    "text1": "helder",
+    "text2": "onweerachtig"
+  },
+  "dlcts": {
+    "text1": "helder",
+    "text2": "onweer"
+  },
+  "dmc": {
+    "text1": "bewolkt",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "bewolkt",
+    "text2": "sneeuwstorm"
+  },
+  "dmcg": {
+    "text1": "bewolkt",
+    "text2": "buiig"
+  },
+  "dmcha": {
+    "text1": "bewolkt",
+    "text2": "fijne-hagelbui"
+  },
+  "dmchas": {
+    "text1": "bewolkt",
+    "text2": "fijne-hagelstorm"
+  },
+  "dmchr": {
+    "text1": "bewolkt",
+    "text2": "zware motregen"
+  },
+  "dmchs": {
+    "text1": "bewolkt",
+    "text2": "zware sneeuwval"
+  },
+  "dmclr": {
+    "text1": "bewolkt",
+    "text2": "lichte motregen"
+  },
+  "dmcls": {
+    "text1": "bewolkt",
+    "text2": "lichte sneeuwval"
+  },
+  "dmcmr": {
+    "text1": "bewolkt",
+    "text2": "matige motregen"
+  },
+  "dmcms": {
+    "text1": "bewolkt",
+    "text2": "matige sneeuwval"
+  },
+  "dmcrih": {
+    "text1": "bewolkt",
+    "text2": "motregen met kans op ijzel"
+  },
+  "dmcsr": {
+    "text1": "bewolkt",
+    "text2": "natte sneeuw"
+  },
+  "dmct": {
+    "text1": "bewolkt",
+    "text2": "onweerachtig"
+  },
+  "dmcts": {
+    "text1": "bewolkt",
+    "text2": "onweer"
+  },
+  "dnc": {
+    "text1": "zonnig",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "zonnig",
+    "text2": "laaghangende mist"
+  },
+  "dncg": {
+    "text1": "zonnig",
+    "text2": "buiig"
+  },
+  "nlc": {
+    "text1": "licht bewolkt",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "licht bewolkt",
+    "text2": "sneeuwstorm"
+  },
+  "nlcg": {
+    "text1": "licht bewolkt",
+    "text2": "buiig"
+  },
+  "nlcha": {
+    "text1": "licht bewolkt",
+    "text2": "fijne-hagelbui"
+  },
+  "nlchas": {
+    "text1": "licht bewolkt",
+    "text2": "fijne-hagelstorm"
+  },
+  "nlchr": {
+    "text1": "licht bewolkt",
+    "text2": "zware motregen"
+  },
+  "nlchs": {
+    "text1": "licht bewolkt",
+    "text2": "zware sneeuwval"
+  },
+  "nlcih": {
+    "text1": "licht bewolkt",
+    "text2": "kans op ijzel"
+  },
+  "nlcmr": {
+    "text1": "licht bewolkt",
+    "text2": "matige motregen"
+  },
+  "nlcms": {
+    "text1": "licht bewolkt",
+    "text2": "matige sneeuwval"
+  },
+  "nlcr": {
+    "text1": "licht bewolkt",
+    "text2": "motregen"
+  },
+  "nlcrih": {
+    "text1": "licht bewolkt",
+    "text2": "motregen met kans op ijzel"
+  },
+  "nlcs": {
+    "text1": "licht bewolkt",
+    "text2": "sneeuwval"
+  },
+  "nlcsr": {
+    "text1": "licht bewolkt",
+    "text2": "natte sneeuw"
+  },
+  "nlcth": {
+    "text1": "licht bewolkt",
+    "text2": "onweerachtig"
+  },
+  "nlcts": {
+    "text1": "licht bewolkt",
+    "text2": "onweer"
+  },
+  "nmc": {
+    "text1": "bewolkt",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "bewolkt",
+    "text2": "sneeuwstorm"
+  },
+  "nmcg": {
+    "text1": "bewolkt",
+    "text2": "buiig"
+  },
+  "nmcha": {
+    "text1": "bewolkt",
+    "text2": "fijne-hagelbui"
+  },
+  "nmchas": {
+    "text1": "bewolkt",
+    "text2": "fijne-hagelstorm"
+  },
+  "nmchr": {
+    "text1": "bewolkt",
+    "text2": "zware motregen"
+  },
+  "nmchs": {
+    "text1": "bewolkt",
+    "text2": "zware sneeuwval"
+  },
+  "nmclr": {
+    "text1": "bewolkt",
+    "text2": "lichte motregen"
+  },
+  "nmcls": {
+    "text1": "bewolkt",
+    "text2": "lichte sneeuwval"
+  },
+  "nmcmr": {
+    "text1": "bewolkt",
+    "text2": "matige motregen"
+  },
+  "nmcms": {
+    "text1": "bewolkt",
+    "text2": "matige sneeuwval"
+  },
+  "nmcrih": {
+    "text1": "bewolkt",
+    "text2": "motregen met kans op ijzel"
+  },
+  "nmcsr": {
+    "text1": "bewolkt",
+    "text2": "natte sneeuw"
+  },
+  "nmct": {
+    "text1": "bewolkt",
+    "text2": "onweerachtig"
+  },
+  "nmcts": {
+    "text1": "bewolkt",
+    "text2": "onweer"
+  },
+  "nnc": {
+    "text1": "helder",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "helder",
+    "text2": "laaghangende mist"
+  },
+  "nncg": {
+    "text1": "helder",
+    "text2": "buiig"
+  }
+}

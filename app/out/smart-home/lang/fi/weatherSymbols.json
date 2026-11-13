@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "tuulista",
+    "text2": "myrsky"
+  },
+  "ahc": {
+    "text1": "untuvapilviä",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "lumimyrsky"
+  },
+  "ahcf": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "sumuista"
+  },
+  "ahcg": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "tuulista"
+  },
+  "ahcha": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "raekuuroja"
+  },
+  "ahchas": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "raemyrskyjä"
+  },
+  "ahchr": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "runsasta sadetta"
+  },
+  "ahchs": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "runsasta lumisadetta"
+  },
+  "ahcih": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "liukkaan kelin vaara"
+  },
+  "ahcmr": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "kohtuullista sadetta"
+  },
+  "ahcr": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "tihkusadetta"
+  },
+  "ahcrih": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "tihkusadetta, liukkaan kelin vaara"
+  },
+  "ahcs": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "lumisadetta"
+  },
+  "ahcsr": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "räntäsadetta"
+  },
+  "ahct": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "ukkosta ilmassa"
+  },
+  "ahcts": {
+    "text1": "runsasta pilvisyyttä",
+    "text2": "ukkosta"
+  },
+  "aoc": {
+    "text1": "pilvistä",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "pilvistä",
+    "text2": "lumimyrsky"
+  },
+  "aocg": {
+    "text1": "pilvistä",
+    "text2": "tuulista"
+  },
+  "aocha": {
+    "text1": "pilvistä",
+    "text2": "raekuuroja"
+  },
+  "aocih": {
+    "text1": "pilvistä",
+    "text2": "liukkaan kelin vaara"
+  },
+  "aocr": {
+    "text1": "pilvistä",
+    "text2": "tihkusadetta"
+  },
+  "aocrih": {
+    "text1": "pilvistä",
+    "text2": "tihkusadetta, liukkaan kelin vaara"
+  },
+  "aocrs": {
+    "text1": "pilvistä",
+    "text2": "sadekuuroja"
+  },
+  "aocs": {
+    "text1": "pilvistä",
+    "text2": "lumisadetta"
+  },
+  "aocsr": {
+    "text1": "pilvistä",
+    "text2": "räntäsadetta"
+  },
+  "aoct": {
+    "text1": "pilvistä",
+    "text2": "ukkosta ilmassa"
+  },
+  "aocts": {
+    "text1": "pilvistä",
+    "text2": "ukkosta"
+  },
+  "dlc": {
+    "text1": "selkeää",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "selkeää",
+    "text2": "lumimyrsky"
+  },
+  "dlcg": {
+    "text1": "selkeää",
+    "text2": "tuulista"
+  },
+  "dlchas": {
+    "text1": "selkeää",
+    "text2": "raemyrskyjä"
+  },
+  "dlchr": {
+    "text1": "selkeää",
+    "text2": "runsasta sadetta"
+  },
+  "dlchs": {
+    "text1": "selkeää",
+    "text2": "runsasta lumisadetta"
+  },
+  "dlcih": {
+    "text1": "selkeää",
+    "text2": "liukkaan kelin vaara"
+  },
+  "dlcmr": {
+    "text1": "selkeää",
+    "text2": "kohtuullista sadetta"
+  },
+  "dlcms": {
+    "text1": "selkeää",
+    "text2": "kohtuullista lumisadetta"
+  },
+  "dlcr": {
+    "text1": "selkeää",
+    "text2": "tihkusadetta"
+  },
+  "dlcrih": {
+    "text1": "selkeää",
+    "text2": "tihkusadetta, liukkaan kelin vaara"
+  },
+  "dlcs": {
+    "text1": "selkeää",
+    "text2": "lumisadetta"
+  },
+  "dlcsr": {
+    "text1": "selkeää",
+    "text2": "räntäsadetta"
+  },
+  "dlct": {
+    "text1": "selkeää",
+    "text2": "raekuuroja"
+  },
+  "dlcth": {
+    "text1": "selkeää",
+    "text2": "ukkosta ilmassa"
+  },
+  "dlcts": {
+    "text1": "selkeää",
+    "text2": "ukkosta"
+  },
+  "dmc": {
+    "text1": "puolipilvistä",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "puolipilvistä",
+    "text2": "lumimyrsky"
+  },
+  "dmcg": {
+    "text1": "puolipilvistä",
+    "text2": "tuulista"
+  },
+  "dmcha": {
+    "text1": "puolipilvistä",
+    "text2": "raekuuroja"
+  },
+  "dmchas": {
+    "text1": "puolipilvistä",
+    "text2": "raemyrskyjä"
+  },
+  "dmchr": {
+    "text1": "puolipilvistä",
+    "text2": "runsasta sadetta"
+  },
+  "dmchs": {
+    "text1": "puolipilvistä",
+    "text2": "runsasta lumisadetta"
+  },
+  "dmclr": {
+    "text1": "puolipilvistä",
+    "text2": "heikkoa tihkusadetta"
+  },
+  "dmcls": {
+    "text1": "puolipilvistä",
+    "text2": "heikkoa lumisadetta"
+  },
+  "dmcmr": {
+    "text1": "puolipilvistä",
+    "text2": "kohtuullista sadetta"
+  },
+  "dmcms": {
+    "text1": "puolipilvistä",
+    "text2": "kohtuullista lumisadetta"
+  },
+  "dmcrih": {
+    "text1": "puolipilvistä",
+    "text2": "tihkusadetta, liukkaan kelin vaara"
+  },
+  "dmcsr": {
+    "text1": "puolipilvistä",
+    "text2": "räntäsadetta"
+  },
+  "dmct": {
+    "text1": "puolipilvistä",
+    "text2": "ukkosta ilmassa"
+  },
+  "dmcts": {
+    "text1": "puolipilvistä",
+    "text2": "ukkosta"
+  },
+  "dnc": {
+    "text1": "aurinkoista",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "aurinkoista",
+    "text2": "sumuista"
+  },
+  "dncg": {
+    "text1": "aurinkoista",
+    "text2": "tuulista"
+  },
+  "nlc": {
+    "text1": "melko selkeää",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "melko selkeää",
+    "text2": "lumimyrsky"
+  },
+  "nlcg": {
+    "text1": "melko selkeää",
+    "text2": "tuulista"
+  },
+  "nlcha": {
+    "text1": "melko selkeää",
+    "text2": "raekuuroja"
+  },
+  "nlchas": {
+    "text1": "melko selkeää",
+    "text2": "raemyrskyjä"
+  },
+  "nlchr": {
+    "text1": "melko selkeää",
+    "text2": "runsasta sadetta"
+  },
+  "nlchs": {
+    "text1": "melko selkeää",
+    "text2": "runsasta lumisadetta"
+  },
+  "nlcih": {
+    "text1": "melko selkeää",
+    "text2": "liukkaan kelin vaara"
+  },
+  "nlcmr": {
+    "text1": "melko selkeää",
+    "text2": "kohtuullista sadetta"
+  },
+  "nlcms": {
+    "text1": "melko selkeää",
+    "text2": "kohtuullista lumisadetta"
+  },
+  "nlcr": {
+    "text1": "melko selkeää",
+    "text2": "tihkusadetta"
+  },
+  "nlcrih": {
+    "text1": "melko selkeää",
+    "text2": "tihkusadetta, liukkaan kelin vaara"
+  },
+  "nlcs": {
+    "text1": "melko selkeää",
+    "text2": "lumisadetta"
+  },
+  "nlcsr": {
+    "text1": "melko selkeää",
+    "text2": "räntäsadetta"
+  },
+  "nlcth": {
+    "text1": "melko selkeää",
+    "text2": "ukkosta ilmassa"
+  },
+  "nlcts": {
+    "text1": "melko selkeää",
+    "text2": "ukkosta"
+  },
+  "nmc": {
+    "text1": "puolipilvistä",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "puolipilvistä",
+    "text2": "lumimyrsky"
+  },
+  "nmcg": {
+    "text1": "puolipilvistä",
+    "text2": "tuulista"
+  },
+  "nmcha": {
+    "text1": "puolipilvistä",
+    "text2": "raekuuroja"
+  },
+  "nmchas": {
+    "text1": "puolipilvistä",
+    "text2": "raemyrskyjä"
+  },
+  "nmchr": {
+    "text1": "puolipilvistä",
+    "text2": "runsasta sadetta"
+  },
+  "nmchs": {
+    "text1": "puolipilvistä",
+    "text2": "runsasta lumisadetta"
+  },
+  "nmclr": {
+    "text1": "puolipilvistä",
+    "text2": "heikkoa tihkusadetta"
+  },
+  "nmcls": {
+    "text1": "puolipilvistä",
+    "text2": "heikkoa lumisadetta"
+  },
+  "nmcmr": {
+    "text1": "puolipilvistä",
+    "text2": "kohtuullista sadetta"
+  },
+  "nmcms": {
+    "text1": "puolipilvistä",
+    "text2": "kohtuullista lumisadetta"
+  },
+  "nmcrih": {
+    "text1": "puolipilvistä",
+    "text2": "tihkusadetta, liukkaan kelin vaara"
+  },
+  "nmcsr": {
+    "text1": "puolipilvistä",
+    "text2": "räntäsadetta"
+  },
+  "nmct": {
+    "text1": "puolipilvistä",
+    "text2": "ukkosta ilmassa"
+  },
+  "nmcts": {
+    "text1": "puolipilvistä",
+    "text2": "ukkosta"
+  },
+  "nnc": {
+    "text1": "pilvetöntä",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "pilvetöntä",
+    "text2": "sumuista"
+  },
+  "nncg": {
+    "text1": "pilvetöntä",
+    "text2": "tuulista"
+  }
+}

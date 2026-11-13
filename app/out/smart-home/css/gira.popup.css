@@ -1,0 +1,94 @@
+#popup .popup-foreground .menuPage-in-popup .settings-row {
+  background: var(--color-c0);
+}
+#popup .popup-foreground .menuPage.menuPage-in-popup {
+  position: relative;
+  width: inherit;
+  height: inherit;
+}
+#popup .popup-foreground .message-box .message .text {
+  float: left;
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+  line-height: 1.75rem;
+  margin-right: 2.5rem;
+  margin-top: 1.3125rem;
+  margin-bottom: 1.3125rem;
+  overflow: hidden;
+  flex: 1;
+}
+#popup .popup-foreground .message-box .message .icon {
+  position: absolute;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  margin-top: 0.75rem;
+  right: 1.125rem;
+}
+#popup .popup-foreground .message-box .message .icon .message-icon {
+  width: 100%;
+  height: 100%;
+}
+#popup .popup-foreground .multi-message-box {
+  display: flex;
+  flex-direction: column;
+}
+#popup .popup-foreground .multi-message-box .message {
+  display: flex;
+  justify-content: space-between;
+}
+#popup .popup-foreground .multi-message-box .message .text {
+  white-space: pre-wrap;
+  margin-top: 1.3125rem;
+  margin-bottom: 0;
+  overflow: hidden;
+  font-family: UniversNextMedium;
+  color: var(--color-c3);
+  line-height: 1.3125rem;
+  font-size: 1.3125rem;
+  line-height: 1.75rem;
+}
+#popup .popup-foreground .multi-message-box .message .infotext {
+  font-size: 0.9375rem;
+  line-height: 1.3125rem;
+  margin-top: 0;
+}
+#popup .popup-foreground .multi-message-box .message .icon {
+  width: 2.5rem;
+  height: 2.5rem;
+  flex-shrink: 0;
+  /* Without this, the error icon is too narrow on G1 */
+  margin-top: 0.75rem;
+}
+#popup .popup-foreground .multi-message-box .message .icon .message-icon {
+  width: 100%;
+  height: 100%;
+}
+#popup .popup-foreground .grid-line {
+  margin-top: 1.3125rem;
+}
+#popup .popup-foreground {
+  box-shadow: 0 0 1.25rem 0 rgba(0, 0, 0, 0.6);
+  margin-top: 1.25rem;
+}
+#popup .popup-foreground .message-box {
+  margin-left: 1.125rem;
+  margin-right: 1.125rem;
+  display: flex;
+}
+#popup .popup-foreground .app-info-update-popup .message .text .headline,
+#popup .popup-foreground .app-info-update-popup .message .text .note {
+  margin-top: 0;
+  font-family: 'UniversNextMedium';
+}
+#popup .popup-foreground .app-info-update-popup .message .text p {
+  font-family: 'UniversNextLight';
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+}
+#popup .popup-foreground .multi-message-box {
+  margin-left: 1.125rem;
+  margin-right: 1.125rem;
+}

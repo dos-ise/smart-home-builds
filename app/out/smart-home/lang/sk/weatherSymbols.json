@@ -1,0 +1,390 @@
+{
+  "ag": {
+    "text1": "nárazový vietor",
+    "text2": "víchrica"
+  },
+  "ahc": {
+    "text1": "závojové oblaky",
+    "text2": ""
+  },
+  "ahcbl": {
+    "text1": "silne zamračené",
+    "text2": "snehová víchrica"
+  },
+  "ahcf": {
+    "text1": "silne zamračené",
+    "text2": "prízemná hmla"
+  },
+  "ahcg": {
+    "text1": "silne zamračené",
+    "text2": "nárazový vietor"
+  },
+  "ahcha": {
+    "text1": "silne zamračené",
+    "text2": "krupobitie"
+  },
+  "ahchas": {
+    "text1": "silne zamračené",
+    "text2": "búrka s krupobitím"
+  },
+  "ahchr": {
+    "text1": "silne zamračené",
+    "text2": "silné mrholenie"
+  },
+  "ahchs": {
+    "text1": "silne zamračené",
+    "text2": "silné sneženie"
+  },
+  "ahcih": {
+    "text1": "silne zamračené",
+    "text2": "nebezpečenstvo poľadovice"
+  },
+  "ahcmr": {
+    "text1": "silne zamračené",
+    "text2": "mierne mrholenie"
+  },
+  "ahcr": {
+    "text1": "silne zamračené",
+    "text2": "mrholenie"
+  },
+  "ahcrih": {
+    "text1": "silne zamračené",
+    "text2": "mrholenie s nebezpeč. poľadovice"
+  },
+  "ahcs": {
+    "text1": "silne zamračené",
+    "text2": "sneženie"
+  },
+  "ahcsr": {
+    "text1": "silne zamračené",
+    "text2": "dážď so snehom"
+  },
+  "ahct": {
+    "text1": "silne zamračené",
+    "text2": "sparno"
+  },
+  "ahcts": {
+    "text1": "silne zamračené",
+    "text2": "búrka"
+  },
+  "aoc": {
+    "text1": "zatiahnuté",
+    "text2": ""
+  },
+  "aocbl": {
+    "text1": "zatiahnuté",
+    "text2": "snehová víchrica"
+  },
+  "aocg": {
+    "text1": "zatiahnuté",
+    "text2": "nárazový vietor"
+  },
+  "aocha": {
+    "text1": "zatiahnuté",
+    "text2": "krupobitie"
+  },
+  "aocih": {
+    "text1": "zatiahnuté",
+    "text2": "nebezpečenstvo poľadovice"
+  },
+  "aocr": {
+    "text1": "zatiahnuté",
+    "text2": "mrholenie"
+  },
+  "aocrih": {
+    "text1": "zatiahnuté",
+    "text2": "mrholenie s nebezpeč. poľadovice"
+  },
+  "aocrs": {
+    "text1": "zatiahnuté",
+    "text2": "prehánka"
+  },
+  "aocs": {
+    "text1": "zatiahnuté",
+    "text2": "sneženie"
+  },
+  "aocsr": {
+    "text1": "zatiahnuté",
+    "text2": "dážď so snehom"
+  },
+  "aoct": {
+    "text1": "zatiahnuté",
+    "text2": "sparno"
+  },
+  "aocts": {
+    "text1": "zatiahnuté",
+    "text2": "búrka"
+  },
+  "dlc": {
+    "text1": "jasno",
+    "text2": ""
+  },
+  "dlcbl": {
+    "text1": "jasno",
+    "text2": "snehová víchrica"
+  },
+  "dlcg": {
+    "text1": "jasno",
+    "text2": "nárazový vietor"
+  },
+  "dlchas": {
+    "text1": "jasno",
+    "text2": "búrka s krupobitím"
+  },
+  "dlchr": {
+    "text1": "jasno",
+    "text2": "silné mrholenie"
+  },
+  "dlchs": {
+    "text1": "jasno",
+    "text2": "silné sneženie"
+  },
+  "dlcih": {
+    "text1": "jasno",
+    "text2": "nebezpečenstvo poľadovice"
+  },
+  "dlcmr": {
+    "text1": "jasno",
+    "text2": "mierne mrholenie"
+  },
+  "dlcms": {
+    "text1": "jasno",
+    "text2": "mierne sneženie"
+  },
+  "dlcr": {
+    "text1": "jasno",
+    "text2": "mrholenie"
+  },
+  "dlcrih": {
+    "text1": "jasno",
+    "text2": "mrholenie s nebezpeč. poľadovice"
+  },
+  "dlcs": {
+    "text1": "jasno",
+    "text2": "sneženie"
+  },
+  "dlcsr": {
+    "text1": "jasno",
+    "text2": "dážď so snehom"
+  },
+  "dlct": {
+    "text1": "jasno",
+    "text2": "krupobitie"
+  },
+  "dlcth": {
+    "text1": "jasno",
+    "text2": "sparno"
+  },
+  "dlcts": {
+    "text1": "jasno",
+    "text2": "búrka"
+  },
+  "dmc": {
+    "text1": "oblačno",
+    "text2": ""
+  },
+  "dmcbl": {
+    "text1": "oblačno",
+    "text2": "snehová víchrica"
+  },
+  "dmcg": {
+    "text1": "oblačno",
+    "text2": "nárazový vietor"
+  },
+  "dmcha": {
+    "text1": "oblačno",
+    "text2": "krupobitie"
+  },
+  "dmchas": {
+    "text1": "oblačno",
+    "text2": "búrka s krupobitím"
+  },
+  "dmchr": {
+    "text1": "oblačno",
+    "text2": "silné mrholenie"
+  },
+  "dmchs": {
+    "text1": "oblačno",
+    "text2": "silné sneženie"
+  },
+  "dmclr": {
+    "text1": "oblačno",
+    "text2": "ľahké mrholenie"
+  },
+  "dmcls": {
+    "text1": "oblačno",
+    "text2": "ľahké sneženie"
+  },
+  "dmcmr": {
+    "text1": "oblačno",
+    "text2": "mierne mrholenie"
+  },
+  "dmcms": {
+    "text1": "oblačno",
+    "text2": "mierne sneženie"
+  },
+  "dmcrih": {
+    "text1": "oblačno",
+    "text2": "mrholenie s nebezpeč. poľadovice"
+  },
+  "dmcsr": {
+    "text1": "oblačno",
+    "text2": "dážď so snehom"
+  },
+  "dmct": {
+    "text1": "oblačno",
+    "text2": "sparno"
+  },
+  "dmcts": {
+    "text1": "oblačno",
+    "text2": "búrka"
+  },
+  "dnc": {
+    "text1": "slnečno",
+    "text2": ""
+  },
+  "dncf": {
+    "text1": "slnečno",
+    "text2": "prízemná hmla"
+  },
+  "dncg": {
+    "text1": "slnečno",
+    "text2": "nárazový vietor"
+  },
+  "nlc": {
+    "text1": "mierne zamračené",
+    "text2": ""
+  },
+  "nlcbl": {
+    "text1": "mierne zamračené",
+    "text2": "snehová víchrica"
+  },
+  "nlcg": {
+    "text1": "mierne zamračené",
+    "text2": "nárazový vietor"
+  },
+  "nlcha": {
+    "text1": "mierne zamračené",
+    "text2": "krupobitie"
+  },
+  "nlchas": {
+    "text1": "mierne zamračené",
+    "text2": "búrka s krupobitím"
+  },
+  "nlchr": {
+    "text1": "mierne zamračené",
+    "text2": "silné mrholenie"
+  },
+  "nlchs": {
+    "text1": "mierne zamračené",
+    "text2": "silné sneženie"
+  },
+  "nlcih": {
+    "text1": "mierne zamračené",
+    "text2": "nebezpečenstvo poľadovice"
+  },
+  "nlcmr": {
+    "text1": "mierne zamračené",
+    "text2": "mierne mrholenie"
+  },
+  "nlcms": {
+    "text1": "mierne zamračené",
+    "text2": "mierne sneženie"
+  },
+  "nlcr": {
+    "text1": "mierne zamračené",
+    "text2": "mrholenie"
+  },
+  "nlcrih": {
+    "text1": "mierne zamračené",
+    "text2": "mrholenie s nebezpeč. poľadovice"
+  },
+  "nlcs": {
+    "text1": "mierne zamračené",
+    "text2": "sneženie"
+  },
+  "nlcsr": {
+    "text1": "mierne zamračené",
+    "text2": "dážď so snehom"
+  },
+  "nlcth": {
+    "text1": "mierne zamračené",
+    "text2": "sparno"
+  },
+  "nlcts": {
+    "text1": "mierne zamračené",
+    "text2": "búrka"
+  },
+  "nmc": {
+    "text1": "oblačno",
+    "text2": ""
+  },
+  "nmcbl": {
+    "text1": "oblačno",
+    "text2": "snehová víchrica"
+  },
+  "nmcg": {
+    "text1": "oblačno",
+    "text2": "nárazový vietor"
+  },
+  "nmcha": {
+    "text1": "oblačno",
+    "text2": "krupobitie"
+  },
+  "nmchas": {
+    "text1": "oblačno",
+    "text2": "búrka s krupobitím"
+  },
+  "nmchr": {
+    "text1": "oblačno",
+    "text2": "silné mrholenie"
+  },
+  "nmchs": {
+    "text1": "oblačno",
+    "text2": "silné sneženie"
+  },
+  "nmclr": {
+    "text1": "oblačno",
+    "text2": "ľahké mrholenie"
+  },
+  "nmcls": {
+    "text1": "oblačno",
+    "text2": "ľahké sneženie"
+  },
+  "nmcmr": {
+    "text1": "oblačno",
+    "text2": "mierne mrholenie"
+  },
+  "nmcms": {
+    "text1": "oblačno",
+    "text2": "mierne sneženie"
+  },
+  "nmcrih": {
+    "text1": "oblačno",
+    "text2": "mrholenie s nebezpeč. poľadovice"
+  },
+  "nmcsr": {
+    "text1": "oblačno",
+    "text2": "dážď so snehom"
+  },
+  "nmct": {
+    "text1": "oblačno",
+    "text2": "sparno"
+  },
+  "nmcts": {
+    "text1": "oblačno",
+    "text2": "búrka"
+  },
+  "nnc": {
+    "text1": "jasno",
+    "text2": ""
+  },
+  "nncf": {
+    "text1": "jasno",
+    "text2": "prízemná hmla"
+  },
+  "nncg": {
+    "text1": "jasno",
+    "text2": "nárazový vietor"
+  }
+}

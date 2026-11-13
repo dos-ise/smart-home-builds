@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="44" viewBox="0 0 36 44">
+  <title>gc4_clocktimer_lateoffset</title>
+  <polygon points="29.17 23 21 23 21 25 29.17 25 27.34 26.83 28.76 28.24 33 24 28.76 19.76 27.34 21.17 29.17 23" style="fill: #505050"/>
+  <g>
+    <path d="M9.94,15.12a8.94,8.94,0,1,0,8.94,8.94A9,9,0,0,0,9.94,15.12Zm0,16A7.06,7.06,0,1,1,17,24.06,7.07,7.07,0,0,1,9.94,31.12Z" style="fill: #505050"/>
+    <polygon points="9.94 24.06 5.94 24.06 5.94 26.06 9.94 26.06 11.94 26.06 11.94 24.06 11.94 20.06 9.94 20.06 9.94 24.06" style="fill: #505050"/>
+  </g>
+  <rect x="34" y="15" width="2" height="18" style="fill: #505050"/>
+  <rect x="32" y="15" width="4" height="2" style="fill: #505050"/>
+  <rect x="32" y="31" width="4" height="2" style="fill: #505050"/>
+</svg>

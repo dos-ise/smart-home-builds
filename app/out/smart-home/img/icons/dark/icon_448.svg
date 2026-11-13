@@ -1,0 +1,10 @@
+<svg viewBox="0 0 36 44" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#505050" transform="translate(1)">
+    <path d="M1.56 35.43.15 34l12-12-12-12 1.41-1.44L15 22zm18 0L18.15 34l12-12-12-12 1.41-1.44L33 22z">
+</path>
+    <circle cx="20" cy="22" r="2">
+</circle>
+    <circle cx="2" cy="22" r="2">
+</circle>
+  </g>
+</svg>

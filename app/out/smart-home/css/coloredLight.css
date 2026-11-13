@@ -1,0 +1,207 @@
+.rgb-cover-flip {
+  /* without these, there is a flicker when the color picker is opened */
+}
+.rgb-cover-flip .settings-description-row {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  position: relative;
+  z-index: 2;
+}
+.rgb-cover-flip .settings-row {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  z-index: 1;
+  justify-content: space-between;
+}
+.rgb-cover-flip .tunable-white-picker {
+  background-color: var(--color-c1);
+  position: absolute;
+  bottom: 0;
+  top: 5.625rem;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+}
+.rgb-cover-flip .tunable-white-picker input[type="range"] {
+  -webkit-appearance: none !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  width: calc(100% - 2.25rem);
+  height: 1.125rem;
+  border-radius: 18px;
+  /* cannot use view port units because android 4.4 does not round the shadow in that case */
+  background: linear-gradient(to right, #ffc840 0%, var(--color-c0) 50%, #96beff 100%);
+  -webkit-box-shadow: 0 1px 0 var(--color-c0), inset 0 0 3px rgba(0, 0, 0, 0.1);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.rgb-cover-flip .tunable-white-picker input[type="range"]:focus {
+  outline: none;
+}
+.rgb-cover-flip .tunable-white-picker input[type="range"]::-webkit-slider-thumb:before {
+  content: '';
+  height: 2.25rem;
+  width: 2.25rem;
+}
+.rgb-cover-flip .tunable-white-picker input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  position: relative;
+  border-radius: 50%;
+  height: 2.25rem;
+  width: 2.25rem;
+  border: 1px solid #c8c8c8;
+  background: -webkit-linear-gradient(top, #e1e1e1 0%, #fafafa 100%);
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px #ffffff;
+  display: block;
+}
+.rgb-cover-flip .rgb-white-picker {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  bottom: 3.25rem;
+  background-color: var(--color-c1);
+}
+.rgb-cover-flip .rgb-white-picker input[type="range"] {
+  -webkit-appearance: none !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  width: 14.625rem;
+  height: 1.125rem;
+  border-radius: 18px;
+  /* cannot use view port units because android 4.4 does not round the shadow in that case */
+  -webkit-box-shadow: 0 1px 0 var(--color-c0), inset 0 0 3px rgba(0, 0, 0, 0.1);
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.rgb-cover-flip .rgb-white-picker input[type="range"]:focus {
+  outline: none;
+}
+.rgb-cover-flip .rgb-white-picker input[type="range"]::-webkit-slider-thumb:before {
+  content: '';
+  height: 2.25rem;
+  width: 2.25rem;
+}
+.rgb-cover-flip .rgb-white-picker input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none !important;
+  position: relative;
+  border-radius: 50%;
+  height: 2.25rem;
+  width: 2.25rem;
+  border: 1px solid #c8c8c8;
+  background: -webkit-linear-gradient(top, #e1e1e1 0%, #fafafa 100%);
+  -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), inset 0 1px 1px #ffffff;
+  display: block;
+}
+.rgb-cover-flip .color-pointer {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  width: 2.25rem;
+  height: 2.25rem;
+  top: 0;
+  left: 0;
+  border: 2px solid var(--color-c0);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.35), 0 0 5px rgba(0, 0, 0, 0.35) inset;
+  z-index: 1;
+}
+.rgb-cover-flip .color-picker-canvas-container {
+  background-color: var(--color-c1);
+  position: absolute;
+  bottom: 0;
+  top: 5.625rem;
+  width: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+}
+.rgb-cover-flip .color-picker-canvas-container .color-picker-canvas-sizer {
+  position: absolute;
+  width: 19.0625rem;
+  height: 19.0625rem;
+}
+.rgb-cover-flip .color-picker-canvas-container .color-picker-canvas-sizer:not(.with-slider) {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+.rgb-cover-flip .color-picker-canvas-container .color-picker-canvas-sizer.with-slider {
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  margin-top: -2.25rem;
+  width: 17.1875rem;
+  height: 17.1875rem;
+}
+.rgb-cover-flip .color-picker-canvas-container .color-picker-canvas-sizer .color-picker-canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  background-image: url("../img/color-picker.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+}
+.color-picker-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 18px 0 0 18px;
+  width: 2.5rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 1px solid var(--color-inactive);;
+  background-color: var(--radio-button-background);
+}
+.color-picker-btn.btn-down {
+  border-color: var(--color-c3);
+}
+.color-picker-preset-icon {
+  position: relative;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 1.125rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-inactive);;
+  box-sizing: border-box;
+  background-color: var(--radio-button-background);
+}
+#color-picker-presets .colorpicker-disabled {
+  pointer-events: none;
+}
+#color-picker-presets .colorpicker-disabled .settings-row-text {
+  color: var(--color-c6);
+}
+#color-picker-presets .presetes-menu-row-arrow {
+  width: 1.125rem;
+  height: 1.25rem;
+  top: 1.25rem;
+  position: absolute;
+  right: 1.125rem;
+}
+/* For scenes, the down style is done differently, this styling is specific for the dimmer with color */
+.dimabs-container .sceneSettingsBtn.btn-down .gc4_navicon_set {
+  background-image: url("../img/buttons/gc4_button_set_down.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.dimabs-container .sceneSettingsBtn:not(.btn-down) .gc4_navicon_set {
+  background-image: url("../img/buttons/gc4_button_set.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.color-picker-preset-timer-item-icon {
+  position: relative;
+  width: 1.125rem;
+  border-radius: 50%;
+  border: 1px solid var(--color-inactive);;
+  background-color: var(--radio-button-background);
+  box-sizing: border-box;
+}
