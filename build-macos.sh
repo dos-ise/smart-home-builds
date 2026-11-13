@@ -88,7 +88,10 @@ print("Info.plist + Icon + Helper-plists OK")
 PYEOF
 
 echo "==> [$ARCH] Ad-hoc signieren (rcodesign)..."
-"$RCSIGN" sign "$APP" 2>&1 | grep -v "leaving nested\|entering nested" | tail -5
+# WICHTIG: Das Electron Framework wird NICHT neu signiert (--exclude).
+# Seine originale Electron-Signatur bleibt erhalten - ein Re-Signieren
+# bricht V8s Code-Integritaetspruefung (EXC_BREAKPOINT in SetupBuiltins).
+"$RCSIGN" sign --exclude "Contents/Frameworks/Electron Framework.framework/**" "$APP" 2>&1 | grep -v "leaving nested\|entering nested" | tail -5
 
 echo "==> [$ARCH] HFS+ Image erstellen..."
 cd /tmp
