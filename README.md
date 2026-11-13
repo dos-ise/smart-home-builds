@@ -85,10 +85,11 @@ Da die App nicht signiert ist, beim ersten Start: Rechtsklick → Öffnen (oder
 
 Das Skript:
 1. Baut das `.app`-Bundle (Electron-macOS + `app/` + Icon + Info.plist)
-2. Signiert das Bundle ad-hoc mit `rcodesign` (n?tig f?r Apple Silicon, erzeugt auch das Bundle-Seal)
-2. Erstellt ein HFS+-Image (500 MB) mit `mkfs.hfsplus`
-3. Kopiert die App hinein (mit Symlink-Unterstützung)
-4. Wrappt es mit `dmg` (libdmg-hfsplus) in ein UDZO-DMG
+2. Signiert das Bundle ad-hoc mit `rcodesign` (n?tig f?r Apple Silicon, erzeugt auch das Bundle-Seal). Das **Electron Framework wird nicht neu signiert** (`--exclude`), damit V8s Code-Integrität erhalten bleibt.
+3. Erstellt ein HFS+-Image (500 MB) mit `mkfs.hfsplus`
+4. Kopiert die App hinein (mit Symlink-Unterstützung)
+5. **Setzt die Ausführungsrechte** aller Mach-O-Binaries per `hfsplus chmod 755` – `addall` erhält die Unix-Rechte nicht, ohne `+x` meldet macOS „Launch failed / Fehler 111"
+6. Wrappt es mit `dmg` (libdmg-hfsplus) in ein UDZO-DMG
 
 ### Voraussetzungen in der Sandbox
 
