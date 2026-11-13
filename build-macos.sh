@@ -104,6 +104,16 @@ rm -rf /tmp/dmg-staging-$ARCH && mkdir -p /tmp/dmg-staging-$ARCH
 cp -r "$APP" /tmp/dmg-staging-$ARCH/
 $HFS_TOOL /tmp/gira-$ARCH.hfs addall /tmp/dmg-staging-$ARCH/ / > /dev/null 2>&1
 
+echo "==> [$ARCH] Ausfuehrungsrechte im HFS+ Image setzen..."
+# WICHTIG: hfsplus addall erhaelt die Unix-Rechte NICHT - alle Mach-O
+# Binaries wuerden als 0644 (nicht ausfuehrbar) gespeichert, macOS
+# meldet dann "Launch failed / Fehler 111". Deshalb +x nachtraeglich setzen.
+find "$APP" -type f -exec file {} \; | grep -i "Mach-O" | cut -d: -f1 | while read -r f; do
+  rel="${f#$APP/}"
+  "$HFS_TOOL" /tmp/gira-$ARCH.hfs chmod 755 "/$APP_NAME.app/$rel" > /dev/null 2>&1
+done
+echo "   (Rechte gesetzt)"
+
 echo "==> [$ARCH] DMG wrappen..."
 rm -f "$OUT"
 $DMG_TOOL build /tmp/gira-$ARCH.hfs "$OUT" > /dev/null 2>&1
