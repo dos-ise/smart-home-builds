@@ -1,10 +1,11 @@
 #!/usr/bin/env bash
-# Baut Gira Smart Home als macOS .app und DMG.
+# Baut Gira Smart Home als macOS .app und DMG (ad-hoc signiert).
 # Nutzung: ./build-macos.sh [x64|arm64]   (Standard: x64)
 # Voraussetzungen in der Sandbox:
 #   - .electron-cache/electron-v27.2.1-darwin-<arch>.zip
 #   - kompiliertes libdmg-hfsplus (dmg + hfsplus Tools)
 #   - mkfs.hfsplus (apt: hfsprogs)
+#   - ldid (ad-hoc Signatur, in .electron-cache/ldid)
 set -e
 cd "/home/agent/workspace/Gira Smart Home/gira-smart-home-linux"
 PROJECT_DIR="$(pwd)"
@@ -21,6 +22,7 @@ HFS_TOOL="/tmp/libdmg/libdmg-hfsplus-master/build/hfs/hfsplus"
 DMG_TOOL="/tmp/libdmg/libdmg-hfsplus-master/build/dmg/dmg"
 ZIP="$PROJECT_DIR/.electron-cache/electron-v27.2.1-darwin-$ARCH.zip"
 OUT="$PROJECT_DIR/dist/$APP_NAME-$VERSION$SUFFIX.dmg"
+LDID="/usr/local/bin/ldid"
 
 if [ ! -f "$ZIP" ]; then
   echo "FEHLER: $ZIP fehlt in .electron-cache/"
@@ -28,6 +30,10 @@ if [ ! -f "$ZIP" ]; then
 fi
 if [ ! -x "$DMG_TOOL" ] || [ ! -x "$HFS_TOOL" ]; then
   echo "FEHLER: libdmg-hfsplus Tools fehlen (dmg/hfsplus)."
+  exit 1
+fi
+if [ ! -x "$LDID" ]; then
+  echo "FEHLER: ldid fehlt (sudo cp .electron-cache/ldid /usr/local/bin/ldid)."
   exit 1
 fi
 
@@ -63,6 +69,15 @@ with open(plist_path, 'wb') as f:
     plistlib.dump(plist, f)
 print("Info.plist + Icon OK")
 PYEOF
+
+echo "==> [$ARCH] Ad-hoc signieren (ldid)..."
+find "$APP" -type f | while read f; do
+  if file "$f" | grep -q "Mach-O"; then
+    "$LDID" -S "$f"
+  fi
+done
+find "$APP" -type d -name "_CodeSignature" -exec rm -rf {} + 2>/dev/null || true
+echo "Signiert: $(find "$APP" -type f | while read f; do file "$f" | grep -q "Mach-O" && echo x; done | wc -l) Binaries"
 
 echo "==> [$ARCH] HFS+ Image erstellen..."
 cd /tmp
