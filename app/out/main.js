@@ -35,8 +35,8 @@
 
     let win;
 
-    const fullscreen = /--fullscreen/.test(process.argv[2]);
-    const frameless = /--frameless/.test(process.argv[2]);
+    const fullscreen = process.argv.some(a => /--fullscreen|--start-fullscreen/.test(a));
+    const frameless = process.argv.some(a => /--frameless/.test(a));
 
     const options = {
         backgroundColor: "#FFF",
