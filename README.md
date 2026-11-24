@@ -2,6 +2,16 @@
 
 Gira Smart Home is an Electron app (Chromium 27.2.1). This package contains the original app (version 6.0.72) from the Windows installation, adapted for Linux – **ready-built as an AppImage**.
 
+## ❤️ Donate / Support this project
+
+If you find this project useful, please consider supporting it. Scan the QR code below to donate via PayPal:
+
+<p align="center">
+  <img src="paypal-qr.svg" alt="Donate via PayPal" width="200" />
+</p>
+
+Thank you for your support! 🙏
+
 ## ✅ Ready-built AppImage
 
 ```
@@ -129,13 +139,3 @@ gira-smart-home-linux/
 ├── paypal-qr.svg         # donation QR code
 └── README.md
 ```
-
-## ❤️ Donate / Support this project
-
-If you find this project useful, please consider supporting it. Scan the QR code below to donate via PayPal:
-
-<p align="center">
-  <img src="paypal-qr.svg" alt="Donate via PayPal" width="200" />
-</p>
-
-Thank you for your support! 🙏
