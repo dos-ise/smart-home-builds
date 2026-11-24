@@ -1,143 +1,141 @@
-# Gira Smart Home â€“ Linux (AppImage)
+# Gira Smart Home – Linux (AppImage)
 
-Gira Smart Home ist eine Electron-App (Chromium 27.2.1). Dieses Paket enthÃ¤lt
-die Original-App (Version 6.0.72) aus der Windows-Installation, angepasst fÃ¼r
-Linux â€“ **fertig gebaut als AppImage**.
+Gira Smart Home is an Electron app (Chromium 27.2.1). This package contains the original app (version 6.0.72) from the Windows installation, adapted for Linux – **ready-built as an AppImage**.
 
-## âœ… Fertiges AppImage
+## ✅ Ready-built AppImage
 
 ```
 dist/Gira Smart Home-6.0.72.AppImage   (104 MB)
 ```
 
-**AusfÃ¼hren unter Linux:**
+**Run on Linux:**
 
 ```bash
 chmod +x "dist/Gira Smart Home-6.0.72.AppImage"
 ./dist/Gira Smart Home-6.0.72.AppImage
 ```
 
-Falls `libfuse2` fehlt (Debian/Ubuntu: `sudo apt install libfuse2`):
+If `libfuse2` is missing (Debian/Ubuntu: `sudo apt install libfuse2`):
 
 ```bash
 ./dist/Gira Smart Home-6.0.72.AppImage --appimage-extract-and-run
 ```
 
-## Was wurde angepasst?
+## What was changed?
 
-| Ã„nderung | Grund |
+| Change | Reason |
 |---|---|
-| `keytar` durch reinen JS-Stub ersetzt | keytar ist ein Windows-Nativmodul. Die App nutzt lÃ¤ngst Electron `safeStorage` (gnome-keyring/kwallet) â€“ keytar wird nur noch fÃ¼r die Migration alter Daten gebraucht. |
-| Linux-Icon unter `app/resources/linux/app.png` | Die App sucht auf Linux genau dort nach ihrem Icon. |
-| `yarn`-AbhÃ¤ngigkeit entfernt | Wird von der App nicht benÃ¶tigt. |
+| `keytar` replaced with a pure JS stub | keytar is a Windows native module. The app has long used Electron `safeStorage` (gnome-keyring/kwallet) – keytar is only needed for migrating old data. |
+| Linux icon at `app/resources/linux/app.png` | The app looks for its icon exactly there on Linux. |
+| `yarn` dependency removed | Not needed by the app. |
 
-## Systemvoraussetzungen
+## System requirements
 
-- Linux x64 mit Desktop-Umgebung (GTK, NSS, ALSA â€“ auf jedem Desktop-Linux vorhanden)
-- `libfuse2` fÃ¼r AppImages (oder `--appimage-extract-and-run`)
-- Ein Keyring (gnome-keyring/KWallet) fÃ¼r die Passwort-Speicherung
+- Linux x64 with a desktop environment (GTK, NSS, ALSA – present on every desktop Linux)
+- `libfuse2` for AppImages (or `--appimage-extract-and-run`)
+- A keyring (gnome-keyring/KWallet) for password storage
 
-## Neu bauen (in der Docker-Sandbox)
+## Rebuilding (in the Docker sandbox)
 
-Voraussetzungen in der Sandbox: `file`, `squashfs-tools`, `unzip`
+Prerequisites in the sandbox: `file`, `squashfs-tools`, `unzip`
 (`sudo apt-get install -y file squashfs-tools unzip`).
 
 ```bash
 ./build-manual.sh
 ```
 
-Das Skript:
-1. Extrahiert `electron-v27.2.1-linux-x64.zip` aus `.electron-cache/`
-2. Baut das AppDir (Electron-Runtime + `app/` + AppRun + Icon)
-3. Erzeugt mit `appimagetool` das AppImage in `dist/`
+The script:
+1. Extracts `electron-v27.2.1-linux-x64.zip` from `.electron-cache/`
+2. Builds the AppDir (Electron runtime + `app/` + AppRun + icon)
+3. Creates the AppImage in `dist/` with `appimagetool`
 
-### Cache-Dateien (`.electron-cache/`)
+### Cache files (`.electron-cache/`)
 
-| Datei | Zweck |
+| File | Purpose |
 |---|---|
-| `electron-v27.2.1-linux-x64.zip` | Electron-Linux-Runtime (95 MB) |
-| `appimagetool-x86_64.AppImage` | AppImage-Builder (8 MB) |
+| `electron-v27.2.1-linux-x64.zip` | Electron Linux runtime (95 MB) |
+| `appimagetool-x86_64.AppImage` | AppImage builder (8 MB) |
 
-Beide wurden Ã¼ber den Firmen-Proxy von GitHub geladen und liegen lokal, damit
-kein Internetzugang aus der Sandbox nÃ¶tig ist.
-
+Both were downloaded via the company proxy from GitHub and stored locally, so no internet access is needed from the sandbox.
 
 ## 🍎 macOS (DMG)
 
-**Fertiges DMG:**
+**Ready-built DMG:**
 
 ```
 dist/Gira Smart Home-6.0.72.dmg          (106 MB, Intel/x64)
-```
 dist/Gira Smart Home-6.0.72-arm64.dmg   (101 MB, Apple Silicon)
 ```
 
-Auf dem Mac: DMG öffnen, `Gira Smart Home.app` in den Programme-Ordner ziehen.
-Da die App nicht signiert ist, beim ersten Start: Rechtsklick → Öffnen (oder
-`xattr -cr "/Applications/Gira Smart Home.app"` im Terminal).
+On a Mac: open the DMG, drag `Gira Smart Home.app` into the Applications folder. Since the app is not signed, on first launch: right-click → Open (or run `xattr -cr "/Applications/Gira Smart Home.app"` in the terminal).
 
-### Neu bauen (in der Docker-Sandbox)
+### Rebuilding (in the Docker sandbox)
 
 ```bash
 ./build-macos.sh          # Intel (x64)
 ./build-macos.sh arm64    # Apple Silicon (ARM64)
 ```
 
-Das Skript:
-1. Baut das `.app`-Bundle (Electron-macOS + `app/` + Icon + Info.plist)
-2. Signiert das Bundle ad-hoc mit `rcodesign` (n?tig f?r Apple Silicon, erzeugt auch das Bundle-Seal). Das **Electron Framework wird nicht neu signiert** (`--exclude`), damit V8s Code-Integrität erhalten bleibt.
-3. Erstellt ein HFS+-Image (500 MB) mit `mkfs.hfsplus`
-4. Kopiert die App hinein (mit Symlink-Unterstützung)
-5. **Setzt die Ausführungsrechte** aller Mach-O-Binaries per `hfsplus chmod 755` – `addall` erhält die Unix-Rechte nicht, ohne `+x` meldet macOS „Launch failed / Fehler 111"
-6. Wrappt es mit `dmg` (libdmg-hfsplus) in ein UDZO-DMG
+The script:
+1. Builds the `.app` bundle (Electron macOS + `app/` + icon + Info.plist)
+2. Signs the bundle ad-hoc with `rcodesign` (required for Apple Silicon, also creates the bundle seal). The **Electron Framework is not re-signed** (`--exclude`) so V8's code integrity is preserved.
+3. Creates an HFS+ image (500 MB) with `mkfs.hfsplus`
+4. Copies the app into it (with symlink support)
+5. **Sets the execute permission** of all Mach-O binaries via `hfsplus chmod 755` – `addall` does not preserve Unix permissions; without `+x`, macOS reports "Launch failed / Error 111"
+6. Wraps it with `dmg` (libdmg-hfsplus) into a UDZO DMG
 
-### Voraussetzungen in der Sandbox
+### Prerequisites in the sandbox
 
-- `.electron-cache/electron-v27.2.1-darwin-x64.zip` (Intel, 93 MB) und `electron-v27.2.1-darwin-arm64.zip` (Apple Silicon, 88 MB)
-- Kompiliertes `libdmg-hfsplus` (dmg + hfsplus Tools) – siehe unten
+- `.electron-cache/electron-v27.2.1-darwin-x64.zip` (Intel, 93 MB) and `electron-v27.2.1-darwin-arm64.zip` (Apple Silicon, 88 MB)
+- Compiled `libdmg-hfsplus` (dmg + hfsplus tools) – see below
 - `mkfs.hfsplus` (`sudo apt-get install -y hfsprogs`)
-- `rcodesign` (ad-hoc Signatur, in `.electron-cache/rcodesign.tar.gz` ? nach `/usr/local/bin/rcodesign`)
+- `rcodesign` (ad-hoc signature, in `.electron-cache/rcodesign.tar.gz` → `/usr/local/bin/rcodesign`)
 
-### libdmg-hfsplus kompilieren (einmalig)
+### Compiling libdmg-hfsplus (once)
 
 ```bash
 sudo apt-get install -y cmake zlib1g-dev
-# zlib1g-dev ggf. manuell extrahieren (Version-Konflikt), siehe Hinweis
+# zlib1g-dev may need to be extracted manually (version conflict), see note
 cd /tmp && tar xzf <libdmg-hfsplus.tar.gz> && cd libdmg-hfsplus-master
-# CMakeLists.txt: cmake_minimum_required auf 3.10 patchen
-# filevault.c + filevault.h durch Stubs ersetzen (OpenSSL-3.x-Inkompatibilität)
-# hfslib.c: Symlink-Handling in addAllInFolder patchen (sonst wird Inhalt dupliziert)
+# CMakeLists.txt: patch cmake_minimum_required to 3.10
+# Replace filevault.c + filevault.h with stubs (OpenSSL 3.x incompatibility)
+# hfslib.c: patch symlink handling in addAllInFolder (otherwise content gets duplicated)
 mkdir build && cd build && cmake .. && make
 ```
 
-> **Hinweis:** Die Patches sind nötig, weil das alte Projekt (2013) nicht mit
-> OpenSSL 3.x und modernen cmake-Versionen kompiliert. Die Dateien
-> `filevault.c`/`filevault.h` werden durch Stubs ersetzt (FileVault wird nicht
-> gebraucht), und `addAllInFolder` in `hfslib.c` erkennt Symlinks per `lstat`
-> und erzeugt echte HFS+-Symlinks statt den Inhalt zu duplizieren.
+> **Note:** The patches are needed because the old project (2013) does not compile with OpenSSL 3.x and modern cmake versions. The files `filevault.c`/`filevault.h` are replaced with stubs (FileVault is not needed), and `addAllInFolder` in `hfslib.c` detects symlinks via `lstat` and creates real HFS+ symlinks instead of duplicating the content.
 
-## Update auf eine neue Gira-Version
+## Updating to a new Gira version
 
-1. Aus der neuen Windows-Installation `resources\app` hier nach `app/` kopieren
-2. `./build-manual.sh` ausfÃ¼hren
-3. Fertig â€“ neues AppImage in `dist/`
+1. Copy `resources\app` from the new Windows installation here to `app/`
+2. Run `./build-manual.sh`
+3. Done – new AppImage in `dist/`
 
-## Hinweise
+## Notes
 
-- **GerÃ¤tesuche:** Die App findet Gira-GerÃ¤te per SSDP-Multicast im lokalen
-  Netzwerk. Das funktioniert unter Linux, sofern das Netzwerk Multicast erlaubt.
-- **Zertifikate:** Die App ignoriert Zertifikatsfehler (selbstsignierte
-  GerÃ¤te-Zertifikate) â€“ wie in der Windows-Version.
-- **Daten:** Liegen unter `~/.config/Gira Smart Home/`.
+- **Device discovery:** The app finds Gira devices via SSDP multicast on the local network. This works on Linux as long as the network allows multicast.
+- **Certificates:** The app ignores certificate errors (self-signed device certificates) – same as the Windows version.
+- **Data:** Stored under `~/.config/Gira Smart Home/`.
 
-## Struktur
+## Structure
 
 ```
 gira-smart-home-linux/
-â”œâ”€â”€ app/                  # die eigentliche App (aus resources\app)
-â”œâ”€â”€ build/icon.png        # AppImage-Icon (512x512)
-â”œâ”€â”€ dist/                 # fertiges AppImage
-â”œâ”€â”€ .electron-cache/      # Electron-Runtime + appimagetool (fÃ¼r Rebuilds)
-â”œâ”€â”€ build-manual.sh       # AppImage-Build-Skript
-â””â”€â”€ README.md
+├── app/                  # the actual app (from resources\app)
+├── build/icon.png        # AppImage icon (512x512)
+├── dist/                 # ready-built AppImage
+├── .electron-cache/      # Electron runtime + appimagetool (for rebuilds)
+├── build-manual.sh       # AppImage build script
+├── paypal-qr.svg         # donation QR code
+└── README.md
 ```
+
+## ❤️ Donate / Support this project
+
+If you find this project useful, please consider supporting it. Scan the QR code below to donate via PayPal:
+
+<p align="center">
+  <img src="paypal-qr.svg" alt="Donate via PayPal" width="200" />
+</p>
+
+Thank you for your support! 🙏
