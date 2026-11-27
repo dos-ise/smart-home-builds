@@ -77,7 +77,29 @@ dist/Gira Smart Home-6.0.72.dmg          (106 MB, Intel/x64)
 dist/Gira Smart Home-6.0.72-arm64.dmg   (101 MB, Apple Silicon)
 ```
 
-On a Mac: open the DMG, drag `Gira Smart Home.app` into the Applications folder. Since the app is not signed, on first launch: right-click → Open (or run `xattr -cr "/Applications/Gira Smart Home.app"` in the terminal).
+On a Mac: open the DMG, drag `Gira Smart Home.app` into the Applications folder.
+
+> **⚠️ Important for macOS users:** The app is **not signed/notarized by Apple**, so macOS Gatekeeper will block it on first launch with the message *"Gira Smart Home App kann nicht geöffnet werden"* / *"cannot be opened"*. This is expected – the app is safe. Please use one of the workarounds below.
+
+### First launch on macOS (Gatekeeper workaround)
+
+**Option 1 – Right-click → Open (recommended):**
+1. Open the Applications folder in Finder
+2. **Right-click** on `Gira Smart Home.app` → choose **Open**
+3. Confirm with **Open** in the dialog
+4. From now on the app opens normally (even by double-click)
+
+**Option 2 – System Settings:**
+1. Open **System Settings → Privacy & Security**
+2. If you see *"Gira Smart Home App was blocked"* → click **Open Anyway**
+
+**Option 3 – Terminal (removes the quarantine flag):**
+```bash
+xattr -dr com.apple.quarantine "/Applications/Gira Smart Home.app"
+```
+Then start the app normally.
+
+> **Note:** `spctl --assess --verbose` will report `rejected` for this app. That is expected because the app is not notarized – it does **not** mean the app is broken. The workarounds above bypass Gatekeeper.
 
 ### Rebuilding (in the Docker sandbox)
 
